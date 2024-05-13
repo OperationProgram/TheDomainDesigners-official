@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}/*# sourceMappingURL=whyus.css.map */
+
+
+
+
+/* Define global variables */
+:root {
+  /* COLORS */
+  --primary-color: #dbce26;
+  --accent-color: #D4A4FF;
+  --secondary-color: #EDEDED;
+  --text-color: #ffffff;
+  --dark-text-color: #000000;
+  --light-text-color: #ffffff;
+  --background-color: rgba(39, 39, 39);
+  --background-color-transparent: rgba(39, 39, 39, 0.4);
+  --button-background: wheat;
+
+  /* FONT SIZES */
+  --base-font-size: 16px; /* default base font size */
+  --small-font-size: 1rem;
+  --medium-font-size: 1.5rem;
+  --large-font-size: 2rem;
+  --xlarge-font-size: 3.0rem;
+}
+
+/* Styles for sections */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  position: relative; /* Add relative positioning */
+  background-color: var(--background-color);
+
+  /* Styles for the border line */
+  &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%; /* Adjust the starting point */
+      transform: translateX(-50%); /* Center the line horizontally */
+      width: 70%; /* Adjust the width of the line */
+      height: 2px;
+      background-color: var(--primary-color);
+  }
+
+  /* Alternate sections with image on left and text on right */
+  &:nth-child(even) .content {
+      order: 1;
+  }
+}
+
+/* Styles for content */
+.content {
+  max-width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin: 0 auto; /* Center the container horizontally */
+  border-radius: 10px; /* Adjust border radius as needed */
+  box-shadow: 4px 2px 6px rgba(255, 242, 53, 0.7); 
+  padding: 20px;
+  background-color: var(--background-color);
+
+  h2 {
+      margin: 20px;
+      padding: 20px;
+      letter-spacing: 1.3px;
+      color: var(--primary-color);
+      font-size: var(--xlarge-font-size);
+      border-radius: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      /* Add padding for left and right gutters */
+  }
+
+  p {
+      margin: 20px;
+      margin-bottom: 70px;
+      padding: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      letter-spacing: 1.6px;
+      line-height: 2;
+      font-size: var(--medium-font-size);
+      color: white;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+}
+
+.design {
+  background-color: var(--dark-text-color);
+  margin-top: 100px;
+}
+
+.development {
+  background-color: var(--dark-text-color);
+}
+
+.deliver {
+  background-color: var(--dark-text-color);
+}
+
+/* Media queries */
+@media screen and (max-width: 1276px) {
+  .content {
+      h2 {
+          font-size: var(--large-font-size);
+      }
+      p {
+          font-size: var(--medium-font-size);
+      }
+      img {
+          max-width: 90%;
+      }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+      h2 {
+          font-size: var(--medium-font-size);
+      }
+      p {
+          font-size: var(--small-font-size);
+      }
+      img {
+          max-width: 80%;
+      }
+  }
+}
