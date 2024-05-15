@@ -12,7 +12,8 @@
 <body>
 
   <header>
-    <script src="../scripts/navbarController.js"></script>
+    <?php include 'config.php'; ?>
+    <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
   </header>
 
 <!-- Hero Section -->
@@ -164,7 +165,6 @@
 
   </section>
 
-  <script src="scripts/navbarController.js"></script>
   <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>
 
