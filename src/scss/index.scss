@@ -1,5 +1,5 @@
   // Define variables for colors and other reusable properties
-  $primary-color: #9500ff;
+  @import '_variables.scss';
   $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
 
   // TEXT EFFECTS
@@ -18,8 +18,8 @@
 
 
   .cta-section {
-      background-color: #11962b; /* Vibrant color to catch attention */
-      color: #fff;
+      background-color: #11962b; 
+      color: $text-color;
       text-align: center;
       padding: 80px 0;
   }
@@ -41,7 +41,7 @@
 
   .btn {
       display: inline-block;
-      background-color: #fff;
+      background-color: $primary-color;
       color: #ff6b6b; /* Matching color for the button */
       border: none;
       padding: 15px 40px;
@@ -53,12 +53,12 @@
   }
 
   .btn:hover {
-      background-color: #fff;
+      background-color: $primary-color;
       color: #ff6b6b; /* Keep button color consistent on hover */
   }
 
   .btn-primary {
-      background-color: #fff;
+      background-color: $primary-color;
       color: #ff6b6b;
   }
 
@@ -79,9 +79,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: $primary-color;
     padding: 20px;
-    background-color: aqua;
+    // background-color: aqua;
 
 
     .hero-video {
@@ -115,7 +115,7 @@
 
     // Button styles
     .cta-button {
-      background-color: $primary-color;
+      background-color: $button-light-color;
       color: white;
       border: none;
       padding: 10px 20px;
@@ -125,7 +125,7 @@
       transition: background-color 0.3s ease;
 
       &:hover {
-        background-color: darken($primary-color, 10%);
+        background-color: darken($button-light-color, 10%);
       }
     }
   }
@@ -155,34 +155,38 @@
 
     h2 {
       font-size: 2rem;
-      color: #8e36a1;
+      color: $accent-color;
       margin-bottom: 1em;
     }
 
     h3 {
       font-size: 1.5rem;
-      color: #570069;
+      color: $secondary-color;
       margin: auto 0;
     }
 
     p {
       font-size: 1rem;
-      color: rgb(30, 30, 30);
+      color: $text-color;
       line-height: 1.5;
       letter-spacing: .12em;
       
     }
 
     button {
-      background-color: #fff;
-      color: rgb(30, 30, 30);
+      background-color: $primary-color;
+      color: $text-color;
       border: none;
       padding: 10px 20px;
       font-size: 1rem;
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      border: 2px solid #8e36a1;
+      border: 2px solid $accent-color;
+    }
+
+    button:hover {
+      background-color: $accent-color;
     }
   }
 
@@ -243,7 +247,7 @@
 
   .work-flow {
     padding: 40px 40px; // STANDARD PADDING
-    background-color: #ffffff;
+    background-color: $primary-color;
   }
 
   .clickable-section {
@@ -272,128 +276,128 @@
         border-bottom-right-radius: 40px;
       }
     }
-          h2 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0;
-            z-index: 1;
-            opacity: 1;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            color: white;
-            font-size: 2rem;
-            letter-spacing: .12em;
-            text-align: center;
-          }
+    h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      z-index: 1;
+      opacity: 1;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      color: white;
+      font-size: 2rem;
+      letter-spacing: .12em;
+      text-align: center;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      transition-delay: 0.3s; /* Add delay for paragraph overlay */
+      padding: 20px;
+      border-radius: 40px;
+      box-sizing: border-box;
+  
+      p {
+        color: white;
+        font-size: 1rem;
+        letter-spacing: .12em;
+        line-height: 1.5;
+        text-align: center;
+        opacity: 0; /* Start with opacity 0 to hide paragraph */
+        transition: opacity 0.3s ease; /* Add opacity transition */
+      }
+    }
+    
+    &:hover h2 {
+      opacity: 0;
+    }
+  
+    &:hover .overlay {
+      transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
+      opacity: 1;
+      transition-delay: .1s; /* Remove delay for overlay */
+    }
+  
+    &:hover .overlay p {
+      opacity: 1; /* Fade in paragraph on hover */
+    }
+  }
+
+
+
+    .multi-image-section {
+      display: flex;
+      flex-direction: column;
+
+    }
+    
+    .image-row {
+      display: flex;
+    }
+    
+    .image-container {
+      flex: 1;
+      position: relative;
+      
+      img {
+        width: 100%;
+        height: 200px; /* Adjust the height as needed */
+        object-fit: cover;
+        margin: -2px;
+      }
+
+      h2 {
+        font-size: 16px;
+        letter-spacing: .12em;
+      }
+
+      a {
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Inherit text color from parent */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
+    }
+
+    .image-title {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px 10px; 
+      border-radius: 5px;
+      letter-spacing: .12em;
+    }
+
+
+
+
+
+
         
-          .overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
-            opacity: 0;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            transition-delay: 0.3s; /* Add delay for paragraph overlay */
-            padding: 20px;
-            border-radius: 40px;
-            box-sizing: border-box;
-        
-            p {
-              color: white;
-              font-size: 1rem;
-              letter-spacing: .12em;
-              line-height: 1.5;
-              text-align: center;
-              opacity: 0; /* Start with opacity 0 to hide paragraph */
-              transition: opacity 0.3s ease; /* Add opacity transition */
-            }
-          }
-        
-          &:hover h2 {
-            opacity: 0;
-          }
-        
-          &:hover .overlay {
-            transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
-            opacity: 1;
-            transition-delay: .1s; /* Remove delay for overlay */
-          }
-        
-          &:hover .overlay p {
-            opacity: 1; /* Fade in paragraph on hover */
-          }
-        }
-
-
-
-        .multi-image-section {
-          display: flex;
-          flex-direction: column;
-
-        }
-        
-        .image-row {
-          display: flex;
-        }
-        
-        .image-container {
-          flex: 1;
-          position: relative;
-          
-          img {
-            width: 100%;
-            height: 200px; /* Adjust the height as needed */
-            object-fit: cover;
-            margin: -2px;
-          }
-
-          h2 {
-            font-size: 16px;
-            letter-spacing: .12em;
-          }
-
-          a {
-            text-decoration: none; /* Remove underline */
-            color: inherit; /* Inherit text color from parent */
-            cursor: pointer; /* Change cursor to pointer on hover */
-          }
-        }
-
-        .image-title {
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          background-color: rgba(255, 255, 255, 0.7);
-          padding: 5px 10px; 
-          border-radius: 5px;
-          letter-spacing: .12em;
-        }
-
-
-
-
-
-
-        
-      .testimonials-container {
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 200px;
+    .testimonials-container {
+      background-color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
     }
     
     .testimonial {
-        background-color: white;
-        color: black;
+        background-color: $primary-color;
+        color: $text-color;
         padding: 20px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
         text-align: center; /* Center text horizontally */
@@ -445,7 +449,7 @@
     
       button {
         padding: 10px 20px;
-        background-color: #9500ff;
+        background-color: $button-light-color;
         color: white;
         border: none;
         border-radius: 5px;

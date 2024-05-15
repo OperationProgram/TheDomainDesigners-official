@@ -1,0 +1,60 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+#navbar .logo {
+  margin-left: 30px;
+}
+#navbar .logo img {
+  height: 40px; /* Adjust height as needed */
+}
+#navbar .links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+#navbar .links a {
+  color: #252525;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  margin: 0 10px;
+}
+#navbar .consultation {
+  margin-right: 30px;
+}
+#navbar .consultation button {
+  background-color: #8e36a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#navbar .hamburger-menu {
+  display: none; /* Hide by default */
+  font-size: 24px; /* Adjust the font size as needed */
+  cursor: pointer;
+}
+@media screen and (max-width: 1008px) {
+  #navbar .links {
+    display: none; /* Hide links and consultation button when screen is smaller */
+  }
+  #navbar .consultation {
+    padding: auto;
+    margin: auto;
+  }
+  #navbar .consultation button {
+    font-size: 12px;
+  }
+  #navbar .hamburger-menu {
+    display: block; /* Display hamburger menu icon */
+    margin-right: 25px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
