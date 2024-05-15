@@ -11,7 +11,7 @@ $config = [
     ],
 
     'staging' => [
-        'baseUrl' => "https://staging.thedomaindesigners.com/staging",
+        'baseUrl' => "https://thedomaindesigners.com/staging",
     ],
 
     'staging' => [
