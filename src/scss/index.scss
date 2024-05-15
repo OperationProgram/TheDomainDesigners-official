@@ -1,5 +1,10 @@
-  // Define variables for colors and other reusable properties
-  $primary-color: #9500ff;
+// IMPORTS
+@import 'variables';
+
+
+
+// Define variables for colors and other reusable properties
+
   $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
 
   // TEXT EFFECTS
@@ -17,56 +22,6 @@
 
 
 
-  .cta-section {
-      background-color: #11962b; /* Vibrant color to catch attention */
-      color: #fff;
-      text-align: center;
-      padding: 80px 0;
-  }
-
-  .cta-section .container {
-      max-width: 800px;
-      margin: 0 auto;
-  }
-
-  .cta-section h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-  }
-
-  .cta-section p {
-      font-size: 20px;
-      margin-bottom: 30px;
-  }
-
-  .btn {
-      display: inline-block;
-      background-color: #fff;
-      color: #ff6b6b; /* Matching color for the button */
-      border: none;
-      padding: 15px 40px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 18px;
-      font-weight: bold;
-      transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  .btn:hover {
-      background-color: #fff;
-      color: #ff6b6b; /* Keep button color consistent on hover */
-  }
-
-  .btn-primary {
-      background-color: #fff;
-      color: #ff6b6b;
-  }
-
-  .btn-primary:hover {
-      background-color: #ff6b6b;
-      color: #fff;
-  }
-
   // Main hero section styles
   .hero-section {
     background: $hero-background;
@@ -81,7 +36,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 20px;
-    background-color: aqua;
+    background-color: rgba(66, 0, 72, 0.316);
 
 
     .hero-video {
@@ -138,21 +93,25 @@
 
   .contact-section, .about-section {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 40px 40px; 
+    padding: 40px 0px; 
     margin: 20px 80px;
     height: auto;
+    background: $radial3;
   }
 
+
   .text-column {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: start; 
     flex: 1;
     padding: 0 50px; 
-
+    background-color: $background-color-light;
     h2 {
       font-size: 2rem;
       color: #8e36a1;
@@ -203,11 +162,12 @@
     }
   }
 
-  @media (max-width: 1268px) {
+  @media (max-width: 768px) {
     .contact-section, .about-section {
       flex-direction: column; /* Adjust flex direction for mobile */
       text-align: left; /* Center text content */
       margin: auto;
+      background-color: #570069;
     }
 
     .text-column {
@@ -243,7 +203,7 @@
 
   .work-flow {
     padding: 40px 40px; // STANDARD PADDING
-    background-color: #ffffff;
+    background: $radial3;
   }
 
   .clickable-section {

@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px 20px;
 }
 #navbar .logo {
@@ -27,7 +27,7 @@
   margin-right: 30px;
 }
 #navbar .consultation button {
-  background-color: #8e36a1;
+  background-color: #9500ff;
   color: white;
   border: none;
   padding: 10px 20px;
