@@ -11,10 +11,9 @@ $config = [
     ],
 
     'staging' => [
-        'baseUrl' => "https://thedomaindesigners.com/staging",
+        'baseUrl' => "https://thedomaindesigners.com/staging/",
     ],
-
-    'staging' => [
+    'production' => [
         'baseUrl' => "http://localhost:3000/",
     ]
 ];
