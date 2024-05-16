@@ -14,6 +14,8 @@
   <header>
     <?php include 'config.php'; ?>
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
+
+
   </header>
 
 <!-- Hero Section -->
