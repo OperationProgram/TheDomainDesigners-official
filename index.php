@@ -110,7 +110,7 @@
       <button>Button</button>
     </div>
     <div class="sliding-feature-image">
-      <img src="assets/more/DESIGN.jpg" alt="Your Image">
+      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
     </div>
   </section>
 
