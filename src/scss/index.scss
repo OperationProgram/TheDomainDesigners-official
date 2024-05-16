@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // IMPORTS
 @import 'variables';
 
@@ -5,6 +6,10 @@
 
 // Define variables for colors and other reusable properties
 
+=======
+  // Define variables for colors and other reusable properties
+  @import '_variables.scss';
+>>>>>>> 80f0d2e95f4368b42a73cb6e2246dec241b11f33
   $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
 
   // TEXT EFFECTS
@@ -22,6 +27,59 @@
 
 
 
+<<<<<<< HEAD
+=======
+  .cta-section {
+      background-color: #11962b; 
+      color: $text-color;
+      text-align: center;
+      padding: 80px 0;
+  }
+
+  .cta-section .container {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  .cta-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+  }
+
+  .cta-section p {
+      font-size: 20px;
+      margin-bottom: 30px;
+  }
+
+  .btn {
+      display: inline-block;
+      background-color: $primary-color;
+      color: #ff6b6b; /* Matching color for the button */
+      border: none;
+      padding: 15px 40px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn:hover {
+      background-color: $primary-color;
+      color: #ff6b6b; /* Keep button color consistent on hover */
+  }
+
+  .btn-primary {
+      background-color: $primary-color;
+      color: #ff6b6b;
+  }
+
+  .btn-primary:hover {
+      background-color: #ff6b6b;
+      color: #fff;
+  }
+
+>>>>>>> 80f0d2e95f4368b42a73cb6e2246dec241b11f33
   // Main hero section styles
   .hero-section {
     background: $hero-background;
@@ -34,9 +92,13 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: $primary-color;
     padding: 20px;
+<<<<<<< HEAD
     background-color: rgba(66, 0, 72, 0.316);
+=======
+    // background-color: aqua;
+>>>>>>> 80f0d2e95f4368b42a73cb6e2246dec241b11f33
 
 
     .hero-video {
@@ -70,7 +132,7 @@
 
     // Button styles
     .cta-button {
-      background-color: $primary-color;
+      background-color: $button-light-color;
       color: white;
       border: none;
       padding: 10px 20px;
@@ -80,7 +142,7 @@
       transition: background-color 0.3s ease;
 
       &:hover {
-        background-color: darken($primary-color, 10%);
+        background-color: darken($button-light-color, 10%);
       }
     }
   }
@@ -114,34 +176,38 @@
     background-color: $background-color-light;
     h2 {
       font-size: 2rem;
-      color: #8e36a1;
+      color: $accent-color;
       margin-bottom: 1em;
     }
 
     h3 {
       font-size: 1.5rem;
-      color: #570069;
+      color: $secondary-color;
       margin: auto 0;
     }
 
     p {
       font-size: 1rem;
-      color: rgb(30, 30, 30);
+      color: $text-color;
       line-height: 1.5;
       letter-spacing: .12em;
       
     }
 
     button {
-      background-color: #fff;
-      color: rgb(30, 30, 30);
+      background-color: $primary-color;
+      color: $text-color;
       border: none;
       padding: 10px 20px;
       font-size: 1rem;
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      border: 2px solid #8e36a1;
+      border: 2px solid $accent-color;
+    }
+
+    button:hover {
+      background-color: $accent-color;
     }
   }
 
@@ -203,7 +269,11 @@
 
   .work-flow {
     padding: 40px 40px; // STANDARD PADDING
+<<<<<<< HEAD
     background: $radial3;
+=======
+    background-color: $primary-color;
+>>>>>>> 80f0d2e95f4368b42a73cb6e2246dec241b11f33
   }
 
   .clickable-section {
@@ -232,128 +302,128 @@
         border-bottom-right-radius: 40px;
       }
     }
-          h2 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0;
-            z-index: 1;
-            opacity: 1;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            color: white;
-            font-size: 2rem;
-            letter-spacing: .12em;
-            text-align: center;
-          }
+    h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      z-index: 1;
+      opacity: 1;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      color: white;
+      font-size: 2rem;
+      letter-spacing: .12em;
+      text-align: center;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      transition-delay: 0.3s; /* Add delay for paragraph overlay */
+      padding: 20px;
+      border-radius: 40px;
+      box-sizing: border-box;
+  
+      p {
+        color: white;
+        font-size: 1rem;
+        letter-spacing: .12em;
+        line-height: 1.5;
+        text-align: center;
+        opacity: 0; /* Start with opacity 0 to hide paragraph */
+        transition: opacity 0.3s ease; /* Add opacity transition */
+      }
+    }
+    
+    &:hover h2 {
+      opacity: 0;
+    }
+  
+    &:hover .overlay {
+      transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
+      opacity: 1;
+      transition-delay: .1s; /* Remove delay for overlay */
+    }
+  
+    &:hover .overlay p {
+      opacity: 1; /* Fade in paragraph on hover */
+    }
+  }
+
+
+
+    .multi-image-section {
+      display: flex;
+      flex-direction: column;
+
+    }
+    
+    .image-row {
+      display: flex;
+    }
+    
+    .image-container {
+      flex: 1;
+      position: relative;
+      
+      img {
+        width: 100%;
+        height: 200px; /* Adjust the height as needed */
+        object-fit: cover;
+        margin: -2px;
+      }
+
+      h2 {
+        font-size: 16px;
+        letter-spacing: .12em;
+      }
+
+      a {
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Inherit text color from parent */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
+    }
+
+    .image-title {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px 10px; 
+      border-radius: 5px;
+      letter-spacing: .12em;
+    }
+
+
+
+
+
+
         
-          .overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
-            opacity: 0;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            transition-delay: 0.3s; /* Add delay for paragraph overlay */
-            padding: 20px;
-            border-radius: 40px;
-            box-sizing: border-box;
-        
-            p {
-              color: white;
-              font-size: 1rem;
-              letter-spacing: .12em;
-              line-height: 1.5;
-              text-align: center;
-              opacity: 0; /* Start with opacity 0 to hide paragraph */
-              transition: opacity 0.3s ease; /* Add opacity transition */
-            }
-          }
-        
-          &:hover h2 {
-            opacity: 0;
-          }
-        
-          &:hover .overlay {
-            transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
-            opacity: 1;
-            transition-delay: .1s; /* Remove delay for overlay */
-          }
-        
-          &:hover .overlay p {
-            opacity: 1; /* Fade in paragraph on hover */
-          }
-        }
-
-
-
-        .multi-image-section {
-          display: flex;
-          flex-direction: column;
-
-        }
-        
-        .image-row {
-          display: flex;
-        }
-        
-        .image-container {
-          flex: 1;
-          position: relative;
-          
-          img {
-            width: 100%;
-            height: 200px; /* Adjust the height as needed */
-            object-fit: cover;
-            margin: -2px;
-          }
-
-          h2 {
-            font-size: 16px;
-            letter-spacing: .12em;
-          }
-
-          a {
-            text-decoration: none; /* Remove underline */
-            color: inherit; /* Inherit text color from parent */
-            cursor: pointer; /* Change cursor to pointer on hover */
-          }
-        }
-
-        .image-title {
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          background-color: rgba(255, 255, 255, 0.7);
-          padding: 5px 10px; 
-          border-radius: 5px;
-          letter-spacing: .12em;
-        }
-
-
-
-
-
-
-        
-      .testimonials-container {
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 200px;
+    .testimonials-container {
+      background-color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
     }
     
     .testimonial {
-        background-color: white;
-        color: black;
+        background-color: $primary-color;
+        color: $text-color;
         padding: 20px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
         text-align: center; /* Center text horizontally */
@@ -405,7 +475,7 @@
     
       button {
         padding: 10px 20px;
-        background-color: #9500ff;
+        background-color: $button-light-color;
         color: white;
         border: none;
         border-radius: 5px;

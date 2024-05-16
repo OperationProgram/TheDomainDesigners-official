@@ -10,8 +10,7 @@
 }
 
 .cta-section {
-  background-color: #11962b; /* Vibrant color to catch attention */
-  color: #fff;
+  color: rgb(30, 30, 30);
   text-align: center;
   padding: 80px 0;
 }
@@ -70,7 +69,6 @@
   text-align: center;
   color: #ffffff;
   padding: 20px;
-  background-color: rgba(66, 0, 72, 0.316);
 }
 .hero-section .hero-video {
   position: absolute;
@@ -97,7 +95,7 @@
   margin-bottom: 30px;
 }
 .hero-section .cta-button {
-  background-color: #9500ff;
+  background-color: #570069;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -107,18 +105,16 @@
   transition: background-color 0.3s ease;
 }
 .hero-section .cta-button:hover {
-  background-color: #7700cc;
+  background-color: #e6e6e6;
 }
 
 .contact-section, .about-section {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 40px 0px;
+  padding: 40px 40px;
   margin: 20px 80px;
   height: auto;
-  background: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
 }
 
 .text-column {
@@ -128,11 +124,10 @@
   align-items: start;
   flex: 1;
   padding: 0 50px;
-  background-color: #f4f4f4;
 }
 .text-column h2 {
   font-size: 2rem;
-  color: #8e36a1;
+  color: #9500ff;
   margin-bottom: 1em;
 }
 .text-column h3 {
@@ -147,7 +142,7 @@
   letter-spacing: 0.12em;
 }
 .text-column button {
-  background-color: #ffffff;
+  background-color: green;
   color: rgb(30, 30, 30);
   border: none;
   padding: 10px 20px;
@@ -155,10 +150,10 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #8e36a1;
+  border: 2px solid #9500ff;
 }
 .text-column button:hover {
-  background-color: #8e36a1;
+  background-color: #9500ff;
 }
 
 .image-column {
@@ -177,12 +172,11 @@
      object-fit: contain;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1268px) {
   .contact-section, .about-section {
     flex-direction: column; /* Adjust flex direction for mobile */
     text-align: left; /* Center text content */
     margin: auto;
-    background-color: #570069;
   }
   .text-column {
     align-items: left; /* Center items horizontally */
@@ -210,7 +204,7 @@
 }
 .work-flow {
   padding: 40px 40px;
-  background: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
+  background-color: #ffffff;
 }
 
 .clickable-section {
@@ -324,7 +318,7 @@
 }
 
 .testimonials-container {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,8 +326,8 @@
 }
 
 .testimonial {
-  background-color: #ffffff;
-  color: rgb(30, 30, 30);
+  background-color: white;
+  color: black;
   padding: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   text-align: center; /* Center text horizontally */
