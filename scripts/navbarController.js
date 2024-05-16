@@ -1,8 +1,7 @@
-// navbar.js
 // Function to load the navbar
 function loadNavbar() {
     // Fetch the navbar.html content
-    fetch('../Pages/Navigation/navbar.html')
+    fetch(config.baseUrl + '/pages/Navigation/navbar.html')
         .then(response => response.text())
         .then(data => {
             // Insert the navbar HTML into the header of the current page

@@ -1,5 +1,10 @@
-  // Define variables for colors and other reusable properties
-  $primary-color: #9500ff;
+// IMPORTS
+@import 'variables';
+
+
+
+// Define variables for colors and other reusable properties
+
   $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
 
   // TEXT EFFECTS
@@ -17,56 +22,6 @@
 
 
 
-  .cta-section {
-      background-color: #11962b; /* Vibrant color to catch attention */
-      color: #fff;
-      text-align: center;
-      padding: 80px 0;
-  }
-
-  .cta-section .container {
-      max-width: 800px;
-      margin: 0 auto;
-  }
-
-  .cta-section h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-  }
-
-  .cta-section p {
-      font-size: 20px;
-      margin-bottom: 30px;
-  }
-
-  .btn {
-      display: inline-block;
-      background-color: #fff;
-      color: #ff6b6b; /* Matching color for the button */
-      border: none;
-      padding: 15px 40px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 18px;
-      font-weight: bold;
-      transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  .btn:hover {
-      background-color: #fff;
-      color: #ff6b6b; /* Keep button color consistent on hover */
-  }
-
-  .btn-primary {
-      background-color: #fff;
-      color: #ff6b6b;
-  }
-
-  .btn-primary:hover {
-      background-color: #ff6b6b;
-      color: #fff;
-  }
-
   // Main hero section styles
   .hero-section {
     background: $hero-background;
@@ -81,7 +36,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 20px;
-    background-color: aqua;
+    background-color: rgba(66, 0, 72, 0.316);
 
 
     .hero-video {
@@ -138,21 +93,25 @@
 
   .contact-section, .about-section {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 40px 40px; 
+    padding: 40px 0px; 
     margin: 20px 80px;
     height: auto;
+    background: $radial3;
   }
 
+
   .text-column {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: start; 
     flex: 1;
     padding: 0 50px; 
-
+    background-color: $background-color-light;
     h2 {
       font-size: 2rem;
       color: #8e36a1;
@@ -203,11 +162,12 @@
     }
   }
 
-  @media (max-width: 1268px) {
+  @media (max-width: 768px) {
     .contact-section, .about-section {
       flex-direction: column; /* Adjust flex direction for mobile */
       text-align: left; /* Center text content */
       margin: auto;
+      background-color: #570069;
     }
 
     .text-column {
@@ -243,7 +203,7 @@
 
   .work-flow {
     padding: 40px 40px; // STANDARD PADDING
-    background-color: #ffffff;
+    background: $radial3;
   }
 
   .clickable-section {
@@ -272,110 +232,110 @@
         border-bottom-right-radius: 40px;
       }
     }
-          h2 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0;
-            z-index: 1;
-            opacity: 1;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            color: white;
-            font-size: 2rem;
-            letter-spacing: .12em;
-            text-align: center;
-          }
-        
-          .overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
-            opacity: 0;
-            transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-            transition-delay: 0.3s; /* Add delay for paragraph overlay */
-            padding: 20px;
-            border-radius: 40px;
-            box-sizing: border-box;
-        
-            p {
-              color: white;
-              font-size: 1rem;
-              letter-spacing: .12em;
-              line-height: 1.5;
-              text-align: center;
-              opacity: 0; /* Start with opacity 0 to hide paragraph */
-              transition: opacity 0.3s ease; /* Add opacity transition */
-            }
-          }
-        
-          &:hover h2 {
-            opacity: 0;
-          }
-        
-          &:hover .overlay {
-            transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
-            opacity: 1;
-            transition-delay: .1s; /* Remove delay for overlay */
-          }
-        
-          &:hover .overlay p {
-            opacity: 1; /* Fade in paragraph on hover */
-          }
-        }
+    h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      z-index: 1;
+      opacity: 1;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      color: white;
+      font-size: 2rem;
+      letter-spacing: .12em;
+      text-align: center;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0); /* Start with scale(0) to hide overlay */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5); // Transparent black overlay
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+      transition-delay: 0.3s; /* Add delay for paragraph overlay */
+      padding: 20px;
+      border-radius: 40px;
+      box-sizing: border-box;
+  
+      p {
+        color: white;
+        font-size: 1rem;
+        letter-spacing: .12em;
+        line-height: 1.5;
+        text-align: center;
+        opacity: 0; /* Start with opacity 0 to hide paragraph */
+        transition: opacity 0.3s ease; /* Add opacity transition */
+      }
+    }
+    
+    &:hover h2 {
+      opacity: 0;
+    }
+  
+    &:hover .overlay {
+      transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
+      opacity: 1;
+      transition-delay: .1s; /* Remove delay for overlay */
+    }
+  
+    &:hover .overlay p {
+      opacity: 1; /* Fade in paragraph on hover */
+    }
+  }
 
 
 
-        .multi-image-section {
-          display: flex;
-          flex-direction: column;
+    .multi-image-section {
+      display: flex;
+      flex-direction: column;
 
-        }
-        
-        .image-row {
-          display: flex;
-        }
-        
-        .image-container {
-          flex: 1;
-          position: relative;
-          
-          img {
-            width: 100%;
-            height: 200px; /* Adjust the height as needed */
-            object-fit: cover;
-            margin: -2px;
-          }
+    }
+    
+    .image-row {
+      display: flex;
+    }
+    
+    .image-container {
+      flex: 1;
+      position: relative;
+      
+      img {
+        width: 100%;
+        height: 200px; /* Adjust the height as needed */
+        object-fit: cover;
+        margin: -2px;
+      }
 
-          h2 {
-            font-size: 16px;
-            letter-spacing: .12em;
-          }
+      h2 {
+        font-size: 16px;
+        letter-spacing: .12em;
+      }
 
-          a {
-            text-decoration: none; /* Remove underline */
-            color: inherit; /* Inherit text color from parent */
-            cursor: pointer; /* Change cursor to pointer on hover */
-          }
-        }
+      a {
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Inherit text color from parent */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
+    }
 
-        .image-title {
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          background-color: rgba(255, 255, 255, 0.7);
-          padding: 5px 10px; 
-          border-radius: 5px;
-          letter-spacing: .12em;
-        }
+    .image-title {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 5px 10px; 
+      border-radius: 5px;
+      letter-spacing: .12em;
+    }
 
 
 
@@ -392,15 +352,15 @@
     }
     
     .testimonial {
-        background-color: white;
-        color: black;
+        background-color: $primary-color;
+        color: $text-color;
         padding: 20px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
         text-align: center; /* Center text horizontally */
         width: 80%; /* Adjust the width as needed */
         border-radius: 10px;
     }
-    
+  
     .testimonial p {
         margin: 1em; /* Remove default paragraph margin */
     }
@@ -411,52 +371,52 @@
 
 
 
-    .sliding-feature-section {
-      display: flex;
-      align-items: center;
-    
-      .sliding-feature-content {
-        flex: 1;
-        padding: 20px;
-        text-align: center;
-        width: 50%;
+  .sliding-feature-section {
+    display: flex;
+    align-items: center;
+
+    .sliding-feature-content {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      width: 50%;
+    }
+
+    .sliding-feature-image {
+      flex: 1;
+      overflow: hidden;
+      width: 50%;
+
+      img {
+        width: 100%;
+        transition: transform 0.5s ease;
+        transform: translateX(-100%);
+        border: 4px solid red;
       }
-    
-      .sliding-feature-image {
-        flex: 1;
-        overflow: hidden;
-        width: 50%;
-    
-        img {
-          width: 100%;
-          transition: transform 0.5s ease;
-          transform: translateX(-100%);
-          border: 4px solid red;
-        }
-    
-        img.slide-in {
-          transform: translateX(0);
-        }
-      }
-    
-      h2 {
-        margin-bottom: 10px;
-      }
-    
-      button {
-        padding: 10px 20px;
-        background-color: #9500ff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    
-        &:hover {
-          background-color: #7a00cc;
-        }
+
+      img.slide-in {
+        transform: translateX(0);
       }
     }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #9500ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #7a00cc;
+      }
+    }
+  }
     
 
 

@@ -1,0 +1,43 @@
+// _variables.scss
+
+// Colors
+$primary-color: #9500ff; 
+$accent-color: #460f92;
+$text-color: #252525; 
+$background-color-light: #f4f4f4;
+$background-color-dark: #202020;
+
+$radial1: radial-gradient(circle, #9500ff, #460f92);
+$radial2: radial-gradient(circle, #9500ff, #000000, #460f92);
+$radial3: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
+
+$linear1: linear-gradient(to right, #9500ff, #460f92);
+$linear2: linear-gradient(to right, #9500ff, #000000, #460f92);
+$linear3: linear-gradient(to right, #9500ff, #7700cc, #000000, #460f92);
+
+
+
+// Typography
+$base-font-size: 16px; // Base font size for the document
+$small-font-size: 12px;
+
+// SMALL, MEDIUM, LARGE, XLARGE
+$heading-font-family: 'Arial', sans-serif; // Font family for headings
+$body-font-family: 'Arial', sans-serif; // Font family for body text
+
+// Spacing
+$base-spacing-unit: 16px; // Base spacing unit for margins, padding, etc.
+$standard-padding: 20px; // Standard padding value
+$standard-margin: 20px; // Standard margin value
+
+// Border radius
+$border-radius: 4px; // Standard border radius value
+
+// Box shadow
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Standard box shadow value
+
+// Transition
+$transition-duration: 0.3s; // Standard transition duration
+
+// Other variables
+$container-max-width: 1200px; // Max width for container elements

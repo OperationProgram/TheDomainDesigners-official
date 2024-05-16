@@ -12,10 +12,9 @@
 <body>
 
   <header>
-    <script src="../scripts/navbarController.js"></script>
+    <?php include 'config.php'; ?>
+    <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
   </header>
-
-
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -43,7 +42,7 @@
     <div class="image-column">
       <img src="assets/mountain-lake.jpg" alt="Image">
     </div>
-    <hr class="section-border">
+
   </section>
   
 <!-- Work Flow Section -->
@@ -60,7 +59,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <h2>Design</h2>
-      <img src="assets/01.jpg" alt="Design Image">
+      <img src="assets/01.jpg" alt="Design Image"Kangus8nine!
+      >
     </div>
     <div class="clickable-section">
       <div class="overlay">
@@ -116,7 +116,7 @@
 
 
 
-  <section class="multi-image-s ection">
+  <section class="multi-image-section">
     <div class="image-row">
       <div class="image-container">
         <a href="your-link-here">
@@ -166,7 +166,6 @@
 
   </section>
 
-  <script src="scripts/navbarController.js"></script>
   <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>
 
