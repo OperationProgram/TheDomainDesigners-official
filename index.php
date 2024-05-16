@@ -59,8 +59,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <h2>Design</h2>
-      <img src="assets/01.jpg" alt="Design Image"Kangus8nine!
-      >
+      <img src="assets/01.jpg" alt="Design Image">
     </div>
     <div class="clickable-section">
       <div class="overlay">
@@ -107,7 +106,7 @@
       <button>Button</button>
     </div>
     <div class="sliding-feature-image">
-      <img src="assets/more/DESIGN.jpg" alt="Your Image">
+      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
     </div>
   </section>
 
