@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Website</title>
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
-  <link rel="stylesheet" href="css/navbar.css"> <!-- Link to your compiled CSS file -->
+  <link rel="stylesheet" href="css/navbar.css">
 
 </head>
 
@@ -14,6 +14,8 @@
   <header>
     <?php include 'config.php'; ?>
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
+    
+    <!-- <script src="../scripts/hamburgerNavController"></script> -->
   </header>
 
 <!-- Hero Section -->
