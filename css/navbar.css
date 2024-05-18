@@ -1,10 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 50px 10px;
   background-color: #333;
   color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  border-radius: 100px;
 }
 
 .nav-menu {
@@ -23,6 +33,8 @@
   color: white;
   text-decoration: none;
   transition: color 0.5s ease;
+  font-size: 22px;
+  margin: 10px;
 }
 .nav-menu a:hover {
   color: #9500ff;
@@ -39,7 +51,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
 }
 
@@ -61,6 +73,9 @@
 @media (max-width: 768px) {
   .navbar {
     justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: transparent;
+    width: auto;
   }
   .nav-menu {
     position: fixed;
@@ -68,7 +83,7 @@
     right: -250px; /* Initially hide it offscreen to the right */
     height: 100%;
     width: 250px;
-    background-color: #333;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,6 +93,7 @@
   }
   .nav-menu.active {
     right: 0; /* Slide in from the right */
+    background-color: #333;
   }
   .nav-menu li {
     margin: 20px 0;
@@ -85,10 +101,10 @@
   .hamburger-menu {
     display: block;
   }
-  .hamburger-icon.active {
-    transform: rotate(90deg); /* Rotate the icon when active */
-  }
   .consultation {
     margin-top: 20px;
+  }
+  .hamburger-icon.active {
+    transform: rotate(90deg); /* Rotate the icon when active */
   }
 }/*# sourceMappingURL=navbar.css.map */
