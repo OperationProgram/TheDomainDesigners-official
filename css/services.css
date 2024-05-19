@@ -1,0 +1,50 @@
+body {
+  background-color: #151515;
+}
+
+.hero-section {
+  position: absolute;
+  top: 0;
+  background: url("../assets/assets/abstract-background-2.webp") no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+.hero-section .hero-content {
+  position: relative;
+  height: 100%;
+}
+.hero-section .hero-content .cta {
+  position: absolute;
+  bottom: 100px;
+  left: 8vw;
+}
+.hero-section .hero-content .cta h1 {
+  color: #9500ff;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+}
+.hero-section .hero-content .cta h2 {
+  color: #f4f4f4;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+}
+.hero-section .hero-content .cta .cta-button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 1.2rem;
+}
+.hero-section .hero-content .cta .cta-button:hover {
+  background-color: #333;
+}/*# sourceMappingURL=services.css.map */

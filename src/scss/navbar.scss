@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 10px;
+    padding: 15px 10px;
     background-color: #333;
     color: white;
     width: fit-content;
@@ -24,41 +24,39 @@
     align-items: center;
     margin: 0;
     padding: 0;
-}
 
-.nav-menu li {
-    margin-left: 20px;
-}
+    li {
+        margin-left: 5px;
+    }
 
-.nav-menu {
     a{
         color: white;
         text-decoration: none;
         transition: color 0.5s ease;
-        font-size: 22px;
+        font-size: 18px;
         margin: 10px;
     }
 
     a:hover {
         color: $primary-color;
     }
-}
 
+}
 
 
 .consultation {
     margin: 0 30px; // Adjust margin as needed
 
     button {
-        background-color: $primary-color;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 18px;
-        cursor: pointer;
+        background-color: map-get($primary-btn, background-color);
+        color: map-get($primary-btn, color);
+        border: map-get($primary-btn, border);
+        padding: map-get($primary-btn, padding);
+        text-align: map-get($primary-btn, text-align);
+        text-decoration: map-get($primary-btn, text-decoration);
+        display: map-get($primary-btn, display);
+        font-size: map-get($primary-btn, font-size);
+        cursor: map-get($primary-btn, cursor);
     }
 }
 

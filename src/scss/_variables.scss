@@ -41,3 +41,29 @@ $transition-duration: 0.3s; // Standard transition duration
 
 // Other variables
 $container-max-width: 1200px; // Max width for container elements
+
+
+$primary-btn: (
+    background-color: #9500ff,
+    color: white,
+    border: none,
+    padding: 10px 20px,
+    text-align: center,
+    text-decoration: none,
+    display: inline-block,
+    font-size: 18px,
+    cursor: pointer
+);
+
+$primary-btn-outline: (
+    background-color: transparent,
+    color: white,
+    border: solid 2px white,
+    padding: 10px 20px,
+    text-align: center,
+    text-decoration: none,
+    display: inline-block,
+    font-size: 18px,
+    cursor: pointer,
+    border-radius: 100px
+);

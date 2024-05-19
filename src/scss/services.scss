@@ -1,0 +1,57 @@
+@import "variables";
+// @import "_buttons";
+
+body {
+    background-color: #151515;
+}
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    background: url("../assets/assets/abstract-background-2.webp") no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    z-index: -1;
+
+    .hero-content {
+        position: relative;
+        height: 100%;
+        .cta {
+            position: absolute;
+            bottom: 100px;
+            left: 8vw;
+
+            h1 {
+                color: $primary-color;
+                font-size: 24px;
+                letter-spacing: 0.2em;
+                line-height: 1.6em;
+            }
+
+            h2 {
+                color: $background-color-light;
+                font-size: 20px;
+                letter-spacing: 0.2em;
+                line-height: 1.6em;
+            }
+
+            .cta-button {
+                background-color: map-get($primary-btn-outline, background-color);
+                color: map-get($primary-btn-outline, color);
+                border: map-get($primary-btn-outline, border);
+                padding: map-get($primary-btn-outline, padding);
+                text-align: map-get($primary-btn-outline, text-align);
+                text-decoration: map-get($primary-btn-outline, text-decoration);
+                display: map-get($primary-btn-outline, display);
+                font-size: map-get($primary-btn-outline, font-size);
+                cursor: map-get($primary-btn-outline, cursor);
+                border-radius: map-get($primary-btn-outline, border-radius);
+                margin-top: 1.2rem;
+                &:hover {
+                    background-color: #333;
+                }
+            }
+        }
+    }
+}
