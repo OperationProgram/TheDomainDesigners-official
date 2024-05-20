@@ -27,41 +27,48 @@
       </div>
   </section>
 
-  <section id="service-card">
-    <div class="service-card wordpress">
-        <img src="../assets/assets/pc-infographic.png" >
-        <h2>Wordpress</h2>
-        <button class="cta-button">Learn More</button>
+  <section id="services">
+
+    <div class="service-row">
+      <div class="service-card wordpress">
+          <img src="../assets/assets/pc-infographic.png" >
+          <h2>Wordpress</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
+
+      <div class="service-card custom-code">
+          <img src="../assets/information.jpg" >
+          <h2>Custom Code</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
     </div>
 
-    <div class="service-card custom-code">
-        <img src="../assets/information.jpg" >
-        <h2>Custom Code</h2>
-        <button class="cta-button">Learn More</button>
+    <div class="service-row">
+      <div class="service-card web-apps">
+          <img src="../assets/more/WEBDEV.jpg" >
+          <h2>Web Apps</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
+
+      <div class="service-card social-media">
+          <img src="../assets/more/deliver-image.jpg" >
+          <h2>Social Media Marketing</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
     </div>
 
-    <div class="service-card web-apps">
-        <img src="../assets/more/WEBDEV.jpg" >
-        <h2>Web Apps</h2>
-        <button class="cta-button">Learn More</button>
-    </div>
+    <div class="service-row">
+      <div class="service-card ecommerce">
+          <img src="../assets/more/ecommerce.jpg" >
+          <h2>E-Commerce</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
 
-    <div class="service-card social-media">
-        <img src="../assets/more/deliver-image.jpg" >
-        <h2>Social Media Marketing</h2>
-        <button class="cta-button">Learn More</button>
-    </div>
-
-    <div class="service-card ecommerce">
-        <img src="../assets/more/ecommerce.jpg" >
-        <h2>E-Commerce</h2>
-        <button class="cta-button">Learn More</button>
-    </div>
-
-    <div class="service-card seo">
-        <img src="../assets/more/SEO.jpg" >
-        <h2>SEO</h2>
-        <button class="cta-button">Learn More</button>
+      <div class="service-card seo">
+          <img src="../assets/more/SEO.jpg" >
+          <h2>SEO</h2>
+          <button class="cta-button">Learn More</button>
+      </div>
     </div>
   
   </section>
