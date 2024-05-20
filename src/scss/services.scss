@@ -5,6 +5,23 @@ body {
     background-color: #151515;
 }
 
+.cta-button {
+    background-color: map-get($primary-btn-outline, background-color);
+    color: map-get($primary-btn-outline, color);
+    border: map-get($primary-btn-outline, border);
+    padding: map-get($primary-btn-outline, padding);
+    text-align: map-get($primary-btn-outline, text-align);
+    text-decoration: map-get($primary-btn-outline, text-decoration);
+    display: map-get($primary-btn-outline, display);
+    font-size: map-get($primary-btn-outline, font-size);
+    cursor: map-get($primary-btn-outline, cursor);
+    border-radius: map-get($primary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    &:hover {
+        background-color: #333;
+    }
+}
+
 .hero-section {
     position: absolute;
     top: 0;
@@ -35,23 +52,76 @@ body {
                 letter-spacing: 0.2em;
                 line-height: 1.6em;
             }
+        }
+    }
+}
 
-            .cta-button {
-                background-color: map-get($primary-btn-outline, background-color);
-                color: map-get($primary-btn-outline, color);
-                border: map-get($primary-btn-outline, border);
-                padding: map-get($primary-btn-outline, padding);
-                text-align: map-get($primary-btn-outline, text-align);
-                text-decoration: map-get($primary-btn-outline, text-decoration);
-                display: map-get($primary-btn-outline, display);
-                font-size: map-get($primary-btn-outline, font-size);
-                cursor: map-get($primary-btn-outline, cursor);
-                border-radius: map-get($primary-btn-outline, border-radius);
-                margin-top: 1.2rem;
-                &:hover {
-                    background-color: #333;
-                }
-            }
+#service-card {
+    margin-top: calc(50vh + 50px);
+    transition: all 0.7s ease;
+
+    .wordpress {
+        background-color: #000;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .social-media {
+        background-color: $accent-color;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .seo {
+        background-color: #3e7dcf;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .service-card {
+        height: 225px;
+        position: relative;
+        border-radius: 30px;
+        margin: 5rem;
+
+        h2 {
+            position: absolute;
+            color: #ffffff;
+            bottom: 10px;
+            left: 25px;
+            opacity: 1;
+            transition: opacity 0.7s ease;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            // display: none;
+            position: absolute;
+            bottom:20px;
+            left: 25px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.7s ease, visibility 0.7s ease;
+        }
+
+        &:hover h2{
+            opacity: 0;
+        }
+
+        &:hover button{
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.7s ease, visibility 0.7s ease;
         }
     }
 }

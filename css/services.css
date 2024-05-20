@@ -2,6 +2,23 @@ body {
   background-color: #151515;
 }
 
+.cta-button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 1.2rem;
+}
+.cta-button:hover {
+  background-color: #333;
+}
+
 .hero-section {
   position: absolute;
   top: 0;
@@ -32,19 +49,63 @@ body {
   letter-spacing: 0.2em;
   line-height: 1.6em;
 }
-.hero-section .hero-content .cta .cta-button {
-  background-color: transparent;
-  color: white;
-  border: solid 2px white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 100px;
-  margin-top: 1.2rem;
+
+#service-card {
+  margin-top: calc(50vh + 50px);
+  transition: all 0.7s ease;
 }
-.hero-section .hero-content .cta .cta-button:hover {
-  background-color: #333;
+#service-card .wordpress {
+  background-color: #000;
+}
+#service-card .wordpress img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#service-card .social-media {
+  background-color: #460f92;
+}
+#service-card .social-media img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#service-card .seo {
+  background-color: #3e7dcf;
+}
+#service-card .seo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#service-card .service-card {
+  height: 225px;
+  position: relative;
+  border-radius: 30px;
+  margin: 5rem;
+}
+#service-card .service-card h2 {
+  position: absolute;
+  color: #ffffff;
+  bottom: 10px;
+  left: 25px;
+  opacity: 1;
+  transition: opacity 0.7s ease;
+}
+#service-card .service-card img {
+  width: 100%;
+  height: 100%;
+}
+#service-card .service-card button {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.7s ease, visibility 0.7s ease;
+}
+#service-card .service-card:hover h2 {
+  opacity: 0;
+}
+#service-card .service-card:hover button {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.7s ease, visibility 0.7s ease;
 }/*# sourceMappingURL=services.css.map */
