@@ -6,6 +6,7 @@
   <title>Your Website</title>
   <link rel="stylesheet" href="../css/services.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="../css/navbar.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
 </head>
 
@@ -72,11 +73,16 @@
     </div>
     
     <div class="lets-chat">
-        <img src="../assets/pexels-madebymath-331684-removebg-preview.png" >
+        <img src="../assets/pexels-madebymath-331684-removebg-preview.png" data-aos="fade-right">
         <h2>Let's Chat</h2>
         <button class="cta-button">Contact Us</button>
     </div>
   
   </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
