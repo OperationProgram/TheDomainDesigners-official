@@ -73,37 +73,16 @@ body {
         .wordpress {
             background-color: #000;
             flex: 2 2;
-
-            img {
-                object-fit: contain;
-            }
         }
 
-        .custom-code, .web-apps {
+        .custom-code, .web-apps, .social-media, .seo {
             flex: 1 1;
-        }
-
-        .social-media {
-            background-color: $accent-color;
-            flex: 1 1;
-
-            img {
-                object-fit: contain;
-            }
         }
 
         .ecommerce {
             flex: 2 2;
         }
 
-        .seo {
-            background-color: #3e7dcf;
-            flex: 1 1;
-            
-            img {
-                object-fit: contain;
-            }
-        }
     }
 
     
@@ -154,11 +133,15 @@ body {
             flex-direction: column;
             max-width: 100%;
             padding: 0;
-            margin: 1.0rem 0.6rem;
+            margin: 0 0.6rem;
 
             .seo, .social-media {
                 background-color: transparent;
             }
+        }
+
+        .service-card {
+            margin: 0.6rem;
         }
     }
 }

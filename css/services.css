@@ -65,31 +65,11 @@ body {
   background-color: #000;
   flex: 2 2;
 }
-#services .service-row .wordpress img {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-#services .service-row .custom-code, #services .service-row .web-apps {
+#services .service-row .custom-code, #services .service-row .web-apps, #services .service-row .social-media, #services .service-row .seo {
   flex: 1 1;
-}
-#services .service-row .social-media {
-  background-color: #460f92;
-  flex: 1 1;
-}
-#services .service-row .social-media img {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 #services .service-row .ecommerce {
   flex: 2 2;
-}
-#services .service-row .seo {
-  background-color: #3e7dcf;
-  flex: 1 1;
-}
-#services .service-row .seo img {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 #services .service-card {
   height: 325px;
@@ -131,9 +111,12 @@ body {
     flex-direction: column;
     max-width: 100%;
     padding: 0;
-    margin: 1rem 0.6rem;
+    margin: 0 0.6rem;
   }
   #services .service-row .seo, #services .service-row .social-media {
     background-color: transparent;
+  }
+  #services .service-card {
+    margin: 0.6rem;
   }
 }/*# sourceMappingURL=services.css.map */
