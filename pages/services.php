@@ -70,6 +70,12 @@
           <button class="cta-button">Learn More</button>
       </div>
     </div>
+    
+    <div class="lets-chat">
+        <img src="../assets/pexels-madebymath-331684-removebg-preview.png" >
+        <h2>Let's Chat</h2>
+        <button class="cta-button">Contact Us</button>
+    </div>
   
   </section>
 </body>

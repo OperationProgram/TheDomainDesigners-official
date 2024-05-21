@@ -17,9 +17,11 @@ body {
     cursor: map-get($primary-btn-outline, cursor);
     border-radius: map-get($primary-btn-outline, border-radius);
     margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
 
     &:hover {
-        background-color: #333;
+        background-color: transparent;
+        color: white;
     }
 }
 
@@ -114,7 +116,8 @@ body {
             left: 25px;
             opacity: 0;
             visibility: hidden;
-            transition: opacity 0.7s ease, visibility 0.7s ease;
+            transition: opacity 0.7s ease, visibility 0.7s ease,
+                        background-color 0.4s ease, color 0.4s ease;
         }
 
         &:hover h2{
@@ -124,7 +127,8 @@ body {
         &:hover button{
             opacity: 1;
             visibility: visible;
-            transition: opacity 0.7s ease, visibility 0.7s ease;
+            transition: opacity 0.7s ease, visibility 0.7s ease,
+                        background-color 0.4s ease, color 0.4s ease;
         }
     }
 
@@ -142,6 +146,34 @@ body {
 
         .service-card {
             margin: 0.6rem;
+        }
+    }
+
+    .lets-chat {
+        width: calc(100% - 2.4rem);
+        background: $radial1;
+        position: relative;
+        border-radius: 30px;
+        margin: 1.2rem;
+        max-width: 1000px;
+
+        h2 {
+            position: absolute;
+            right: 20%;
+            top: 50%;
+            color: white;
+            font-size: 32px;
+            font-family: $heading-font-family;
+        };
+
+        button {
+            position: absolute;
+            right: 18%;
+            top: calc(50% + 1.6em);
+        }
+
+        img {
+            border-radius: 30px;
         }
     }
 }

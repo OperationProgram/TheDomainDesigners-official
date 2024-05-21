@@ -3,8 +3,8 @@ body {
 }
 
 .cta-button {
-  background-color: transparent;
-  color: white;
+  background-color: white;
+  color: black;
   border: solid 2px white;
   padding: 10px 20px;
   text-align: center;
@@ -14,9 +14,11 @@ body {
   cursor: pointer;
   border-radius: 100px;
   margin-top: 1.2rem;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 .cta-button:hover {
-  background-color: #333;
+  background-color: transparent;
+  color: white;
 }
 
 .hero-section {
@@ -96,7 +98,7 @@ body {
   left: 25px;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.7s ease, visibility 0.7s ease;
+  transition: opacity 0.7s ease, visibility 0.7s ease, background-color 0.4s ease, color 0.4s ease;
 }
 #services .service-card:hover h2 {
   opacity: 0;
@@ -104,7 +106,7 @@ body {
 #services .service-card:hover button {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.7s ease, visibility 0.7s ease;
+  transition: opacity 0.7s ease, visibility 0.7s ease, background-color 0.4s ease, color 0.4s ease;
 }
 @media (max-width: 768px) {
   #services .service-row {
@@ -119,4 +121,28 @@ body {
   #services .service-card {
     margin: 0.6rem;
   }
+}
+#services .lets-chat {
+  width: calc(100% - 2.4rem);
+  background: radial-gradient(circle, #9500ff, #460f92);
+  position: relative;
+  border-radius: 30px;
+  margin: 1.2rem;
+  max-width: 1000px;
+}
+#services .lets-chat h2 {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  color: white;
+  font-size: 32px;
+  font-family: "Arial", sans-serif;
+}
+#services .lets-chat button {
+  position: absolute;
+  right: 18%;
+  top: calc(50% + 1.6em);
+}
+#services .lets-chat img {
+  border-radius: 30px;
 }/*# sourceMappingURL=services.css.map */
