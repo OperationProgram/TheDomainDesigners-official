@@ -45,9 +45,9 @@
         </video>
 
         <div class="cta">
-            <h1>Write Something Here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button class="cta-button">Free Consultation</button>
+            <h2>Scrolling to Success!</h2>
+            <h1>Social Media Marketing</h1>
+            <button class="cta-button">Contact Us</button>
         </div>
 
         <img src="../../assets/mobile.png">
