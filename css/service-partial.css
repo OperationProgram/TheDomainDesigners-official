@@ -84,9 +84,7 @@ body {
     min-width: 200px;
     margin-bottom: 2rem;
   }
-}
-@media (max-width: 480px) {
   .hero-section .hero-content img {
-    left: 0;
+    left: 50%;
   }
 }/*# sourceMappingURL=service-partial.css.map */

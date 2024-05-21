@@ -95,13 +95,18 @@ body {
                 min-width: 200px;
                 margin-bottom: 2rem;
             }
-        }
-        @media (max-width: 480px) {
 
             img {
-                left: 0;
+                left: 50%;
             }
         }
+        // @media (max-width: 480px) {
+
+        //     img {
+        //         right: 0;
+        //         // display: none;
+        //     }
+        // }
 
     }
     
