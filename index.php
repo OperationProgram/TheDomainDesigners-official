@@ -65,29 +65,31 @@
   </section>
   
 <!-- Work Flow Section -->
+<?php include __DIR__ . '/config.php'; ?>
+
 <section class="work-flow">
     <div class="clickable-section">
-      <div class="overlay">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <h2>Develop</h2>
-      <img src="assets/00.jpg" alt="Develop Image">
+        <div class="overlay">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <h2>Develop</h2>
+        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/00.jpg" alt="Develop Image">
     </div>
     <div class="clickable-section">
-      <div class="overlay">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <h2>Design</h2>
-      <img src="assets/01.jpg" alt="Design Image">
+        <div class="overlay">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <h2>Design</h2>
+        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/01.jpg" alt="Design Image">
     </div>
     <div class="clickable-section">
-      <div class="overlay">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <h2>Deliver</h2>
-      <img src="assets/02.jpg" alt="Deliver Image">
+        <div class="overlay">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <h2>Deliver</h2>
+        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/00.jpg" alt="Deliver Image">
     </div>
-  </section>
+</section>
 <!-- Other sections of your website -->
 
 
