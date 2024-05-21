@@ -12,7 +12,8 @@
 <body>
 
   <header>
-    <?php include 'config.php'; ?>
+    <?php include __DIR__ . '/config.php'; ?>
+
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
 
 
@@ -23,9 +24,10 @@
     <!-- <video autoplay muted loop class="hero-video">
         <source src="assets/hero-section.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video> -->
+    </video> -->  
     <div class="hero-content">
-        <h1>Write Something Here</h1>
+        <h1>Do You Have a Dream?"</h1>
+        <h2>Let Our Expert Team Turn It into Reality.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button class="cta-button">Free Consultation</button>
     </div>
@@ -34,21 +36,22 @@
 
 <!-- Contact Section -->
 <section class="contact-section fade-in-text">
-    <div class="text-column">
-      <h3>Disrupting Digital Spaces</h3>
-      <h2>Full Service Digital Marketing & Advertising Agency</h2>
-      <p>
-        The Domain Designers doesn't conform to the ordinary. We're a collective of passionate designers and data-savvy strategists crafting plans that yield outcomes. Our forte lies in crafting top-notch visuals and compelling content that converts. We tailor our offerings to elevate your brand's position in the industry. As your brand's engine, we transcend conventional approaches to foster innovation and enduring progress.</p>
-      <button>Learn More</button>
-    </div>  
-    <div class="image-column">
-      <img src="assets/mountain-lake.jpg" alt="Image">
-    </div>
-
-  </section>
+  <div class="two-column-layout">
+      <div class="text-column">
+          <h3>Disrupting Digital Spaces</h3>
+          <h2>Full Service Digital Marketing & Advertising Agency</h2>
+          <p>
+              The Domain Designers doesn't conform to the ordinary. We're a collective of passionate designers and data-savvy strategists crafting plans that yield outcomes. Our forte lies in crafting top-notch visuals and compelling content that converts. We tailor our offerings to elevate your brand's position in the industry. As your brand's engine, we transcend conventional approaches to foster innovation and enduring progress.
+          </p>
+          <button>Learn More</button>
+      </div>  
+      <div class="image-column">
+          <img src="assets/mountain-lake.jpg" alt="Image">
+      </div>
+  </div>
+</section>
   
 <!-- Work Flow Section -->
-<?php include __DIR__ . '/config.php'; ?>
 
 <section class="work-flow">
     <div class="clickable-section">
@@ -70,7 +73,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <h2>Deliver</h2>
-        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/00.jpg" alt="Deliver Image">
+        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/02.jpg" alt="Deliver Image">
     </div>
 </section>
 <!-- Other sections of your website -->
@@ -121,40 +124,40 @@
 
   <section class="multi-image-section">
     <div class="image-row">
-      <div class="image-container">
-        <a href="your-link-here">
-          <img src="assets/portfolio/p-tesla.jpg" alt="Image 1">
-          <h2 class="image-title">Tesla</h2>
-        </a>
-      </div>
-      <div class="image-container">
-        <a href="your-link-here">
-          <img src="assets/portfolio/p-shoes.jpg" alt="Image 2">
-          <h2 class="image-title">Fine & Fancy</h2>
-        </a>
-      </div>
+        <div class="image-container">
+            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg">
+                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg" alt="Image 1">
+                <h2 class="image-title">Tesla</h2>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-shoes.jpg">
+                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-shoes.jpg" alt="Image 2">
+                <h2 class="image-title">Fine & Fancy</h2>
+            </a>
+        </div>
     </div>
     <div class="image-row">
-      <div class="image-container">
-        <a href="your-link-here">
-          <img src="assets/portfolio/p-juice.jpg" alt="Image 3">
-          <h2 class="image-title">Fresh Squeezed</h2>
-        </a>
-      </div>
-      <div class="image-container">
-        <a href="your-link-here">
-          <img src="assets/portfolio/p-fashion.jpg" alt="Image 4">
-          <h2 class="image-title">Pretty Girls</h2>
-        </a>
-      </div>
-      <div class="image-container">
-        <a href="your-link-here">
-          <img src="assets/portfolio/p-dips.jpg" alt="Image 5">
-          <h2 class="image-title">The Dip Factory</h2>
-        </a>
-      </div>
+        <div class="image-container">
+            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-juice.jpg">
+                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-juice.jpg" alt="Image 3">
+                <h2 class="image-title">Fresh Squeezed</h2>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg">
+                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg" alt="Image 4">
+                <h2 class="image-title">Pretty Girls</h2>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-dips.jpg">
+                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-dips.jpg" alt="Image 5">
+                <h2 class="image-title">The Dip Factory</h2>
+            </a>
+        </div>
     </div>
-  </section>
+</section>
 
 
 

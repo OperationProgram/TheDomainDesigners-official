@@ -99,19 +99,21 @@
     padding: 40px 0px; 
     margin: 20px 80px;
     height: auto;
-    background: $radial3;
   }
 
+  .two-column-layout {
+    background-color: $radial3;
+  }
 
   .text-column {
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: start; 
     flex: 1;
     padding: 0 50px; 
-    background-color: $background-color-light;
+    background-color: #570069
     h2 {
       font-size: 2rem;
       color: #8e36a1;
@@ -167,7 +169,7 @@
       flex-direction: column; /* Adjust flex direction for mobile */
       text-align: left; /* Center text content */
       margin: auto;
-      background-color: #570069;
+      background-color: $radial3;
     }
 
     .text-column {
