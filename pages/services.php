@@ -13,8 +13,25 @@
 <body>
 
   <header>
+    <nav class="navbar">
+      <ul class="nav-menu" id="nav-menu">
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="whyus.html">Why Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <div class="consultation">
+              <button>Free Consultation</button>
+          </div>
+      </ul>
+      <div class="hamburger-menu" id="hamburger-menu">
+          <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
+      </div>
+    </nav>
+
     <?php include '../config.php'; ?>
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
+    
   </header>
 
   <!-- Hero Section -->1
@@ -54,7 +71,7 @@
       <div class="service-card social-media">
           <img src="../assets/more/deliver-image.jpg" >
           <h2>Social Media Marketing</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
 

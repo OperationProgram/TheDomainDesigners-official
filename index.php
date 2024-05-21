@@ -12,9 +12,9 @@
 <body>
 
   <header>
-    <!-- <?php include 'config.php'; ?>
+    <?php include 'config.php'; ?>
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
-  -->
+ 
 
     <nav class="navbar">
       
