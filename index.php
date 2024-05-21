@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Website</title>
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
-  <link rel="stylesheet" href="css/navbar.css"> <!-- Link to your compiled CSS file -->
+  <link rel="stylesheet" href="css/navbar.css">
 
 </head>
 
@@ -15,8 +15,25 @@
     <?php include __DIR__ . '/config.php'; ?>
 
     <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
+ 
 
-
+    <nav class="navbar">
+      
+      <ul class="nav-menu" id="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="pages/whyus.html">Why Us</a></li>
+          <li><a href="pages/services.php">Services</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <div class="consultation">
+              <button>Free Consultation</button>
+          </div>
+      </ul>
+      <div class="hamburger-menu" id="hamburger-menu">
+          <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
+      </div>
+    </nav>
+    
   </header>
 
 <!-- Hero Section -->

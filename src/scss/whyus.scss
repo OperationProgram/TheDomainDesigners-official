@@ -12,15 +12,15 @@ header {
   background-color: $secondary-color;
   color: #fff;
   text-align: center;
-  padding: $standard-padding 0;
+  // padding: $standard-padding 0;
 }
 
 main {
-  padding: $standard-padding;
+  // padding: $standard-padding;
 }
 
 section {
-  margin-bottom: $standard-margin;
+  // margin-bottom: $standard-margin;
 }
 
 h2 {
@@ -38,8 +38,8 @@ p {
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: $border-radius;
-  transition: background-color $transition-duration ease;
+  // border-radius: $border-radius;
+  // transition: background-color $transition-duration ease;
 
   &:hover {
     background-color: darken($secondary-color, 10%);
@@ -83,53 +83,53 @@ p {
   background-color: $background-color;
 
   h2 {
-    margin: $standard-margin;
-    padding: $standard-padding;
+    // margin: $standard-margin;
+    // padding: $standard-padding;
     letter-spacing: 1.3px;
     color: $primary-color;
-    font-size: $xlarge-font-size;
+    // font-size: $xlarge-font-size;
     border-radius: 20px;
-    font-family: $heading-font-family;
+    // font-family: $heading-font-family;
   }
 
   p {
-    margin: $standard-margin;
+    // margin: $standard-margin;
     margin-bottom: 70px;
-    padding: $standard-padding;
+    // padding: $standard-padding;
     letter-spacing: 1.6px;
     line-height: 2;
-    font-size: $medium-font-size;
+    // font-size: $medium-font-size;
     color: $text-color;
   }
 
   img {
     max-width: 100%;
     height: auto;
-    margin-bottom: $standard-margin;
+    // margin-bottom: $standard-margin;
   }
 }
 
 .design {
-  background-color: $dark-text-color;
+  // background-color: $dark-text-color;
   margin-top: 100px;
 }
 
 .development {
-  background-color: $dark-text-color;
+  // background-color: $dark-text-color;
 }
 
 .deliver {
-  background-color: $dark-text-color;
+  // background-color: $dark-text-color;
 }
 
 /* Media queries */
 @media screen and (max-width: 1276px) {
   .content {
     h2 {
-      font-size: $large-font-size;
+      // font-size: $large-font-size;
     }
     p {
-      font-size: $medium-font-size;
+      // font-size: $medium-font-size;
     }
     img {
       max-width: 90%;
@@ -140,10 +140,10 @@ p {
 @media screen and (max-width: 768px) {
   .content {
     h2 {
-      font-size: $medium-font-size;
+      // font-size: $medium-font-size;
     }
     p {
-      font-size: $small-font-size;
+      // font-size: $small-font-size;
     }
     img {
       max-width: 80%;

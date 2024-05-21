@@ -1,77 +1,123 @@
-
 @import 'variables';
 
-$navbar-background-color: #ffffff;
-$logo-height: 40px;
-$button-background-color: #8e36a1;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#navbar {
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #fff;
-    padding: 10px 20px;
+    padding: 15px 10px;
+    background-color: #333;
+    color: white;
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: 100px;
+    position: relative;
+    z-index: 9999;
+}
 
-    .logo {
-        margin-left: 30px; // Adjust margin as needed
-        img {
-            height: $logo-height; /* Adjust height as needed */
-        }
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin-left: 5px;
     }
 
-    .links {
-        flex: 1;
-        display: flex;
-        justify-content: center;
+    a{
+        color: white;
+        text-decoration: none;
+        transition: color 0.5s ease;
+        font-size: 18px;
+        margin: 10px;
+    }
 
-        a {
-            color: #252525;
-            letter-spacing: .12em;
-            text-decoration: none;
-            margin: 0 10px;
-        }
+    a:hover {
+        color: $primary-color;
+    }
+
+}
+
+
+.consultation {
+    margin: 0 30px; // Adjust margin as needed
+
+    button {
+        background-color: map-get($primary-btn, background-color);
+        color: map-get($primary-btn, color);
+        border: map-get($primary-btn, border);
+        padding: map-get($primary-btn, padding);
+        text-align: map-get($primary-btn, text-align);
+        text-decoration: map-get($primary-btn, text-decoration);
+        display: map-get($primary-btn, display);
+        font-size: map-get($primary-btn, font-size);
+        cursor: map-get($primary-btn, cursor);
+    }
+}
+
+/* Styles for the hamburger icon */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.hamburger-icon {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s ease; /* Add transition for rotation */
+}
+
+/* Media query to hide the menu and show the hamburger icon on smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: flex-end;
+        padding: 10px 20px;
+        background-color: transparent;
+        width: auto;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -250px; /* Initially hide it offscreen to the right */
+        height: 100%;
+        width: 250px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease; 
+        z-index: 1;
+    }
+
+    .nav-menu.active {
+        right: 0; /* Slide in from the right */
+        background-color: #333;
+    }
+
+    .nav-menu li {
+        margin: 20px 0;
+    }
+
+    .hamburger-menu {
+        display: block;
     }
 
     .consultation {
-        margin-right: 30px; // Adjust margin as needed
-
-        button {
-            background-color: $primary-color;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-        }
+        margin-top: 20px;
     }
 
-    // Styles for hamburger menu
-    .hamburger-menu {
-        display: none; /* Hide by default */
-        font-size: 24px; /* Adjust the font size as needed */
-        cursor: pointer;
+    .hamburger-icon.active {
+        transform: rotate(90deg); /* Rotate the icon when active */
     }
 
-    @media screen and (max-width: 1008px) {
-        .links {
-            display: none; /* Hide links and consultation button when screen is smaller */
-        }
-
-        .consultation {
-            padding: auto;
-            margin: auto;
-            
-            button{
-                font-size: 12px;
-            }
-        }
-        .hamburger-menu {
-            display: block; /* Display hamburger menu icon */
-            margin-right: 25px;
-        }
-    }
 }

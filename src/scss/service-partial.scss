@@ -1,0 +1,105 @@
+@import "variables";
+
+body {
+    background-color: #151515;
+}
+
+.cta-button {
+    background-color: map-get($primary-btn-outline, background-color);
+    color: map-get($primary-btn-outline, color);
+    border: map-get($primary-btn-outline, border);
+    padding: map-get($primary-btn-outline, padding);
+    text-align: map-get($primary-btn-outline, text-align);
+    text-decoration: map-get($primary-btn-outline, text-decoration);
+    display: map-get($primary-btn-outline, display);
+    font-size: map-get($primary-btn-outline, font-size);
+    cursor: map-get($primary-btn-outline, cursor);
+    border-radius: map-get($primary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &:hover {
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    height: 50vh;
+    width: 100%;
+    
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero-content {
+        position: relative;
+        height: 100%;
+        background-color: #131312;
+        overflow-x: hidden;
+
+        .cta {
+            width: 50%;
+            position: absolute;
+            bottom: 10px;
+            left: 5%;
+            z-index: 999;
+            // min-width: 200px;
+
+            h1 {
+                font-size: 60px;
+                line-height: 1.6em;
+                color: #ffffff;
+            }
+
+            h2 {
+                font-weight: bold;
+                background: $linear4;
+                -webkit-background-clip: text;
+                -moz-background-clip: text; /* Mozilla prefix for future compatibility */
+                background-clip: text; /* Standard property */
+                color: transparent;
+                font-size: 24px;
+                letter-spacing: 0.2em;
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 42px;
+                    letter-spacing: 0.2em;
+                }
+    
+                h2 {
+                    font-size: 28px;
+                    letter-spacing: 0.2em;
+                }
+            }
+        }
+
+        img {
+            position: absolute;
+            right: -20%;
+            min-width: 50%;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+
+            .cta {
+                left: 30%;
+                bottom: 0;
+                min-width: 200px;
+                margin-bottom: 2rem;
+            }
+
+            img {
+                left: 50%;
+            }
+        }
+    }
+    
+}
