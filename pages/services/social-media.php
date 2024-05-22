@@ -54,6 +54,20 @@
 
     </div>
 
-   
+    <div class="hero-card-slide-container">
+      
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <p>Help your brand grow seamlessly through social media platforms</p>
+      </div>
+    </div>
 
 </section>
