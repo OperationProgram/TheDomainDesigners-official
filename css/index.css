@@ -64,7 +64,6 @@
 
 .contact-section, .about-section {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 100vh;
@@ -72,6 +71,7 @@
 }
 
 .two-column-layout {
+  display: flex;
   background-color: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
 }
 
@@ -79,13 +79,15 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   flex: 1;
   padding: 0 50px;
-  background-color: #570069 h2;
-  background-color-font-size: 2rem;
-  background-color-color: #8e36a1;
-  background-color-margin-bottom: 1em;
+  background-color: #570069;
+}
+.text-column h2 {
+  font-size: 2rem;
+  color: #8e36a1;
+  margin-bottom: 1em;
 }
 .text-column h3 {
   font-size: 1.5rem;
@@ -133,7 +135,7 @@
     background-color: #570069;
   }
   .text-column {
-    align-items: left; /* Center items horizontally */
+    align-items: flex-start; /* Changed from 'left' to 'flex-start' */
     padding: 0; /* Reset padding */
   }
   .text-column h2, .text-column h3 {

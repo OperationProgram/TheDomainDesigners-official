@@ -92,10 +92,8 @@
 
 
 
-
   .contact-section, .about-section {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     // padding: 40px 0px; 
@@ -103,40 +101,40 @@
     margin-top: 100vh;
     height: auto;
   }
-
+  
   .two-column-layout {
+    display: flex; // Ensure the parent container is a flex container
     background-color: $radial3;
   }
-
+  
   .text-column {
-
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    align-items: start; 
+    align-items: flex-start; // Changed from 'start' to 'flex-start'
     flex: 1;
     padding: 0 50px; 
-    background-color: #570069
+    background-color: #570069; // Added missing semicolon
+  
     h2 {
       font-size: 2rem;
       color: #8e36a1;
       margin-bottom: 1em;
     }
-
+  
     h3 {
       font-size: 1.5rem;
       color: #570069;
       margin: auto 0;
     }
-
+  
     p {
       font-size: 1rem;
       color: rgb(30, 30, 30);
       line-height: 1.5;
       letter-spacing: .12em;
-      
     }
-
+  
     button {
       background-color: #fff;
       color: rgb(30, 30, 30);
@@ -149,15 +147,14 @@
       border: 2px solid #8e36a1;
     }
   }
-
+  
   .image-column {
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center; 
     padding: 0 2em; 
-
-
+  
     img {
       width: 100%;
       height: auto;
@@ -166,7 +163,7 @@
       object-fit: contain; 
     }
   }
-
+  
   @media (max-width: 768px) {
     .contact-section, .about-section {
       flex-direction: column; /* Adjust flex direction for mobile */
@@ -174,25 +171,25 @@
       // margin: auto;
       background-color: #570069;
     }
-
+  
     .text-column {
-      align-items: left; /* Center items horizontally */
+      align-items: flex-start; /* Changed from 'left' to 'flex-start' */
       padding: 0; /* Reset padding */
-
+  
       h2, h3 {
         margin-top: auto;
         margin-bottom: .1em;
       }
-
+  
       p {
         text-align: left; /* Align paragraph text to the left */
       }
-
+  
       button {
         text-align: center; /* Center the button */
       }
     }
-
+  
     .image-column {
       display: flex;
       align-items: center; 
@@ -202,7 +199,6 @@
       padding: 0;
     }
   }
-
 
 
 
