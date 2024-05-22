@@ -40,7 +40,7 @@ body {
         position: relative;
         height: 100%;
         background-color: #131312;
-        overflow-x: hidden;
+        overflow: hidden;
 
         .cta {
             width: 50%;
@@ -134,4 +134,56 @@ body {
         }
     }
     
+}
+
+.contents {
+    height: 50vh;
+    width: 100%;
+    margin-top: calc(50vh + 180px);
+    background: url("../assets/mobile-2.png") no-repeat;
+    background-position: center;
+    
+    .contents-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.45);
+
+        a {
+            text-decoration: none;
+            margin: 1.2em;
+        }
+
+        .content-title {
+            display: flex;
+            color: white;
+            font-size: 22px;
+            transition: font-size 0.3s ease, color 0.3s ease;
+        }
+        
+        a:hover .content-title {
+            font-size: 26px; 
+            color: $primary-color;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .contents-container {
+            align-items: flex-start;
+            .content-title {
+                font-size: 15px;
+            }
+    
+            a:hover .content-title {
+                font-size: 16px; 
+                color: $primary-color;
+            }
+        }
+
+        
+    }
+
+
 }
