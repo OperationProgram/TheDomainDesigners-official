@@ -37,18 +37,18 @@ body {
   position: relative;
   height: 100%;
   background-color: #131312;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .hero-section .hero-content .cta {
   width: 50%;
   position: absolute;
-  bottom: 10px;
-  left: 5%;
+  left: 30%;
   z-index: 999;
+  bottom: 10px;
 }
 .hero-section .hero-content .cta h1 {
   font-size: 60px;
-  line-height: 1.6em;
+  line-height: 1.1em;
   color: #ffffff;
 }
 .hero-section .hero-content .cta h2 {
@@ -64,7 +64,6 @@ body {
 @media (max-width: 768px) {
   .hero-section .hero-content .cta h1 {
     font-size: 42px;
-    letter-spacing: 0.2em;
   }
   .hero-section .hero-content .cta h2 {
     font-size: 28px;
@@ -86,5 +85,76 @@ body {
   }
   .hero-section .hero-content img {
     left: 50%;
+  }
+}
+.hero-section .hero-card-slide-container {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
+}
+.hero-section .hero-card-slide-container .hero-card {
+  width: 25%;
+  height: 180px;
+  padding: 15px;
+  position: relative;
+}
+.hero-section .hero-card-slide-container .hero-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+}
+.hero-section .hero-card-slide-container .hero-card p {
+  position: absolute;
+  top: 25%;
+  padding: 8%;
+}
+@media (max-width: 480px) {
+  .hero-section .hero-card-slide-container {
+    display: none;
+  }
+}
+
+.contents {
+  height: 50vh;
+  width: 100%;
+  margin-top: calc(50vh + 150px);
+  background: url("../assets/mobile-2.png") no-repeat;
+  background-position: center;
+}
+.contents .contents-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.contents .contents-container a {
+  text-decoration: none;
+  margin: 1.2em;
+}
+.contents .contents-container .content-title {
+  display: flex;
+  color: white;
+  font-size: 22px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+.contents .contents-container a:hover .content-title {
+  font-size: 26px;
+  color: #9500ff;
+}
+@media (max-width: 480px) {
+  .contents .contents-container {
+    align-items: flex-start;
+  }
+  .contents .contents-container .content-title {
+    font-size: 15px;
+  }
+  .contents .contents-container a:hover .content-title {
+    font-size: 16px;
+    color: #9500ff;
   }
 }/*# sourceMappingURL=service-partial.css.map */

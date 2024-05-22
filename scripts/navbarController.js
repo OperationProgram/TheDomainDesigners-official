@@ -1,5 +1,5 @@
-// Function to load the navbar
 async function loadNavbar() {
+
     // Fetch the navbar.html content
     // await fetch(config.baseUrl + '/pages/Navigation/navbar.html')
     //     .then(response => response.text())
@@ -13,17 +13,30 @@ async function loadNavbar() {
     const navMenu = document.getElementById('nav-menu');
     const hamburgerIcon = document.getElementById('hamburger-icon');
 
-    hamburgerMenu.addEventListener('click', function() {
+    function toggleMenu() {
         navMenu.classList.toggle('active');
         hamburgerIcon.classList.toggle('active');
+    }
+
+    function closeMenu() {
+        navMenu.classList.remove('active');
+        hamburgerIcon.classList.remove('active');
+    }
+
+    hamburgerMenu.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent click from bubbling up to document
+        toggleMenu();
     });
-   
+
+    document.addEventListener('click', function(event) {
+        if (!navMenu.contains(event.target) && !hamburgerMenu.contains(event.target)) {
+            closeMenu();
+        }
+    });
+
+    navMenu.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent click from bubbling up to document
+    });
 }
 
-
-
-// Call the loadNavbar function when the page is loaded
 window.addEventListener('DOMContentLoaded', loadNavbar);
-
-
-

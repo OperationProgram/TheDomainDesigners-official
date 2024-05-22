@@ -54,6 +54,68 @@
 
     </div>
 
-   
+    <div class="hero-card-slide-container">
+      
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <img src="../../assets/mobile.png">
+      </div>
+      <div class="hero-card">
+        <p>Help your brand grow seamlessly through social media platforms</p>
+      </div>
+    </div>
 
-</section>
+  </section>
+
+  <section class="contents">
+    
+    <div class="contents-container">
+      
+      <a href="#">      
+        <div class="content-title">
+          <h2>Marketing Strategy</h2>
+          <img src="../../assets/right-arrow.svg" width="40" height="40">
+        </div>
+      </a>
+
+      <a href="#">      
+        <div class="content-title">
+          <h2>Content Creation</h2>
+          <img src="../../assets/right-arrow.svg" width="40" height="40">
+        </div>
+      </a>
+
+      <a href="#">      
+        <div class="content-title">
+          <h2>Ad Strategies</h2>
+          <img src="../../assets/right-arrow.svg" width="40" height="40">
+        </div>
+      </a>
+
+      <a href="#">      
+        <div class="content-title">
+          <h2>Ad Analytics</h2>
+          <img src="../../assets/right-arrow.svg" width="40" height="40">
+        </div>
+      </a>
+
+      <a href="#">      
+        <div class="content-title">
+          <h2>Social Media Platforms</h2>
+          <img src="../../assets/right-arrow.svg" width="40" height="40">
+        </div>
+      </a>
+    </div>
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
