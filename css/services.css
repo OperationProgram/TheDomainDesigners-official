@@ -52,7 +52,7 @@ body {
 }
 
 #services {
-  margin-top: calc(50vh + 50px);
+  margin-top: 50vh;
   transition: all 0.7s ease;
   display: flex;
   flex-direction: column;
@@ -129,6 +129,7 @@ body {
   border-radius: 30px;
   margin: 1.2rem;
   max-width: 1000px;
+  overflow: hidden;
 }
 #services .lets-chat h2 {
   position: absolute;
