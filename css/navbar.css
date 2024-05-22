@@ -98,11 +98,11 @@
   .nav-menu li {
     margin: 20px 0;
   }
-  .hamburger-menu {
-    display: block;
-  }
   .consultation {
     margin-top: 20px;
+  }
+  .hamburger-menu {
+    display: block;
   }
   .hamburger-icon.active {
     transform: rotate(90deg); /* Rotate the icon when active */
