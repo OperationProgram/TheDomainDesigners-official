@@ -53,7 +53,7 @@ body {
 }
 .hero-section .hero-content .cta h2 {
   font-weight: bold;
-  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text; /* Mozilla prefix for future compatibility */
   background-clip: text; /* Standard property */
@@ -90,7 +90,7 @@ body {
 .hero-section .hero-card-slide-container {
   display: flex;
   width: 100%;
-  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
 }
 .hero-section .hero-card-slide-container .hero-card {
   width: 25%;
@@ -110,4 +110,9 @@ body {
   position: absolute;
   top: 25%;
   padding: 8%;
+}
+@media (max-width: 480px) {
+  .hero-section .hero-card-slide-container {
+    display: none;
+  }
 }/*# sourceMappingURL=service-partial.css.map */
