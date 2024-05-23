@@ -65,7 +65,7 @@ p, a, li, button {
 .about-section .about-grid .about-text {
   background-color: #fff;
   padding: 50px;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 500px;
 }
@@ -104,7 +104,7 @@ p, a, li, button {
   max-width: 100%;
   max-height: 500px;
   height: auto;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -128,7 +128,7 @@ p, a, li, button {
 }
 .team-section .team-grid .team-card {
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   overflow: hidden;
@@ -156,7 +156,7 @@ p, a, li, button {
 
 .our-story-section .container p {
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 50px;
 }
@@ -189,7 +189,7 @@ p, a, li, button {
 .our-values-section .values-grid .value-item {
   background-color: #fff;
   padding: 20px;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 400px;
 }
