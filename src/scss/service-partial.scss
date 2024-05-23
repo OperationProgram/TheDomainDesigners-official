@@ -1,7 +1,8 @@
 @import "variables";
 
-body {
+html, body {
     background-color: #151515;
+    scroll-behavior: smooth;
 }
 
 .cta-button {
@@ -21,6 +22,63 @@ body {
     &:hover {
         background-color: transparent;
         color: white;
+    }
+}
+
+.cta-button-dark {
+    background-color: map-get($secondary-btn-outline, background-color);
+    color: map-get($secondary-btn-outline, color);
+    border: map-get($secondary-btn-outline, border);
+    padding: map-get($secondary-btn-outline, padding);
+    text-align: map-get($secondary-btn-outline, text-align);
+    text-decoration: map-get($secondary-btn-outline, text-decoration);
+    display: map-get($secondary-btn-outline, display);
+    font-size: map-get($secondary-btn-outline, font-size);
+    cursor: map-get($secondary-btn-outline, cursor);
+    border-radius: map-get($secondary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.custom-h1 {
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+.custom-h2 {
+    font-weight: bold;
+    background: $linear1;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+        letter-spacing: 0.2em;
+    }
+}
+
+.show-sm-screen {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .show-sm-screen {
+        display: block;
     }
 }
 
@@ -48,34 +106,10 @@ body {
             left: 30%;
             z-index: 999;
             bottom: 10px;
+        }
 
-            h1 {
-                font-size: 60px;
-                line-height: 1.1em;
-                color: #ffffff;
-            }
-
-            h2 {
-                font-weight: bold;
-                background: $linear4;
-                -webkit-background-clip: text;
-                -moz-background-clip: text; /* Mozilla prefix for future compatibility */
-                background-clip: text; /* Standard property */
-                color: transparent;
-                font-size: 24px;
-                letter-spacing: 0.2em;
-            }
-
-            @media (max-width: 768px) {
-                h1 {
-                    font-size: 42px;
-                }
-    
-                h2 {
-                    font-size: 28px;
-                    letter-spacing: 0.2em;
-                }
-            }
+        .custom-h1 {
+            color: #ffffff;
         }
 
         img {
@@ -96,6 +130,16 @@ body {
 
             img {
                 left: 50%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cta {
+                left: 25px;
+            }
+
+            img {
+                left:  0;
             }
         }
     }
@@ -137,7 +181,7 @@ body {
 }
 
 .contents {
-    height: 50vh;
+    height: auto;
     width: 100%;
     margin-top: calc(50vh + 150px);
     background: url("../assets/mobile-2.png") no-repeat;
@@ -169,21 +213,216 @@ body {
         }
     }
 
-    @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
+    .contents {
+        margin-top: 45vh;
+    
         .contents-container {
             align-items: flex-start;
             .content-title {
                 font-size: 15px;
             }
-    
+
             a:hover .content-title {
                 font-size: 16px; 
                 color: $primary-color;
+            }
+        }   
+    }
+}
+
+.sub-cta {
+    padding-top: 8%;
+    width: 100%;
+    display: flex;
+    // height: auto;
+    position: relative;
+    overflow-x: hidden;
+
+    .cta-column {
+        padding: 26px;
+        width: 50%;        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-box {
+        background: url("../assets/smile.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+    }
+
+    .border-radius-curved-tr {
+        border-radius: 32px 84px 32px 32px;
+    }
+
+    p {
+        font-size: 16px;
+        color: $text-color;
+    }
+
+    .video-box {
+        width: 50%;
+        height: 700px;
+        margin: 4%;
+        position: relative;
+
+        .video-thumbnail {
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 64px;
+            height: 64px;
+            background: url('../assets/play-button.svg') no-repeat center center;
+            background-size: contain;
+            cursor: pointer;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Change to 'contain' if you want the entire video visible */
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            border-radius: 50px;
+        }
+    }
+}
+
+.icons {
+    background-color: $background-color-light;
+    display: flex;
+    width: 100%;
+    padding: 8% 6%;
+    align-items: center;
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        color: $text-color;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        text-align: center;
+
+        h3 {
+            color: $accent-color;
+            padding: 15px 0;
+        };
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    // #marketing-strategy {
+        .sub-cta {
+            flex-direction: column-reverse;
+
+            .cta-column {
+                width: 100%;
+                height: 100%
+            }
+
+            .img-box {
+                width: 100%;
+                height: 400px;
+            }
+
+            .video-box {
+                width: 70%;
+                margin: 25px;
+                align-self: center;
+            }
+        }
+
+        .icons {
+            flex-direction: column;
+        }
+}
+
+#ad-strategies {
+    background-color: #131312;
+    color: #fff;
+    // height: auto;
+    width: 100%;
+
+    ul li p{
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .cta-column {
+        flex: 0 0 auto;
+    }
+    
+    .img-container {
+        width: 50%;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        align-items: center;
+        max-height: 120vh;
+        position: sticky;
+        top: 0;
+        
+        .img-box {
+            background: none;
+            width: 100%;
+            border-radius: 20px;
+            margin: 10% 5px;
+            
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 20px;
+                object-fit: cover;
             }
         }
 
         
     }
+    .img-container::-webkit-scrollbar {
+        display: none;
+        }
+        
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .img-container {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        }
 
+    @media (max-width: 768px) {
+        .img-container {
+            display: none;
+        }
+    }
+}
 
+#content-creation {
+    background-color: $background-color-light;
+}
+
+#marketing-strategy {
+    background-color: $background-color-light;
+    padding-top: 12%;
 }

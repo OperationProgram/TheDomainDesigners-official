@@ -1,5 +1,6 @@
-body {
+html, body {
   background-color: #151515;
+  scroll-behavior: smooth;
 }
 
 .cta-button {
@@ -21,6 +22,59 @@ body {
   color: white;
 }
 
+.cta-button-dark {
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 1.2rem;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.cta-button-dark:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.custom-h1 {
+  font-size: 60px;
+  line-height: 1.1em;
+}
+
+.custom-h2 {
+  font-weight: bold;
+  background: linear-gradient(to right, #9500ff, #460f92);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 28px;
+    letter-spacing: 0.2em;
+  }
+}
+.show-sm-screen {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .show-sm-screen {
+    display: block;
+  }
+}
 .hero-section {
   position: absolute;
   top: 0;
@@ -46,29 +100,8 @@ body {
   z-index: 999;
   bottom: 10px;
 }
-.hero-section .hero-content .cta h1 {
-  font-size: 60px;
-  line-height: 1.1em;
+.hero-section .hero-content .custom-h1 {
   color: #ffffff;
-}
-.hero-section .hero-content .cta h2 {
-  font-weight: bold;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text; /* Mozilla prefix for future compatibility */
-  background-clip: text; /* Standard property */
-  color: transparent;
-  font-size: 24px;
-  letter-spacing: 0.2em;
-}
-@media (max-width: 768px) {
-  .hero-section .hero-content .cta h1 {
-    font-size: 42px;
-  }
-  .hero-section .hero-content .cta h2 {
-    font-size: 28px;
-    letter-spacing: 0.2em;
-  }
 }
 .hero-section .hero-content img {
   position: absolute;
@@ -85,6 +118,14 @@ body {
   }
   .hero-section .hero-content img {
     left: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-section .hero-content .cta {
+    left: 25px;
+  }
+  .hero-section .hero-content img {
+    left: 0;
   }
 }
 .hero-section .hero-card-slide-container {
@@ -118,7 +159,7 @@ body {
 }
 
 .contents {
-  height: 50vh;
+  height: auto;
   width: 100%;
   margin-top: calc(50vh + 150px);
   background: url("../assets/mobile-2.png") no-repeat;
@@ -146,7 +187,11 @@ body {
   font-size: 26px;
   color: #9500ff;
 }
+
 @media (max-width: 480px) {
+  .contents {
+    margin-top: 45vh;
+  }
   .contents .contents-container {
     align-items: flex-start;
   }
@@ -157,4 +202,173 @@ body {
     font-size: 16px;
     color: #9500ff;
   }
+}
+.sub-cta {
+  padding-top: 8%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.sub-cta .cta-column {
+  padding: 26px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.sub-cta .img-box {
+  background: url("../assets/smile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.sub-cta .border-radius-curved-tr {
+  border-radius: 32px 84px 32px 32px;
+}
+.sub-cta p {
+  font-size: 16px;
+  color: #252525;
+}
+.sub-cta .video-box {
+  width: 50%;
+  height: 700px;
+  margin: 4%;
+  position: relative;
+}
+.sub-cta .video-box .video-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+.sub-cta .video-box .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: url("../assets/play-button.svg") no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+.sub-cta .video-box video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Change to 'contain' if you want the entire video visible */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  border-radius: 50px;
+}
+
+.icons {
+  background-color: #f4f4f4;
+  display: flex;
+  width: 100%;
+  padding: 8% 6%;
+  align-items: center;
+}
+.icons .icon {
+  display: flex;
+  flex-direction: column;
+  color: #252525;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+}
+.icons .icon h3 {
+  color: #460f92;
+  padding: 15px 0;
+}
+.icons .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .sub-cta {
+    flex-direction: column-reverse;
+  }
+  .sub-cta .cta-column {
+    width: 100%;
+    height: 100%;
+  }
+  .sub-cta .img-box {
+    width: 100%;
+    height: 400px;
+  }
+  .sub-cta .video-box {
+    width: 70%;
+    margin: 25px;
+    align-self: center;
+  }
+  .icons {
+    flex-direction: column;
+  }
+}
+#ad-strategies {
+  background-color: #131312;
+  color: #fff;
+  width: 100%;
+  /* Hide scrollbar for IE, Edge and Firefox */
+}
+#ad-strategies ul li p {
+  color: #fff;
+  font-size: 18px;
+}
+#ad-strategies .cta-column {
+  flex: 0 0 auto;
+}
+#ad-strategies .img-container {
+  width: 50%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  align-items: center;
+  max-height: 120vh;
+  position: sticky;
+  top: 0;
+}
+#ad-strategies .img-container .img-box {
+  background: none;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10% 5px;
+}
+#ad-strategies .img-container .img-box img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#ad-strategies .img-container::-webkit-scrollbar {
+  display: none;
+}
+#ad-strategies .img-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (max-width: 768px) {
+  #ad-strategies .img-container {
+    display: none;
+  }
+}
+
+#content-creation {
+  background-color: #f4f4f4;
+}
+
+#marketing-strategy {
+  background-color: #f4f4f4;
+  padding-top: 12%;
 }/*# sourceMappingURL=service-partial.css.map */

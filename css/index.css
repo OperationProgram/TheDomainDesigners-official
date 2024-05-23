@@ -10,7 +10,7 @@
 }
 
 .hero-section {
-  background: url("/assets/more/DESIGN.jpg") center/cover;
+  background: url("../assets/more/DESIGN.jpg") center/cover;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -21,7 +21,6 @@
   justify-content: center;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: rgba(66, 0, 72, 0.316);
   z-index: -1;
 }
 .hero-section .hero-video {
