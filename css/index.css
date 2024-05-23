@@ -10,7 +10,7 @@
 }
 
 .hero-section {
-  background: url("/assets/more/DESIGN.jpg") center/cover;
+  background: url("../assets/more/DESIGN.jpg") center/cover;
   background-size: cover;
   position: absolute;
   top: 0;
