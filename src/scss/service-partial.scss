@@ -24,6 +24,53 @@ body {
     }
 }
 
+.cta-button-dark {
+    background-color: map-get($secondary-btn-outline, background-color);
+    color: map-get($secondary-btn-outline, color);
+    border: map-get($secondary-btn-outline, border);
+    padding: map-get($secondary-btn-outline, padding);
+    text-align: map-get($secondary-btn-outline, text-align);
+    text-decoration: map-get($secondary-btn-outline, text-decoration);
+    display: map-get($secondary-btn-outline, display);
+    font-size: map-get($secondary-btn-outline, font-size);
+    cursor: map-get($secondary-btn-outline, cursor);
+    border-radius: map-get($secondary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.custom-h1 {
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+.custom-h2 {
+    font-weight: bold;
+    background: $linear1;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+        letter-spacing: 0.2em;
+    }
+}
+
 .hero-section {
     position: absolute;
     top: 0;
@@ -48,34 +95,10 @@ body {
             left: 30%;
             z-index: 999;
             bottom: 10px;
+        }
 
-            h1 {
-                font-size: 60px;
-                line-height: 1.1em;
-                color: #ffffff;
-            }
-
-            h2 {
-                font-weight: bold;
-                background: $linear4;
-                -webkit-background-clip: text;
-                -moz-background-clip: text; /* Mozilla prefix for future compatibility */
-                background-clip: text; /* Standard property */
-                color: transparent;
-                font-size: 24px;
-                letter-spacing: 0.2em;
-            }
-
-            @media (max-width: 768px) {
-                h1 {
-                    font-size: 42px;
-                }
-    
-                h2 {
-                    font-size: 28px;
-                    letter-spacing: 0.2em;
-                }
-            }
+        .custom-h1 {
+            color: #ffffff;
         }
 
         img {
@@ -180,10 +203,52 @@ body {
                 font-size: 16px; 
                 color: $primary-color;
             }
-        }
+        }   
+    }
+}
 
-        
+#marketing-strategy {
+    background-color: $background-color-light;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    height: auto;
+
+    .cta-column {
+        padding: 26px;
+        width: 50%;         
+        display: flex;
+        flex-direction: column;
     }
 
+    .img-box {
+        background: url("../assets/smile.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border-radius: 32px 84px 32px 32px;
+    }
 
+    p {
+        font-size: 16px;
+        color: $text-color;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #marketing-strategy {
+        flex-direction: column-reverse;
+
+        .cta-column {
+            width: 100%;
+            height: 100%
+        }
+
+        .img-box {
+            width: 100%;
+            height: 400px;
+        }
+    }
 }

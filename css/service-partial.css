@@ -21,6 +21,50 @@ body {
   color: white;
 }
 
+.cta-button-dark {
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 1.2rem;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.cta-button-dark:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.custom-h1 {
+  font-size: 60px;
+  line-height: 1.1em;
+}
+
+.custom-h2 {
+  font-weight: bold;
+  background: linear-gradient(to right, #9500ff, #460f92);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 28px;
+    letter-spacing: 0.2em;
+  }
+}
 .hero-section {
   position: absolute;
   top: 0;
@@ -46,29 +90,8 @@ body {
   z-index: 999;
   bottom: 10px;
 }
-.hero-section .hero-content .cta h1 {
-  font-size: 60px;
-  line-height: 1.1em;
+.hero-section .hero-content .custom-h1 {
   color: #ffffff;
-}
-.hero-section .hero-content .cta h2 {
-  font-weight: bold;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text; /* Mozilla prefix for future compatibility */
-  background-clip: text; /* Standard property */
-  color: transparent;
-  font-size: 24px;
-  letter-spacing: 0.2em;
-}
-@media (max-width: 768px) {
-  .hero-section .hero-content .cta h1 {
-    font-size: 42px;
-  }
-  .hero-section .hero-content .cta h2 {
-    font-size: 28px;
-    letter-spacing: 0.2em;
-  }
 }
 .hero-section .hero-content img {
   position: absolute;
@@ -156,5 +179,45 @@ body {
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
     color: #9500ff;
+  }
+}
+
+#marketing-strategy {
+  background-color: #f4f4f4;
+  margin-top: 30px;
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+#marketing-strategy .cta-column {
+  padding: 26px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#marketing-strategy .img-box {
+  background: url("../assets/smile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  border-radius: 32px 84px 32px 32px;
+}
+#marketing-strategy p {
+  font-size: 16px;
+  color: #252525;
+}
+
+@media (max-width: 768px) {
+  #marketing-strategy {
+    flex-direction: column-reverse;
+  }
+  #marketing-strategy .cta-column {
+    width: 100%;
+    height: 100%;
+  }
+  #marketing-strategy .img-box {
+    width: 100%;
+    height: 400px;
   }
 }/*# sourceMappingURL=service-partial.css.map */
