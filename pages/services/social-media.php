@@ -89,7 +89,7 @@
         </div>
       </a>
 
-      <a href="#">      
+      <a href="#ad-strategies">      
         <div class="content-title">
           <h2>Ad Strategies</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
