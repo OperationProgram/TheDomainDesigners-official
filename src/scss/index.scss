@@ -53,7 +53,7 @@
 
     .hero-content {
       position: relative;
-      max-width: 600px; // Adjust as needed
+      // max-width: 600px; // Adjust as needed
       margin: 0 auto; // Center the container horizontally
 
       // Typography styles for the hero section
@@ -96,15 +96,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100vh;
+    // margin-top: 100vh;
     height: auto;
     padding: 40px 0; // Padding around the section
+    background: $radial3;
+
   }
   
   .two-column-layout {
     display: flex; // Ensure the parent container is a flex container
     width: 100%;
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: 0 auto; // Center the layout
     background-color: #570069; // Set a background color (assuming $radial3 is defined)
   }

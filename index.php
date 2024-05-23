@@ -23,7 +23,7 @@
           <li><a href="#">Home</a></li>
           <li><a href="pages/whyus.html">Why Us</a></li>
           <li><a href="pages/services.php">Services</a></li>
-          <li><a href="#">Our Team</a></li>
+          <li><a href="pages/about.html">Our Team</a></li>
           <li><a href="#">Contact Us</a></li>
           <div class="consultation">
               <button>Free Consultation</button>

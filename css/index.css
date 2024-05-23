@@ -35,7 +35,6 @@
 }
 .hero-section .hero-content {
   position: relative;
-  max-width: 600px;
   margin: 0 auto;
 }
 .hero-section .hero-content h1 {
@@ -65,15 +64,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100vh;
   height: auto;
   padding: 40px 0;
+  background: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
 }
 
 .two-column-layout {
   display: flex;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   background-color: #570069;
 }
