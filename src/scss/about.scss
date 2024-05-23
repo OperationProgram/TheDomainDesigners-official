@@ -1,19 +1,20 @@
 $primary-color: #3498db;
-$secondary-color: #2ecc71;
+$secondary-color: #b716e8;
 $font-family: 'Helvetica Neue', sans-serif;
-$background-color: #f9f9f9;
+$background-color: #222222;
 $text-color: #333;
+$standard-border-radius: 2px;
 $button-color: $primary-color;
+$button-border-radius: 5px;
 $button-hover-color: darken($primary-color, 10%);
 $letter-spacing: .12em;
 $line-height: 1.5;
+$hero-background-image: url("/assets/information.jpg");
 
 body {
   font-family: $font-family;
   margin: 0;
   padding: 0;
-  color: $text-color;
-  background-color: $background-color;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
 }
@@ -22,6 +23,53 @@ p, a, li, button {
   letter-spacing: $letter-spacing;
   line-height: $line-height;
 }
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    $hero-background-image;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  
+    .hero-content {
+      max-width: 800px;
+      padding: 20px;
+  
+      h1 {
+        font-size: 48px;
+        color: $primary-color;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+  
+      .hero-button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: $button-border-radius;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
 
 .about-section {
   padding: 60px 20px;
@@ -32,14 +80,14 @@ p, a, li, button {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
     max-width: 1600px;
     margin: 0 auto;
     
     .about-text {
         background-color: #fff;
         padding: 50px;
-        border-radius: 10px;
+        border-radius: $standard-border-radius;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         flex: 1 1 500px;
       
@@ -67,7 +115,7 @@ p, a, li, button {
         padding: 10px 20px;
         font-size: 16px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: $button-border-radius;
         
         &:hover {
           background-color: $button-hover-color;
@@ -85,7 +133,7 @@ p, a, li, button {
         max-height: 500px;
 
         height: auto;
-        border-radius: 10px;
+        border-radius: $standard-border-radius;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
     }
@@ -113,7 +161,7 @@ p, a, li, button {
       
       .team-card {
         background-color: #fff;
-        border-radius: 10px;
+        border-radius: $standard-border-radius;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
         overflow: hidden;
@@ -122,7 +170,7 @@ p, a, li, button {
         
         img {
             width: 100%;
-            height: 200px;
+            height: 300px;
             object-fit: cover;
           }
         
@@ -145,12 +193,23 @@ p, a, li, button {
     }
   }
 
+  .our-story-section{
+    .container{
+        p {
+            background-color: #fff;
+            border-radius: $standard-border-radius;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+        }
+    }
+  }
+
   .our-story-section, .our-values-section {
     padding: 60px 20px;
     background-color: $background-color; 
     
   .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 
@@ -177,9 +236,9 @@ p, a, li, button {
     .value-item {
       background-color: #fff;
       padding: 20px;
-      border-radius: 10px;
+      border-radius: $standard-border-radius;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      flex: 1 1 300px;
+      flex: 1 1 400px;
       
       h3 {
         color: $primary-color;
@@ -193,3 +252,4 @@ p, a, li, button {
     }
   }
 }
+
