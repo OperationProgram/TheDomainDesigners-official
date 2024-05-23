@@ -194,42 +194,116 @@ html, body {
     color: #9500ff;
   }
 }
-#marketing-strategy {
+.main-cta {
   background-color: #f4f4f4;
-  margin-top: 30px;
-  padding-top: 15px;
+  padding-top: 4%;
   width: 100%;
   display: flex;
   height: auto;
+  overflow-x: hidden;
 }
-#marketing-strategy .cta-column {
+.main-cta .cta-column {
   padding: 26px;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-#marketing-strategy .img-box {
+.main-cta .img-box {
   background: url("../assets/smile.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   width: 50%;
   border-radius: 32px 84px 32px 32px;
 }
-#marketing-strategy p {
+.main-cta p {
   font-size: 16px;
   color: #252525;
 }
+.main-cta .video-box {
+  width: 50%;
+  height: 700px;
+  margin: 4%;
+  position: relative;
+}
+.main-cta .video-box .video-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+.main-cta .video-box .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: url("../assets/play-button.svg") no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+.main-cta .video-box video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Change to 'contain' if you want the entire video visible */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  border-radius: 50px;
+}
+
+.icons {
+  background-color: #f4f4f4;
+  display: flex;
+  width: 100%;
+  padding: 18% 6%;
+  align-items: center;
+}
+.icons .icon {
+  display: flex;
+  flex-direction: column;
+  color: #252525;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+}
+.icons .icon h3 {
+  color: #460f92;
+  padding: 15px 0;
+}
+.icons .icon img {
+  width: 50px;
+  height: 50px;
+}
 
 @media (max-width: 768px) {
-  #marketing-strategy {
+  .main-cta {
     flex-direction: column-reverse;
   }
-  #marketing-strategy .cta-column {
+  .main-cta .cta-column {
     width: 100%;
     height: 100%;
   }
-  #marketing-strategy .img-box {
+  .main-cta .img-box {
     width: 100%;
     height: 400px;
   }
+  .main-cta .video-box {
+    width: 70%;
+    margin: 25px;
+    align-self: center;
+  }
+  .icons {
+    flex-direction: column;
+  }
+}
+#marketing-strategy {
+  background-color: #f4f4f4;
+  padding-top: 12%;
 }/*# sourceMappingURL=service-partial.css.map */

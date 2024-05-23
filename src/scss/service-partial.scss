@@ -223,13 +223,13 @@ html, body {
     }
 }
 
-#marketing-strategy {
+.main-cta {
     background-color: $background-color-light;
-    margin-top: 30px;
-    padding-top: 15px;
+    padding-top: 4%;
     width: 100%;
     display: flex;
     height: auto;
+    overflow-x: hidden;
 
     .cta-column {
         padding: 26px;
@@ -251,20 +251,101 @@ html, body {
         color: $text-color;
     }
 
+    .video-box {
+        width: 50%;
+        height: 700px;
+        margin: 4%;
+        position: relative;
+
+        .video-thumbnail {
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 64px;
+            height: 64px;
+            background: url('../assets/play-button.svg') no-repeat center center;
+            background-size: contain;
+            cursor: pointer;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Change to 'contain' if you want the entire video visible */
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            border-radius: 50px;
+        }
+    }
+}
+
+.icons {
+    background-color: $background-color-light;
+    display: flex;
+    width: 100%;
+    padding: 18% 6%;
+    align-items: center;
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        color: $text-color;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        text-align: center;
+
+        h3 {
+            color: $accent-color;
+            padding: 15px 0;
+        };
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
-    #marketing-strategy {
-        flex-direction: column-reverse;
+    // #marketing-strategy {
+        .main-cta {
+            flex-direction: column-reverse;
 
-        .cta-column {
-            width: 100%;
-            height: 100%
+            .cta-column {
+                width: 100%;
+                height: 100%
+            }
+
+            .img-box {
+                width: 100%;
+                height: 400px;
+            }
+
+            .video-box {
+                width: 70%;
+                margin: 25px;
+                align-self: center;
+            }
         }
 
-        .img-box {
-            width: 100%;
-            height: 400px;
+        .icons {
+            flex-direction: column;
         }
-    }
+}
+
+#marketing-strategy {
+    background-color: $background-color-light;
+    padding-top: 12%;
 }
