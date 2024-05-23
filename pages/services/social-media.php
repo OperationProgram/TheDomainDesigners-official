@@ -114,7 +114,7 @@
   </section>
 
   <section id="marketing-strategy">
-    <div class="main-cta">
+    <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Building Your Plan</h2>
         <h1 class="custom-h1">Marketing Strategy</h1>
@@ -125,7 +125,7 @@
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
     </div>
 
     <div class="icons">
@@ -153,7 +153,7 @@
   </section>
 
   <section id="content-creation">
-    <div class="main-cta">
+    <div class="sub-cta">
       <div class="video-box">
         <img src="../../assets/mobile-2.png" alt="Video Thumbnail" class="video-thumbnail" id="video-thumbnail">
         <div class="play-button" id="play-button"></div>
@@ -162,20 +162,7 @@
             Your browser does not support the video tag.
         </video>
       </div>
-      <script>
-        document.getElementById('play-button').addEventListener('click', function() {
-            var video = document.getElementById('video');
-            var thumbnail = document.getElementById('video-thumbnail');
-            var playButton = document.getElementById('play-button');
-
-            thumbnail.style.display = 'none';
-            playButton.style.display = 'none';
-            video.style.display = 'block';
-            video.play();
-        });
-      </script>
-      
-
+  
       <div class="cta-column">
         <h2 class="custom-h2">Check Out The Future</h2>
         <h1 class="custom-h1">Content Creation</h1>
@@ -189,6 +176,74 @@
     
   </section>
 
+  <section id="ad-strategies">
+  
+    <div id="partial-scroll" class="sub-cta">
+      <div class="cta-column">
+        <h2 class="custom-h2">Let Ads Work For You</h2>
+        <h1 class="custom-h1">Ad Strategies</h1>
+        <ul>
+          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+            It's a powerful platform to connect with customers, build brand
+            loyalty, and drive sales. But managing multiple platforms, 
+            creating engaging content with high quality visuals, and
+            analyzing results can be overwhelming.
+            <br /><br />   
+            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          </p></li>
+          <br />
+          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+            It's a powerful platform to connect with customers, build brand
+            loyalty, and drive sales. But managing multiple platforms, 
+            creating engaging content with high quality visuals, and
+            analyzing results can be overwhelming.
+            <br /><br />   
+            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          </p></li> 
+          <br />
+          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+            It's a powerful platform to connect with customers, build brand
+            loyalty, and drive sales. But managing multiple platforms, 
+            creating engaging content with high quality visuals, and
+            analyzing results can be overwhelming.
+            <br /><br />   
+            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          </p></li>
+          <br />
+          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+            It's a powerful platform to connect with customers, build brand
+            loyalty, and drive sales. But managing multiple platforms, 
+            creating engaging content with high quality visuals, and
+            analyzing results can be overwhelming.
+            <br /><br />   
+            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          </p></li>
+        </ul>
+        <button class="cta-button">Let's Chat</button>
+      </div>
+      
+      <img src="../../assets/mobile-2.png" class="show-sm-screen">
+      <div class="img-container">
+        <div class="img-box">
+          <img src="../../assets/smile.jpg">
+        </div>
+        <div class="img-box">
+          <img src="../../assets/smile.jpg">
+        </div>
+        <div class="img-box">
+          <img src="../../assets/smile.jpg">
+        </div>
+        <div class="img-box">
+          <img src="../../assets/smile.jpg">
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <script src="../../scripts/partialScrollContainer.js"></script>
+  <script src="../../scripts/videoThumbnail.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
     AOS.init({
