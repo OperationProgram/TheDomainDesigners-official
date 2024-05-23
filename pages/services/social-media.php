@@ -75,7 +75,7 @@
     
     <div class="contents-container">
       
-      <a href="#">      
+      <a href="#marketing-strategy">      
         <div class="content-title">
           <h2>Marketing Strategy</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
@@ -114,7 +114,6 @@
   </section>
 
   <section id="marketing-strategy">
-    <!-- <div class="cta-container"> -->
       <div class="cta-column">
         <h2 class="custom-h2">Building Your Plan</h2>
         <h1 class="custom-h1">Marketing Strategy</h1>
@@ -126,7 +125,6 @@
       </div>
 
       <div class="img-box"></div>
-    <!-- </div> -->
 
   </section>
 

@@ -1,7 +1,8 @@
 @import "variables";
 
-body {
+html, body {
     background-color: #151515;
+    scroll-behavior: smooth;
 }
 
 .cta-button {
