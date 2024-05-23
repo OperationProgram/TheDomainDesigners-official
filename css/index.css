@@ -64,43 +64,51 @@
 
 .contact-section, .about-section {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 100vh;
   height: auto;
+  padding: 40px 0;
 }
 
 .two-column-layout {
-  background-color: radial-gradient(circle, #9500ff, #7700cc, #000000, #460f92);
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #570069;
 }
 
 .text-column {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   flex: 1;
   padding: 0 50px;
-  background-color: #570069 h2;
-  background-color-font-size: 2rem;
-  background-color-color: #8e36a1;
-  background-color-margin-bottom: 1em;
+  background-color: #570069;
+  color: #fff;
+}
+.text-column h2 {
+  font-size: 2rem;
+  color: #8e36a1;
+  margin-bottom: 1em;
 }
 .text-column h3 {
   font-size: 1.5rem;
-  color: #570069;
-  margin: auto 0;
+  color: #fff;
+  margin-bottom: 0.5em;
 }
 .text-column p {
   font-size: 1rem;
-  color: rgb(30, 30, 30);
+  color: #fff;
   line-height: 1.5;
   letter-spacing: 0.12em;
+  margin-bottom: 1em;
 }
 .text-column button {
   background-color: #fff;
-  color: rgb(30, 30, 30);
+  color: #570069;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -108,6 +116,10 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   border: 2px solid #8e36a1;
+}
+.text-column button:hover {
+  background-color: #8e36a1;
+  color: #fff;
 }
 
 .image-column {
@@ -127,32 +139,26 @@
 }
 
 @media (max-width: 768px) {
-  .contact-section, .about-section {
-    flex-direction: column; /* Adjust flex direction for mobile */
-    text-align: left; /* Center text content */
-    background-color: #570069;
+  .two-column-layout {
+    flex-direction: column;
   }
   .text-column {
-    align-items: left; /* Center items horizontally */
-    padding: 0; /* Reset padding */
+    align-items: center;
+    padding: 0;
   }
   .text-column h2, .text-column h3 {
-    margin-top: auto;
-    margin-bottom: 0.1em;
+    margin: 0.5em 0;
   }
   .text-column p {
-    text-align: left; /* Align paragraph text to the left */
+    text-align: left;
+    margin: 0.5em 0;
   }
   .text-column button {
-    text-align: center; /* Center the button */
+    margin-top: 1em;
+    text-align: center;
   }
   .image-column {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px; /* Add margin to separate the two columns */
-    -o-object-fit: cover;
-       object-fit: cover;
+    margin-top: 10px;
     padding: 0;
   }
 }
