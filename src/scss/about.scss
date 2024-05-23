@@ -42,6 +42,7 @@ p, a, li, button {
   
     .hero-content {
       max-width: 800px;
+      height: auto;
       padding: 20px;
   
       h1 {
@@ -83,6 +84,7 @@ p, a, li, button {
     gap: 10px;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #a21594;
     
     .about-text {
         background-color: #fff;
