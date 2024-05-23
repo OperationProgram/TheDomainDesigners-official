@@ -110,6 +110,14 @@ body {
     left: 50%;
   }
 }
+@media (max-width: 480px) {
+  .hero-section .hero-content .cta {
+    left: 25px;
+  }
+  .hero-section .hero-content img {
+    left: 0;
+  }
+}
 .hero-section .hero-card-slide-container {
   display: flex;
   width: 100%;
@@ -141,7 +149,7 @@ body {
 }
 
 .contents {
-  height: 50vh;
+  height: auto;
   width: 100%;
   margin-top: calc(50vh + 150px);
   background: url("../assets/mobile-2.png") no-repeat;
@@ -152,6 +160,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.65);
 }
 .contents .contents-container a {
