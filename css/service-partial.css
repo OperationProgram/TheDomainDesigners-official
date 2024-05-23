@@ -177,7 +177,11 @@ body {
   font-size: 26px;
   color: #9500ff;
 }
+
 @media (max-width: 480px) {
+  .contents {
+    margin-top: 45vh;
+  }
   .contents .contents-container {
     align-items: flex-start;
   }
@@ -189,7 +193,6 @@ body {
     color: #9500ff;
   }
 }
-
 #marketing-strategy {
   background-color: #f4f4f4;
   margin-top: 30px;

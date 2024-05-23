@@ -202,13 +202,18 @@ body {
         }
     }
 
-    @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
+    .contents {
+        margin-top: 45vh;
+    
         .contents-container {
             align-items: flex-start;
             .content-title {
                 font-size: 15px;
             }
-    
+
             a:hover .content-title {
                 font-size: 16px; 
                 color: $primary-color;
