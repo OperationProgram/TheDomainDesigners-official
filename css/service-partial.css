@@ -185,7 +185,7 @@ html, body {
 }
 .contents .contents-container a:hover .content-title {
   font-size: 26px;
-  color: #9500ff;
+  color: #b716e8;
 }
 
 @media (max-width: 480px) {
@@ -200,7 +200,7 @@ html, body {
   }
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
-    color: #9500ff;
+    color: #b716e8;
   }
 }
 .sub-cta {
@@ -284,7 +284,7 @@ html, body {
   text-align: center;
 }
 .icons .icon h3 {
-  color: #460f92;
+  color: #b716e8;
   padding: 15px 0;
 }
 .icons .icon img {

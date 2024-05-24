@@ -18,7 +18,6 @@
  
 
     <nav class="navbar">
-      
       <ul class="nav-menu" id="nav-menu">
           <li><a href="#">Home</a></li>
           <li><a href="pages/whyus.html">Why Us</a></li>
@@ -93,24 +92,9 @@
         <img src="<?php echo $currentConfig['baseUrl']; ?>assets/02.jpg" alt="Deliver Image">
     </div>
 </section>
-<!-- Other sections of your website -->
-
-
-<section class="cta-section">
-  <div class="container">
-      <h2>Let's Bring Your Ideas to Life</h2>
-      <p>Ready to start your project with us? Reach out today and let's create something amazing together!</p>
-      <a href="contact.html" class="btn btn-primary">Get Started</a>
-  </div>
-</section>
-
-
-
-
-
-
 
 <section class="about-section fade-in-text">
+  <div class="two-column-layout">
     <div class="text-column">
       <h3>About Us</h3>
       <h2>Our Story</h2>
@@ -120,8 +104,8 @@
     <div class="image-column">
       <img src="assets/more/teamwork.jpg" alt="Image">
     </div>
+  </div>
   </section>
-
 
   <section class="sliding-feature-section">
     <div class="sliding-feature-content">

@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #3498db;
   color: #fff;
   text-align: center;
 }
@@ -21,13 +21,13 @@ p {
 
 .btn {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #3498db;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
 }
 .btn:hover {
-  background-color: #e6e6e6;
+  background-color: #217dbb;
 }
 
 /* Define global styles using variables */
@@ -47,7 +47,7 @@ p {
   transform: translateX(-50%);
   width: 70%;
   height: 2px;
-  background-color: #9500ff;
+  background-color: #b716e8;
 }
 .section:nth-child(even) .content {
   order: 1;
@@ -66,7 +66,7 @@ p {
 }
 .content h2 {
   letter-spacing: 1.3px;
-  color: #9500ff;
+  color: #b716e8;
   border-radius: 20px;
 }
 .content p {

@@ -5,7 +5,7 @@
 
 // Define variables for colors and other reusable properties
 
-  $hero-background: url('../assets/more/DESIGN.jpg') center/cover;
+  $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
 
   // TEXT EFFECTS
   .fade-in-text {
@@ -19,8 +19,6 @@
       opacity: 1 !important; // Fade in the text
     }
   }
-
-
 
   // Main hero section styles
   .hero-section {
@@ -37,7 +35,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     // padding: 20px;
-    // background-color: rgba(66, 0, 72, 0.316);
+    background-color: rgba(66, 0, 72, 0.316);
     z-index: -1;
 
 
@@ -96,19 +94,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // margin-top: 100vh;
+    margin-top: 100vh;
     height: auto;
     padding: 40px 0; // Padding around the section
-    background: $radial3;
+    background: $background-color-dark;
+
 
   }
   
   .two-column-layout {
     display: flex; // Ensure the parent container is a flex container
     width: 100%;
-    // max-width: 1200px;
     margin: 0 auto; // Center the layout
-    background-color: #570069; // Set a background color (assuming $radial3 is defined)
   }
   
   .text-column {
@@ -118,7 +115,7 @@
     align-items: flex-start; // Changed from 'start' to 'flex-start'
     flex: 1;
     padding: 0 50px; 
-    background-color: #570069; // Added missing semicolon
+    background-color: #ffffff00; // Added missing semicolon
     color: #fff; // Set text color to white for contrast
   
     h2 {
@@ -208,7 +205,7 @@
 
   .work-flow {
     padding: 40px 40px; // STANDARD PADDING
-    background: $radial3;
+    background: $background-color-dark;
   }
 
   .clickable-section {
