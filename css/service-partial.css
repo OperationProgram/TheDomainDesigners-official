@@ -371,4 +371,11 @@ html, body {
 #marketing-strategy {
   background-color: #f4f4f4;
   padding-top: 12%;
+}
+
+#ad-analytics {
+  padding: 4%;
+}
+#ad-analytics h1, #ad-analytics p {
+  color: white;
 }/*# sourceMappingURL=service-partial.css.map */
