@@ -242,17 +242,17 @@
 
   </section>
 
-  <section id="Ad Analytics">
+  <section id="ad-analytics">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
       <div class="cta-column">
-        <h2 class="custom-h2">Building Your Plan</h2>
-        <h1 class="custom-h1">Marketing Strategy</h1>
+        <h2 class="custom-h2">Analyze Your Strategy</h2>
+        <h1 class="custom-h1">Ad Analytics</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
         </p>
-        <button class="cta-button-dark">Let's Chat</button>
+        <button class="cta-button">Let's Chat</button>
       </div>
 
     </div>
