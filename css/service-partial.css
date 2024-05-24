@@ -214,7 +214,6 @@ p {
   }
 }
 .sub-cta {
-  padding-top: 8%;
   width: 100%;
   display: flex;
   position: relative;
@@ -373,6 +372,10 @@ p {
 @media (max-width: 768px) {
   #ad-strategies .img-container {
     display: none;
+  }
+  #ad-strategies .text-column {
+    float: none;
+    width: 100%;
   }
 }
 

@@ -177,66 +177,66 @@
   </section>
 
   <section id="ad-strategies">
-      <div id="ps-left-column" class="text-column">
-        <h2 class="custom-h2">Let Ads Work For You</h2>
-        <h1 class="custom-h1">Ad Strategies</h1>
-        <ul>
-          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-            It's a powerful platform to connect with customers, build brand
-            loyalty, and drive sales. But managing multiple platforms, 
-            creating engaging content with high quality visuals, and
-            analyzing results can be overwhelming.
-            <br /><br />   
-            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-          </p></li>
-          <br />
-          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-            It's a powerful platform to connect with customers, build brand
-            loyalty, and drive sales. But managing multiple platforms, 
-            creating engaging content with high quality visuals, and
-            analyzing results can be overwhelming.
-            <br /><br />   
-            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-          </p></li> 
-          <br />
-          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-            It's a powerful platform to connect with customers, build brand
-            loyalty, and drive sales. But managing multiple platforms, 
-            creating engaging content with high quality visuals, and
-            analyzing results can be overwhelming.
-            <br /><br />   
-            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-          </p></li>
-          <br />
-          <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-            It's a powerful platform to connect with customers, build brand
-            loyalty, and drive sales. But managing multiple platforms, 
-            creating engaging content with high quality visuals, and
-            analyzing results can be overwhelming.
-            <br /><br />   
-            That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-          </p></li>
-        </ul>
-        <button class="cta-button">Let's Chat</button>
+    <img src="../../assets/mobile-2.png" class="show-sm-screen">
+    <div id="ps-left-column" class="text-column">
+      <h2 class="custom-h2">Let Ads Work For You</h2>
+      <h1 class="custom-h1">Ad Strategies</h1>
+      <ul>
+        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+          It's a powerful platform to connect with customers, build brand
+          loyalty, and drive sales. But managing multiple platforms, 
+          creating engaging content with high quality visuals, and
+          analyzing results can be overwhelming.
+          <br /><br />   
+          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p></li>
+        <br />
+        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+          It's a powerful platform to connect with customers, build brand
+          loyalty, and drive sales. But managing multiple platforms, 
+          creating engaging content with high quality visuals, and
+          analyzing results can be overwhelming.
+          <br /><br />   
+          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p></li> 
+        <br />
+        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+          It's a powerful platform to connect with customers, build brand
+          loyalty, and drive sales. But managing multiple platforms, 
+          creating engaging content with high quality visuals, and
+          analyzing results can be overwhelming.
+          <br /><br />   
+          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p></li>
+        <br />
+        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
+          It's a powerful platform to connect with customers, build brand
+          loyalty, and drive sales. But managing multiple platforms, 
+          creating engaging content with high quality visuals, and
+          analyzing results can be overwhelming.
+          <br /><br />   
+          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p></li>
+      </ul>
+      <button class="cta-button">Let's Chat</button>
+    </div>
+    
+    <div class="img-container">
+      <div class="img-box">
+        <img src="../../assets/smile.jpg">
       </div>
-      
-      <img src="../../assets/mobile-2.png" class="show-sm-screen">
-      <div class="img-container">
-        <div class="img-box">
-          <img src="../../assets/smile.jpg">
-        </div>
-        <div class="img-box">
-          <img src="../../assets/smile.jpg">
-        </div>
-        <div class="img-box">
-          <img src="../../assets/smile.jpg">
-        </div>
-        <div class="img-box">
-          <img src="../../assets/smile.jpg">
-        </div>
+      <div class="img-box">
+        <img src="../../assets/smile.jpg">
       </div>
+      <div class="img-box">
+        <img src="../../assets/smile.jpg">
+      </div>
+      <div class="img-box">
+        <img src="../../assets/smile.jpg">
+      </div>
+    </div>
 
-      <div class="clearfix"></div>
+    <div class="clearfix"></div>
 
   </section>
 

@@ -244,7 +244,6 @@ p {
 }
 
 .sub-cta {
-    padding-top: 8%;
     width: 100%;
     display: flex;
     position: relative;
@@ -434,6 +433,11 @@ p {
     @media (max-width: 768px) {
         .img-container {
             display: none;
+        }
+
+        .text-column {
+            float: none;
+            width: 100%;
         }
     }
 }
