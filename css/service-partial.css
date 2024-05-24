@@ -317,6 +317,7 @@ html, body {
   background-color: #131312;
   color: #fff;
   width: 100%;
+  padding: 4%;
   /* Hide scrollbar for IE, Edge and Firefox */
 }
 #ad-strategies ul li p {
@@ -370,6 +371,7 @@ html, body {
 
 #marketing-strategy {
   background-color: #f4f4f4;
+  padding: 4%;
   padding-top: 12%;
 }
 
