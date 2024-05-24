@@ -96,14 +96,14 @@
         </div>
       </a>
 
-      <a href="#">      
+      <a href="#ad-analytics">      
         <div class="content-title">
           <h2>Ad Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
 
-      <a href="#">      
+      <a href="#social-media-platforms">      
         <div class="content-title">
           <h2>Social Media Platforms</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
