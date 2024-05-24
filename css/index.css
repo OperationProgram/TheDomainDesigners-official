@@ -1,5 +1,5 @@
 body {
-  background-color: #202020;
+  background-color: #111;
 }
 
 .fade-in-text {
@@ -25,7 +25,7 @@ body {
   justify-content: center;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: rgba(66, 0, 72, 0.316);
+  background-color: rgba(95, 0, 0, 0.316);
   z-index: -1;
 }
 .hero-section .hero-video {
@@ -46,6 +46,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #b716e8;
 }
 .hero-section .hero-content p {
   font-size: 1.2rem;
@@ -74,8 +75,8 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
-  padding: 40px 0;
-  background: #202020;
+  padding: 8%;
+  background: #111;
 }
 
 .two-column-layout {
@@ -96,7 +97,7 @@ body {
 }
 .text-column h2 {
   font-size: 2rem;
-  color: #8e36a1;
+  color: #b716e8;
   margin-bottom: 1em;
 }
 .text-column h3 {
@@ -113,17 +114,17 @@ body {
 }
 .text-column button {
   background-color: #fff;
-  color: #570069;
+  color: #b716e8;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #8e36a1;
+  border: 2px solid #b716e8;
 }
 .text-column button:hover {
-  background-color: #8e36a1;
+  background-color: #b716e8;
   color: #fff;
 }
 
@@ -132,7 +133,7 @@ body {
   flex: 1;
   justify-content: center;
   align-items: center;
-  padding: 0 2em;
+  padding: 0 0;
 }
 .image-column img {
   width: 100%;
@@ -168,8 +169,8 @@ body {
   }
 }
 .work-flow {
-  padding: 40px 40px;
-  background: #202020;
+  padding: 8%;
+  background: #111;
 }
 
 .clickable-section {
@@ -284,7 +285,7 @@ body {
 }
 
 .testimonials-container {
-  background-color: rgb(255, 255, 255);
+  background-color: #111;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,10 +293,10 @@ body {
 }
 
 .testimonial {
-  background-color: #b716e8;
+  background-color: #fff;
   color: #252525;
   padding: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
   text-align: center; /* Center text horizontally */
   width: 80%; /* Adjust the width as needed */
   border-radius: 10px;

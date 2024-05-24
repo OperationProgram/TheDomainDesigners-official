@@ -23,7 +23,7 @@
           <li><a href="pages/whyus.html">Why Us</a></li>
           <li><a href="pages/services.php">Services</a></li>
           <li><a href="pages/about.html">Our Team</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="pages/contact.php">Contact Us</a></li>
           <div class="consultation">
               <button>Free Consultation</button>
           </div>
@@ -42,9 +42,9 @@
         Your browser does not support the video tag.
     </video> -->  
     <div class="hero-content">
-        <h1>Do You Have a Dream?"</h1>
-        <h2>Let Our Expert Team Turn It into Reality.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h1>Have a Vision.."</h1>
+        <h2>Let Our Experts Turn It into Reality.</h2>
+        <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
 </section>
@@ -107,7 +107,7 @@
   </div>
   </section>
 
-  <section class="sliding-feature-section">
+  <!-- <section class="sliding-feature-section">
     <div class="sliding-feature-content">
       <h2>Content Title</h2>
       <p>Content description goes here...</p>
@@ -116,7 +116,7 @@
     <div class="sliding-feature-image">
       <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -128,7 +128,7 @@
         <div class="image-container">
             <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg">
                 <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg" alt="Image 1">
-                <h2 class="image-title">Tesla</h2>
+                <h2 class="image-title">Cars</h2>
             </a>
         </div>
         <div class="image-container">
@@ -148,7 +148,7 @@
         <div class="image-container">
             <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg">
                 <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg" alt="Image 4">
-                <h2 class="image-title">Pretty Girls</h2>
+                <h2 class="image-title">Fashion</h2>
             </a>
         </div>
         <div class="image-container">
@@ -159,6 +159,21 @@
         </div>
     </div>
 </section>
+
+
+<section class="about-section fade-in-text">
+  <div class="two-column-layout">
+    <div class="text-column">
+      <h3>About Us</h3>
+      <h2>Our Story</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button>Learn More</button>
+    </div>
+    <div class="image-column">
+      <img src="assets/more/teamwork.jpg" alt="Image">
+    </div>
+  </div>
+  </section>
 
 
 

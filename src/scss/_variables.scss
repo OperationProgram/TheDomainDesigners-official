@@ -2,14 +2,29 @@
 
 
 
+
+
+//Typography
+// Primary Font
+$primary-font: 'Roboto', sans-serif; // Modern and clean sans-serif font
+
+// Backup Fonts
+$backup-font-1: 'Arial', sans-serif; // Standard sans-serif font
+$backup-font-2: 'Helvetica', sans-serif; // Clean and widely supported sans-serif font
+
+// Optional Secondary Font
+$secondary-font: 'Montserrat', sans-serif; // Elegant and versatile sans-serif font
+
 // Colors
 $primary-color: #b716e8; 
 $secondary-color: #3498db;
 $accent-color: #b716e8;
-$text-color: #252525; 
+$text-color-dark: #252525; 
+$text-color-light: #fff;
+
 $background-color: #f4f4f4;
 $background-color-light: #f4f4f4;
-$background-color-dark: #202020;
+$background-color-dark: #111;
 
 $radial1: radial-gradient(circle, #9500ff, #460f92);
 $radial2: radial-gradient(circle, #9500ff, #000000, #460f92);
@@ -22,18 +37,18 @@ $linear4: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,23,200,1) 57%, rgba
 
 
 
-// Typography
-$base-font-size: 16px; // Base font size for the document
-$small-font-size: 12px;
 
-// SMALL, MEDIUM, LARGE, XLARGE
-$heading-font-family: 'Arial', sans-serif; // Font family for headings
-$body-font-family: 'Arial', sans-serif; // Font family for body text
 
-// Spacing
-$base-spacing-unit: 16px; // Base spacing unit for margins, padding, etc.
-$standard-padding: 20px; // Standard padding value
-$standard-margin: 20px; // Standard margin value
+//VARIABLES THAT NEED TO BE SORTED
+$standard-border-radius: 10px;
+$button-color: $secondary-color;
+$button-border-radius: 5px; 
+$button-hover-color: darken($secondary-color, 10%);
+$letter-spacing: .12em;
+$line-height: 1.5;
+$hero-background-image: url("../assets/information.jpg");
+
+
 
 // Border radius
 $border-radius: 4px; // Standard border radius value
@@ -49,7 +64,7 @@ $container-max-width: 1200px; // Max width for container elements
 
 
 $primary-btn: (
-    background-color: #9500ff,
+    background-color: $primary-color,
     color: white,
     border: none,
     padding: 10px 20px,

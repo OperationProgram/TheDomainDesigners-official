@@ -1,6 +1,6 @@
 body {
-  background-color: #222222;
-  font-family: "Helvetica Neue", sans-serif;
+  background-color: #111;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   letter-spacing: 0.12em;
@@ -53,7 +53,7 @@ body {
 .about-section {
   margin-top: 400px;
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #111;
 }
 .about-section .about-grid {
   display: flex;
@@ -65,7 +65,7 @@ body {
   margin: 0 auto;
 }
 .about-section .about-grid .about-text {
-  background-color: #fff;
+  background-color: #222;
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -82,6 +82,7 @@ body {
   margin-bottom: 10px;
 }
 .about-section .about-grid .about-text p {
+  color: #fff;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -112,7 +113,7 @@ body {
 
 .team-section {
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #111;
 }
 .team-section h2 {
   text-align: center;
@@ -129,7 +130,7 @@ body {
   margin: 0 auto;
 }
 .team-section .team-grid .team-card {
-  background-color: #fff;
+  background-color: #222;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -149,6 +150,7 @@ body {
   margin: 20px 0 10px;
 }
 .team-section .team-grid .team-card p {
+  color: #fff;
   margin: 0 20px 20px;
   line-height: 1.6;
 }
@@ -158,15 +160,16 @@ body {
 }
 
 .our-story-section .container p {
-  background-color: #fff;
+  background-color: #222;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 50px;
+  color: #fff;
 }
 
 .our-story-section, .our-values-section {
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #111;
 }
 .our-story-section .container, .our-values-section .container {
   max-width: 1600px;
@@ -190,7 +193,7 @@ body {
   gap: 40px;
 }
 .our-values-section .values-grid .value-item {
-  background-color: #fff;
+  background-color: #222;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -202,5 +205,6 @@ body {
   margin-bottom: 10px;
 }
 .our-values-section .values-grid .value-item p {
+  color: #fff;
   line-height: 1.5;
 }/*# sourceMappingURL=about.css.map */
