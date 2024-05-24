@@ -1,23 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const container = document.getElementById('partial-scroll');
+function updateContainerHeight() {
     const rightColumn = document.querySelector('.img-container');
-    
-    
-    container.addEventListener('wheel', (e) => {
-        // var rect = container.getBoundingClientRect();
-        // var atTop = rect.top <= 1 && rect.top >= -1;
-        var scrollBottom = rightColumn.scrollHeight - (rightColumn.scrollTop + rightColumn.clientHeight);
-        if ((rightColumn.scrollTop <= 0 && e.deltaY < 0 )|| (scrollBottom <= 2 && e.deltaY > 0)) {
-            return;
-        }
-        // console.log(rect.top);
-        // if (atTop) {
-        //     console.log("top");
-        // }
+    const leftColumn = document.getElementById('ps-left-column');
 
-        if (e.deltaY !== 0) {
-            e.preventDefault();
-            rightColumn.scrollTop += e.deltaY;
-        }
-    });
+    // Get the clientHeight of container1
+    const leftClientHeight = leftColumn.clientHeight;
+
+    // Set the height of rightColumn to match the clientHeight of container1
+    rightColumn.style.height = `${leftClientHeight}px`;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateContainerHeight(); // Set initial height
+
+    // Update height on window resize
+    window.addEventListener('resize', updateContainerHeight);
 });

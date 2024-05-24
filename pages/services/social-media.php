@@ -178,8 +178,8 @@
 
   <section id="ad-strategies">
   
-    <div id="partial-scroll" class="sub-cta">
-      <div class="cta-column">
+    <div id="partial-scroll" class="">
+      <div id="ps-left-column" class="text-column">
         <h2 class="custom-h2">Let Ads Work For You</h2>
         <h1 class="custom-h1">Ad Strategies</h1>
         <ul>
@@ -258,7 +258,7 @@
     </div>
   </section>
 
-  <!-- <script src="../../scripts/partialScrollContainer.js"></script> -->
+  <script src="../../scripts/partialScrollContainer.js"></script>
   <script src="../../scripts/videoThumbnail.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
