@@ -19,24 +19,26 @@
   z-index: 9999;
 }
 
-.nav-menu {
+#nav-menu {
   list-style: none;
   display: flex;
   align-items: center;
   margin: 0;
   padding: 0;
+  letter-spacing: 0;
+  line-height: 0;
 }
-.nav-menu li {
+#nav-menu li {
   margin-left: 5px;
 }
-.nav-menu a {
+#nav-menu a {
   color: white;
   text-decoration: none;
   transition: color 0.5s ease;
   font-size: 18px;
   margin: 10px;
 }
-.nav-menu a:hover {
+#nav-menu a:hover {
   color: #9500ff;
 }
 

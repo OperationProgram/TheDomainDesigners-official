@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/information.jpg");
   background-size: cover;
   background-position: center;
@@ -21,6 +21,7 @@ body {
   position: absolute;
   top: 0;
   z-index: -1;
+  width: 100%;
 }
 .hero-section .hero-content {
   max-width: 800px;
