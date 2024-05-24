@@ -2,6 +2,8 @@
 
 
 
+
+
 //Typography
 // Primary Font
 $primary-font: 'Roboto', sans-serif; // Modern and clean sans-serif font
@@ -34,6 +36,20 @@ $linear3: linear-gradient(to right, #9500ff, #7700cc, #000000, #460f92);
 $linear4: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,23,200,1) 57%, rgba(0,212,255,1) 100%);
 
 
+
+
+
+//VARIABLES THAT NEED TO BE SORTED
+$standard-border-radius: 10px;
+$button-color: $secondary-color;
+$button-border-radius: 5px; 
+$button-hover-color: darken($secondary-color, 10%);
+$letter-spacing: .12em;
+$line-height: 1.5;
+$hero-background-image: url("../assets/information.jpg");
+
+
+
 // Border radius
 $border-radius: 4px; // Standard border radius value
 
@@ -48,7 +64,7 @@ $container-max-width: 1200px; // Max width for container elements
 
 
 $primary-btn: (
-    background-color: #9500ff,
+    background-color: $primary-color,
     color: white,
     border: none,
     padding: 10px 20px,

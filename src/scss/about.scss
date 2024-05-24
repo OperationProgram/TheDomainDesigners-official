@@ -1,19 +1,10 @@
-$primary-color: #3498db;
-$secondary-color: #b716e8;
-$font-family: 'Helvetica Neue', sans-serif;
-$background-color: #202020;
-$text-color: #333;
-$standard-border-radius: 10px;
-$button-color: $primary-color;
-$button-border-radius: 5px;
-$button-hover-color: darken($primary-color, 10%);
-$letter-spacing: .12em;
-$line-height: 1.5;
-$hero-background-image: url("../assets/information.jpg");
+// IMPORTS
+@import 'variables';
+
 
 body {
-  background-color: $background-color;
-  font-family: $font-family;
+  background-color: $background-color-dark;
+  font-family: $primary-font;
   margin: 0;
   padding: 0;
   letter-spacing: $letter-spacing;
@@ -51,7 +42,7 @@ p, a, li, button {
   
       h1 {
         font-size: 48px;
-        color: $primary-color;
+        color: $secondary-color;
         margin-bottom: 20px;
       }
   
@@ -61,7 +52,7 @@ p, a, li, button {
       }
   
       .hero-button {
-        background-color: $primary-color;
+        background-color: $secondary-color;
         color: #fff;
         padding: 10px 20px;
         font-size: 18px;
@@ -70,7 +61,7 @@ p, a, li, button {
         cursor: pointer;
   
         &:hover {
-          background-color: darken($primary-color, 10%);
+          background-color: darken($secondary-color, 10%);
         }
       }
     }
@@ -79,7 +70,7 @@ p, a, li, button {
 .about-section {
   margin-top: 400px;
   padding: 60px 20px;
-  background-color: $background-color;
+  background-color: $background-color-dark;
   
   .about-grid {
     display: flex;
@@ -91,25 +82,26 @@ p, a, li, button {
     margin: 0 auto;
     
     .about-text {
-        background-color: #fff;
+        background-color: #222;
         padding: 50px;
         border-radius: $standard-border-radius;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         flex: 1 1 500px;
       
       h2 {
-        color: $primary-color;
+        color: $secondary-color;
         font-size: 32px;
         margin-bottom: 20px;
       }
       
       h3 {
-        color: $secondary-color;
+        color: $primary-color;
         font-size: 24px;
         margin-bottom: 10px;
       }
       
       p {
+        color: $text-color-light;
         margin-bottom: 20px;
         line-height: 1.6;
       }
@@ -147,11 +139,11 @@ p, a, li, button {
 
 .team-section {
     padding: 60px 20px;
-    background-color: $background-color;
+    background-color: $background-color-dark;
     
     h2 {
       text-align: center;
-      color: $primary-color;
+      color: $secondary-color;
       font-size: 32px;
       margin-bottom: 40px;
     }
@@ -165,7 +157,7 @@ p, a, li, button {
       margin: 0 auto;
       
       .team-card {
-        background-color: #fff;
+        background-color: #222;
         border-radius: $standard-border-radius;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
@@ -180,17 +172,18 @@ p, a, li, button {
           }
         
         h3 {
-          color: $primary-color;
+          color: $secondary-color;
           font-size: 24px;
           margin: 20px 0 10px;
         }
         
         p {
+          color: $text-color-light;
           margin: 0 20px 20px;
           line-height: 1.6;
           
           &:first-of-type {
-            color: $secondary-color;
+            color: $primary-color;
             font-style: italic;
           }
         }
@@ -201,17 +194,18 @@ p, a, li, button {
   .our-story-section{
     .container{
         p {
-            background-color: #fff;
+            background-color: #222;
             border-radius: $standard-border-radius;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 50px;
+            color: $text-color-light;
         }
     }
   }
 
   .our-story-section, .our-values-section {
     padding: 60px 20px;
-    background-color: $background-color; 
+    background-color: $background-color-dark; 
     
   .container {
     max-width: 1600px;
@@ -219,7 +213,7 @@ p, a, li, button {
     text-align: center;
 
     h2 {
-      color: $primary-color;
+      color: $secondary-color;
       font-size: 32px;
       margin-bottom: 40px;
     }
@@ -239,19 +233,20 @@ p, a, li, button {
     gap: 40px;
 
     .value-item {
-      background-color: #fff;
+      background-color: #222;
       padding: 20px;
       border-radius: $standard-border-radius;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       flex: 1 1 400px;
       
       h3 {
-        color: $primary-color;
+        color: $secondary-color;
         font-size: 24px;
         margin-bottom: 10px;
       }
       
       p {
+        color: $text-color-light;
         line-height: $line-height;
       }
     }
