@@ -6,11 +6,6 @@ body {
   line-height: 1.5;
 }
 
-p, a, li, button {
-  letter-spacing: 0.12em;
-  line-height: 1.5;
-}
-
 .hero-section {
   display: flex;
   justify-content: center;
@@ -135,6 +130,7 @@ p, a, li, button {
   text-align: center;
   overflow: hidden;
   flex: 1 1 300px;
+  max-width: 400px;
 }
 .team-section .team-grid .team-card img {
   width: 100%;

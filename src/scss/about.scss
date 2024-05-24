@@ -20,8 +20,7 @@ body {
 }
 
 p, a, li, button {
-  letter-spacing: $letter-spacing;
-  line-height: $line-height;
+
 }
 
 .hero-section {
@@ -167,6 +166,7 @@ p, a, li, button {
         text-align: center;
         overflow: hidden;
         flex: 1 1 300px;
+        max-width: 400px;
 
         
         img {
