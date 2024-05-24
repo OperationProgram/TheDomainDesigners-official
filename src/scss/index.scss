@@ -5,7 +5,8 @@
 
 // Define variables for colors and other reusable properties
 
-  $hero-background: url('../assets/more/DESIGN.jpg') center/cover;
+$hero-background: url('../assets/more/DESIGN.jpg') center/cover;
+
 body {
   background-color: $background-color-dark;
 }
@@ -31,15 +32,13 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    // position: relative; // Added position relative for proper z-index stacking
     height: 100vh; /* Fixed height */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    // padding: 20px;
-    background-color: rgba(66, 0, 72, 0.316);
+    background-color: rgba(95, 0, 0, 0.316);
     z-index: -1;
 
 
@@ -63,6 +62,7 @@ body {
         font-size: 3rem;
         font-weight: bold;
         margin-bottom: 20px;
+        color: $primary-color;
       }
 
       p {
@@ -101,8 +101,9 @@ body {
     align-items: center;
     justify-content: center;
     height: auto;
-    padding: 40px 0; // Padding around the section
+    padding: 8%;
     background: $background-color-dark;
+    // background-image: url(/assets/purple-wavy-topleft.jpg);
   }
   
   .two-column-layout {
@@ -123,7 +124,7 @@ body {
   
     h2 {
       font-size: 2rem;
-      color: #8e36a1;
+      color: $primary-color;
       margin-bottom: 1em;
     }
   
@@ -143,17 +144,17 @@ body {
   
     button {
       background-color: #fff;
-      color: #570069;
+      color: $primary-color;
       border: none;
       padding: 10px 20px;
       font-size: 1rem;
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      border: 2px solid #8e36a1;
+      border: 2px solid $primary-color;
   
       &:hover {
-        background-color: #8e36a1;
+        background-color: $primary-color;
         color: #fff;
       }
     }
@@ -164,7 +165,7 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 0 2em;
+    padding: 0 0; 
   
     img {
       width: 100%;
@@ -207,7 +208,7 @@ body {
 
 
   .work-flow {
-    padding: 40px 40px; // STANDARD PADDING
+    padding: 8%; // STANDARD PfADDING
     background: $background-color-dark;
   }
 
@@ -344,24 +345,19 @@ body {
     }
 
 
-
-
-
-
-        
-      .testimonials-container {
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 200px;
+    .testimonials-container {
+      background-color: $background-color-dark;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
     }
     
     .testimonial {
-        background-color: $primary-color;
-        color: $text-color;
+        background-color: #fff;
+        color: $text-color-dark;
         padding: 20px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
         text-align: center; /* Center text horizontally */
         width: 80%; /* Adjust the width as needed */
         border-radius: 10px;

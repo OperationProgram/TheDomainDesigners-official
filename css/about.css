@@ -1,5 +1,5 @@
 body {
-  background-color: #222222;
+  background-color: #202020;
   font-family: "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
@@ -53,7 +53,7 @@ body {
 .about-section {
   margin-top: 400px;
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #202020;
 }
 .about-section .about-grid {
   display: flex;
@@ -112,7 +112,7 @@ body {
 
 .team-section {
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #202020;
 }
 .team-section h2 {
   text-align: center;
@@ -166,7 +166,7 @@ body {
 
 .our-story-section, .our-values-section {
   padding: 60px 20px;
-  background-color: #222222;
+  background-color: #202020;
 }
 .our-story-section .container, .our-values-section .container {
   max-width: 1600px;
