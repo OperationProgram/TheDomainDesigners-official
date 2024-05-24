@@ -6,7 +6,9 @@
 // Define variables for colors and other reusable properties
 
   $hero-background: url('/assets/more/DESIGN.jpg') center/cover;
-
+body {
+  background-color: $background-color-dark;
+}
   // TEXT EFFECTS
   .fade-in-text {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
@@ -87,14 +89,15 @@
 
 
 
-
+  .contact-section {
+    margin-top: 100vh;
+  }
 
 
   .contact-section, .about-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100vh;
     height: auto;
     padding: 40px 0; // Padding around the section
     background: $background-color-dark;
