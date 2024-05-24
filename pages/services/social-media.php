@@ -129,22 +129,22 @@
     </div>
 
     <div class="icons">
-      <div class="icon">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/mobile-2.png">
         <h3>Data Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
-      <div class="icon">
+      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/mobile-2.png">
         <h3>Data Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
-      <div class="icon">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/mobile-2.png">
         <h3>Data Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
-      <div class="icon">
+      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/mobile-2.png">
         <h3>Data Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
@@ -177,8 +177,6 @@
   </section>
 
   <section id="ad-strategies">
-  
-    <div id="partial-scroll" class="">
       <div id="ps-left-column" class="text-column">
         <h2 class="custom-h2">Let Ads Work For You</h2>
         <h1 class="custom-h1">Ad Strategies</h1>
@@ -237,14 +235,14 @@
           <img src="../../assets/smile.jpg">
         </div>
       </div>
-      
-    </div>
+
+      <div class="clearfix"></div>
 
   </section>
 
   <section id="ad-analytics">
     <div class="sub-cta">
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000"></div>
       <div class="cta-column">
         <h2 class="custom-h2">Analyze Your Strategy</h2>
         <h1 class="custom-h1">Ad Analytics</h1>
@@ -255,6 +253,45 @@
         <button class="cta-button">Let's Chat</button>
       </div>
 
+    </div>
+  </section>
+
+  <section id="social-media-platforms">
+    <div class="sub-cta">
+      <div class="cta-column">
+        <h2 class="custom-h2">Spreading Your Brand</h2>
+        <h1 class="custom-h1">Social Media Platforms</h1>
+        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
+         <br /><br />   
+        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p>
+        <button class="cta-button-dark">Let's Chat</button>
+      </div>
+
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+    </div>
+
+    <div class="icons">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
+        <img src="../../assets/mobile-2.png">
+        <h3>Data Analytics</h3>
+        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
+      </div>
+      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+        <img src="../../assets/mobile-2.png">
+        <h3>Data Analytics</h3>
+        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
+      </div>
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
+        <img src="../../assets/mobile-2.png">
+        <h3>Data Analytics</h3>
+        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
+      </div>
+      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+        <img src="../../assets/mobile-2.png">
+        <h3>Data Analytics</h3>
+        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
+      </div>
     </div>
   </section>
 

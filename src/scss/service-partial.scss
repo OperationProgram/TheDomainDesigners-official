@@ -5,6 +5,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+p {
+    font-size: 18px;
+}
+
 .cta-button {
     background-color: map-get($primary-btn-outline, background-color);
     color: map-get($primary-btn-outline, color);
@@ -80,6 +84,12 @@ html, body {
     .show-sm-screen {
         display: block;
     }
+}
+
+.clearfix::after {
+    content: ""; /* Empty content */
+    display: table; /* Create a new table-like block formatting context */
+    clear: both; /* Clear floats */
 }
 
 .hero-section {
@@ -237,7 +247,6 @@ html, body {
     padding-top: 8%;
     width: 100%;
     display: flex;
-    // height: auto;
     position: relative;
     overflow-x: hidden;
 
@@ -260,14 +269,13 @@ html, body {
     }
 
     p {
-        font-size: 16px;
         color: $text-color;
     }
 
     .video-box {
         width: 50%;
         height: 700px;
-        margin: 4%;
+        margin-right: 4rem;
         position: relative;
 
         .video-thumbnail {
@@ -308,7 +316,7 @@ html, body {
     background-color: $background-color-light;
     display: flex;
     width: 100%;
-    padding: 8% 6%;
+    padding: 2rem;
     align-items: center;
 
     .icon {
@@ -327,6 +335,10 @@ html, body {
         img {
             width: 50px;
             height: 50px;
+        }
+
+        p {
+            font-size: 15px;
         }
     }
 }
@@ -426,19 +438,18 @@ html, body {
     }
 }
 
-#content-creation {
-    background-color: $background-color-light;
-}
 
-#marketing-strategy {
+#marketing-strategy, #social-media-platforms, #content-creation {
     background-color: $background-color-light;
     padding: 4%;
-    padding-top: 12%;
 }
 
 #ad-analytics {
     padding: 4%;
+    padding-top: 12%;
     h1, p {
         color: white;
     }
+
+    
 }
