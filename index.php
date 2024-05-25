@@ -36,17 +36,19 @@
   </header>
 
 <!-- Hero Section -->
+<div class="overlay"></div>
 <section class="hero-section">
     <!-- <video autoplay muted loop class="hero-video">
         <source src="assets/hero-section.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video> -->  
-    <div class="hero-content custom-h2">
+    <div class="hero-content">
         <h1>One Size Doesn't Fit All</h1>
         <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
         <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
+    
 </section>
 
 
