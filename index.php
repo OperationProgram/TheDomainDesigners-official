@@ -64,7 +64,7 @@
           <button>Contact Us</button>
       </div>  
       <div class="image-column">
-          <img src="assets/mountain-lake.jpg" alt="Image">
+          <!-- <img src="assets/mountain-lake.jpg" alt="Image"> -->
       </div>
   </div>
 </section>
