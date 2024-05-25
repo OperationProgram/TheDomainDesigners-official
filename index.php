@@ -64,7 +64,7 @@
           <button>Contact Us</button>
       </div>  
       <div class="image-column">
-          <!-- <img src="assets/mountain-lake.jpg" alt="Image"> -->
+          <img src="assets/mountain-lake.jpg" alt="Image">
       </div>
   </div>
 </section>
@@ -106,7 +106,7 @@
       <button>Learn More</button>
     </div>
     <div class="image-column">
-      <!-- <img src="assets/more/teamwork.jpg" alt="Image"> -->
+      <img src="assets/more/teamwork.jpg" alt="Image">
     </div>
   </div>
   </section>
