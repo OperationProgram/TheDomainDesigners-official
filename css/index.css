@@ -53,17 +53,19 @@ body {
   margin-bottom: 30px;
 }
 .hero-section .cta-button {
-  background-color: #b716e8;
-  color: white;
+  background-color: #fff;
+  color: #b716e8;
   border: none;
   padding: 10px 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border: 2px solid #b716e8;
 }
 .hero-section .cta-button:hover {
-  background-color: #9212b9;
+  background-color: #b716e8;
+  color: #fff;
 }
 
 .contact-section {

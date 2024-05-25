@@ -24,9 +24,9 @@
           <li><a href="pages/services.php">Services</a></li>
           <li><a href="pages/about.html">Our Team</a></li>
           <li><a href="pages/contact.php">Contact Us</a></li>
-          <div class="consultation">
+          <!-- <div class="consultation">
               <button>Free Consultation</button>
-          </div>
+          </div> -->
       </ul>
       <div class="hamburger-menu" id="hamburger-menu">
           <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
@@ -41,7 +41,7 @@
         <source src="assets/hero-section.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video> -->  
-    <div class="hero-content">
+    <div class="hero-content custom-h2">
         <h1>Have a Vision.."</h1>
         <h2>Let Our Experts Turn It into Reality.</h2>
         <p></p>
