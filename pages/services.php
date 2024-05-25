@@ -18,8 +18,8 @@
           <li><a href="../index.php">Home</a></li>
           <li><a href="whyus.html">Why Us</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="pages/about.html">Our Team</a></li>
+          <li><a href="pages/contact.php">Contact Us</a></li>
           <div class="consultation">
               <button>Free Consultation</button>
           </div>

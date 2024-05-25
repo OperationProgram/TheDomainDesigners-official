@@ -1,7 +1,6 @@
 html, body {
-  background-color: #151515;
+  background-color: #111;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 p {
@@ -24,7 +23,7 @@ p {
 }
 .cta-button:hover {
   background-color: transparent;
-  color: white;
+  color: #fff;
 }
 
 .cta-button-dark {
@@ -62,6 +61,14 @@ p {
   letter-spacing: 0.2em;
 }
 
+.hero-gradient {
+  background: #3498db;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 42px;
@@ -73,6 +80,15 @@ p {
 }
 .show-sm-screen {
   display: none;
+}
+
+.overlay {
+  background-color: rgba(2, 2, 2, 0.39);
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  z-index: 1;
+  top: 0;
 }
 
 @media (max-width: 768px) {
@@ -142,7 +158,8 @@ p {
 .hero-section .hero-card-slide-container {
   display: flex;
   width: 100%;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 23, 200) 57%, rgb(0, 212, 255) 100%);
+  background: #131312;
+  color: #fff;
 }
 .hero-section .hero-card-slide-container .hero-card {
   width: 25%;
@@ -183,6 +200,8 @@ p {
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.65);
+  overflow: hidden;
+  padding: 36px;
 }
 .contents .contents-container a {
   text-decoration: none;
@@ -190,7 +209,8 @@ p {
 }
 .contents .contents-container .content-title {
   display: flex;
-  color: white;
+  justify-content: space-between;
+  color: #fff;
   font-size: 22px;
   transition: font-size 0.3s ease, color 0.3s ease;
 }
@@ -199,12 +219,9 @@ p {
   color: #b716e8;
 }
 
-@media (max-width: 480px) {
-  .contents {
-    margin-top: 45vh;
-  }
+@media (max-width: 768px) {
   .contents .contents-container {
-    align-items: flex-start;
+    display: block;
   }
   .contents .contents-container .content-title {
     font-size: 15px;
@@ -212,6 +229,11 @@ p {
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
     color: #b716e8;
+  }
+}
+@media (max-width: 480px) {
+  .contents {
+    margin-top: 45vh;
   }
 }
 .sub-cta {
@@ -331,6 +353,9 @@ p {
   width: 100%;
   padding: 12%;
 }
+#ad-strategies img {
+  width: 100%;
+}
 #ad-strategies ul li p {
   color: #fff;
   font-size: 18px;
@@ -390,5 +415,5 @@ p {
   padding-top: 12%;
 }
 #ad-analytics h1, #ad-analytics p {
-  color: white;
+  color: #fff;
 }/*# sourceMappingURL=service-partial.css.map */

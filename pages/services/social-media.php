@@ -13,15 +13,14 @@
 <body>
 
   <header>
-
     <nav class="navbar">
       
       <ul class="nav-menu" id="nav-menu">
           <li><a href="../../index.php">Home</a></li>
           <li><a href="../whyus.html">Why Us</a></li>
           <li><a href="../services.php">Services</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="pages/about.html">Our Team</a></li>
+          <li><a href="pages/contact.php">Contact Us</a></li>
           <div class="consultation">
               <button>Free Consultation</button>
           </div>
@@ -36,8 +35,9 @@
     
   </header>
 
-<!-- Hero Section -->
-<section class="hero-section">
+  <!-- Hero Section -->
+  <div class="overlay"></div>
+  <section class="hero-section">
     <div class="hero-content">
         <video autoplay muted loop class="hero-video">
             <source src="../../assets/glow.mp4" type="video/mp4">
@@ -45,7 +45,7 @@
         </video>
 
         <div class="cta">
-            <h2 class="custom-h2">Scrolling to Success!</h2>
+            <h2 class="custom-h2 hero-gradient">Scrolling to Success!</h2>
             <h1 class="custom-h1">Social Media Marketing</h1>
             <button class="cta-button">Contact Us</button>
         </div>
@@ -70,7 +70,8 @@
       </div>
     </div>
   </section>
-
+  
+  
   <section class="contents">
     
     <div class="contents-container">
