@@ -39,7 +39,7 @@
   <section class="hero-section">
     <div class="hero-content">
         <video autoplay muted loop>
-            <source src="../../assets/glow-has-been-replaced.mp4" type="video/mp4">
+            <source src="../../assets/glow_compressed.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="cta">
