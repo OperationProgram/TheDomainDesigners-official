@@ -46,7 +46,6 @@
   </section>
 
   <section id="services">
-
     <div class="service-row">
       <div class="service-card wordpress">
           <img src="../assets/assets/pc-infographic.png" >
