@@ -39,7 +39,7 @@
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="hero-content">
-        <video playsinline autoplay muted loop class="hero-video">
+        <video muted loop class="hero-video">
             <source src="../../assets/glow.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
