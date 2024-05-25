@@ -14,7 +14,6 @@
 
   <header>
     <nav class="navbar">
-      
       <ul class="nav-menu" id="nav-menu">
           <li><a href="../../index.php">Home</a></li>
           <li><a href="../whyus.html">Why Us</a></li>
@@ -35,27 +34,22 @@
     
   </header>
 
-  <!-- Hero Section -->
   <div class="overlay"></div>
+
   <section class="hero-section">
     <div class="hero-content">
         <video autoplay muted loop class="hero-video">
             <source src="../../assets/glow.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
         <div class="cta">
             <h2 class="custom-h2 hero-gradient">Scrolling to Success!</h2>
             <h1 class="custom-h1">Social Media Marketing</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-
         <img src="../../assets/mobile.png">
-
     </div>
-
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1000">
-      
       <div class="hero-card">
         <img src="../../assets/mobile.png">
       </div>
@@ -71,39 +65,32 @@
     </div>
   </section>
   
-  
   <section class="contents">
-    
     <div class="contents-container">
-      
       <a href="#marketing-strategy">      
         <div class="content-title">
           <h2>Marketing Strategy</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-
       <a href="#content-creation">      
         <div class="content-title">
           <h2>Content Creation</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-
       <a href="#ad-strategies">      
         <div class="content-title">
           <h2>Ad Strategies</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-
       <a href="#ad-analytics">      
         <div class="content-title">
           <h2>Ad Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-
       <a href="#social-media-platforms">      
         <div class="content-title">
           <h2>Social Media Platforms</h2>
@@ -111,7 +98,6 @@
         </div>
       </a>
     </div>
-
   </section>
 
   <section id="marketing-strategy">

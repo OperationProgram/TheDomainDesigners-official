@@ -42,8 +42,8 @@
         Your browser does not support the video tag.
     </video> -->  
     <div class="hero-content custom-h2">
-        <h1>Have a Vision.."</h1>
-        <h2>Let Our Experts Turn It into Reality.</h2>
+        <h1>One Size Doesn't Fit All</h1>
+        <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
         <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
@@ -54,12 +54,12 @@
 <section class="contact-section fade-in-text">
   <div class="two-column-layout">
       <div class="text-column">
-          <h3>Disrupting Digital Spaces</h3>
-          <h2>Full Service Digital Marketing & Advertising Agency</h2>
+          <h3>Innovating Online Experiences</h3>
+          <h2>Comprehensive Web Solutions for Your Business</h2>
           <p>
-              The Domain Designers doesn't conform to the ordinary. We're a collective of passionate designers and data-savvy strategists crafting plans that yield outcomes. Our forte lies in crafting top-notch visuals and compelling content that converts. We tailor our offerings to elevate your brand's position in the industry. As your brand's engine, we transcend conventional approaches to foster innovation and enduring progress.
+            Ready to boost your online presence? Our expert web developers are here to make it happen. Whether you're looking for a sleek new website, a fresh redesign, or innovative web applications, we've got the skills and creativity to bring your vision to life. Let's create something amazing together – reach out to us today!
           </p>
-          <button>Learn More</button>
+          <button>Contact Us</button>
       </div>  
       <div class="image-column">
           <img src="assets/mountain-lake.jpg" alt="Image">
@@ -96,9 +96,11 @@
 <section class="about-section fade-in-text">
   <div class="two-column-layout">
     <div class="text-column">
-      <h3>About Us</h3>
-      <h2>Our Story</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h3>Dreams into Reality</h3>
+      <h2>Partnering with Young Companies</h2>
+      <p>
+        Here at The Domain Designers, we believe in more than just providing services – we believe in fostering partnerships and growing together with our clients. We're passionate about collaborating with young companies and startups, becoming an integral part of their development journey from inception to success. We're not here to simply cash a check and disappear; we're here to roll up our sleeves, dive into the trenches, and work alongside you every step of the way.
+      </p>
       <button>Learn More</button>
     </div>
     <div class="image-column">

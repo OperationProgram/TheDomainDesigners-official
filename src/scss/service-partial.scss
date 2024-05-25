@@ -42,6 +42,7 @@ p {
     border-radius: map-get($secondary-btn-outline, border-radius);
     margin-top: 1.2rem;
     transition: background-color 0.4s ease, color 0.4s ease;
+    width: 25%;
 
     &:hover {
         background-color: transparent;
@@ -124,7 +125,7 @@ p {
     .hero-content {
         position: relative;
         height: 100%;
-        background-color: #131312;
+        background-color: $background-color-dark;
         overflow: hidden;
 
         .cta {
@@ -174,7 +175,7 @@ p {
     .hero-card-slide-container {
         display: flex;
         width: 100%;
-        background: #131312;
+        background: $background-color-dark;
         color: $text-color-light;
 
         .hero-card {
@@ -212,8 +213,9 @@ p {
     height: auto;
     width: 100%;
     margin-top: calc(50vh + 150px);
-    background: url("../assets/mobile-2.png") no-repeat;
-    background-position: center;
+    background: url("../assets/phone-plant-dark.jpg") no-repeat;
+    background-size: 100%; // Adjust this value to zoom out
+    background-position: center; // Center the background image
     
     .contents-container {
         width: 100%;
@@ -395,7 +397,7 @@ p {
 }
 
 #ad-strategies {
-    background-color: #131312;
+    background-color: $background-color-dark;
     color: #fff;
     width: 100%;
     padding: 12%;

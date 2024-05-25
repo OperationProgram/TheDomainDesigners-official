@@ -39,6 +39,7 @@ p {
   border-radius: 100px;
   margin-top: 1.2rem;
   transition: background-color 0.4s ease, color 0.4s ease;
+  width: 25%;
 }
 .cta-button-dark:hover {
   background-color: transparent;
@@ -117,7 +118,7 @@ p {
 .hero-section .hero-content {
   position: relative;
   height: 100%;
-  background-color: #131312;
+  background-color: #111;
   overflow: hidden;
 }
 .hero-section .hero-content .cta {
@@ -158,7 +159,7 @@ p {
 .hero-section .hero-card-slide-container {
   display: flex;
   width: 100%;
-  background: #131312;
+  background: #111;
   color: #fff;
 }
 .hero-section .hero-card-slide-container .hero-card {
@@ -190,7 +191,8 @@ p {
   height: auto;
   width: 100%;
   margin-top: calc(50vh + 150px);
-  background: url("../assets/mobile-2.png") no-repeat;
+  background: url("../assets/phone-plant-dark.jpg") no-repeat;
+  background-size: 100%;
   background-position: center;
 }
 .contents .contents-container {
@@ -348,7 +350,7 @@ p {
   }
 }
 #ad-strategies {
-  background-color: #131312;
+  background-color: #111;
   color: #fff;
   width: 100%;
   padding: 12%;
