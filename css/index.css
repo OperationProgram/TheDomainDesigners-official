@@ -41,16 +41,18 @@ body {
 .hero-section .hero-content {
   position: relative;
   margin: 0 auto;
+  width: 70%;
 }
 .hero-section .hero-content h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #b716e8;
+  color: #fff;
 }
 .hero-section .hero-content p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 30px;
+  border: 2px solid #b716e8;
 }
 .hero-section .cta-button {
   background-color: #fff;
@@ -151,7 +153,7 @@ body {
     flex-direction: column;
   }
   .text-column {
-    align-items: center;
+    align-items: left;
     padding: 0;
   }
   .text-column h2, .text-column h3 {
@@ -201,7 +203,7 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.12em;
   text-align: center;
   z-index: 0;
@@ -280,7 +282,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6784313725);
   padding: 5px 10px;
   border-radius: 5px;
   letter-spacing: 0.12em;
