@@ -62,7 +62,7 @@
           <button>Contact Us</button>
       </div>  
       <div class="image-column">
-          <img src="assets/mountain-lake.jpg" alt="Image">
+          <img src="assets/more/contact-image-transparent.png" alt="Image">
       </div>
   </div>
 </section>
@@ -72,21 +72,21 @@
 <section class="work-flow">
     <div class="clickable-section">
         <div class="overlay">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <p>Our development process begins with close collaboration with our clients to understand their unique needs and goals. We create a customized design that reflects their brand identity and vision. Every detail is crafted with precision to ensure the final product not only looks stunning but also provides an exceptional user experience.</p>
         </div>
         <h2>Develop</h2>
         <img src="<?php echo $currentConfig['baseUrl']; ?>assets/00.jpg" alt="Develop Image">
     </div>
     <div class="clickable-section">
         <div class="overlay">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <p>With a solid design plan in place, we move on to the development phase. Our team of skilled developers bring the design to life, building a website that is both functional and responsive. We ensure that every element meets the highest standards of performance, security, and accessibility, delivering a seamless and engaging digital experience.</p>
         </div>
         <h2>Design</h2>
         <img src="<?php echo $currentConfig['baseUrl']; ?>assets/01.jpg" alt="Design Image">
     </div>
     <div class="clickable-section">
         <div class="overlay">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <p>Once development is complete, we rigorously test the website to ensure it meets all specifications and performs flawlessly. We then launch the site with a comprehensive marketing strategy tailored to reach the target audience and drive results. Our commitment doesn’t end at launch; we provide ongoing support and optimization to ensure long-term success.</p>
         </div>
         <h2>Deliver</h2>
         <img src="<?php echo $currentConfig['baseUrl']; ?>assets/02.jpg" alt="Deliver Image">
@@ -118,9 +118,8 @@
     <div class="sliding-feature-image">
       <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
     </div>
-  </section> -->
-
-
+  </section>
+ -->
 
 
 
@@ -162,7 +161,6 @@
     </div>
 </section>
 
-
 <section class="about-section fade-in-text">
   <div class="two-column-layout">
     <div class="text-column">
@@ -178,17 +176,45 @@
   </section>
 
 
+  
+
+
 
   <section class="testimonials-section">
-    <div class="testimonials-container">
-      <div class="testimonial">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-        <p>- John Doe</p>
-      </div>
+  <h2 class="testimonials-title">What Our Clients Say</h2>
+  <div class="testimonials-container">
+    <div class="testimonial">
+      <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
+      <p>- Sarah Williams, CEO of Tech Ventures</p>
     </div>
+    <div class="testimonial">
+      <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
+      <p>- Michael Johnson, Founder of GreenEarth</p>
+    </div>
+    <div class="testimonial">
+      <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
+      <p>- Emily Brown, Marketing Director at EcoStart</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.testimonials-container');
+    const testimonials = Array.from(container.children);
+
+    // Clone testimonials to create an infinite loop
+    testimonials.forEach(testimonial => {
+      const clone = testimonial.cloneNode(true);
+      container.appendChild(clone);
+    });
+  });
+</script>
 
 
-  </section>
+
+
+
 
   <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>

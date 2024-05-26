@@ -47,7 +47,12 @@ body {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
+  letter-spacing: 0.12em;
+}
+.hero-section .hero-content h2 {
+  letter-spacing: 0.12em;
 }
 .hero-section .hero-content p {
   font-size: 2rem;
@@ -87,6 +92,11 @@ body {
   display: flex;
   width: 100%;
   margin: 0 auto;
+  background-image: url("/assets/purple-right-background.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  padding: 20px;
 }
 
 .text-column {
@@ -140,12 +150,12 @@ body {
   padding: 0 0;
 }
 .image-column img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   border-radius: 30px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -288,12 +298,31 @@ body {
   letter-spacing: 0.12em;
 }
 
-.testimonials-container {
+.testimonials-section {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
   background-color: #111;
+  padding: 50px 0;
+}
+
+.testimonials-container {
   display: flex;
+  flex-direction: row; /* Ensure testimonials are in a row for sliding */
   align-items: center;
   justify-content: center;
   height: 200px;
+  margin-bottom: 50px;
+  position: relative;
+  width: 100%; /* Ensure the container takes full width */
+  animation: slide 15s linear infinite;
+}
+
+.testimonials-title {
+  font-size: 32px;
+  color: #b716e8;
+  padding: 50px;
+  text-align: center; /* Center the title */
 }
 
 .testimonial {
@@ -301,15 +330,31 @@ body {
   color: #252525;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-  text-align: center; /* Center text horizontally */
-  width: 80%; /* Adjust the width as needed */
+  text-align: center;
+  width: 80%; /* Adjust as needed */
   border-radius: 10px;
+  margin: 0 10px; /* Add margin between testimonials */
+  flex: 0 0 100%; /* Ensure each testimonial takes full width */
 }
 
 .testimonial p {
-  margin: 1em; /* Remove default paragraph margin */
+  margin: 1em;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .sliding-feature-section {
   display: flex;
   align-items: center;
