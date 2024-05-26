@@ -20,9 +20,9 @@
     <nav class="navbar">
       <ul class="nav-menu" id="nav-menu">
           <li><a href="#">Home</a></li>
-          <li><a href="pages/whyus.html">Why Us</a></li>
+          <li><a href="pages/whyus.php">Why Us</a></li>
           <li><a href="pages/services.php">Services</a></li>
-          <li><a href="pages/about.html">Our Team</a></li>
+          <li><a href="pages/about.php">Our Team</a></li>
           <li><a href="pages/contact.php">Contact Us</a></li>
           <!-- <div class="consultation">
               <button>Free Consultation</button>
