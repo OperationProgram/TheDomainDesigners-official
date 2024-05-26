@@ -38,7 +38,7 @@ body {
 .hero-section .hero-content {
   position: relative;
   margin: 0 auto;
-  z-index: 2;
+  width: 70%;
 }
 .hero-section .hero-content h1 {
   font-size: 4rem;
