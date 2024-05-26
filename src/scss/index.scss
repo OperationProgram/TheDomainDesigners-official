@@ -61,7 +61,7 @@ body {
     .hero-content {
       position: relative;
       // max-width: 600px; // Adjust as needed
-      margin: 0 auto; // Center the container horizontally
+      margin: 0 auto; 
       width: 70%;
       z-index: 2;
       // Typography styles for the hero section
@@ -148,6 +148,7 @@ body {
     color: #fff; 
   
     h2 {
+      
       font-size: 2rem;
       color: $primary-color;
       margin-bottom: 1em;
@@ -274,11 +275,13 @@ body {
       z-index: 1;
       opacity: 1;
       transition: opacity 0.3s ease, transform 0.3s ease; 
-      color: white;
-      font-size: 3vw;
+      color: rgba(255, 255, 255, 0);
+      font-size: 5vw;
       letter-spacing: .12em;
       text-align: center;
       z-index: 0;
+      -webkit-text-stroke: 2px rgb(255, 255, 255); 
+
     }
     
     .overlay {

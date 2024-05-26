@@ -64,7 +64,7 @@
           <button>Contact Us</button>
       </div>  
       <div class="image-column">
-          <img src="assets/more/contact-image-transparent.png" alt="Image">
+          <img src="assets/teamwork.jpg" alt="Image">
       </div>
   </div>
 </section>

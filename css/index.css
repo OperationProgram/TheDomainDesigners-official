@@ -211,11 +211,12 @@ body {
   z-index: 1;
   opacity: 1;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  color: white;
-  font-size: 3vw;
+  color: rgba(255, 255, 255, 0);
+  font-size: 5vw;
   letter-spacing: 0.12em;
   text-align: center;
   z-index: 0;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 .clickable-section .overlay {
   position: absolute;
