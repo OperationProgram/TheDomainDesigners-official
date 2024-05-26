@@ -106,7 +106,7 @@
       <button>Learn More</button>
     </div>
     <div class="image-column">
-      <img src="assets/more/teamwork.jpg" alt="Image">
+      <img src="assets/teamwork.jpg" alt="Image">
     </div>
   </div>
   </section>
@@ -118,7 +118,7 @@
       <button>Button</button>
     </div>
     <div class="sliding-feature-image">
-      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
+      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/skull-min.jpg'?>" alt="Your Image">
     </div>
   </section> -->
 
@@ -174,7 +174,7 @@
       <button>Learn More</button>
     </div>
     <div class="image-column">
-      <img src="assets/more/teamwork.jpg" alt="Image">
+      <img src="assets/teamwork.jpg" alt="Image">
     </div>
   </div>
   </section>

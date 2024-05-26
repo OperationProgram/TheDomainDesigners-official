@@ -18,8 +18,8 @@
           <li><a href="../index.php">Home</a></li>
           <li><a href="whyus.html">Why Us</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="pages/about.html">Our Team</a></li>
-          <li><a href="pages/contact.php">Contact Us</a></li>
+          <li><a href="about.html">Our Team</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
           <div class="consultation">
               <button>Free Consultation</button>
           </div>
@@ -35,6 +35,7 @@
   </header>
 
   <!-- Hero Section -->1
+  <div class="overlay"></div>
   <section class="hero-section">
       <div class="hero-content">
         <div class="cta">
@@ -48,7 +49,7 @@
   <section id="services">
     <div class="service-row">
       <div class="service-card wordpress">
-          <img src="../assets/assets/pc-infographic.png" >
+          <img src="../assets/computer-rm-bg.png" >
           <h2>Wordpress</h2>
           <button class="cta-button">Learn More</button>
       </div>
@@ -62,13 +63,13 @@
 
     <div class="service-row">
       <div class="service-card web-apps">
-          <img src="../assets/more/WEBDEV.jpg" >
+          <img src="../assets/WEBDEV.jpg" >
           <h2>Web Apps</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card social-media">
-          <img src="../assets/more/deliver-image.jpg" >
+          <img src="../assets/deliver-image.jpg" >
           <h2>Social Media Marketing</h2>
           <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
       </div>
@@ -76,20 +77,20 @@
 
     <div class="service-row">
       <div class="service-card ecommerce">
-          <img src="../assets/more/ecommerce.jpg" >
+          <img src="../assets/ecommerce.jpg" >
           <h2>E-Commerce</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card seo">
-          <img src="../assets/more/SEO.jpg" >
+          <img src="../assets/SEO.jpg" >
           <h2>SEO</h2>
           <button class="cta-button">Learn More</button>
       </div>
     </div>
     
     <div class="lets-chat">
-        <img src="../assets/pexels-madebymath-331684-removebg-preview.png" data-aos="fade-right">
+        <img src="../assets/laptop-side.png" data-aos="fade-right">
         <h2>Let's Chat</h2>
         <button class="cta-button">Contact Us</button>
     </div>
