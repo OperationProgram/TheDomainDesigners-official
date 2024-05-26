@@ -36,17 +36,19 @@
   </header>
 
 <!-- Hero Section -->
+<div class="overlay"></div>
 <section class="hero-section">
     <!-- <video autoplay muted loop class="hero-video">
         <source src="assets/hero-section.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video> -->  
-    <div class="hero-content custom-h2">
+    <div class="hero-content">
         <h1>One Size Doesn't Fit All</h1>
         <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
         <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
+    
 </section>
 
 
@@ -104,7 +106,7 @@
       <button>Learn More</button>
     </div>
     <div class="image-column">
-      <img src="assets/more/teamwork.jpg" alt="Image">
+      <img src="assets/teamwork.jpg" alt="Image">
     </div>
   </div>
   </section>
@@ -116,7 +118,7 @@
       <button>Button</button>
     </div>
     <div class="sliding-feature-image">
-      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/more/DESIGN.jpg'?>" alt="Your Image">
+      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/skull-min.jpg'?>" alt="Your Image">
     </div>
   </section>
  -->
@@ -170,7 +172,7 @@
       <button>Learn More</button>
     </div>
     <div class="image-column">
-      <img src="assets/more/teamwork.jpg" alt="Image">
+      <img src="assets/teamwork.jpg" alt="Image">
     </div>
   </div>
   </section>

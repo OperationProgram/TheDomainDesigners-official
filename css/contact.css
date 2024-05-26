@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
   background-color: #111;
-  color: #ccc;
+  color: #252525;
 }
 
 .container {
@@ -32,21 +31,21 @@ header .container nav ul {
   gap: 20px;
 }
 header .container nav ul li a {
-  color: #fff;
+  color: #3498db;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 header .container nav ul li a.contact-btn {
-  background-color: #00aced;
+  background-color: #b716e8;
 }
 header .container nav ul li a:hover {
-  background-color: #00aced;
+  background-color: #b716e8;
 }
 
 main .contact-section {
-  background: url("/assets/more/DESIGN.jpg") no-repeat center center/cover;
+  background: url("../assets/skull-min.jpg") no-repeat center center/cover;
   padding: 60px 0;
   display: flex;
   justify-content: center;
@@ -61,14 +60,14 @@ main .contact-section .container .contact-info {
   flex: 1;
 }
 main .contact-section .container .contact-info h2 {
-  color: #00aced;
+  color: #b716e8;
 }
 main .contact-section .container .contact-info h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 main .contact-section .container .contact-info p, main .contact-section .container .contact-info a {
-  color: #fff;
+  color: #3498db;
   margin: 10px 0;
   text-decoration: none;
 }
@@ -77,18 +76,19 @@ main .contact-section .container .contact-info .social-media {
   gap: 10px;
 }
 main .contact-section .container .contact-info .social-media a {
-  color: #fff;
+  color: #3498db;
   font-size: 1.5em;
   transition: color 0.3s;
 }
 main .contact-section .container .contact-info .social-media a:hover {
-  color: #00aced;
+  color: #b716e8;
 }
 main .contact-section .container .contact-form {
   flex: 1;
-  background-color: #333;
+  background-color: #b716e8;
   padding: 20px;
   border-radius: 10px;
+  width: 40%;
 }
 main .contact-section .container .contact-form form {
   display: flex;
@@ -101,7 +101,7 @@ main .contact-section .container .contact-form form input, main .contact-section
   border: none;
   border-radius: 5px;
   background-color: #222;
-  color: #ccc;
+  color: #252525;
   resize: none;
 }
 main .contact-section .container .contact-form form .services {
@@ -113,24 +113,24 @@ main .contact-section .container .contact-form form .services label {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #ccc;
+  color: #252525;
   white-space: nowrap;
 }
 main .contact-section .container .contact-form form .newsletter label {
-  color: #ccc;
+  color: #252525;
 }
 main .contact-section .container .contact-form form .submit-btn {
   padding: 15px;
   border: none;
   border-radius: 5px;
-  background-color: #00aced;
-  color: #fff;
+  background-color: #b716e8;
+  color: #3498db;
   font-size: 1.1em;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 main .contact-section .container .contact-form form .submit-btn:hover {
-  background-color: #0087ba;
+  background-color: #9212b9;
 }
 
 @media (max-width: 768px) {

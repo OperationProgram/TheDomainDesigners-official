@@ -4,9 +4,9 @@
 
 body {
     margin: 0;
-    font-family: $font-family;
+    // font-family: $font-family;
     background-color: $background-color-dark;
-    color: $text-color;
+    color: $text-color-dark;
 }
 
 .container {
@@ -58,7 +58,7 @@ header {
 
 main {
     .contact-section {
-        background: url('/assets/more/DESIGN.jpg') no-repeat center center/cover;
+        background: url('../assets/skull-min.jpg') no-repeat center center/cover;
         padding: 60px 0;
         display: flex;
         justify-content: center;
@@ -121,7 +121,7 @@ main {
                         border: none;
                         border-radius: 5px;
                         background-color: #222;
-                        color: $text-color;
+                        color: $text-color-dark;
                         resize: none;
                     }
 
@@ -134,7 +134,7 @@ main {
                             display: flex;
                             align-items: center;
                             gap: 5px;
-                            color: $text-color;
+                            color: $text-color-dark;
                             white-space: nowrap; // Prevents text from wrapping
 
                         }
@@ -142,7 +142,7 @@ main {
 
                     .newsletter {
                         label {
-                            color: $text-color;
+                            color: $text-color-dark;
                         }
                     }
 

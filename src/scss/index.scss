@@ -5,7 +5,7 @@
 
 // Define variables for colors and other reusable properties
 
-$hero-background: url('../assets/more/DESIGN.jpg') center/cover;
+$hero-background: url('../assets/skull-min.jpg') center/cover;
 
 body {
   background-color: $background-color-dark;
@@ -24,6 +24,14 @@ body {
   }
 
 
+  .overlay {
+    background-color: rgb(2 2 2 / 31%);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
 
   // Main hero section styles
   .hero-section {
@@ -38,19 +46,17 @@ body {
     justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgba(95, 0, 0, 0.316);
-    z-index: -1;
 
 
-    .hero-video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      z-index: -1;
-    }
+    // .hero-video {
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: auto;
+    //   object-fit: cover;
+    //   z-index: -1;
+    // }
 
     .hero-content {
       position: relative;
@@ -113,7 +119,7 @@ body {
     height: auto;
     padding: 8%;
     background: $background-color-dark;
-    // background-image: url(/assets/purple-wavy-topleft.jpg);
+    // background-image: url(../assets/purple-wavy-topleft.jpg);
   }
   
   .two-column-layout {
