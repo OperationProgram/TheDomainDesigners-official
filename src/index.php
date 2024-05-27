@@ -6,11 +6,9 @@
   <title>Your Website</title>
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="css/navbar.css">
-
 </head>
 
 <body>
-
   <header>  
     <?php $basePath = '.';?>
     <?php include 'pages/Navigation/navbar.php';?>
@@ -25,12 +23,11 @@
         Your browser does not support the video tag.
     </video> -->  
     <div class="hero-content">
-        <h1>One Size Doesn't Fit All TEST2</h1>
+        <h1>One Size Doesn't Fit All</h1>
         <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
         <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
-    
 </section>
 
 

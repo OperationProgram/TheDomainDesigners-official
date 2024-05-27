@@ -1,152 +1,175 @@
-// Import variables
-@import '../scss/variables.scss';
 
-// Define styles using variables
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$hero-bg: url('../assets/mountain-lake.jpg');
+$design-bg: #f0f0f0;
+$develop-bg: #e8e8e8;
+$deliver-bg: #d0d0d0;
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$accent-color: #ecf0f1;
+$font-family: 'Helvetica Neue', Arial, sans-serif;
+
+// Global Styles
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background-color: $secondary-color;
-  color: #fff;
+body, html {
+  font-family: $font-family;
+  color: $secondary-color;
+  background-color: $accent-color;
+  line-height: 1.6;
+}
+
+// Hero Section
+.hero {
+  background: $hero-bg no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  // padding: $standard-padding 0;
-}
-
-main {
-  // padding: $standard-padding;
-}
-
-section {
-  // margin-bottom: $standard-margin;
-}
-
-h2 {
-  color: $text-color;
-  font-size: 24px;
-}
-
-p {
-  color: #666;
-}
-
-.btn {
-  display: inline-block;
-  background-color: $secondary-color;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  // border-radius: $border-radius;
-  // transition: background-color $transition-duration ease;
+  position: relative;
 
-  &:hover {
-    background-color: darken($secondary-color, 10%);
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+      animation: fadeInDown 1s ease;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      animation: fadeInUp 1s ease;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: $primary-color;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: darken($primary-color, 10%);
+      }
+    }
   }
 }
 
-/* Define global styles using variables */
-.section {
+// Process Sections
+.process-section {
+  padding: 60px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: $standard-padding 0;
-  position: relative;
-  background-color: $background-color;
+  flex-direction: column;
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70%;
-    height: 2px;
-    background-color: $primary-color;
+  &:nth-of-type(1) {
+    background: $design-bg;
   }
 
-  &:nth-child(even) .content {
-    order: 1;
-  }
-}
-
-.content {
-  max-width: 80%;
-  margin-left: $standard-margin;
-  margin-right: $standard-margin;
-  text-align: center;
-  margin: 0 auto;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  padding: $standard-padding;
-  background-color: $background-color;
-
-  h2 {
-    // margin: $standard-margin;
-    // padding: $standard-padding;
-    letter-spacing: 1.3px;
-    color: $primary-color;
-    // font-size: $xlarge-font-size;
-    border-radius: 20px;
-    // font-family: $heading-font-family;
+  &:nth-of-type(2) {
+    background: $develop-bg;
   }
 
-  p {
-    // margin: $standard-margin;
-    margin-bottom: 70px;
-    // padding: $standard-padding;
-    letter-spacing: 1.6px;
-    line-height: 2;
-    // font-size: $medium-font-size;
-    color: $text-color;
+  &:nth-of-type(3) {
+    background: $deliver-bg;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-    // margin-bottom: $standard-margin;
-  }
-}
+  .process-content {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 
-.design {
-  // background-color: $dark-text-color;
-  margin-top: 100px;
-}
-
-.development {
-  // background-color: $dark-text-color;
-}
-
-.deliver {
-  // background-color: $dark-text-color;
-}
-
-/* Media queries */
-@media screen and (max-width: 1276px) {
-  .content {
-    h2 {
-      // font-size: $large-font-size;
+    &:hover {
+      transform: translateY(-10px);
     }
-    p {
-      // font-size: $medium-font-size;
+
+    .process-icon {
+      flex: 0 0 100px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
-    img {
-      max-width: 90%;
+
+    .process-text {
+      flex: 1;
+      color: $secondary-color;
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
     }
   }
 }
 
-@media screen and (max-width: 768px) {
-  .content {
-    h2 {
-      // font-size: $medium-font-size;
-    }
-    p {
-      // font-size: $small-font-size;
-    }
-    img {
-      max-width: 80%;
+// Animations
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .process-content {
+    flex-direction: column;
+    text-align: center;
+
+    .process-icon {
+      margin-bottom: 20px;
     }
   }
 }

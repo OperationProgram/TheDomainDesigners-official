@@ -41,14 +41,14 @@
 #nav-menu a:hover {
   background-color: #fff;
   border-radius: 20px; /* Adjust the border radius as needed */
-  color: #7b10c2;
+  color: #aa13dc;
 }
 
 .consultation {
   margin: 0 30px;
 }
 .consultation button {
-  background-color: #7b10c2;
+  background-color: #aa13dc;
   color: white;
   border: none;
   padding: 10px 20px;

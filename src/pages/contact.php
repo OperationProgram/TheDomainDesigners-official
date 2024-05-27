@@ -79,14 +79,12 @@
                         <input type="email" name="email" placeholder="Your Email*" required>
                         <input type="text" name="company" placeholder="Company">
                         <div class="services">
-                            <label><input type="checkbox" name="services[]" value="Social Media"> Social Media</label>
-                            <label><input type="checkbox" name="services[]" value="SEO"> SEO</label>
-                            <label><input type="checkbox" name="services[]" value="Paid Media"> Paid Media</label>
-                            <label><input type="checkbox" name="services[]" value="Web Design"> Web Design</label>
-                            <label><input type="checkbox" name="services[]" value="Photography"> Photography</label>
-                            <label><input type="checkbox" name="services[]" value="Videography"> Videography</label>
-                            <label><input type="checkbox" name="services[]" value="Branding"> Branding</label>
-                            <label><input type="checkbox" name="services[]" value="Campaign Management"> Campaign Management</label>
+                            <label><input type="checkbox" name="services[]" value="SEO">SEO</label>
+                            <label><input type="checkbox" name="services[]" value="Branding">Custom Code</label>
+                            <label><input type="checkbox" name="services[]" value="Branding">Branding</label>
+                            <label><input type="checkbox" name="services[]" value="Social Media">Wordpress</label>
+                            <label><input type="checkbox" name="services[]" value="Paid Media">Social Media Marketing</label>
+                            <label><input type="checkbox" name="services[]" value="Web Design">Web Apps</label>
                         </div>
                         <textarea name="message" placeholder="Message*" required></textarea>
                         <div class="newsletter">

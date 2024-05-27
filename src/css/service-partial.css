@@ -218,7 +218,7 @@ p {
 }
 .contents .contents-container a:hover .content-title {
   font-size: 26px;
-  color: #7b10c2;
+  color: #aa13dc;
 }
 
 @media (max-width: 768px) {
@@ -230,7 +230,7 @@ p {
   }
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
-    color: #7b10c2;
+    color: #aa13dc;
   }
 }
 @media (max-width: 480px) {
@@ -392,7 +392,7 @@ p {
 }
 #ad-strategies .img-container {
   scrollbar-width: thin;
-  scrollbar-color: #7b10c2 transparent;
+  scrollbar-color: #aa13dc transparent;
 }
 #ad-strategies .img-container::-webkit-scrollbar-thumb {
   background-color: red;
