@@ -12,6 +12,7 @@
 <body>
 
   <header>  
+    <p style="color: white;">test</p>
     <?php $basePath = '.';?>
     <?php include 'pages/Navigation/navbar.php';?>
     <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
