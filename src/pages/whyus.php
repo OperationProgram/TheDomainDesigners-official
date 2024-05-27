@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="../Navigation/nav.css">
     <link rel="stylesheet" href="../Footer/footer.css">
     <link rel="stylesheet" href="../css/whyus.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
     <header>
-        <script src="../scripts/navigationLoader.js"></script>
+        <?php $basePath = '..';?>
+        <?php include $basePath . '/pages/Navigation/navbar.php';?>
+        <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
     </header>
 
     <main>

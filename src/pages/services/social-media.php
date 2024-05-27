@@ -13,25 +13,9 @@
 <body>
 
   <header>
-    <nav class="navbar">
-      <ul class="nav-menu" id="nav-menu">
-          <li><a href="../../index.php">Home</a></li>
-          <li><a href="../whyus.html">Why Us</a></li>
-          <li><a href="../services.php">Services</a></li>
-          <li><a href="../about.html">Our Team</a></li>
-          <li><a href="../contact.php">Contact Us</a></li>
-          <div class="consultation">
-              <button>Free Consultation</button>
-          </div>
-      </ul>
-      <div class="hamburger-menu" id="hamburger-menu">
-          <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
-      </div>
-    </nav>
-
-    <?php include '../../config.php'; ?>
-    <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
-    
+    <?php $basePath = '../..';?>
+    <?php include $basePath . '/pages/Navigation/navbar.php';?>
+    <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
   </header>
 
   <div class="overlay"></div>

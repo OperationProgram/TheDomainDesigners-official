@@ -123,14 +123,13 @@ body {
     height: auto;
     padding: 8%;
     background: $background-color-dark;
-    // background-image: url(../assets/purple-wavy-topleft.jpg);
   }
   
   .two-column-layout {
     display: flex;
     max-width: 1200px;
     margin: 0 auto; 
-    background-image: url("/assets/purple-right-background.jpg");
+    background-image: url("../assets/purple-right-background.jpg");
     background-size: cover;
     border-radius: 20px;
     border: 2px solid #fff;
