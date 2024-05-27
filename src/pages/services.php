@@ -34,13 +34,13 @@
     <div class="service-row">
       <div class="service-card wordpress">
           <img src="../assets/computer-rm-bg.png" >
-          <h2>Wordpress</h2>
+          <h2>Wordpress Sites</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card custom-code">
           <img src="../assets/information.jpg" >
-          <h2>Custom Code</h2>
+          <h2>SEO</h2>
           <button class="cta-button">Learn More</button>
       </div>
     </div>
@@ -54,7 +54,7 @@
 
       <div class="service-card social-media">
           <img src="../assets/deliver-image.jpg" >
-          <h2>Social Media Marketing</h2>
+          <h2>Custom Code Sites</h2>
           <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
@@ -62,13 +62,13 @@
     <div class="service-row">
       <div class="service-card ecommerce">
           <img src="../assets/ecommerce.jpg" >
-          <h2>Branding</h2>
+          <h2>Social Media Marketing</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card seo">
           <img src="../assets/SEO.jpg" >
-          <h2>SEO</h2>
+          <h2>Branding</h2>
           <button class="cta-button">Learn More</button>
       </div>
     </div>
