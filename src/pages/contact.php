@@ -1,3 +1,23 @@
+<?php require("../scripts/sendMail.php"); ?>
+<?php 
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      if(empty($_POST['email']) || empty($_POST['fname']) ||  empty($_POST['lname']) || empty($_POST['phone'])){
+         $response = "Email, Name, and Phone fields required";
+      } else{
+         $response = sendMail(['email' => $_POST['email'], 
+                              'fname' => $_POST['fname'],
+                              'lname' => $_POST['lname'],
+                              'phone' => $_POST['phone'],
+                              'company' => $_POST['company'],
+                              'website' => $_POST['website'],
+                              'message' =>  $_POST['message'],
+                            ]);
+      }
+      echo '<script>window.location = "#submit_btn";</script>';
+   }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
