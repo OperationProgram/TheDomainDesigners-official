@@ -60,7 +60,7 @@
                         <input type="text" name="company" placeholder="Company">
                         <div class="services">
                             <label><input type="checkbox" name="services[]" value="SEO">SEO</label>
-                            <label><input type="checkbox" name="services[]" value="Branding">Custom Code</label>
+                            <label><input type="checkbox" name="services[]" value="Branding">Custom Code</label>    
                             <label><input type="checkbox" name="services[]" value="Branding">Branding</label>
                             <label><input type="checkbox" name="services[]" value="Social Media">Wordpress</label>
                             <label><input type="checkbox" name="services[]" value="Paid Media">Social Media Marketing</label>

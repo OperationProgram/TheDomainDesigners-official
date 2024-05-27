@@ -20,7 +20,7 @@
     <section class="process-section" id="design" data-aos="fade-up">
         <div class="process-content">
             <div class="process-icon">
-                <img src="assets/" alt="Design Icon">
+                <img src="../assets/skull-min.jpg" alt="Design Icon">
             </div>
             <div class="process-text">
                 <h2>Design</h2>
@@ -32,7 +32,7 @@
     <section class="process-section" id="develop" data-aos="fade-up" data-aos-delay="100">
         <div class="process-content">
             <div class="process-icon">
-                <img src="images/develop-icon.png" alt="Develop Icon">
+                <img src="../assets/DESIGN.jpg" alt="Develop Icon">
             </div>
             <div class="process-text">
                 <h2>Develop</h2>
@@ -44,7 +44,7 @@
     <section class="process-section" id="deliver" data-aos="fade-up" data-aos-delay="200">
         <div class="process-content">
             <div class="process-icon">
-                <img src="images/deliver-icon.png" alt="Deliver Icon">
+                <img src="../assets/DESIGN.jpg" alt="Deliver Icon">
             </div>
             <div class="process-text">
                 <h2>Deliver</h2>

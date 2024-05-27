@@ -1,8 +1,8 @@
 
 $hero-bg: url('../assets/mountain-lake.jpg');
-$design-bg: #f0f0f0;
-$develop-bg: #e8e8e8;
-$deliver-bg: #d0d0d0;
+$design-bg: #222;
+$develop-bg: #222;
+$deliver-bg: #222;
 $primary-color: #3498db;
 $secondary-color: #2c3e50;
 $accent-color: #ecf0f1;
@@ -18,7 +18,7 @@ $font-family: 'Helvetica Neue', Arial, sans-serif;
 body, html {
   font-family: $font-family;
   color: $secondary-color;
-  background-color: $accent-color;
+  background-color: #000000;
   line-height: 1.6;
 }
 
