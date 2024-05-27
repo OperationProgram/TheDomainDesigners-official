@@ -77,21 +77,21 @@
            <p>Our development process begins with close collaboration with our clients to understand their unique needs and goals. We create a customized design that reflects their brand identity and vision. Every detail is crafted with precision to ensure the final product not only looks stunning but also provides an exceptional user experience.</p>
         </div>
         <h2>Develop</h2>
-        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/00.jpg" alt="Develop Image">
+        <img src="assets/00.jpg" alt="Develop Image">
     </div>
     <div class="clickable-section">
         <div class="overlay">
            <p>With a solid design plan in place, we move on to the development phase. Our team of skilled developers bring the design to life, building a website that is both functional and responsive. We ensure that every element meets the highest standards of performance, security, and accessibility, delivering a seamless and engaging digital experience.</p>
         </div>
         <h2>Design</h2>
-        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/01.jpg" alt="Design Image">
+        <img src="assets/01.jpg" alt="Design Image">
     </div>
     <div class="clickable-section">
         <div class="overlay">
            <p>Once development is complete, we rigorously test the website to ensure it meets all specifications and performs flawlessly. We then launch the site with a comprehensive marketing strategy tailored to reach the target audience and drive results. Our commitment doesn’t end at launch; we provide ongoing support and optimization to ensure long-term success.</p>
         </div>
         <h2>Deliver</h2>
-        <img src="<?php echo $currentConfig['baseUrl']; ?>assets/02.jpg" alt="Deliver Image">
+        <img src="assets/02.jpg" alt="Deliver Image">
     </div>
 </section>
 
@@ -118,7 +118,7 @@
       <button>Button</button>
     </div>
     <div class="sliding-feature-image">
-      <img src="<?php echo $currentConfig['baseUrl'] . 'assets/skull-min.jpg'?>" alt="Your Image">
+      <img src="assets/skull-min.jpg'?>" alt="Your Image">
     </div>
   </section>
  -->
@@ -130,33 +130,33 @@
     <div class="image-row">
         <div class="image-container">
             <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg">
-                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg" alt="Image 1">
+                <img src="assets/portfolio/p-tesla.jpg" alt="Image 1">
                 <h2 class="image-title">Cars</h2>
             </a>
         </div>
         <div class="image-container">
             <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-shoes.jpg">
-                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-shoes.jpg" alt="Image 2">
+                <img src="assets/portfolio/p-shoes.jpg" alt="Image 2">
                 <h2 class="image-title">Fine & Fancy</h2>
             </a>
         </div>
     </div>
     <div class="image-row">
         <div class="image-container">
-            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-juice.jpg">
-                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-juice.jpg" alt="Image 3">
+            <a href="assets/portfolio/p-juice.jpg">
+                <img src="assets/portfolio/p-juice.jpg" alt="Image 3">
                 <h2 class="image-title">Fresh Squeezed</h2>
             </a>
         </div>
         <div class="image-container">
-            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg">
-                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-fashion.jpg" alt="Image 4">
+            <a href="assets/portfolio/p-fashion.jpg">
+                <img src="assets/portfolio/p-fashion.jpg" alt="Image 4">
                 <h2 class="image-title">Fashion</h2>
             </a>
         </div>
         <div class="image-container">
-            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-dips.jpg">
-                <img src="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-dips.jpg" alt="Image 5">
+            <a href="assets/portfolio/p-dips.jpg">
+                <img src="assets/portfolio/p-dips.jpg" alt="Image 5">
                 <h2 class="image-title">The Dip Factory</h2>
             </a>
         </div>
