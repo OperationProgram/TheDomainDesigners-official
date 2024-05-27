@@ -24,6 +24,15 @@
         </div>
     </header> -->
     <main>
+        <section>
+            <div class="hero-section">
+            <div class="hero-content">
+                <h1>Who We Are</h1>
+                <p>Learn more about our mission, values, and team.</p>
+                <button class="hero-button">Get Started</button>
+            </div>
+            </div>
+        </section>
         <section class="contact-section">
             <div class="container">
                 <div class="contact-info">
@@ -31,7 +40,7 @@
                     <h1>Ready to Get Started</h1>
                     <p>(832) 216-9276</p>
                     <p><a href="mailto:krista@kreative-media.com">team@thedomaindesigners.com</a></p>
-                    <p>9999 Street Name, Houston, Texas 77023</p>
+                    <p>9999 Street Name, Houston, Texas 770023</p>
                     <div class="social-media">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
