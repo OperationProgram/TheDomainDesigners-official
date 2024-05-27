@@ -1,4 +1,4 @@
-.vscode
-vendor
+.vscode/
+src/vendor
 .env
 .htaccess
