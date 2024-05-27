@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Your Company</title>
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
-    <!-- <header>
-        <div class="container">
+    <header>
+    <?php $basePath = '..';?>
+    <?php include $basePath . '/pages/Navigation/navbar.php';?>
+    <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
+        <!-- <div class="container">
             <div class="logo">
                 <img src="logo.png" alt="Your Company Logo">
             </div>
@@ -21,8 +25,8 @@
                     <li><a href="#" class="contact-btn">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-    </header> -->
+        </div> -->
+    </header>
     <main>
         <section class="contact-section">
             <div class="container">

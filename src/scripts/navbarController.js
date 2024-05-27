@@ -1,4 +1,5 @@
 async function loadNavbar() {
+    console.log("loaded");
 
     // Fetch the navbar.html content
     // await fetch(config.baseUrl + '/pages/Navigation/navbar.html')

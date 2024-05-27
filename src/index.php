@@ -11,28 +11,10 @@
 
 <body>
 
-  <header>
-    <?php include __DIR__ . '/config.php'; ?>
-
-    <script src="<?php echo $currentConfig['baseUrl'] . 'scripts/navbarController.js'?>"></script>
- 
-
-    <nav class="navbar">
-      <ul class="nav-menu" id="nav-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="pages/whyus.php">Why Us</a></li>
-          <li><a href="pages/services.php">Services</a></li>
-          <li><a href="pages/about.php">Our Team</a></li>
-          <li><a href="pages/contact.php">Contact Us</a></li>
-          <!-- <div class="consultation">
-              <button>Free Consultation</button>
-          </div> -->
-      </ul>
-      <div class="hamburger-menu" id="hamburger-menu">
-          <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
-      </div>
-    </nav>
-    
+  <header>  
+    <?php $basePath = '.';?>
+    <?php include 'pages/Navigation/navbar.php';?>
+    <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
   </header>
 
 <!-- Hero Section -->
