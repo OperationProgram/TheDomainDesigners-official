@@ -37,17 +37,17 @@ main .hero-section p {
 }
 main .hero-section button {
   background-color: #fff;
-  color: #7b10c2;
+  color: #aa13dc;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #7b10c2;
+  border: 2px solid #aa13dc;
 }
 main .hero-section button:hover {
-  background-color: #7b10c2;
+  background-color: #aa13dc;
   color: #fff;
 }
 main .contact-section {
@@ -66,7 +66,7 @@ main .contact-section .container .contact-info {
   flex: 1;
 }
 main .contact-section .container .contact-info h2 {
-  color: #7b10c2;
+  color: #aa13dc;
 }
 main .contact-section .container .contact-info h1 {
   color: #fff;
@@ -88,7 +88,7 @@ main .contact-section .container .contact-info .social-media a {
   transition: color 0.3s;
 }
 main .contact-section .container .contact-info .social-media a:hover {
-  color: #7b10c2;
+  color: #aa13dc;
 }
 main .contact-section .container .contact-form {
   flex: 1;
@@ -130,7 +130,7 @@ main .contact-section .container .contact-form form .newsletter label {
   color: #252525;
 }
 main .contact-section .container .contact-form form .submit-btn {
-  background-color: #7b10c2;
+  background-color: #aa13dc;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -138,12 +138,12 @@ main .contact-section .container .contact-form form .submit-btn {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #7b10c2;
+  border: 2px solid #aa13dc;
   width: 125px;
 }
 main .contact-section .container .contact-form form .submit-btn:hover {
   background-color: #fff;
-  color: #7b10c2;
+  color: #aa13dc;
 }
 
 @media (max-width: 768px) {

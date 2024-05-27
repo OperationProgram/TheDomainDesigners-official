@@ -1,97 +1,141 @@
-body {
-  font-family: "Arial", sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background-color: #3498db;
-  color: #fff;
+body, html {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url("../assets/mountain-lake.jpg") no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-}
-
-h2 {
-  color: #252525;
-  font-size: 24px;
-}
-
-p {
-  color: #666;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #3498db;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
+  position: relative;
 }
-.btn:hover {
-  background-color: #217dbb;
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.hero .hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero .hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease;
+}
+.hero .hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+.hero .hero-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.hero .hero-content a:hover {
+  background: #217dbb;
 }
 
-/* Define global styles using variables */
-.section {
+.process-section {
+  padding: 60px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
-  position: relative;
-  background-color: #f4f4f4;
+  flex-direction: column;
 }
-.section::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%;
-  height: 2px;
-  background-color: #b716e8;
+.process-section:nth-of-type(1) {
+  background: #f0f0f0;
 }
-.section:nth-child(even) .content {
-  order: 1;
+.process-section:nth-of-type(2) {
+  background: #e8e8e8;
 }
-
-.content {
-  max-width: 80%;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-  margin: 0 auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background-color: #f4f4f4;
+.process-section:nth-of-type(3) {
+  background: #d0d0d0;
 }
-.content h2 {
-  letter-spacing: 1.3px;
-  color: #b716e8;
-  border-radius: 20px;
+.process-section .process-content {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
-.content p {
-  margin-bottom: 70px;
-  letter-spacing: 1.6px;
-  line-height: 2;
-  color: #252525;
+.process-section .process-content:hover {
+  transform: translateY(-10px);
 }
-.content img {
-  max-width: 100%;
+.process-section .process-content .process-icon {
+  flex: 0 0 100px;
+}
+.process-section .process-content .process-icon img {
+  width: 100%;
   height: auto;
 }
-
-.design {
-  margin-top: 100px;
+.process-section .process-content .process-text {
+  flex: 1;
+  color: #2c3e50;
+}
+.process-section .process-content .process-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.process-section .process-content .process-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
-/* Media queries */
-@media screen and (max-width: 1276px) {
-  .content img {
-    max-width: 90%;
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
-@media screen and (max-width: 768px) {
-  .content img {
-    max-width: 80%;
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .process-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .process-content .process-icon {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=whyus.css.map */

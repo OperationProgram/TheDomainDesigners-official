@@ -62,7 +62,7 @@
     <div class="service-row">
       <div class="service-card ecommerce">
           <img src="../assets/ecommerce.jpg" >
-          <h2>E-Commerce</h2>
+          <h2>Branding</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
