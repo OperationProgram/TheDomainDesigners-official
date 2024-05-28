@@ -112,7 +112,7 @@ main .contact-section .container .contact-form form input, main .contact-section
   border: none;
   border-radius: 5px;
   background-color: rgba(51, 51, 51, 0.2941176471);
-  color: #252525;
+  color: #fff;
   resize: none;
   border: 1px solid #fff;
 }
