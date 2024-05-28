@@ -55,7 +55,6 @@ form.addEventListener('submit', function(event) {
 
     if (!isValid) {
         event.preventDefault();
-        console.log("not submitted");
         // Display error message beneath the form
         document.getElementById('form_error').style.display = "block";
         document.querySelector('.success').style.display = "none";

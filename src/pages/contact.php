@@ -1,15 +1,15 @@
 <?php require("../scripts/sendMail.php"); ?>
 <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      if(empty($_POST['email']) || empty($_POST['fname']) ||  empty($_POST['lname']) || empty($_POST['phone'])){
-         $response = "Email, Name, and Phone fields required";
+      if(empty($_POST['email']) || empty($_POST['name']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+         $response = "Email, Name, Message, and Phone fields required";
       } else{
-         $response = sendMail(['email' => $_POST['email'], 
-                              'fname' => $_POST['fname'],
-                              'lname' => $_POST['lname'],
+         $response = sendMail([
+                              'name' => $_POST['name'],
                               'phone' => $_POST['phone'],
+                              'email' => $_POST['email'], 
                               'company' => $_POST['company'],
-                              'website' => $_POST['website'],
+                              'services[]' => $_POST['services[]'],
                               'message' =>  $_POST['message'],
                             ]);
       }
@@ -79,19 +79,35 @@
                         <input type="email" name="email" placeholder="Your Email*" required>
                         <input type="text" name="company" placeholder="Company">
                         <div class="services">
-                            <label><input type="checkbox" name="services[]" value="SEO">SEO</label>
-                            <label><input type="checkbox" name="services[]" value="Branding">Custom Code</label>
-                            <label><input type="checkbox" name="services[]" value="Branding">Branding</label>
-                            <label><input type="checkbox" name="services[]" value="Social Media">Wordpress</label>
-                            <label><input type="checkbox" name="services[]" value="Paid Media">Social Media Marketing</label>
-                            <label><input type="checkbox" name="services[]" value="Web Design">Web Apps</label>
+                            <label><input type="checkbox" name="services[]" value="seo">SEO</label>
+                            <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>
+                            <label><input type="checkbox" name="services[]" value="branding">Branding</label>
+                            <label><input type="checkbox" name="services[]" value="social media">Wordpress</label>
+                            <label><input type="checkbox" name="services[]" value="paid-media">Social Media Marketing</label>
+                            <label><input type="checkbox" name="services[]" value="web-design">Web Apps</label>
                         </div>
                         <textarea name="message" placeholder="Message*" required></textarea>
-                        <div class="newsletter">
-                            <label><input type="checkbox" name="newsletter"> Subscribe to Our Newsletter</label>
-                        </div>
+
                         <button type="submit" class="submit-btn">Send</button>
+                        <span id="form_error" class="error">There was a problem submitting the form. <br />
+                                                Check the fields for errors.</span>
+                        <?php
+                            if(@$response == "success") {
+                        ?>
+                            <p class="success">Email sent successfully</p>
+                        <?php
+                            } else {
+                        ?>
+                            <p class="error"><?php echo @$response; ?></p>
+                        <?php
+                            }  
+                        ?>
                     </form>
+                    
+                    <div id="spinner_overlay" class="spinner-overlay">
+                        <div class="spinner"></div>
+                    </div>
+                    <script type="module" src="../scripts/contactForm.js"></script>
                 </div>
             </div>
         </section>

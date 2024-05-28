@@ -18,7 +18,7 @@
     <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
   </header>
 
-  <!-- Hero Section -->1
+  <!-- Hero Section -->
   <div class="overlay"></div>
   <section class="hero-section">
       <div class="hero-content">
