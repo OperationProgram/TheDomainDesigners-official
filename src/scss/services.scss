@@ -44,19 +44,24 @@ body {
     
 
     .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
         position: relative;
-        height: 100%;
+        width: 100%;
+        height: 120%;
         .cta {
             position: absolute;
-            bottom: 105px;
-            left: 25vw;
             z-index: 2;
 
             h1 {
-                color: $secondary-color;
-                font-size: 24px;
-                letter-spacing: 0.2em;
-                line-height: 1.6em;
+                font-size: 5vw;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: rgba(0, 0, 0, 0); 
+                -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
+                letter-spacing: .12em;
             }
 
             h2 {
