@@ -67,7 +67,7 @@ body {
 }
 
 #services {
-  margin-top: 35vh;
+  margin-top: 50vh;
   transition: all 0.7s ease;
   display: flex;
   flex-direction: column;

@@ -74,13 +74,11 @@
         <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script> 
     </header>
     <main>
-        <section>
-            <div class="hero-section">
+        <section class="hero-section">
             <div class="hero-content">
                 <h1>Who We Are</h1>
                 <p>Learn more about our mission, values, and team.</p>
                 <button class="hero-button">Get Started</button>
-            </div>
             </div>
         </section>
         <section class="contact-section">

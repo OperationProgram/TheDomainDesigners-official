@@ -1,0 +1,100 @@
+@import "variables";
+
+html, body {
+    background-color: $background-color-dark;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: map-get($primary-btn-outline, background-color);
+    color: map-get($primary-btn-outline, color);
+    border: map-get($primary-btn-outline, border);
+    padding: map-get($primary-btn-outline, padding);
+    text-align: map-get($primary-btn-outline, text-align);
+    text-decoration: map-get($primary-btn-outline, text-decoration);
+    display: map-get($primary-btn-outline, display);
+    font-size: map-get($primary-btn-outline, font-size);
+    cursor: map-get($primary-btn-outline, cursor);
+    border-radius: map-get($primary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &:hover {
+        background-color: transparent;
+        color: $text-color-light;
+    }
+}
+
+.cta-button-dark {
+    background-color: map-get($secondary-btn-outline, background-color);
+    color: map-get($secondary-btn-outline, color);
+    border: map-get($secondary-btn-outline, border);
+    padding: map-get($secondary-btn-outline, padding);
+    text-align: map-get($secondary-btn-outline, text-align);
+    text-decoration: map-get($secondary-btn-outline, text-decoration);
+    display: map-get($secondary-btn-outline, display);
+    font-size: map-get($secondary-btn-outline, font-size);
+    cursor: map-get($secondary-btn-outline, cursor);
+    border-radius: map-get($secondary-btn-outline, border-radius);
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    width: 25%;
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.overlay {
+    background-color: rgb(2 2 2 / 31%);
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    background: url("../assets/UI_UX-rm-bg.png") no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Vertically center */
+        align-items: center; /* Horizontally center */
+        position: relative;
+        width: 100%;
+        height: 120%;
+        .cta {
+            position: absolute;
+            z-index: 2;
+
+            h1 {
+                font-size: 5vw;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: rgba(0, 0, 0, 0); 
+                -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
+                letter-spacing: .12em;
+            }
+
+            h2 {
+                color: $background-color-light;
+                font-size: 20px;
+                letter-spacing: 0.2em;
+                line-height: 1.6em;
+            }
+    }
+    }    
+}

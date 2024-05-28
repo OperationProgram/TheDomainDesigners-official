@@ -3,6 +3,7 @@
         <li><a href="<?php echo $basePath; ?>/">Home</a></li>
         <li><a href="<?php echo $basePath; ?>/pages/whyus.php">Why Us</a></li>
         <li><a href="<?php echo $basePath; ?>/pages/services.php">Services</a></li>
+        <li><a href="<?php echo $basePath; ?>/pages/case-studies.php">Case Studies</a></li>
         <li><a href="<?php echo $basePath; ?>/pages/about.php">Our Team</a></li>
         <li><a href="<?php echo $basePath; ?>/pages/contact.php">Contact Us</a></li>
         <!-- <div class="consultation">
