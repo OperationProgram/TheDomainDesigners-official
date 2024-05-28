@@ -68,9 +68,12 @@ main .contact-section .container .contact-info h2 {
   color: #aa13dc;
 }
 main .contact-section .container .contact-info h1 {
-  color: #fff;
-  font-size: 2.5em;
+  font-size: 5vw;
+  font-weight: bold;
   margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  letter-spacing: 0.12em;
 }
 main .contact-section .container .contact-info p, main .contact-section .container .contact-info a {
   color: #fff;
