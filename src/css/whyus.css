@@ -14,12 +14,14 @@ body, html {
 .hero {
   background: url("../assets/mountain-lake.jpg") no-repeat center center/cover;
   height: 70vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 .hero .overlay {
   position: absolute;
@@ -63,6 +65,10 @@ body, html {
   background: #217dbb;
 }
 
+#design-develop-deliver {
+  margin-top: calc(70vh - 60px);
+}
+
 .process-section {
   padding: 60px 20px;
   display: flex;
@@ -70,17 +76,17 @@ body, html {
   align-items: center;
   flex-direction: column;
 }
-.process-section:nth-of-type(2) {
+.process-section:nth-of-type(1) {
   background-image: url("../assets/00.jpg");
   background-position: center;
   background-size: cover;
 }
-.process-section:nth-of-type(3) {
+.process-section:nth-of-type(2) {
   background-image: url("../assets/01.jpg");
   background-position: center;
   background-size: cover;
 }
-.process-section:nth-of-type(4) {
+.process-section:nth-of-type(3) {
   background-image: url("../assets/02.jpg");
   background-position: center;
   background-size: cover;
