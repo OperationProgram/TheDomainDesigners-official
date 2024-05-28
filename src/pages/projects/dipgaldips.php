@@ -25,8 +25,8 @@
                     <img src="../../assets/dipgaldips/logo.jpg">
                 </div>
                 <ul>
-                    <a href="#"><li class="content-link">Wordpress Solution</li></a>
-                    <a href="#"><li class="content-link">Search Engine Optimization</li></a>
+                    <a href="#wordpress-solution-header"><li class="content-link">Wordpress Solution</li></a>
+                    <a href="#seo-header"><li class="content-link">Search Engine Optimization</li></a>
                     <a href="#"><li class="content-link">Branding</li></a>
                 </ul>   
             </div>
@@ -38,13 +38,28 @@
         </div>
     </section>
 
-    <section class="wordpress-solution">
+    <section id="wordpress-solution">
         <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img">
-        <div class="container">
-            <h2 class="custom-h2">Wordpress Solution</h2>
+        <div class="section-container">
+            <h2 id="wordpress-solution-header" class="custom-h2">Wordpress Solution</h2>
             <p>
 For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative Media undertook a comprehensive website overhaul, focusing on aesthetic appeal, navigational ease, and mobile responsiveness. Our goal was to reflect The GOT Brand’s ethos through visual elements, intuitive layout, and optimized user experience. This redesign not only modernized their online presence but also aligned with best practices for user engagement and conversion optimization, setting a new standard for their digital footprint.</p>
+        </div>  
+    </section>
+
+    <section id="seo">
+        <div class="offset-img-container">
+            <div class="left-img">
+                <img  src="../../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg">
+            </div>
+            <div class="right-img" >
+                <img src="../../assets/dipgaldips/spicy_salsa_1280x1063.jpg">
+            </div>
         </div>
+        <div class="section-container">
+            <h2 id="seo-header" class="custom-h2">Search Engine Optimization</h2>
+            <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
+        </div> 
     </section>
 </body>
 
