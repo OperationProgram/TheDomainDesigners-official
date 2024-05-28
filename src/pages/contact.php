@@ -1,11 +1,11 @@
-<?php require("../scripts/sendMail.php"); ?>
+<?php require("../plugins/contactForm/contactForm.php"); ?>
 <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      if(empty($_POST['email']) || empty($_POST['name']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+      if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
          $response = "Email, Name, Message, and Phone fields required";
       } else{
          $response = sendMail([
-                              'name' => $_POST['name'],
+                              'name' => $_POST['fullname'],
                               'phone' => $_POST['phone'],
                               'email' => $_POST['email'], 
                               'company' => $_POST['company'],
@@ -74,7 +74,7 @@
                 </div>
                 <div class="contact-form">
                     <form action="contact.php" method="post">
-                        <input type="text" name="name" placeholder="Your Name*" required>
+                        <input type="text" name="fullname" placeholder="Your Name*" required>
                         <input type="text" name="phone" placeholder="Phone Number*" required>
                         <input type="email" name="email" placeholder="Your Email*" required>
                         <input type="text" name="company" placeholder="Company">
