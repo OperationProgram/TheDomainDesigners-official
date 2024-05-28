@@ -1,22 +1,58 @@
-<?php require("../plugins/contactForm/contactForm.php"); ?>
+<?php require("../plugins/contactForm/sendMail.php"); ?>
 <?php 
-    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitButton'])) {
-        echo "<script>console.log('heres');</script>";
-        error_reporting(E_ALL);
-        ini_set('display_errors', 1);
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $valid = false;
+        $fullname = $_POST['fullname'];
+        $phone = $_POST['phone'];
+        $email = $_POST['email'];
+        $services = isset($_POST['services']) ? $_POST['services'] : [];
+        $company = $_POST['company'];
+        $message = $_POST['message'];
+
         if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-            $response = "Email, Name, Message, and Phone fields required";
-        } else{
-            $response = sendMail([
-                                'name' => $_POST['fullname'],
-                                'phone' => $_POST['phone'],
-                                'email' => $_POST['email'], 
-                                'company' => $_POST['company'],
-                                'services' => $_POST['services'],
-                                'message' =>  $_POST['message'],
-                                ]);
+            $response = "Name, Phone, Email and Message fields required";
+        } 
+        
+        else if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            // Sanitize email address
+            $sanitizedEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+            $valid = true;
+        } 
+        else {
+            $response = "Invalid email";
         }
-        contact_form_capture();
+        
+        if ($valid) {
+            $sanitizedFullName = filter_var($fullname, FILTER_SANITIZE_STRING);
+            $sanitizedCompany = filter_var($company, FILTER_SANITIZE_STRING);
+            // $sanitizedPhone = filter_var($phone, FILTER_SANITIZE_STRING);
+            $sanitizedMessage = filter_var($message, FILTER_SANITIZE_STRING);
+            $response = sendMail([
+                              'fullname' => $sanitizedFullName,  
+                              'phone' => $phone,
+                              'email' => $sanitizedEmail, 
+                              'company' => $sanitizedCompany,
+                              'services' => $services,
+                              'message' =>  $sanitizedMessage,
+                            ]);
+        }
+
+
+
+
+        // if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+        //     $response = "Email, Name, Message, and Phone fields required";
+        // } else{
+        //     $response = sendMail([
+        //                         'fullname' => $_POST['fullname'],
+        //                         'phone' => $_POST['phone'],
+        //                         'email' => $_POST['email'], 
+        //                         'company' => $_POST['company'],
+        //                         'services' => $_POST['services'],
+        //                         'message' =>  $_POST['message'],
+        //                         ]);
+        // }
+        // contact_form_capture();
         echo '<script>window.location = "#submit_btn";</script>';
    }
 ?>
@@ -33,23 +69,9 @@
 </head>
 <body>
     <header>
-    <?php $basePath = '..';?>
-    <?php include $basePath . '/pages/Navigation/navbar.php';?>
-    <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
-        <!-- <div class="container">
-            <div class="logo">
-                <img src="logo.png" alt="Your Company Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Krew</a></li>
-                    <li><a href="#" class="contact-btn">Contact</a></li>
-                </ul>
-            </nav>
-        </div> -->
+        <?php $basePath = '..';?>
+        <?php include $basePath . '/pages/Navigation/navbar.php';?>
+        <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script> 
     </header>
     <main>
         <section>
@@ -119,6 +141,13 @@
                             }  
                         ?>
                     </form>
+
+                    <script>
+                        if (window.history.replaceState) {
+                            var url = window.location.href.split('#')[0]; 
+                            window.history.replaceState(null, null, url);
+                        }
+                    </script>
                     
                     <div id="spinner_overlay" class="spinner-overlay">
                         <div class="spinner"></div>

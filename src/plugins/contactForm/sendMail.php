@@ -1,8 +1,27 @@
 <?php
+
+/**
+
+ * Plugin Name: Contact Form Plugin
+
+ * Author: Metameg (Alex Metzger)
+
+ * Version: 1.0.0
+
+ */
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '../vendor/autoload.php';
+require 'PHPMailer.php';
+require 'Exception.php';
+require 'SMTP.php';
+require_once  '../vendor/autoload.php';
+$dotenv_file_path = '../.env';
+if (file_exists($dotenv_file_path)) {
+    $dotenv = Dotenv\Dotenv::createImmutable(dirname($dotenv_file_path));
+    $dotenv->load();
+}
 
 function sendMail($args) {
 
@@ -13,21 +32,28 @@ function sendMail($args) {
 
     // Compose email message
    
-    if (isset($fname)) {
-        $body = "First Name: $fname\n";
+    $body = "New Inquiry: \n\n";
+    // if (isset($fname)) {
+    //     $body .= "First Name: \n$fname\n";
+    // } 
+    $body .= "Full Name: \n$fullname\n";
+    $body .= "\nEmail: \n$email\n";
+    // if (isset($phone)) {
+    $body .= "\nPhone:\n$phone\n";
+    // }
+    $body .= "\nCompany:\n$company\n";
+    
+    $body .= "Services Requested:\n";
+    foreach ($services as $index => $service) {
+        $body .= "\t" . ($index + 1) . ". " . $service . "\n";
     }
-    $body = "Last Name: \n$lname\n";
-    $body .= "Email: \n$email\n";
-    if (isset($phone)) {
-        $body .= "Phone:\n$phone\n";
-    }
-    if (isset($company)) {
-        $body .= "Company:\n$company\n";
-    }
-    if (isset($website)) {
-        $body .= "Website:\n$website\n";
-    }
-    $body .= "Message:\n$message\n";
+    
+
+    // }
+    // if (isset($website)) {
+    //     $body .= "Website:\n$website\n";
+    // }
+    $body .= "\nMessage:\n$message\n";
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -38,12 +64,12 @@ function sendMail($args) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'metameg8@gmail.com'; // Replace with your Gmail email address
-        $mail->Password = 'sicj budg xvvt oyde'; // Replace with your Gmail password or app password
+        $mail->Password = $_ENV['APP_PASSWORD']; // Replace with your Gmail password or app password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom($email, $lname);
+        $mail->setFrom($email, $fullname);
         $mail->addAddress($to);
 
         // Content
@@ -64,4 +90,7 @@ function sendMail($args) {
         echo "Oops! Something went wrong. Please try again later. Error: {$mail->ErrorInfo}";
     }
 }
+
+// Register shortcode to display contact form response
+// add_shortcode('display_contact_form_response', 'display_contact_form_response');
 ?>

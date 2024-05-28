@@ -48,7 +48,7 @@ phoneInput.addEventListener("change", () => {
 // Add event listener for form submission
 form.addEventListener('submit', function(event) {
     // Prevent the default form submission behavior
-    
+    // event.preventDefault();
 
     // Validate the form fields
     const isValid = validators.validateForm();
@@ -59,6 +59,8 @@ form.addEventListener('submit', function(event) {
         document.getElementById('form_error').style.display = "block";
         document.querySelector('.success').style.display = "none";
         // Prevent form submission
+        event.preventDefault();
+        
         return;
     }
     document.getElementById('spinner_overlay').style.display = 'flex';
