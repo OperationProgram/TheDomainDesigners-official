@@ -243,5 +243,10 @@ main {
         .contact-info {
             margin-bottom: 40px;
         }
+
+        .label {
+            white-space: wrap; // Prevents text from wrapping
+
+        }
     }
 }

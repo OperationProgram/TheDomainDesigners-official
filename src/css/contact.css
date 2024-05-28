@@ -198,4 +198,7 @@ main .contact-section .container .contact-form .spinner {
   .contact-section .container .contact-info {
     margin-bottom: 40px;
   }
+  .contact-section .container .label {
+    white-space: wrap;
+  }
 }/*# sourceMappingURL=contact.css.map */
