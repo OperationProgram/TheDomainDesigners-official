@@ -2,20 +2,22 @@
 <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitButton'])) {
         echo "<script>console.log('heres');</script>";
-        // if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-        //     $response = "Email, Name, Message, and Phone fields required";
-        // } else{
-        //     $response = sendMail([
-        //                         'name' => $_POST['fullname'],
-        //                         'phone' => $_POST['phone'],
-        //                         'email' => $_POST['email'], 
-        //                         'company' => $_POST['company'],
-        //                         'services' => $_POST['services'],
-        //                         'message' =>  $_POST['message'],
-        //                         ]);
-        // }
-        //     contact_form_capture();
-        //     echo '<script>window.location = "#submit_btn";</script>';
+        error_reporting(E_ALL);
+        ini_set('display_errors', 1);
+        if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+            $response = "Email, Name, Message, and Phone fields required";
+        } else{
+            $response = sendMail([
+                                'name' => $_POST['fullname'],
+                                'phone' => $_POST['phone'],
+                                'email' => $_POST['email'], 
+                                'company' => $_POST['company'],
+                                'services' => $_POST['services'],
+                                'message' =>  $_POST['message'],
+                                ]);
+        }
+        contact_form_capture();
+        echo '<script>window.location = "#submit_btn";</script>';
    }
 ?>
 
@@ -76,10 +78,20 @@
                 </div>
                 <div class="contact-form">
                     <form id="contact_form" action="" method="post">
-                        <input type="text" name="fullname" placeholder="Your Name*" required>
-                        <input type="text" name="phone" placeholder="Phone Number*" required>
-                        <input type="email" name="email" placeholder="Your Email*" required>
-                        <input type="text" name="company" placeholder="Company">
+                        <input id="full_name" type="text" name="fullname" placeholder="Your Name*" required>
+                        <img id="name_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="name_error" class="error_msg">Field is Required</span>
+                        
+                        <input id="phone" type="text" name="phone" placeholder="Phone Number*" required>
+                        <img id="phone_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="phone_error" class="error_msg">Field is Required</span>
+
+                        <input id="email" type="email" name="email" placeholder="Your Email*" required>
+                        <img id="email_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="email_error" class="error_msg">Field is Required</span>
+
+                        <input id="company" type="text" name="company" placeholder="Company">
+
                         <div class="services">
                             <label><input type="checkbox" name="services[]" value="seo">SEO</label>
                             <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>    
@@ -88,7 +100,9 @@
                             <label><input type="checkbox" name="services[]" value="paid-media">Social Media Marketing</label>
                             <label><input type="checkbox" name="services[]" value="web-design">Web Apps</label>
                         </div>
-                        <textarea name="message" placeholder="Message*" required></textarea>
+                        <textarea id="message" name="message" placeholder="Message*" required></textarea>
+                        <img id="message_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="message_error" class="error_msg">Field is Required</span>
 
                         <button id="submit_btn" type="submit" class="submit-btn">Send</button>
                         <span id="form_error" class="error">There was a problem submitting the form. <br />
@@ -109,7 +123,7 @@
                     <div id="spinner_overlay" class="spinner-overlay">
                         <div class="spinner"></div>
                     </div>
-                    <!-- <script type="module" src="../scripts/contactForm.js"></script> -->
+                    <script type="module" src="../scripts/contactForm.js"></script>
                 </div>
             </div>
         </section>

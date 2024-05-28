@@ -3,36 +3,36 @@ import {validators} from "./validators.js";
 var emailInput = document.getElementById("email");
 var emailSuccess = document.getElementById("email_success");
 var emailError = document.getElementById("email_error");
-var websiteInput = document.getElementById("website");
-var websiteSuccess = document.getElementById("website_success");
-var websiteError = document.getElementById("website_error");
+var messageInput = document.getElementById("message");
+var messageSuccess = document.getElementById("message_success");
+var messageError = document.getElementById("message_error");
 var phoneInput = document.getElementById("phone");
 var phoneSuccess = document.getElementById("phone_success");
 var phoneError = document.getElementById("phone_error");
-var fnameInput = document.getElementById("fname");
-var fnameSuccess = document.getElementById("fname_success");
-var fnameError = document.getElementById("fname_error");
-var lnameInput = document.getElementById("lname");
-var lnameSuccess = document.getElementById("lname_success");
-var lnameError = document.getElementById("lname_error");
+var nameInput = document.getElementById("full_name");
+var nameSuccess = document.getElementById("name_success");
+var nameError = document.getElementById("name_error");
+// var lnameInput = document.getElementById("lname");
+// var lnameSuccess = document.getElementById("lname_success");
+// var lnameError = document.getElementById("lname_error");
 
 const form = document.getElementById('contact_form');
 
 // Form Validator Listeners
-fnameInput.addEventListener("input", () => {
-    validators.requiredNonEmpty(fnameInput, fnameSuccess, fnameError);
+nameInput.addEventListener("input", () => {
+    validators.requiredNonEmpty(nameInput, nameSuccess, nameError);
 });
 
-lnameInput.addEventListener("input", () => {
-    validators.requiredNonEmpty(lnameInput, lnameSuccess, lnameError);
-});
+// lnameInput.addEventListener("input", () => {
+//     validators.requiredNonEmpty(lnameInput, lnameSuccess, lnameError);
+// });
 
 emailInput.addEventListener("input", () => {
     validators.email(emailInput, emailSuccess, emailError);
 });
 
-websiteInput.addEventListener("input", () => {
-    validators.url(websiteInput, websiteSuccess, websiteError);
+messageInput.addEventListener("input", () => {
+    validators.requiredNonEmpty(messageInput, messageSuccess, messageError);
 });
 
 phoneInput.addEventListener("change", () => {
