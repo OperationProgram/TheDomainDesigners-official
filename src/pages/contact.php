@@ -1,20 +1,21 @@
 <?php require("../plugins/contactForm/contactForm.php"); ?>
 <?php 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //   if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-    //      $response = "Email, Name, Message, and Phone fields required";
-    //   } else{
-    //      $response = sendMail([
-    //                           'name' => $_POST['fullname'],
-    //                           'phone' => $_POST['phone'],
-    //                           'email' => $_POST['email'], 
-    //                           'company' => $_POST['company'],
-    //                           'services' => $_POST['services'],
-    //                           'message' =>  $_POST['message'],
-    //                         ]);
-    //   }
-        contact_form_capture();
-        echo '<script>window.location = "#submit_btn";</script>';
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitButton'])) {
+        echo "<script>console.log('heres');</script>";
+        // if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+        //     $response = "Email, Name, Message, and Phone fields required";
+        // } else{
+        //     $response = sendMail([
+        //                         'name' => $_POST['fullname'],
+        //                         'phone' => $_POST['phone'],
+        //                         'email' => $_POST['email'], 
+        //                         'company' => $_POST['company'],
+        //                         'services' => $_POST['services'],
+        //                         'message' =>  $_POST['message'],
+        //                         ]);
+        // }
+        //     contact_form_capture();
+        //     echo '<script>window.location = "#submit_btn";</script>';
    }
 ?>
 
@@ -74,7 +75,7 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form action="contact.php" method="post">
+                    <form id="contact_form" action="" method="post">
                         <input type="text" name="fullname" placeholder="Your Name*" required>
                         <input type="text" name="phone" placeholder="Phone Number*" required>
                         <input type="email" name="email" placeholder="Your Email*" required>
@@ -89,7 +90,7 @@
                         </div>
                         <textarea name="message" placeholder="Message*" required></textarea>
 
-                        <button type="submit" class="submit-btn">Send</button>
+                        <button id="submit_btn" type="submit" class="submit-btn">Send</button>
                         <span id="form_error" class="error">There was a problem submitting the form. <br />
                                                 Check the fields for errors.</span>
                         <?php
@@ -108,11 +109,11 @@
                     <div id="spinner_overlay" class="spinner-overlay">
                         <div class="spinner"></div>
                     </div>
-                    <script type="module" src="../scripts/contactForm.js"></script>
+                    <!-- <script type="module" src="../scripts/contactForm.js"></script> -->
                 </div>
             </div>
         </section>
     </main>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 </body>
 </html>

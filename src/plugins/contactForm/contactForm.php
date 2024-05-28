@@ -89,11 +89,12 @@ function sendMail($args) {
 
 
 function contact_form_capture() {
-    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_button'])) {
+    // if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitButton'])) {
+        echo "<script>console.log('here');</script>";
         try {
             session_start();
             $valid = false;
-            $name = $_POST['fullname'];
+            $name = $_POST['fullame'];
             $phone = $_POST['phone'];
             $email = $_POST['email'];
             $company = $_POST['company'];
@@ -130,6 +131,7 @@ function contact_form_capture() {
                                         'services' => $_POST['services'],
                                         'message' =>  $_POST['message'],
                                     ]);
+                echo "<script>console.log('" . $response . "');</script>";
 
                 if ($response == "success") {
                     $_SESSION['contact_form_response'] = "Email sent successfully";
@@ -142,7 +144,7 @@ function contact_form_capture() {
         } catch (Exception $e) {
             echo "Oops! Something went wrong. Please try again.";
         }
-    }
+    // }
 }
 
 
