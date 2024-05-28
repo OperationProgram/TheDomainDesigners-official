@@ -74,6 +74,22 @@
     </div>
 </section>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll('.clickable-section');
+
+        sections.forEach(section => {
+            const header = section.querySelector('h2');
+            header.addEventListener('click', function () {
+                sections.forEach(sec => {
+                    sec.classList.remove('open');
+                });
+                section.classList.add('open');
+            });
+        });
+    });
+</script>
+
 <section class="about-section fade-in-text">
   <div class="two-column-layout">
     <div class="text-column">

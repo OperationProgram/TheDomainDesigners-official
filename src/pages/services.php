@@ -33,13 +33,13 @@
   <section id="services">
     <div class="service-row">
       <div class="service-card wordpress">
-          <img src="../assets/computer-rm-bg.png" >
+          <img src="../assets/design.jpg" >
           <h2>Wordpress Sites</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card custom-code">
-          <img src="../assets/information.jpg" >
+          <img src="../assets/SEO-services.jpg" >
           <h2>SEO</h2>
           <button class="cta-button">Learn More</button>
       </div>
@@ -47,13 +47,13 @@
 
     <div class="service-row">
       <div class="service-card web-apps">
-          <img src="../assets/WEBDEV.jpg" >
+          <img src="../assets/phone-plant-dark.jpg" >
           <h2>Web Apps</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card social-media">
-          <img src="../assets/deliver-image.jpg" >
+          <img src="../assets/custom-code-services.jpg" >
           <h2>Custom Code Sites</h2>
           <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
       </div>
@@ -61,13 +61,13 @@
 
     <div class="service-row">
       <div class="service-card ecommerce">
-          <img src="../assets/ecommerce.jpg" >
+          <img src="../assets/social-media-services.jpg" >
           <h2>Social Media Marketing</h2>
           <button class="cta-button">Learn More</button>
       </div>
 
       <div class="service-card seo">
-          <img src="../assets/SEO.jpg" >
+          <img src="../assets/branding-services.jpg" >
           <h2>Branding</h2>
           <button class="cta-button">Learn More</button>
       </div>
