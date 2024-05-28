@@ -80,7 +80,7 @@
                         <input type="text" name="company" placeholder="Company">
                         <div class="services">
                             <label><input type="checkbox" name="services[]" value="seo">SEO</label>
-                            <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>
+                            <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>    
                             <label><input type="checkbox" name="services[]" value="branding">Branding</label>
                             <label><input type="checkbox" name="services[]" value="social media">Wordpress</label>
                             <label><input type="checkbox" name="services[]" value="paid-media">Social Media Marketing</label>
