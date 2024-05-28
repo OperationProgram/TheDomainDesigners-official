@@ -1,19 +1,20 @@
 <?php require("../plugins/contactForm/contactForm.php"); ?>
 <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-         $response = "Email, Name, Message, and Phone fields required";
-      } else{
-         $response = sendMail([
-                              'name' => $_POST['fullname'],
-                              'phone' => $_POST['phone'],
-                              'email' => $_POST['email'], 
-                              'company' => $_POST['company'],
-                              'services[]' => $_POST['services[]'],
-                              'message' =>  $_POST['message'],
-                            ]);
-      }
-      echo '<script>window.location = "#submit_btn";</script>';
+    //   if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+    //      $response = "Email, Name, Message, and Phone fields required";
+    //   } else{
+    //      $response = sendMail([
+    //                           'name' => $_POST['fullname'],
+    //                           'phone' => $_POST['phone'],
+    //                           'email' => $_POST['email'], 
+    //                           'company' => $_POST['company'],
+    //                           'services' => $_POST['services'],
+    //                           'message' =>  $_POST['message'],
+    //                         ]);
+    //   }
+        contact_form_capture();
+        echo '<script>window.location = "#submit_btn";</script>';
    }
 ?>
 

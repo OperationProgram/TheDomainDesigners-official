@@ -36,14 +36,16 @@ function sendMail($args) {
     // if (isset($fname)) {
     //     $body .= "First Name: \n$fname\n";
     // } 
-    $body .= "Last Name: \n$fullname\n";
+    $body .= "Full Name: \n$fullname\n";
     $body .= "Email: \n$email\n";
     // if (isset($phone)) {
     $body .= "Phone:\n$phone\n";
     // }
-    if (isset($company)) {
-        $body .= "Company:\n$company\n";
-    }
+    // if (isset($company)) {
+    $body .= "Company:\n$company\n";
+    $body .= "Services Requested:\n$services\n";
+
+    // }
     // if (isset($website)) {
     //     $body .= "Website:\n$website\n";
     // }
@@ -91,11 +93,17 @@ function contact_form_capture() {
         try {
             session_start();
             $valid = false;
+            $name = $_POST['fullname'];
+            $phone = $_POST['phone'];
             $email = $_POST['email'];
-            $fullname = $_POST['fullname'];
-            $message = $_POST['message'];
+            $company = $_POST['company'];
+            $services = $_POST['services'];
+            $message =  $_POST['message'];
+            // $email = $_POST['email'];
+            // $fullname = $_POST['fullname'];
+            // $message = $_POST['message'];
 
-            if(empty($email) || empty($fullname) || empty($message)){
+            if(empty($email) || empty($fullname) || empty($message) || empty($phone)){
                 // $response = "All fields are required";
                 $_SESSION['contact_form_response'] = "All fields are required";
             } 
@@ -114,9 +122,13 @@ function contact_form_capture() {
                 $sanitizedName = filter_var($fullname, FILTER_SANITIZE_STRING);
                 $sanitizedMessage = filter_var($message, FILTER_SANITIZE_STRING);
                 
-                $response = sendMail(['email' => $sanitizedEmail, 
-                                    'fullname' => $_POST['fullname'],
-                                    'message' =>  $_POST['message']
+                $response = sendMail([
+                                        'name' => $_POST['fullname'],
+                                        'phone' => $_POST['phone'],
+                                        'email' => $_POST['email'], 
+                                        'company' => $_POST['company'],
+                                        'services' => $_POST['services'],
+                                        'message' =>  $_POST['message'],
                                     ]);
 
                 if ($response == "success") {
