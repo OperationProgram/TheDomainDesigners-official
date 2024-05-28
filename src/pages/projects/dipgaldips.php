@@ -36,7 +36,15 @@
                 </p>
             </div>
         </div>
+    </section>
 
+    <section class="wordpress-solution">
+        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img">
+        <div class="container">
+            <h2 class="custom-h2">Wordpress Solution</h2>
+            <p>
+For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative Media undertook a comprehensive website overhaul, focusing on aesthetic appeal, navigational ease, and mobile responsiveness. Our goal was to reflect The GOT Brand’s ethos through visual elements, intuitive layout, and optimized user experience. This redesign not only modernized their online presence but also aligned with best practices for user engagement and conversion optimization, setting a new standard for their digital footprint.</p>
+        </div>
     </section>
 </body>
 

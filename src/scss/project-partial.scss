@@ -71,6 +71,14 @@ a {
     letter-spacing: 0.2em;
 }
 
+.full-width-img {
+    width: 108%;
+    height: 800px;
+    margin-left: -4%;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+}
 // .overlay {
 //     background-color: rgb(2 2 2 / 31%);
 //     width: 100%;
@@ -152,5 +160,31 @@ a {
             }
         }
 
+    }
+}
+
+.wordpress-solution {
+    padding: 4%;
+    .container {
+        display: flex;
+        margin-top: 30px;
+
+        h1 {
+            flex: 0 1 auto;
+        }
+
+        p {
+            flex: 0 1 auto;
+            padding-left: 60px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            flex-direction: column;
+            p {
+                padding: 18px 0;
+            }
+        }
     }
 }

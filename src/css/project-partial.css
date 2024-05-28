@@ -67,6 +67,17 @@ a {
   letter-spacing: 0.2em;
 }
 
+.full-width-img {
+  width: 108%;
+  height: 800px;
+  margin-left: -4%;
+  padding: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .hero-section {
   position: absolute;
   top: 0;
@@ -135,5 +146,28 @@ a {
   .contents-section .contents-container .text-column {
     padding-left: 0;
     padding-top: 30px;
+  }
+}
+
+.wordpress-solution {
+  padding: 4%;
+}
+.wordpress-solution .container {
+  display: flex;
+  margin-top: 30px;
+}
+.wordpress-solution .container h1 {
+  flex: 0 1 auto;
+}
+.wordpress-solution .container p {
+  flex: 0 1 auto;
+  padding-left: 60px;
+}
+@media (max-width: 480px) {
+  .wordpress-solution .container {
+    flex-direction: column;
+  }
+  .wordpress-solution .container p {
+    padding: 18px 0;
   }
 }/*# sourceMappingURL=project-partial.css.map */
