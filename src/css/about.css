@@ -33,7 +33,7 @@ body {
   padding: 20px;
 }
 .hero-section .hero-content h1 {
-  font-size: 7vw;
+  font-size: min(7vw, 50px); /* Use min() to set a maximum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
@@ -42,7 +42,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .hero-section .hero-content p {
-  font-size: 24px;
+  font-size: min(4vw, 20px); /* Use min() to set a maximum font size */
   margin-bottom: 30px;
 }
 .hero-section .hero-content .hero-button {
@@ -50,7 +50,7 @@ body {
   color: #aa13dc;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: min(1.5vw, 16px); /* Use min() to set a maximum font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -61,6 +61,18 @@ body {
   color: #fff;
 }
 
+/* Example of a media query */
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+  }
+  .hero-section .hero-content p {
+    font-size: 16px; /* Adjust as needed for smaller screens */
+  }
+  .hero-section .hero-content .hero-button {
+    font-size: 14px; /* Adjust as needed for smaller screens */
+  }
+}
 .about-section {
   margin-top: 400px;
   padding: 60px 20px;

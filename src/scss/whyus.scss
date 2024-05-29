@@ -115,21 +115,21 @@ body, html {
   }
 
   .process-content {
-    max-width: 1200px;
     display: flex;
     align-items: center;
     text-align: left;
-    gap: 20px;
-    background: #222222c2;
-    height: auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    max-width: 1200px;
     margin: 50px;
+    gap: 20px;
+    background-color: #333333db;
+    height: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
 
     &:hover {
-      background-color: $primary-color;
+      background-color: #0035c694;
     }
 
     .process-icon {
