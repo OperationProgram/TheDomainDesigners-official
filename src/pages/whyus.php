@@ -26,8 +26,8 @@
     </section>
 
     <section id="design-develop-deliver">
-        <div class="process-section" id="design" data-aos="fade-up">
-            <div class="process-content">
+        <div class="process-section" id="design">
+            <div class="process-content" data-aos="fade-up">
                 <div class="process-icon">
                     <img src="../assets/lightbulb-infographic.png" alt="Design Icon">
                 </div>
@@ -38,8 +38,8 @@
             </div>
         </div>
 
-        <div class="process-section" id="develop" data-aos="fade-up" data-aos-delay="100">
-            <div class="process-content">
+        <div class="process-section" id="develop">
+            <div class="process-content" data-aos="fade-up" data-aos-delay="100">
                 <div class="process-icon">
                     <img src="../assets/computer-infographic.png" alt="Develop Icon">
                 </div>
@@ -50,8 +50,8 @@
             </div>
         </div>
 
-        <div class="process-section" id="deliver" data-aos="fade-up" data-aos-delay="200">
-            <div class="process-content">
+        <div class="process-section" id="deliver">
+            <div class="process-content" data-aos="fade-up" data-aos-delay="200">
                 <div class="process-icon">
                     <img src="../assets/deliver-infographic.png" alt="Deliver Icon">
                 </div>

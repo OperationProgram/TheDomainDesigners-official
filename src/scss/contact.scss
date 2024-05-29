@@ -16,8 +16,6 @@ body {
     padding: 20px;
 }
 
-
-
 main {
 
     .hero-section {
@@ -33,16 +31,16 @@ main {
         background-color: #222222;
     
         h1 {
-            font-size: 5vw;
+            font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
             font-weight: bold;
             margin-bottom: 20px;
             color: rgba(0, 0, 0, 0); 
             -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
             letter-spacing: .12em;
-        }
+          }
     
         p {
-            font-size: 3vw;
+            font-size: min(3vw, 20px); /* Use min() to set a minimum font size */
             margin-bottom: 30px;
         }
 
@@ -51,7 +49,7 @@ main {
             color: $primary-color;
             border: none;
             padding: 10px 20px;
-            font-size: 1rem;
+            font-size: min(1.5vw, 16px); /* Use min() to set a minimum font size */
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -61,7 +59,6 @@ main {
               background-color: $primary-color;
               color: #fff;
             }
-
         }
     }
     
@@ -86,7 +83,7 @@ main {
                 }
 
                 h1 {
-                    font-size: 5vw;
+                    font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
                     font-weight: bold;
                     margin-bottom: 20px;
                     color: rgba(0, 0, 0, 0); 

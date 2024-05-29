@@ -34,13 +34,31 @@
 #nav-menu a {
   color: white;
   text-decoration: none;
-  transition: color 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
   font-size: 18px;
   margin: 10px;
+  padding: 5px 10px; /* Adding padding to ensure the background is noticeable */
+  border-radius: 20px; /* Adjust the border radius as needed */
+  position: relative;
+  z-index: 1;
+}
+#nav-menu a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 20px; /* Match the border radius of the link */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+#nav-menu a:hover::before {
+  opacity: 1;
 }
 #nav-menu a:hover {
-  background-color: #fff;
-  border-radius: 20px; /* Adjust the border radius as needed */
   color: #aa13dc;
 }
 

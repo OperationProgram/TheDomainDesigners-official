@@ -33,23 +33,40 @@
         margin-left: 5px;
     }
 
-    a{
+    a {
         color: white;
         text-decoration: none;
-        transition: color 0.5s ease;
+        transition: color 0.5s ease, background-color 0.5s ease;
         font-size: 18px;
-        margin: 10px;
+        margin: 5px; /* Reduce margin */
+        padding: 8px 15px; /* Adjust padding */
+        border-radius: 20px; /* Adjust the border radius as needed */
+        position: relative;
+        z-index: 1;
+    }
+
+    a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        border-radius: 20px; /* Match the border radius of the link */
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        z-index: -1;
+    }
+
+    a:hover::before {
+        opacity: 1;
     }
 
     a:hover {
-        
-        background-color: #fff;
-        border-radius: 20px; /* Adjust the border radius as needed */
         color: $primary-color;
     }
-
 }
-
 
 .consultation {
     margin: 0 30px; // Adjust margin as needed
@@ -121,8 +138,4 @@
         display: block;
     }
 
-    .hamburger-icon.active {
-        transform: rotate(90deg); /* Rotate the icon when active */
-    }
-
-}
+   
