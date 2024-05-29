@@ -6,6 +6,7 @@
     <title>Contact Us | Your Company</title>
     <link rel="stylesheet" href="../../css/project-partial.css">
     <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
 </head>
 <body>
     <header>
@@ -129,6 +130,8 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
     </section>
     <script src="../../scripts/overlayController.js"></script>
     <script src="../../scripts/rotateImage.js"></script> 
+
+    <?php include '../Footer/footer.php';?>
 </body>
 
 </html>

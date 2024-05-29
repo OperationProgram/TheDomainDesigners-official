@@ -6,6 +6,7 @@
   <title>Your Website</title>
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -118,9 +119,6 @@
   </section>
  -->
 
-
-
-
   <section class="multi-image-section">
     <div class="image-row">
         <div class="image-container">
@@ -172,11 +170,6 @@
   </div>
   </section>
 
-
-  
-
-
-
   <section class="testimonials-section">
   <h2 class="testimonials-title">What Our Clients Say</h2>
   <div class="testimonials-container">
@@ -196,26 +189,21 @@
 </section>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const container = document.querySelector('.testimonials-container');
-    const testimonials = Array.from(container.children);
+    document.addEventListener('DOMContentLoaded', function() {
+      const container = document.querySelector('.testimonials-container');
+      const testimonials = Array.from(container.children);
 
-    // Clone testimonials to create an infinite loop
-    testimonials.forEach(testimonial => {
-      const clone = testimonial.cloneNode(true);
-      container.appendChild(clone);
+      // Clone testimonials to create an infinite loop
+      testimonials.forEach(testimonial => {
+        const clone = testimonial.cloneNode(true);
+        container.appendChild(clone);
+      });
     });
-  });
-</script>
-
-
-
-
-
+  </script>
 
   <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>
 
-
+  <?php include 'pages/Footer/footer.php';?>
 </body>
 </html>

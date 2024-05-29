@@ -66,6 +66,7 @@
     <title>Contact Us | Your Company</title>
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
     <header>
@@ -156,5 +157,7 @@
         </section>
     </main>
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+
+    <?php include 'Footer/footer.php';?>
 </body>
 </html>
