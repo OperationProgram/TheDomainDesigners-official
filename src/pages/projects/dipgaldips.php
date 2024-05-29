@@ -60,6 +60,18 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
             <h2 id="seo-header" class="custom-h2">Search Engine Optimization</h2>
             <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
         </div> 
+        <img src="../../assets/dipgaldips/best_sellers.png" class="screenshot">
+    </section>
+
+    <section id="ecommerce">
+        <div id="rotate-img">
+            <img src="../../assets/dipgaldips/chip.png">
+        </div>
+        <div class="section-container">
+            <h2 id="seo-header" class="custom-h2">Search Engine Optimization</h2>
+            <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
+        </div>
+        <script src="../../scripts/rotateImage.js"></script> 
     </section>
 </body>
 

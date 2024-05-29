@@ -98,6 +98,19 @@ a {
      object-position: center;
 }
 
+.screenshot {
+  width: 100%;
+  height: auto;
+  padding: 4%;
+  border-radius: 20%;
+}
+
+@media (max-width: 480px) {
+  .screenshot {
+    padding: 0;
+    border-radius: 0;
+  }
+}
 .hero-section {
   position: absolute;
   top: 0;
@@ -213,4 +226,23 @@ a {
   #seo .offset-img-container .right-img {
     display: none;
   }
+}
+
+#ecommerce {
+  padding: 4%;
+  background-color: #111;
+  overflow: hidden;
+}
+#ecommerce #rotate-img {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+#ecommerce #rotate-img img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s;
+}
+#ecommerce p {
+  color: #fff;
 }/*# sourceMappingURL=project-partial.css.map */
