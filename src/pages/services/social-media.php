@@ -6,6 +6,7 @@
   <title>Your Website</title>
   <link rel="stylesheet" href="../../css/service-partial.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/footer.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
 </head>
@@ -274,4 +275,6 @@
       once: true
     });
   </script>
+
+  <?php include '../Footer/footer.php';?>
 </body>

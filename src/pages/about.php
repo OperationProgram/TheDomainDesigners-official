@@ -6,6 +6,7 @@
   <title>About Us</title>
   <link rel="stylesheet" href="../css/about.css"> 
   <link rel="stylesheet" href="../css/navbar.css"> 
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 
@@ -102,5 +103,7 @@
       </div>
     </div>
   </section>  
+
+  <?php include 'Footer/footer.php';?>
 </body>
 </html>

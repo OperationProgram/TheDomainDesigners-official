@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
 body {
   margin: 0;
   background-color: #111;

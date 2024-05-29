@@ -7,7 +7,10 @@
 //Typography
 // Primary Font
 $primary-font: 'Roboto', sans-serif; // Modern and clean sans-serif font
-
+@font-face {
+    font-family: 'Lobster';
+    src: url("../assets/fonts/Lobster.ttf");
+}
 // Colors
 $primary-color: #aa13dc; 
 $secondary-color: #3498db;

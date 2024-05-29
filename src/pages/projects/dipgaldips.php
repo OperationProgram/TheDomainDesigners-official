@@ -6,6 +6,7 @@
     <title>Contact Us | Your Company</title>
     <link rel="stylesheet" href="../../css/project-partial.css">
     <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,6 @@
         <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script> 
     </header>
 
-    <!-- <div class="overlay"></div> -->
     <section class="hero-section">
     </section>
 
@@ -27,7 +27,8 @@
                 <ul>
                     <a href="#wordpress-solution-header"><li class="content-link">Wordpress Solution</li></a>
                     <a href="#seo-header"><li class="content-link">Search Engine Optimization</li></a>
-                    <a href="#"><li class="content-link">Branding</li></a>
+                    <a href="#branding-header"><li class="content-link">Branding</li></a>
+                    <a href="#gallery-header"><li class="content-link">Gallery</li></a>
                 </ul>   
             </div>
             <div class="text-column">
@@ -60,7 +61,77 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
             <h2 id="seo-header" class="custom-h2">Search Engine Optimization</h2>
             <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
         </div> 
+        <!-- <img src="../../assets/dipgaldips/best_sellers.png" class="screenshot"> -->
     </section>
+
+    <section id="branding">
+        <h1>Making Everyday</h1>
+        <div id="rotate-img">
+            <img src="../../assets/dipgaldips/chip.png">
+            <div class="spark spark1"></div>
+            <div class="spark spark2"></div>
+            <div class="spark spark3"></div>
+            <div class="spark spark4"></div>
+            <div class="spark spark5"></div>
+            <div class="spark spark6"></div>
+            <div class="spark spark7"></div>
+        </div>
+        <h1>Dip Day</h1>
+        <div class="section-container">
+            <h2 id="branding-header" class="custom-h2">Branding</h2>
+            <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h1 id="gallery-header" class="custom-h1">Gallery</h1>
+        <div class="multi-image-container">
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/home.png" alt="Image 1">
+                        <h2 class="image-title">Home</h2>
+                    </a>
+                </div>
+
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Image 2">
+                        <h2 class="image-title">Monthly Subscription</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Image 3">
+                        <h2 class="image-title">Best Sellers</h2>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/checkout.png" alt="Image 4">
+                        <h2 class="image-title">Checkout</h2>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/product.png" alt="Image 5">
+                        <h2 class="image-title">Products</h2>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="image-overlay" class="overlay-full">
+                <span class="closebtn">&times;</span>
+                <img class="overlay-content" id="overlay-image" src="" alt="Overlay Image">
+            </div>
+        </div>
+    </section>
+    <script src="../../scripts/overlayController.js"></script>
+    <script src="../../scripts/rotateImage.js"></script> 
+
+    <?php include '../Footer/footer.php';?>
 </body>
 
 </html>
