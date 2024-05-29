@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
 html, body {
   background-color: #f4f4f4;
   scroll-behavior: smooth;
@@ -228,21 +232,83 @@ a {
   }
 }
 
-#ecommerce {
+#branding {
   padding: 4%;
-  background-color: #111;
   overflow: hidden;
+  background-color: #111;
 }
-#ecommerce #rotate-img {
+#branding h1 {
+  font-family: "Lobster", Sans-serif;
+  font-size: 42px;
+  text-align: center;
+  color: #fff;
+}
+#branding #rotate-img {
   overflow: hidden;
   width: auto;
   height: auto;
+  position: relative;
 }
-#ecommerce #rotate-img img {
+#branding #rotate-img img {
   width: 100%;
   height: 100%;
   transition: transform 0.1s;
 }
-#ecommerce p {
+#branding #rotate-img::before {
+  content: "";
+  position: absolute;
+  top: 10%; /* Adjust the position above the image */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px; /* Width of the line */
+  height: 8%; /* Height of the line */
+  background-color: yellow; /* Color of the line */
+}
+#branding .spark {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 8%;
+  background-color: yellow;
+}
+#branding .spark1 {
+  top: 22%;
+  left: 67%;
+  transform: rotate(45deg);
+}
+#branding .spark2 {
+  top: 45%;
+  left: 76%;
+  transform: rotate(90deg);
+}
+#branding .spark3 {
+  top: 74%;
+  left: 72%;
+  transform: rotate(135deg);
+}
+#branding .spark4 {
+  top: 88%;
+  left: 53%;
+  transform: rotate(180deg);
+}
+#branding .spark5 {
+  top: 74%;
+  left: 33%;
+  transform: rotate(225deg);
+}
+#branding .spark6 {
+  top: 45%;
+  left: 27%;
+  transform: rotate(270deg);
+}
+#branding .spark7 {
+  top: 23%;
+  left: 34%;
+  transform: rotate(315deg);
+}
+#branding .section-container {
+  padding-top: 8%;
+}
+#branding p {
   color: #fff;
 }/*# sourceMappingURL=project-partial.css.map */
