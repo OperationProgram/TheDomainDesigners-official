@@ -90,7 +90,4 @@ function sendMail($args) {
         echo "Oops! Something went wrong. Please try again later. Error: {$mail->ErrorInfo}";
     }
 }
-
-// Register shortcode to display contact form response
-// add_shortcode('display_contact_form_response', 'display_contact_form_response');
 ?>

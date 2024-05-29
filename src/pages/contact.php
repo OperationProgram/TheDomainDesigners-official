@@ -53,7 +53,7 @@
         //                         ]);
         // }
         // contact_form_capture();
-        echo '<script>window.location = "#submit_btn";</script>';
+        header("Location: {$_SERVER['REQUEST_URI']}#submit_btn");
    }
 ?>
 
