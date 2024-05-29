@@ -14,7 +14,6 @@
         <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script> 
     </header>
 
-    <!-- <div class="overlay"></div> -->
     <section class="hero-section">
     </section>
 
@@ -28,6 +27,7 @@
                     <a href="#wordpress-solution-header"><li class="content-link">Wordpress Solution</li></a>
                     <a href="#seo-header"><li class="content-link">Search Engine Optimization</li></a>
                     <a href="#branding-header"><li class="content-link">Branding</li></a>
+                    <a href="#gallery-header"><li class="content-link">Gallery</li></a>
                 </ul>   
             </div>
             <div class="text-column">
@@ -80,8 +80,55 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
             <h2 id="branding-header" class="custom-h2">Branding</h2>
             <p>Our SEO strategy for The GOT Brand was built on a foundation of keyword optimization, content quality, technical optimizations, and site performance. By targeting relevant keywords, improving site structure, optimizing for rich snippets, and enhancing page speeds, Kreative Media aimed to improve The GOT Brand’s search engine rankings and organic reach. This approach was designed to attract a targeted audience, increasing visibility and traffic for higher conversion rates.</p>
         </div>
-        <script src="../../scripts/rotateImage.js"></script> 
     </section>
+
+    <section id="gallery">
+        <h1 id="gallery-header" class="custom-h1">Gallery</h1>
+        <div class="multi-image-container">
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/home.png" alt="Image 1">
+                        <h2 class="image-title">Cars</h2>
+                    </a>
+                </div>
+
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Image 2">
+                        <h2 class="image-title">Fine & Fancy</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="image-row">
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Image 3">
+                        <h2 class="image-title">Fresh Squeezed</h2>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/checkout.png" alt="Image 4">
+                        <h2 class="image-title">Fashion</h2>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="javascript:void(0);">
+                        <img src="../../assets/dipgaldips/product.png" alt="Image 5">
+                        <h2 class="image-title">The Dip Factory</h2>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="image-overlay" class="overlay-full">
+                <span class="closebtn">&times;</span>
+                <img class="overlay-content" id="overlay-image" src="" alt="Overlay Image">
+            </div>
+        </div>
+    </section>
+    <script src="../../scripts/overlayController.js"></script>
+    <script src="../../scripts/rotateImage.js"></script> 
 </body>
 
 </html>

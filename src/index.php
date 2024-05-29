@@ -124,13 +124,13 @@
   <section class="multi-image-section">
     <div class="image-row">
         <div class="image-container">
-            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-tesla.jpg">
+            <a href="assets/portfolio/p-tesla.jpg">
                 <img src="assets/portfolio/p-tesla.jpg" alt="Image 1">
                 <h2 class="image-title">Cars</h2>
             </a>
         </div>
         <div class="image-container">
-            <a href="<?php echo $currentConfig['baseUrl'] ?>assets/portfolio/p-shoes.jpg">
+            <a href="assets/portfolio/p-shoes.jpg">
                 <img src="assets/portfolio/p-shoes.jpg" alt="Image 2">
                 <h2 class="image-title">Fine & Fancy</h2>
             </a>

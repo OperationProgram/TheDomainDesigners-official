@@ -311,4 +311,89 @@ a {
 }
 #branding p {
   color: #fff;
+}
+
+#gallery {
+  background-color: #111;
+  padding: 4%;
+}
+#gallery .custom-h1 {
+  text-align: center;
+  color: #3498db;
+  margin-bottom: 12px;
+}
+#gallery .multi-image-container {
+  display: flex;
+  flex-direction: column;
+}
+#gallery .multi-image-container .image-row {
+  display: flex;
+}
+#gallery .multi-image-container .image-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+#gallery .multi-image-container .image-container img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: -2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#gallery .multi-image-container .image-container h2 {
+  background-color: rgba(29, 29, 29, 0.68);
+  font-size: 16px;
+  letter-spacing: 0.12em;
+}
+#gallery .multi-image-container .image-container a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+#gallery .multi-image-container .image-container .image-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(37, 37, 37, 0.6784313725);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+#gallery .multi-image-container .image-container:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+#gallery .multi-image-container .image-container:hover .image-title {
+  background-color: rgba(84, 2, 122, 0.7);
+}
+#gallery .multi-image-container #image-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#gallery .multi-image-container .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+#gallery .multi-image-container .overlay-content {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=project-partial.css.map */
