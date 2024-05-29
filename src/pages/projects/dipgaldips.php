@@ -89,14 +89,14 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
                 <div class="image-container">
                     <a href="javascript:void(0);">
                         <img src="../../assets/dipgaldips/home.png" alt="Image 1">
-                        <h2 class="image-title">Cars</h2>
+                        <h2 class="image-title">Home</h2>
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="javascript:void(0);">
                         <img src="../../assets/dipgaldips/dip_plans.png" alt="Image 2">
-                        <h2 class="image-title">Fine & Fancy</h2>
+                        <h2 class="image-title">Monthly Subscription</h2>
                     </a>
                 </div>
             </div>
@@ -104,19 +104,19 @@ For The GOT Brand, a seamless, user-friendly web design was paramount. Kreative 
                 <div class="image-container">
                     <a href="javascript:void(0);">
                         <img src="../../assets/dipgaldips/best_sellers.png" alt="Image 3">
-                        <h2 class="image-title">Fresh Squeezed</h2>
+                        <h2 class="image-title">Best Sellers</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
                         <img src="../../assets/dipgaldips/checkout.png" alt="Image 4">
-                        <h2 class="image-title">Fashion</h2>
+                        <h2 class="image-title">Checkout</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
                         <img src="../../assets/dipgaldips/product.png" alt="Image 5">
-                        <h2 class="image-title">The Dip Factory</h2>
+                        <h2 class="image-title">Products</h2>
                     </a>
                 </div>
             </div>
