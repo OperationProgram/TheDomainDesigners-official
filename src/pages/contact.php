@@ -5,6 +5,17 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $response = capture_contact_form();
         if ($response == "success") {
+            $userSubject = '<DO NOT REPLY> Thank you for contacting us';
+            $fullname = $_POST['fullname'];
+            $email = $_POST['email'];
+            $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, TheDomainDesigners.com";
+
+            sendMail([
+                        'userEmail' => $email, 
+                        'userSubject' => $userSubject,
+                        'userBody' => $userBody
+            ]); 
+            
             $showSuccessMessage = true;
         } 
         else {

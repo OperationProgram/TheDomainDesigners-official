@@ -27,33 +27,30 @@ function sendMail($args) {
 
     extract($args);
     // Email parameters
-    $to = 'metameg8@gmail.com'; 
+    // $to = 'admin@thedomaindesigners.com'; 
     $subject = 'New Contact Form Submission';
 
     // Compose email message
-   
-    $body = "New Inquiry: \n\n";
-    // if (isset($fname)) {
-    //     $body .= "First Name: \n$fname\n";
-    // } 
-    $body .= "Full Name: \n$fullname\n";
-    $body .= "\nEmail: \n$email\n";
-    // if (isset($phone)) {
-    $body .= "\nPhone:\n$phone\n";
-    // }
-    $body .= "\nCompany:\n$company\n";
-    
-    $body .= "Services Requested:\n";
-    foreach ($services as $index => $service) {
-        $body .= "\t" . ($index + 1) . ". " . $service . "\n";
+    if (isset($userBody)) {
+        $to = $userEmail;
+        $from = 'TheDomainDesigners.com Admin';
+        $body = $userBody;
+        $subject = $userSubject;
+    } 
+    else {
+        $body = "New Inquiry: \n\n"; 
+        $body .= "Full Name: \n$fullname\n";
+        $body .= "\nEmail: \n$email\n";
+        $body .= "\nPhone:\n$phone\n";
+        $body .= "\nCompany:\n$company\n";
+        $body .= "\nServices Requested:\n";
+        foreach ($services as $index => $service) {
+            $body .= "\t" . ($index + 1) . ". " . $service . "\n";
+        }
+        $body .= "\nMessage:\n$message\n";
+        $to = 'admin@thedomaindesigners.com';
+        $from = $fullname;
     }
-    
-
-    // }
-    // if (isset($website)) {
-    //     $body .= "Website:\n$website\n";
-    // }
-    $body .= "\nMessage:\n$message\n";
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -61,16 +58,21 @@ function sendMail($args) {
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'metameg8@gmail.com'; // Replace with your Gmail email address
-        $mail->Password = $_ENV['APP_PASSWORD']; // Replace with your Gmail password or app password
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Username = 'admin@thedomaindesigners.com'; 
+        // $mail->Username = 'metameg8@gmail.com'; 
+        $mail->Password = $_ENV['MAIL_APP_PASSWORD']; 
+        // $mail->Password = $_ENV['DEVMAIL_APP_PASSWORD']; 
+        $mail->SMTPSecure = 'ssl';
+        // $mail->SMTPSecure = 'tls';
+        $mail->Port = 465;
+        // $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom($email, $fullname);
+        $mail->setFrom('admin@thedomaindesigners.com', $from);
         $mail->addAddress($to);
+        // $mail->addAddress($email);
 
         // Content
         $mail->isHTML(false);
@@ -87,7 +89,7 @@ function sendMail($args) {
         }
     
     } catch (Exception $e) {
-        echo "Oops! Something went wrong. Please try again later. Error: {$mail->ErrorInfo}";
+        // echo "Oops! Something went wrong. Please try again later. Error: {$mail->ErrorInfo}";
     }
 }
 
@@ -117,7 +119,6 @@ function capture_contact_form() {
     if ($valid) {
         $sanitizedFullName = filter_var($fullname, FILTER_SANITIZE_STRING);
         $sanitizedCompany = filter_var($company, FILTER_SANITIZE_STRING);
-        // $sanitizedPhone = filter_var($phone, FILTER_SANITIZE_STRING);
         $sanitizedMessage = filter_var($message, FILTER_SANITIZE_STRING);
         $response = sendMail([
                             'fullname' => $sanitizedFullName,  
@@ -128,11 +129,6 @@ function capture_contact_form() {
                             'message' =>  $sanitizedMessage,
                         ]);
 
-        // if ($response == "success") {
-        //     $_SESSION['contact_form_response'] = "Email sent successfully";
-        // } else {
-        //     $_SESSION['contact_form_response'] = "Failed to send email. Please Try again.";
-        // }
     }
     
     return $response;
