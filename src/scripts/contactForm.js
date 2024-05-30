@@ -12,9 +12,6 @@ var phoneError = document.getElementById("phone_error");
 var nameInput = document.getElementById("full_name");
 var nameSuccess = document.getElementById("name_success");
 var nameError = document.getElementById("name_error");
-// var lnameInput = document.getElementById("lname");
-// var lnameSuccess = document.getElementById("lname_success");
-// var lnameError = document.getElementById("lname_error");
 
 const form = document.getElementById('contact_form');
 
@@ -22,10 +19,6 @@ const form = document.getElementById('contact_form');
 nameInput.addEventListener("input", () => {
     validators.requiredNonEmpty(nameInput, nameSuccess, nameError);
 });
-
-// lnameInput.addEventListener("input", () => {
-//     validators.requiredNonEmpty(lnameInput, lnameSuccess, lnameError);
-// });
 
 emailInput.addEventListener("input", () => {
     validators.email(emailInput, emailSuccess, emailError);
@@ -38,11 +31,6 @@ messageInput.addEventListener("input", () => {
 phoneInput.addEventListener("change", () => {
     validators.phone(phoneInput, phoneSuccess, phoneError);
 });
-
-
-
-
-
 
 
 // Add event listener for form submission
@@ -60,10 +48,32 @@ form.addEventListener('submit', function(event) {
         document.querySelector('.success').style.display = "none";
         // Prevent form submission
         event.preventDefault();
-        
+
         return;
     }
     document.getElementById('spinner_overlay').style.display = 'flex';
     // form.submit();
    
 });
+
+// Function to show success message and auto-close after a delay
+export function showMessage(message) {
+    var successElement = document.createElement('div');
+    successElement.className = 'success-message';
+    successElement.textContent = message;
+    document.body.appendChild(successElement);
+
+    if (message.includes('success')) {
+        successElement.style.color = 'green';
+    } else {
+        successElement.style.color = 'red';
+    }
+
+    // Automatically close after 3 seconds
+    setTimeout(function() {
+        successElement.style.opacity = '0';
+        setTimeout(function() {
+            document.body.removeChild(successElement);
+        }, 1000); // Wait for transition to complete
+    }, 3000);
+}
