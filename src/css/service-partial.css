@@ -341,24 +341,24 @@ p {
     flex-direction: column;
   }
 }
-#ad-strategies {
+#section-3 {
   background-color: #111;
   color: #fff;
   width: 100%;
   padding: 12%;
 }
-#ad-strategies img {
+#section-3 img {
   width: 100%;
 }
-#ad-strategies ul li p {
+#section-3 ul li p {
   color: #fff;
   font-size: 18px;
 }
-#ad-strategies .text-column {
+#section-3 .text-column {
   width: 50%;
   float: left;
 }
-#ad-strategies .img-container {
+#section-3 .img-container {
   width: 50%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -366,94 +366,94 @@ p {
   float: right;
   padding: 0 4%;
 }
-#ad-strategies .img-container .img-box {
+#section-3 .img-container .img-box {
   background: none;
   width: 100%;
   border-radius: 20px;
   margin: 10% 5px;
 }
-#ad-strategies .img-container .img-box img {
+#section-3 .img-container .img-box img {
   display: block;
   width: 100%;
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#ad-strategies .img-container::-webkit-scrollbar {
+#section-3 .img-container::-webkit-scrollbar {
   display: none;
 }
-#ad-strategies .img-container {
+#section-3 .img-container {
   scrollbar-width: thin;
   scrollbar-color: #aa13dc transparent;
 }
-#ad-strategies .img-container::-webkit-scrollbar-thumb {
+#section-3 .img-container::-webkit-scrollbar-thumb {
   background-color: red;
 }
 @media (max-width: 768px) {
-  #ad-strategies .img-container {
+  #section-3 .img-container {
     display: none;
   }
-  #ad-strategies .text-column {
+  #section-3 .text-column {
     float: none;
     width: 100%;
   }
 }
 
-#marketing-strategy .img-box {
+#section-1 .img-box {
   width: 50%;
   min-width: 224px;
 }
-#marketing-strategy .img-box img {
+#section-1 .img-box img {
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 768px) {
-  #marketing-strategy .img-box {
+  #section-1 .img-box {
     margin: 0 auto;
   }
 }
-#marketing-strategy, #social-media-platforms, #content-creation {
+#section-1, #section-5, #section-2 {
   background-color: #f4f4f4;
   padding: 4%;
 }
 
-#ad-analytics {
+#section-4 {
   padding: 4%;
   padding-top: 12%;
 }
-#ad-analytics .sub-cta .img-box {
+#section-4 .sub-cta .img-box {
   background: url("../assets/people-working.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   width: 50%;
 }
-#ad-analytics .sub-cta .cta-column {
+#section-4 .sub-cta .cta-column {
   padding-top: 8%;
   padding-bottom: 8%;
 }
 @media (max-width: 768px) {
-  #ad-analytics .sub-cta .img-box {
+  #section-4 .sub-cta .img-box {
     width: 100%;
     height: 600px;
   }
 }
-#ad-analytics h1, #ad-analytics p {
+#section-4 h1, #section-4 p {
   color: #fff;
 }
 
-#social-media-platforms .sub-cta .img-box {
+#section-5 .sub-cta .img-box {
   background: url("../assets/man-on-phone-right.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   width: 50%;
 }
-#social-media-platforms .sub-cta .cta-column {
+#section-5 .sub-cta .cta-column {
   padding-top: 8%;
   padding-bottom: 8%;
 }
 @media (max-width: 768px) {
-  #social-media-platforms .sub-cta .img-box {
+  #section-5 .sub-cta .img-box {
     width: 100%;
     height: 600px;
   }

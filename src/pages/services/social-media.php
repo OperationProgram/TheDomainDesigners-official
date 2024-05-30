@@ -52,31 +52,31 @@
   
   <section class="contents">
     <div class="contents-container">
-      <a href="#marketing-strategy">      
+      <a href="#section-1">      
         <div class="content-title">
           <h2>Marketing Strategy</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#content-creation">      
+      <a href="#section-2">      
         <div class="content-title">
           <h2>Content Creation</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#ad-strategies">      
+      <a href="#section-3">      
         <div class="content-title">
           <h2>Ad Strategies</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#ad-analytics">      
+      <a href="#section-4">      
         <div class="content-title">
           <h2>Ad Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#social-media-platforms">      
+      <a href="#section-5">      
         <div class="content-title">
           <h2>Social Media Platforms</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
@@ -85,7 +85,7 @@
     </div>
   </section>
 
-  <section id="marketing-strategy">
+  <section id="section-1">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Building Your Plan</h2>
@@ -126,7 +126,7 @@
     </div>
   </section>
 
-  <section id="content-creation">
+  <section id="section-2">
     <div class="sub-cta">
       <div class="video-box">
         <img src="../../assets/mobile-2.png" alt="Video Thumbnail" class="video-thumbnail" id="video-thumbnail">
@@ -149,7 +149,7 @@
     
   </section>
 
-  <section id="ad-strategies">
+  <section id="section-3">
     <img src="../../assets/mobile-2.png" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2">Let Ads Work For You</h2>
@@ -216,7 +216,7 @@
 
   </section>
 
-  <section id="ad-analytics">
+  <section id="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
         <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
@@ -236,7 +236,7 @@
     </div>
   </section>
 
-  <section id="social-media-platforms">
+  <section id="section-5">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Spreading Your Brand</h2>

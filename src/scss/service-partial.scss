@@ -379,7 +379,7 @@ p {
     }
 }
 
-#ad-strategies {
+#section-3 {
     background-color: $background-color-dark;
     color: #fff;
     width: 100%;
@@ -449,7 +449,7 @@ p {
     }
 }
 
-#marketing-strategy .img-box {
+#section-1 .img-box {
     width: 50%;
     min-width: 224px;
     img {
@@ -460,16 +460,16 @@ p {
 
 
 @media (max-width: 768px) {
-    #marketing-strategy .img-box {
+    #section-1 .img-box {
         margin: 0 auto;
     }
 }
-#marketing-strategy, #social-media-platforms, #content-creation {
+#section-1, #section-5, #section-2 {
     background-color: $background-color-light;
     padding: 4%;
 }
 
-#ad-analytics {
+#section-4 {
     padding: 4%;
     padding-top: 12%;
     .sub-cta {
@@ -498,7 +498,7 @@ p {
     }
 }
 
-#social-media-platforms {
+#section-5 {
     .sub-cta {
         .img-box {
             background: url("../assets/man-on-phone-right.jpg") no-repeat;
