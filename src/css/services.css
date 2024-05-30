@@ -97,6 +97,9 @@ body {
 #services .service-row .small-card {
   flex: 1 1;
 }
+#services .service-row .ecommerce {
+  flex: 2 2;
+}
 #services .service-card {
   height: 325px;
   position: relative;
