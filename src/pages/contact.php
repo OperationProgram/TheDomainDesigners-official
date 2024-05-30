@@ -6,17 +6,10 @@
         $response = capture_contact_form();
         if ($response == "success") {
             $showSuccessMessage = true;
-            // $url = strtok($_SERVER['REQUEST_URI'], '?');
-            // // Append success query parameter
-            // $url .= '?success=true';
-            // // Redirect to the updated URL
-            // header("Location: $url");
-            // exit();
         } 
         else {
             $showFailureMessage = true;
         }
-        // echo '<script>window.location.hash = "submit_btn";</script>';
    }
 ?>
 
