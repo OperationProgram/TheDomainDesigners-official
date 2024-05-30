@@ -36,7 +36,7 @@
       <div class="service-card large-card">
           <img src="../assets/blog-letters.jpg" >
           <h2>Wordpress Sites</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/wordpress-sites.php"><button class="cta-button">Learn More</button></a>
       </div>
 
       <div class="service-card small-card">
