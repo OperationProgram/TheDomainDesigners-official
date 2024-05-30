@@ -101,7 +101,7 @@
                             <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>    
                             <label><input type="checkbox" name="services[]" value="branding">Branding</label>
                             <label><input type="checkbox" name="services[]" value="social media">Wordpress</label>
-                            <label><input type="checkbox" name="services[]" value="paid-media">Social Media Marketing</label>
+                            <label><input type="checkbox" name="services[]" value="paid-media">Social Media</label>
                             <label><input type="checkbox" name="services[]" value="web-design">Web Apps</label>
                         </div>
                         <textarea id="message" name="message" placeholder="Message*" required></textarea>
