@@ -32,7 +32,7 @@ body {
     position: absolute;
     z-index: 1;
     top: 0;
-  }
+}
 
 .hero-section {
     position: absolute;
@@ -41,7 +41,6 @@ body {
     background-size: cover;
     height: 50vh;
     width: 100%;
-    
 
     .hero-content {
         display: flex;
@@ -51,27 +50,42 @@ body {
         position: relative;
         width: 100%;
         height: 120%;
+
         .cta {
             position: absolute;
             z-index: 2;
 
             h1 {
-                font-size: 5vw;
+                font-size: min(5vw, 50px); /* Use min() to set a maximum font size */
                 font-weight: bold;
                 margin-bottom: 20px;
-                color: rgba(0, 0, 0, 0); 
+                color: rgba(0, 0, 0, 0);
                 -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
                 letter-spacing: .12em;
             }
 
             h2 {
                 color: $background-color-light;
-                font-size: 20px;
+                font-size: min(3vw, 20px); /* Use min() to set a maximum font size */
                 letter-spacing: 0.2em;
                 line-height: 1.6em;
             }
+        }
     }
-    }    
+
+    /* Example of a media query */
+    @media screen and (max-width: 768px) {
+        .hero-content {
+            .cta {
+                h1 {
+                    font-size: 40px; /* Adjust as needed for smaller screens */
+                }
+                h2 {
+                    font-size: 16px; /* Adjust as needed for smaller screens */
+                }
+            }
+        }
+    }
 }
 
 #services {
@@ -85,8 +99,7 @@ body {
         display: flex;
         padding: 1.2rem;
         max-width: 1000px;
-        
-        
+
         .wordpress {
             background-color: #000;
             flex: 2 2;
@@ -99,17 +112,13 @@ body {
         .ecommerce {
             flex: 2 2;
         }
-
     }
-
-    
 
     .service-card {
         height: 325px;
         position: relative;
         border-radius: 30px;
         margin: 0 0.6rem;
-
 
         h2 {
             position: absolute;
@@ -119,7 +128,7 @@ body {
             opacity: 1;
             transition: opacity 0.7s ease;
         }
-        
+
         img {
             width: 100%; /* Occupy the entire width of the container */
             height: 100%; /* Occupy the entire height of the container */
@@ -128,23 +137,21 @@ body {
 
         button {
             position: absolute;
-            bottom:20px;
+            bottom: 20px;
             left: 25px;
             opacity: 0;
             visibility: hidden;
-            transition: opacity 0.7s ease, visibility 0.7s ease,
-                        background-color 0.4s ease, color 0.4s ease;
+            transition: opacity 0.7s ease, visibility 0.7s ease, background-color 0.4s ease, color 0.4s ease;
         }
 
-        &:hover h2{
+        &:hover h2 {
             opacity: 0;
         }
 
-        &:hover button{
+        &:hover button {
             opacity: 1;
             visibility: visible;
-            transition: opacity 0.7s ease, visibility 0.7s ease,
-                        background-color 0.4s ease, color 0.4s ease;
+            transition: opacity 0.7s ease, visibility 0.7s ease, background-color 0.4s ease, color 0.4s ease;
         }
     }
 
@@ -181,7 +188,7 @@ body {
             color: white;
             font-size: 32px;
             // font-family: $heading-font-family;
-        };
+        }
 
         button {
             position: absolute;
@@ -194,4 +201,3 @@ body {
         }
     }
 }
-
