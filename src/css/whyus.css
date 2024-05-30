@@ -22,6 +22,7 @@ body, html {
   color: #fff;
   position: absolute;
   top: 0;
+  /* Example of a media query */
 }
 .hero .overlay {
   position: absolute;
@@ -39,7 +40,7 @@ body, html {
   border-radius: 10px;
 }
 .hero .hero-content h1 {
-  font-size: 5vw;
+  font-size: min(5vw, 50px); /* Use min() to set a maximum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
@@ -48,7 +49,7 @@ body, html {
   animation: fadeInDown 1s ease;
 }
 .hero .hero-content p {
-  font-size: 1.5rem;
+  font-size: min(3vw, 20px); /* Use min() to set a maximum font size */
   margin-bottom: 20px;
   animation: fadeInUp 1s ease;
 }
@@ -60,9 +61,21 @@ body, html {
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s ease;
+  font-size: min(1.5vw, 16px); /* Use min() to set a maximum font size */
 }
 .hero .hero-content a:hover {
   background: #217dbb;
+}
+@media screen and (max-width: 768px) {
+  .hero .hero-content h1 {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+  }
+  .hero .hero-content p {
+    font-size: 16px; /* Adjust as needed for smaller screens */
+  }
+  .hero .hero-content a {
+    font-size: 14px; /* Adjust as needed for smaller screens */
+  }
 }
 
 #design-develop-deliver {
@@ -80,6 +93,8 @@ body, html {
   background-image: url("../assets/00.jpg");
   background-position: center;
   background-size: cover;
+  width: 100%;
+  height: auto;
 }
 .process-section:nth-of-type(2) {
   background-image: url("../assets/01.jpg");
@@ -92,21 +107,21 @@ body, html {
   background-size: cover;
 }
 .process-section .process-content {
-  max-width: 1200px;
   display: flex;
   align-items: center;
   text-align: left;
-  gap: 20px;
-  background: rgba(34, 34, 34, 0.7607843137);
-  height: 400px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  max-width: 1200px;
   margin: 50px;
+  gap: 20px;
+  background-color: rgba(51, 51, 51, 0.8588235294);
+  height: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
 }
 .process-section .process-content:hover {
-  background-color: #3498db;
+  background-color: rgba(0, 53, 198, 0.5803921569);
 }
 .process-section .process-content .process-icon {
   flex: 0 0 100px;
@@ -155,5 +170,6 @@ body, html {
   }
   .process-content .process-icon {
     margin-bottom: 20px;
+    width: 100px;
   }
 }/*# sourceMappingURL=whyus.css.map */

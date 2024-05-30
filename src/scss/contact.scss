@@ -16,8 +16,6 @@ body {
     padding: 20px;
 }
 
-
-
 main {
 
     .hero-section {
@@ -33,7 +31,7 @@ main {
         background-color: #222222;
     
         h1 {
-            font-size: 5vw;
+            font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
             font-weight: bold;
             margin-bottom: 20px;
             color: rgba(0, 0, 0, 0); 
@@ -41,27 +39,50 @@ main {
             letter-spacing: .12em;
         }
     
+        h2 {
+            font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
+            color: #fff;
+            letter-spacing: .12em;
+        }
+    
         p {
-            font-size: 3vw;
+            font-size: min(4vw, 20px); /* Use min() to set a minimum font size */
             margin-bottom: 30px;
         }
-
+    
         button {
             background-color: #fff;
             color: $primary-color;
             border: none;
             padding: 10px 20px;
-            font-size: 1rem;
+            font-size: min(1.5vw, 16px); /* Use min() to set a minimum font size */
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
             border: 2px solid $primary-color;
-        
+    
             &:hover {
-              background-color: $primary-color;
-              color: #fff;
+                background-color: $primary-color;
+                color: #fff;
             }
-
+        }
+    }
+    
+    /* Example of a media query */
+    @media screen and (max-width: 768px) {
+        .hero-section {
+            h1 {
+                font-size: 40px; /* Adjust as needed for smaller screens */
+            }
+            h2 {
+                font-size: 24px; /* Adjust as needed for smaller screens */
+            }
+            p {
+                font-size: 16px; /* Adjust as needed for smaller screens */
+            }
+            button {
+                font-size: 14px; /* Adjust as needed for smaller screens */
+            }
         }
     }
     
@@ -86,7 +107,7 @@ main {
                 }
 
                 h1 {
-                    font-size: 5vw;
+                    font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
                     font-weight: bold;
                     margin-bottom: 20px;
                     color: rgba(0, 0, 0, 0); 
@@ -248,4 +269,12 @@ main {
 
         }
     }
+}
+
+.success-message {
+    background-color: $background-color-light;
+    position: absolute;
+    font-size: 22px;
+    top: 0;
+    z-index: 9999;
 }

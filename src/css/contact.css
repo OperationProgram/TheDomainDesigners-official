@@ -15,6 +15,9 @@ body {
   padding: 20px;
 }
 
+main {
+  /* Example of a media query */
+}
 main .hero-section {
   height: 50vh; /* Takes half the screen height */
   background: url("../assets/man-on-phone-right.jpg") no-repeat center center/cover;
@@ -28,15 +31,20 @@ main .hero-section {
   background-color: #222222;
 }
 main .hero-section h1 {
-  font-size: 5vw;
+  font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
   letter-spacing: 0.12em;
 }
+main .hero-section h2 {
+  font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
+  color: #fff;
+  letter-spacing: 0.12em;
+}
 main .hero-section p {
-  font-size: 3vw;
+  font-size: min(4vw, 20px); /* Use min() to set a minimum font size */
   margin-bottom: 30px;
 }
 main .hero-section button {
@@ -44,7 +52,7 @@ main .hero-section button {
   color: #aa13dc;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: min(1.5vw, 16px); /* Use min() to set a minimum font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -53,6 +61,20 @@ main .hero-section button {
 main .hero-section button:hover {
   background-color: #aa13dc;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  main .hero-section h1 {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+  }
+  main .hero-section h2 {
+    font-size: 24px; /* Adjust as needed for smaller screens */
+  }
+  main .hero-section p {
+    font-size: 16px; /* Adjust as needed for smaller screens */
+  }
+  main .hero-section button {
+    font-size: 14px; /* Adjust as needed for smaller screens */
+  }
 }
 main .contact-section {
   padding: 60px 0;
@@ -72,7 +94,7 @@ main .contact-section .container .contact-info h2 {
   color: #aa13dc;
 }
 main .contact-section .container .contact-info h1 {
-  font-size: 5vw;
+  font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
@@ -205,4 +227,11 @@ main .contact-section .container .contact-form .spinner {
   .contact-section .container .label {
     white-space: wrap;
   }
+}
+.success-message {
+  background-color: #f4f4f4;
+  position: absolute;
+  font-size: 22px;
+  top: 0;
+  z-index: 9999;
 }/*# sourceMappingURL=contact.css.map */

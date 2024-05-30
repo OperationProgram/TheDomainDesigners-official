@@ -33,7 +33,7 @@ body {
   padding: 20px;
 }
 .hero-section .hero-content h1 {
-  font-size: 7vw;
+  font-size: min(7vw, 50px); /* Use min() to set a maximum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
@@ -42,7 +42,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .hero-section .hero-content p {
-  font-size: 24px;
+  font-size: min(4vw, 20px); /* Use min() to set a maximum font size */
   margin-bottom: 30px;
 }
 .hero-section .hero-content .hero-button {
@@ -50,7 +50,7 @@ body {
   color: #aa13dc;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: min(1.5vw, 16px); /* Use min() to set a maximum font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -61,6 +61,18 @@ body {
   color: #fff;
 }
 
+/* Example of a media query */
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+  }
+  .hero-section .hero-content p {
+    font-size: 16px; /* Adjust as needed for smaller screens */
+  }
+  .hero-section .hero-content .hero-button {
+    font-size: 14px; /* Adjust as needed for smaller screens */
+  }
+}
 .about-section {
   margin-top: 400px;
   padding: 60px 20px;
@@ -81,6 +93,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 500px;
+  border: 2px solid #fff;
 }
 .about-section .about-grid .about-text h2 {
   color: #fff;
@@ -151,12 +164,17 @@ body {
   overflow: hidden;
   flex: 1 1 300px;
   max-width: 400px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin: 10px;
 }
 .team-section .team-grid .team-card img {
-  width: 100%;
+  width: 70%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 .team-section .team-grid .team-card h3 {
   color: rgba(255, 255, 255, 0);
@@ -181,6 +199,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 50px;
   color: #fff;
+  border: 2px solid #fff;
 }
 
 .our-story-section, .our-values-section {
@@ -214,6 +233,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 400px;
+  border: 2px solid #fff;
 }
 .our-values-section .values-grid .value-item h3 {
   color: rgba(255, 255, 255, 0);
