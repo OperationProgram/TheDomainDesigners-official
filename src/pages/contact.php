@@ -1,59 +1,22 @@
 <?php require("../plugins/contactForm/sendMail.php"); ?>
 <?php 
+    $showSuccessMessage = false;
+    $showFailureMessage = false;
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $valid = false;
-        $fullname = $_POST['fullname'];
-        $phone = $_POST['phone'];
-        $email = $_POST['email'];
-        $services = isset($_POST['services']) ? $_POST['services'] : [];
-        $company = $_POST['company'];
-        $message = $_POST['message'];
-
-        if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-            $response = "Name, Phone, Email and Message fields required";
-        } 
-        
-        else if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            // Sanitize email address
-            $sanitizedEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
-            $valid = true;
+        $response = capture_contact_form();
+        if ($response == "success") {
+            $showSuccessMessage = true;
+            // $url = strtok($_SERVER['REQUEST_URI'], '?');
+            // // Append success query parameter
+            // $url .= '?success=true';
+            // // Redirect to the updated URL
+            // header("Location: $url");
+            // exit();
         } 
         else {
-            $response = "Invalid email";
+            $showFailureMessage = true;
         }
-        
-        if ($valid) {
-            $sanitizedFullName = filter_var($fullname, FILTER_SANITIZE_STRING);
-            $sanitizedCompany = filter_var($company, FILTER_SANITIZE_STRING);
-            // $sanitizedPhone = filter_var($phone, FILTER_SANITIZE_STRING);
-            $sanitizedMessage = filter_var($message, FILTER_SANITIZE_STRING);
-            $response = sendMail([
-                              'fullname' => $sanitizedFullName,  
-                              'phone' => $phone,
-                              'email' => $sanitizedEmail, 
-                              'company' => $sanitizedCompany,
-                              'services' => $services,
-                              'message' =>  $sanitizedMessage,
-                            ]);
-        }
-
-
-
-
-        // if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
-        //     $response = "Email, Name, Message, and Phone fields required";
-        // } else{
-        //     $response = sendMail([
-        //                         'fullname' => $_POST['fullname'],
-        //                         'phone' => $_POST['phone'],
-        //                         'email' => $_POST['email'], 
-        //                         'company' => $_POST['company'],
-        //                         'services' => $_POST['services'],
-        //                         'message' =>  $_POST['message'],
-        //                         ]);
-        // }
-        // contact_form_capture();
-        header("Location: {$_SERVER['REQUEST_URI']}#submit_btn");
+        // echo '<script>window.location.hash = "submit_btn";</script>';
    }
 ?>
 
@@ -67,12 +30,28 @@
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script src="../scripts/showSuccessMessage.js" defer></script> 
 </head>
+
 <body>
     <header>
+
         <?php $basePath = '..';?>
         <?php include $basePath . '/pages/Navigation/navbar.php';?>
-        <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script> 
+        <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                <?php
+                    if ($showSuccessMessage) {
+                        echo 'showMessage("Email sent successfully!");';
+                    } elseif ($showFailureMessage) {
+                        echo 'showMessage("Oops! Something went wrong. Please Try Again.");';
+                    }
+                ?>
+            });  
+        </script>
+
     </header>
     <main>
         <section class="hero-section">
@@ -151,13 +130,12 @@
                     <div id="spinner_overlay" class="spinner-overlay">
                         <div class="spinner"></div>
                     </div>
-                    <script type="module" src="../scripts/contactForm.js"></script>
                 </div>
             </div>
         </section>
     </main>
-    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-
+    
+    <script type="module" src="../scripts/contactForm.js"></script>
     <?php include 'Footer/footer.php';?>
 </body>
 </html>

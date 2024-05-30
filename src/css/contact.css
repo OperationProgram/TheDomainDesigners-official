@@ -227,4 +227,11 @@ main .contact-section .container .contact-form .spinner {
   .contact-section .container .label {
     white-space: wrap;
   }
+}
+.success-message {
+  background-color: #f4f4f4;
+  position: absolute;
+  font-size: 22px;
+  top: 0;
+  z-index: 9999;
 }/*# sourceMappingURL=contact.css.map */

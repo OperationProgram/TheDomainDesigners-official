@@ -90,4 +90,51 @@ function sendMail($args) {
         echo "Oops! Something went wrong. Please try again later. Error: {$mail->ErrorInfo}";
     }
 }
+
+function capture_contact_form() {
+    session_start();
+    $valid = false;
+    $fullname = $_POST['fullname'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $services = isset($_POST['services']) ? $_POST['services'] : [];
+    $company = $_POST['company'];
+    $message = $_POST['message'];
+
+    if(empty($_POST['email']) || empty($_POST['fullname']) ||  empty($_POST['message']) || empty($_POST['phone'])){
+        $response = "Name, Phone, Email and Message fields required";
+    } 
+    
+    else if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+        // Sanitize email address
+        $sanitizedEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+        $valid = true;
+    } 
+    else {
+        $response = "Invalid email";
+    }
+    
+    if ($valid) {
+        $sanitizedFullName = filter_var($fullname, FILTER_SANITIZE_STRING);
+        $sanitizedCompany = filter_var($company, FILTER_SANITIZE_STRING);
+        // $sanitizedPhone = filter_var($phone, FILTER_SANITIZE_STRING);
+        $sanitizedMessage = filter_var($message, FILTER_SANITIZE_STRING);
+        $response = sendMail([
+                            'fullname' => $sanitizedFullName,  
+                            'phone' => $phone,
+                            'email' => $sanitizedEmail, 
+                            'company' => $sanitizedCompany,
+                            'services' => $services,
+                            'message' =>  $sanitizedMessage,
+                        ]);
+
+        // if ($response == "success") {
+        //     $_SESSION['contact_form_response'] = "Email sent successfully";
+        // } else {
+        //     $_SESSION['contact_form_response'] = "Failed to send email. Please Try again.";
+        // }
+    }
+    
+    return $response;
+}
 ?>

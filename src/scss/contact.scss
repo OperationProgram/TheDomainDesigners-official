@@ -270,3 +270,11 @@ main {
         }
     }
 }
+
+.success-message {
+    background-color: $background-color-light;
+    position: absolute;
+    font-size: 22px;
+    top: 0;
+    z-index: 9999;
+}
