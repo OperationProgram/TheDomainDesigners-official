@@ -214,8 +214,8 @@ p {
     width: 100%;
     margin-top: calc(50vh + 150px);
     background: url("../assets/phone-plant-dark.jpg") no-repeat;
-    background-size: 100%; // Adjust this value to zoom out
-    background-position: center; // Center the background image
+    background-size: 100%; 
+    background-position: center; 
     
     .contents-container {
         width: 100%;
@@ -379,7 +379,7 @@ p {
     }
 }
 
-#section-3 {
+.section-3 {
     background-color: $background-color-dark;
     color: #fff;
     width: 100%;
@@ -449,7 +449,7 @@ p {
     }
 }
 
-#section-1 .img-box {
+.section-1 .img-box {
     width: 50%;
     min-width: 224px;
     img {
@@ -460,16 +460,16 @@ p {
 
 
 @media (max-width: 768px) {
-    #section-1 .img-box {
+    .section-1 .img-box {
         margin: 0 auto;
     }
 }
-#section-1, #section-5, #section-2 {
+.section-1, .section-5, .section-2 {
     background-color: $background-color-light;
     padding: 4%;
 }
 
-#section-4 {
+.section-4 {
     padding: 4%;
     padding-top: 12%;
     .sub-cta {
@@ -498,7 +498,7 @@ p {
     }
 }
 
-#section-5 {
+.section-5 {
     .sub-cta {
         .img-box {
             background: url("../assets/man-on-phone-right.jpg") no-repeat;

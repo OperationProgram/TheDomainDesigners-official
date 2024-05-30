@@ -52,31 +52,31 @@
   
   <section class="contents">
     <div class="contents-container">
-      <a href="#section-1">      
+      <a href="#section-1-header">      
         <div class="content-title">
           <h2>Marketing Strategy</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-2">      
+      <a href="#section-2-header">      
         <div class="content-title">
           <h2>Content Creation</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-3">      
+      <a href="#section-3-header">      
         <div class="content-title">
           <h2>Ad Strategies</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-4">      
+      <a href="#section-4-header">      
         <div class="content-title">
           <h2>Ad Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-5">      
+      <a href="#section-5-header">      
         <div class="content-title">
           <h2>Social Media Platforms</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
@@ -85,7 +85,7 @@
     </div>
   </section>
 
-  <section id="section-1">
+  <section id="section-1-header" class="section-1">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Building Your Plan</h2>
@@ -126,7 +126,7 @@
     </div>
   </section>
 
-  <section id="section-2">
+  <section id="section-2-header" class="section-2">
     <div class="sub-cta">
       <div class="video-box">
         <img src="../../assets/mobile-2.png" alt="Video Thumbnail" class="video-thumbnail" id="video-thumbnail">
@@ -149,7 +149,7 @@
     
   </section>
 
-  <section id="section-3">
+  <section id="section-3-header" class="section-3">
     <img src="../../assets/mobile-2.png" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2">Let Ads Work For You</h2>
@@ -216,10 +216,9 @@
 
   </section>
 
-  <section id="section-4">
+  <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
         <h2 class="custom-h2">Analyze Your Strategy</h2>
@@ -236,7 +235,7 @@
     </div>
   </section>
 
-  <section id="section-5">
+  <section  id="section-5-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Spreading Your Brand</h2>

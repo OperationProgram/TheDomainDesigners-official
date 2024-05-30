@@ -37,13 +37,13 @@
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/icons/facebook.svg">
+        <img src="../../assets/icons/elementor.png">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/instagram.svg">
+        <img src="../../assets/dipgaldips/best_sellers.png">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/twitter.svg">
+        <img src="../../assets/portfolio/wordpress-dashboard.png">
       </div>
       <div class="hero-card">
         <p>Help your brand grow seamlessly through social media platforms</p>
@@ -51,33 +51,33 @@
     </div>
   </section>
   
-  <section class="contents">
+  <section class="wp-contents contents">
     <div class="contents-container">
-      <a href="#section-1">      
+      <a href="#section-1-header">      
         <div class="content-title">
-          <h2>Marketing Strategy</h2>
+          <h2>Design & Customization</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-2">      
+      <a href="#section-2-header">      
         <div class="content-title">
-          <h2>Content Creation</h2>
+          <h2>Plugins</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-3">      
+      <a href="#section-3-header">      
         <div class="content-title">
-          <h2>Ad Strategies</h2>
+          <h2>E-commerce</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-4">      
+      <a href="#section-4-header">      
         <div class="content-title">
-          <h2>Ad Analytics</h2>
+          <h2>Maintenance</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-5">      
+      <a href="#section-5-header">      
         <div class="content-title">
           <h2>Page Builders</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
@@ -86,7 +86,26 @@
     </div>
   </section>
 
-  <section id="section-1">
+  <section id="section-1-header" class="section-4">
+    <div class="sub-cta">
+      <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+      </div>
+      <div class="cta-column">
+        <h2 class="custom-h2">Planning For Success</h2>
+        <h1 class="custom-h1">Design & Customization</h1>
+        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
+         <br /><br />   
+        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        <br /><br />   
+        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        </p>
+        <button class="cta-button-dark">Let's Chat</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="section-2-header" class="section-1">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Building Your Plan</h2>
@@ -127,30 +146,7 @@
     </div>
   </section>
 
-  <section id="section-2">
-    <div class="sub-cta">
-      <div class="video-box">
-        <img src="../../assets/mobile-2.png" alt="Video Thumbnail" class="video-thumbnail" id="video-thumbnail">
-        <div class="play-button" id="play-button"></div>
-        <video controls loop id="video">
-            <source src="../../assets/videos/glow.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-      </div>
-  
-      <div class="cta-column">
-        <h2 class="custom-h2">Check Out The Future</h2>
-        <h1 class="custom-h1">Content Creation</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
-         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-        </p>
-      </div>
-    </div>
-    
-  </section>
-
-  <section id="section-3">
+  <section id="section-3-header" class="section-3">
     <img src="../../assets/mobile-2.png" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2">Let Ads Work For You</h2>
@@ -217,7 +213,7 @@
 
   </section>
 
-  <section id="section-4">
+  <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
         <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
@@ -237,7 +233,7 @@
     </div>
   </section>
 
-  <section id="section-5">
+  <section id="section-5-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
         <h2 class="custom-h2">Spreading Your Brand</h2>
@@ -272,7 +268,6 @@
   </section>
 
   <script src="../../scripts/partialScrollContainer.js"></script>
-  <script src="../../scripts/videoThumbnail.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
     AOS.init({
