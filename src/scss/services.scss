@@ -37,7 +37,7 @@ body {
 .hero-section {
     position: absolute;
     top: 0;
-    background: url("../assets/UI_UX-rm-bg.png") no-repeat;
+    background: url("../assets/custom-code-services.jpg") no-repeat;
     background-size: cover;
     height: 50vh;
     width: 100%;
@@ -87,17 +87,12 @@ body {
         max-width: 1000px;
         
         
-        .wordpress {
-            background-color: #000;
+        .large-card {
             flex: 2 2;
         }
 
-        .custom-code, .web-apps, .social-media, .seo {
+        .small-card {
             flex: 1 1;
-        }
-
-        .ecommerce {
-            flex: 2 2;
         }
 
     }
