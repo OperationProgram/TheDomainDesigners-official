@@ -40,8 +40,8 @@
   text-decoration: none;
   transition: color 0.5s ease, background-color 0.5s ease;
   font-size: 18px;
-  margin: 10px;
-  padding: 5px 10px; /* Adding padding to ensure the background is noticeable */
+  margin: 5px; /* Reduce margin */
+  padding: 8px 15px; /* Adjust padding */
   border-radius: 20px; /* Adjust the border radius as needed */
   position: relative;
   z-index: 1;
@@ -119,7 +119,7 @@
   }
   .nav-menu.active {
     right: 0; /* Slide in from the right */
-    background-color: #333;
+    background-color: #222;
   }
   .nav-menu li {
     margin: 20px 0;
@@ -129,8 +129,5 @@
   }
   .hamburger-menu {
     display: block;
-  }
-  .hamburger-icon.active {
-    transform: rotate(90deg); /* Rotate the icon when active */
   }
 }/*# sourceMappingURL=navbar.css.map */
