@@ -219,8 +219,8 @@
         <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Analyze Your Strategy</h2>
-        <h1 class="custom-h1">Ad Analytics</h1>
+        <h2 class="custom-h2">Sell Your Products</h2>
+        <h1 class="custom-h1">E-Commerce</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 

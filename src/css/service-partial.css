@@ -54,6 +54,12 @@ p {
 .custom-h1 {
   font-size: 60px;
   line-height: 1.1em;
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .custom-h1 {
+    font-size: 38px;
+  }
 }
 
 .custom-h2 {
