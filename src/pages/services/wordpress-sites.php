@@ -29,7 +29,7 @@
             Your browser does not support the video tag.
         </video>
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">Web Dev Made Easy</h2>
+            <h2 class="hero-gradient">Web Dev Made Easy</h2>
             <h1 class="custom-h1">Wordpress Websites</h1>
             <button class="cta-button">Contact Us</button>
         </div>

@@ -29,7 +29,7 @@
             Your browser does not support the video tag.
         </video>
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">Scrolling to Success!</h2>
+            <h2 class="hero-gradient">Scrolling to Success!</h2>
             <h1 class="custom-h1">Social Media Marketing</h1>
             <button class="cta-button">Contact Us</button>
         </div>

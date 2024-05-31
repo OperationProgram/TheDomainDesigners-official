@@ -26,7 +26,7 @@
     <div class="hero-content">
     <img class="background-hero-img" src="../../assets/purple-splashdrop.jpg">
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">Stellar Visual Designs</h2>
+            <h2 class="hero-gradient">Stellar Visual Designs</h2>
             <h1 class="custom-h1">Branding</h1>
             <button class="cta-button">Contact Us</button>
         </div>

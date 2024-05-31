@@ -72,11 +72,8 @@ p {
 }
 
 .hero-gradient {
-    background: $secondary-color;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text; 
-    color: transparent;
+    color: $text-color-light;
+    font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -146,7 +143,11 @@ p {
         }
 
         .custom-h1 {
-            color: #ffffff;
+            // color: #ffffff;
+            -webkit-text-stroke: 2px rgb(255, 255, 255); 
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0); 
+            letter-spacing: .12em;
         }
 
         img {
@@ -408,7 +409,7 @@ p {
         align-items: center;
         float: right;
         padding: 0 4%;
-        
+        padding-left: 50px;
         .img-box {
             background: none;
             width: 100%;

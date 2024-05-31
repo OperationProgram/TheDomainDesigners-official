@@ -74,11 +74,8 @@ p {
 }
 
 .hero-gradient {
-  background: #3498db;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #fff;
+  font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -144,7 +141,10 @@ p {
   bottom: 10px;
 }
 .hero-section .hero-content .custom-h1 {
-  color: #ffffff;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0);
+  letter-spacing: 0.12em;
 }
 .hero-section .hero-content img {
   position: absolute;
@@ -368,6 +368,7 @@ p {
   align-items: center;
   float: right;
   padding: 0 4%;
+  padding-left: 50px;
 }
 .section-3 .img-container .img-box {
   background: none;

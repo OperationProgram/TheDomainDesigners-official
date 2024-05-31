@@ -26,7 +26,7 @@
     <div class="hero-content">
     <img class="background-hero-img" src="../../assets/purple-splash.jpg">
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">We Got Your Back</h2>
+            <h2 class="hero-gradient">We Got Your Back</h2>
             <h1 class="custom-h1">Maintenance</h1>
             <button class="cta-button">Contact Us</button>
         </div>

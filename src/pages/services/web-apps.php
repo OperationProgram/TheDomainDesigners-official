@@ -26,7 +26,7 @@
     <div class="hero-content">
         <img class="background-hero-img" src="../../assets/purple-right-background.jpg">
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">Full Stack Solutions</h2>
+            <h2 class="hero-gradient">Full Stack Solutions</h2>
             <h1 class="custom-h1">Web Apps</h1>
             <button class="cta-button">Contact Us</button>
         </div>
