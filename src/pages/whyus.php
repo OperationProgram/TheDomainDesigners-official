@@ -19,7 +19,7 @@
     <section class="hero">
         <div class="overlay"></div>
         <div class="hero-content" data-aos="zoom-in">
-            <h1>Why Choose Us</h1>
+            <h1>Why Choose Us...................</h1>
             <p>We provide a complete solution to bring your ideas to life.</p>
             <a href="#design">Learn More</a>
         </div>

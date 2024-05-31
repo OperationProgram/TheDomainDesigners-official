@@ -199,7 +199,15 @@ body {
             
             border-radius: 50%;
             border: 2px solid #fff;
+
+            &:hover {
+              background: #610092c7;
+              transition: background-color 2s ease, transform 0.3s ease;
+
+            }
           }
+
+
         
         h3 {
           color: #ffffff00;

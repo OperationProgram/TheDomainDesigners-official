@@ -63,14 +63,14 @@
   opacity: 1;
 }
 #nav-menu a:hover {
-  color: #aa13dc;
+  color: #7403d1;
 }
 
 .consultation {
   margin: 0 30px;
 }
 .consultation button {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: white;
   border: none;
   padding: 10px 20px;
