@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Website</title>
   <link rel="stylesheet" href="../../css/service-partial.css">
-  <link rel="stylesheet" href="../../css/wordpress-sites.css">
+  <link rel="stylesheet" href="../../css/maintenance.css">
   <link rel="stylesheet" href="../../css/navbar.css">
   <link rel="stylesheet" href="../../css/footer.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
@@ -24,26 +24,23 @@
 
   <section class="hero-section">
     <div class="hero-content">
-        <video autoplay muted>
-            <source src="../../assets/videos/purple-grow.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <img class="background-hero-img" src="../../assets/purple-splash.jpg">
         <div class="cta">
-            <h2 class="custom-h2 hero-gradient">Web Dev Made Easy</h2>
-            <h1 class="custom-h1">Wordpress Websites</h1>
+            <h2 class="custom-h2 hero-gradient">We Got Your Back</h2>
+            <h1 class="custom-h1">Maintenance</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/wordpress.svg">
+        <img class="hero-img" src="../../assets/icons/tools.svg">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/icons/elementor.png">
+        <img src="../../assets/icons/protractor.svg">
       </div>
       <div class="hero-card">
-        <img src="../../assets/dipgaldips/best_sellers.png">
+        <img src="../../assets/icons/speed.svg">
       </div>
       <div class="hero-card">
-        <img src="../../assets/portfolio/wordpress-dashboard.png">
+        <img src="../../assets/icons/backup.svg">
       </div>
       <div class="hero-card">
         <p>Help your brand grow seamlessly through social media platforms</p>
@@ -55,31 +52,19 @@
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
-          <h2>Design & Customization</h2>
+          <h2>Content Updates</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
-          <h2>Plugins</h2>
+          <h2>Performance Monitoring</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
-          <h2>Templates</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
-        </div>
-      </a>
-      <a href="#section-4-header">      
-        <div class="content-title">
-          <h2>E-commerce</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
-        </div>
-      </a>
-      <a href="#section-5-header">      
-        <div class="content-title">
-          <h2>Page Builders</h2>
+          <h2>Backup & Recovery</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
@@ -91,8 +76,8 @@
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Planning For Success</h2>
-        <h1 class="custom-h1">Design & Customization</h1>
+        <h2 class="custom-h2">Need A Change...No Problem</h2>
+        <h1 class="custom-h1">Content Updates</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
@@ -105,52 +90,11 @@
     </div>
   </section>
 
-  <section id="section-2-header" class="section-1">
-    <div class="sub-cta">
-      <div class="cta-column">
-        <h2 class="custom-h2">Make It Easy</h2>
-        <h1 class="custom-h1">Plugins</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
-         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-        </p>
-        <button class="cta-button-dark">Let's Chat</button>
-      </div>
-
-      <div class="img-box" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../../assets/wp-plugin.jpg" class="border-radius-curved-tr">
-      </div>
-    </div>
-
-    <div class="icons">
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/woocommerce.svg">
-        <h3>WooCommerce</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/WPForms.png">
-        <h3>WP Forms</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/chart-trends.svg">
-        <h3>AIOSEO</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/mail.svg">
-        <h3>WPMail</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="section-3-header" class="section-3">
-    <img src="../../assets/workbench.jpg" class="show-sm-screen">
+  <section id="section-2-header" class="section-3">
+    <img src="../../assets/cube-grid.jpg" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
-      <h2 class="custom-h2">Don't Re-Invent The Wheel</h2>
-      <h1 class="custom-h1">Templates</h1>
+      <h2 class="custom-h2">Never Missing A Beat</h2>
+      <h1 class="custom-h1">Performance Monitoring</h1>
       <ul>
         <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
           It's a powerful platform to connect with customers, build brand
@@ -193,19 +137,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/candle-brand.jpg">
+        <img src="../../assets/runner.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/bar-signs.jpg">
+        <img src="../../assets/server-rack.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/signs.jpg">
+        <img src="../../assets/security-cameras.jpg">
       </div>
       <div class="img-box">
         <img src="../../assets/people-writing.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/ferris-wheel.jpg">
+        <img src="../../assets/cube-grid.jpg">
       </div>
     </div>
 
@@ -213,14 +157,13 @@
 
   </section>
 
-  <section id="section-4-header" class="section-4">
+  <section id="section-3-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Analyze Your Strategy</h2>
-        <h1 class="custom-h1">Ad Analytics</h1>
+        <h2 class="custom-h2">Have A Plan</h2>
+        <h1 class="custom-h1">Backup & Recovery</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
@@ -230,40 +173,6 @@
         <button class="cta-button">Let's Chat</button>
       </div>
 
-    </div>
-  </section>
-
-  <section id="section-5-header" class="section-5">
-    <div class="sub-cta">
-      <div class="cta-column">
-        <h2 class="custom-h2">Making Life Easy</h2>
-        <h1 class="custom-h1">Page Builders</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
-         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-        </p>
-        <button class="cta-button-dark">Let's Chat</button>
-      </div>
-
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
-    </div>
-
-    <div class="icons">
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/bricks.svg">
-        <h3>Bricks Builder</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/elementor.png">
-        <h3>Elementor</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/pagebuilder.svg">
-        <h3>Other</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
     </div>
   </section>
 

@@ -55,8 +55,8 @@
 
       <div class="service-card small-card">
           <img src="../assets/computer-glasses.jpg" >
-          <h2>Custom Code Sites</h2>
-          <a href="#"><button class="cta-button">Learn More</button></a>
+          <h2>Maintenance</h2>
+          <a href="services/maintenance.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
 
@@ -70,7 +70,7 @@
       <div class="service-card small-card">
           <img src="../assets/branding.jpg" >
           <h2>Branding</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/branding.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
     
