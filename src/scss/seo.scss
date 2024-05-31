@@ -9,6 +9,10 @@
     left: 0;
 }
 
+.hero-section .hero-card-slide-container .hero-card img {
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
 
     img {
@@ -23,9 +27,13 @@
 }
 
 .section-4 {
+    background-color: $background-color-light;
     .sub-cta {
+        h1, p {
+            color: $text-color-dark;
+        }
         .img-box {
-            background: url("../assets/people-working.jpg") no-repeat;
+            background: url("../assets/keywords.jpg") no-repeat;
             background-size: cover;
             background-position: bottom;
             width: 50%;

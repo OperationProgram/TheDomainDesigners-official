@@ -34,13 +34,13 @@
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/icons/elementor.png">
+        <img src="../../assets/SEO-services.jpg">
       </div>
       <div class="hero-card">
-        <img src="../../assets/dipgaldips/best_sellers.png">
+        <img src="../../assets/planning.jpg">
       </div>
       <div class="hero-card">
-        <img src="../../assets/portfolio/wordpress-dashboard.png">
+        <img src="../../assets/google.jpg">
       </div>
       <div class="hero-card">
         <p>Help your brand grow seamlessly through social media platforms</p>
@@ -52,31 +52,25 @@
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
-          <h2>Design & Customization</h2>
+          <h2>Keyword Research</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
-          <h2>Plugins</h2>
+          <h2>Technical SEO</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
-          <h2>Templates</h2>
+          <h2>On-Page  SEO</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
       <a href="#section-4-header">      
         <div class="content-title">
-          <h2>E-commerce</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
-        </div>
-      </a>
-      <a href="#section-5-header">      
-        <div class="content-title">
-          <h2>Page Builders</h2>
+          <h2>Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
@@ -88,8 +82,8 @@
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Planning For Success</h2>
-        <h1 class="custom-h1">Design & Customization</h1>
+        <h2 class="custom-h2">Sound Professional</h2>
+        <h1 class="custom-h1">Keyword Research</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
@@ -102,52 +96,11 @@
     </div>
   </section>
 
-  <section id="section-2-header" class="section-1">
-    <div class="sub-cta">
-      <div class="cta-column">
-        <h2 class="custom-h2">Make It Easy</h2>
-        <h1 class="custom-h1">Plugins</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
-         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-        </p>
-        <button class="cta-button-dark">Let's Chat</button>
-      </div>
-
-      <div class="img-box" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../../assets/wp-plugin.jpg" class="border-radius-curved-tr">
-      </div>
-    </div>
-
-    <div class="icons">
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/woocommerce.svg">
-        <h3>WooCommerce</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/WPForms.png">
-        <h3>WP Forms</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/chart-trends.svg">
-        <h3>AIOSEO</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/mail.svg">
-        <h3>WPMail</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-    </div>
-  </section>
-
   <section id="section-3-header" class="section-3">
     <img src="../../assets/workbench.jpg" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
-      <h2 class="custom-h2">Don't Re-Invent The Wheel</h2>
-      <h1 class="custom-h1">Templates</h1>
+      <h2 class="custom-h2">Behind The Scenes Optimization</h2>
+      <h1 class="custom-h1">Technical SEO</h1>
       <ul>
         <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
           It's a powerful platform to connect with customers, build brand
@@ -216,8 +169,8 @@
         <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Analyze Your Strategy</h2>
-        <h1 class="custom-h1">Ad Analytics</h1>
+        <h2 class="custom-h2">Let The Data Do The Heavy Lifting</h2>
+        <h1 class="custom-h1">On-Page SEO</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
@@ -233,8 +186,8 @@
   <section id="section-5-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
-        <h2 class="custom-h2">Making Life Easy</h2>
-        <h1 class="custom-h1">Page Builders</h1>
+        <h2 class="custom-h2">Learn How Your Visitors Interact</h2>
+        <h1 class="custom-h1">Analytics</h1>
         <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
          <br /><br />   
         That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 

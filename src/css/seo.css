@@ -11,6 +11,11 @@
   left: 0;
 }
 
+.hero-section .hero-card-slide-container .hero-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 768px) {
   img {
     left: 0;
@@ -22,8 +27,14 @@
   background-position: center;
 }
 
+.section-4 {
+  background-color: #f4f4f4;
+}
+.section-4 .sub-cta h1, .section-4 .sub-cta p {
+  color: #252525;
+}
 .section-4 .sub-cta .img-box {
-  background: url("../assets/people-working.jpg") no-repeat;
+  background: url("../assets/keywords.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   width: 50%;
