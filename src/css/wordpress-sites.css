@@ -2,6 +2,15 @@
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
 }
+.background-hero-img {
+  width: 100%;
+  left: 0;
+}
+
+.hero-section .hero-content img {
+  left: 0;
+}
+
 .hero-img {
   width: 100%;
 }
@@ -49,4 +58,11 @@
   background: url("../assets/developer-window.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section-5 .sub-cta .img-box {
+    width: 100%;
+    height: 600px;
+  }
 }/*# sourceMappingURL=wordpress-sites.css.map */

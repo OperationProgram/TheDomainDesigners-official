@@ -30,7 +30,7 @@
             <h1 class="custom-h1">Branding</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/branding.svg">
+        <!-- <img class="hero-img" src="../../assets/icons/branding.svg"> -->
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
