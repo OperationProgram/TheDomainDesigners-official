@@ -27,44 +27,27 @@
   background-position: center;
 }
 
-#section-3-header {
-  background-color: #111;
-}
-#section-3-header .sub-cta h1, #section-3-header .sub-cta p {
-  color: #fff;
-}
-#section-3-header .icons {
-  background-color: #111;
-}
-#section-3-header .icons p {
-  color: #fff;
-}
-
-.section-4 .sub-cta .img-box {
-  background: url("../assets/notebook.jpg") no-repeat;
+#section-1-header .sub-cta .img-box, #section-2-header .sub-cta .img-box, #section-3-header .sub-cta .img-box {
   background-size: cover;
   background-position: bottom;
   width: 50%;
 }
 @media (max-width: 768px) {
-  .section-4 .sub-cta {
-    flex-direction: column;
-  }
-  .section-4 .sub-cta .img-box {
+  #section-1-header .sub-cta .img-box, #section-2-header .sub-cta .img-box, #section-3-header .sub-cta .img-box {
     width: 100%;
     height: 600px;
   }
 }
 
-.section-5 .sub-cta .img-box {
-  background: url("../assets/analytics-paper.jpg") no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  width: 50%;
+#section-1-header .sub-cta .img-box {
+  background: url("../assets/css-code.jpg") no-repeat;
 }
-@media (max-width: 768px) {
-  .section-5 .sub-cta .img-box {
-    width: 100%;
-    height: 600px;
-  }
+
+#section-2-header .sub-cta .img-box {
+  background: url("../assets/computer-next-to-servers.jpg") no-repeat;
+}
+
+#section-3-header .sub-cta .img-box {
+  background: url("../assets/cloud-tech.jpg") no-repeat;
+  background-position: center;
 }/*# sourceMappingURL=web-apps.css.map */
