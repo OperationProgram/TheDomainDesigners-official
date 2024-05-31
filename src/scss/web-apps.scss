@@ -1,0 +1,79 @@
+@import "variables";
+
+.background-hero-img {
+    width: 100%;
+    left: 0;
+}
+
+.hero-section .hero-content img {
+    left: 0;
+}
+
+.hero-section .hero-card-slide-container .hero-card img {
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+
+    img {
+        left: 0;
+    }
+}
+
+.contents {
+    background: url("../assets/computer-chip.jpg") no-repeat;
+    background-size: 100%; 
+    background-position: center; 
+}
+
+#section-3-header {
+    background-color: $background-color-dark;
+    .sub-cta {
+        h1, p {
+            color: $text-color-light;
+        }
+    }
+
+    .icons {
+        background-color: $background-color-dark;
+        p {
+            color: $text-color-light;
+        }
+    }
+}
+
+.section-4 {
+    .sub-cta {
+        .img-box {
+            background: url("../assets/notebook.jpg") no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-cta {
+            flex-direction: column;
+            .img-box {
+                width: 100%;
+                height: 600px;
+            }
+        }
+    }
+}
+
+.section-5 .sub-cta {
+    .img-box {
+        background: url("../assets/analytics-paper.jpg") no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        width: 50%;
+    }
+
+    @media (max-width: 768px) {
+        .img-box {
+            width: 100%;
+            height: 600px;
+        }
+    }
+}

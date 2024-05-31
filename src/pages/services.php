@@ -50,7 +50,7 @@
       <div class="service-card small-card">
           <img src="../assets/phone-plant-dark.jpg" >
           <h2>Web Apps</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/web-apps.php"><button class="cta-button">Learn More</button></a>
       </div>
 
       <div class="service-card small-card">

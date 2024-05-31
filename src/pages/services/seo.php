@@ -199,18 +199,13 @@
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/bricks.svg">
-        <h3>Bricks Builder</h3>
+        <img src="../../assets/icons/google-analytics.svg">
+        <h3>Google Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/elementor.png">
-        <h3>Elementor</h3>
-        <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
-      </div>
-      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/pagebuilder.svg">
-        <h3>Other</h3>
+        <img src="../../assets/icons/link.svg">
+        <h3>Ahrefs</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
     </div>
