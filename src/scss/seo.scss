@@ -26,7 +26,7 @@
     background-position: center; 
 }
 
-.section-4 {
+#section-1-header {
     background-color: $background-color-light;
     .sub-cta {
         h1, p {
@@ -47,11 +47,33 @@
     }
 }
 
-.section-5 .sub-cta .img-box{
-    background: url("../assets/man-on-phone-right.jpg") no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 50%;
+.section-4 {
+    .sub-cta {
+        .img-box {
+            background: url("../assets/notebook.jpg") no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-cta {
+            flex-direction: column;
+            .img-box {
+                width: 100%;
+                height: 600px;
+            }
+        }
+    }
+}
+
+.section-5 .sub-cta {
+    .img-box {
+        background: url("../assets/analytics-paper.jpg") no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        width: 50%;
+    }
 
     @media (max-width: 768px) {
         .img-box {

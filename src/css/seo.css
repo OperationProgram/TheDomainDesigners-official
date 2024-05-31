@@ -27,19 +27,35 @@
   background-position: center;
 }
 
-.section-4 {
+#section-1-header {
   background-color: #f4f4f4;
 }
-.section-4 .sub-cta h1, .section-4 .sub-cta p {
+#section-1-header .sub-cta h1, #section-1-header .sub-cta p {
   color: #252525;
 }
-.section-4 .sub-cta .img-box {
+#section-1-header .sub-cta .img-box {
   background: url("../assets/keywords.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   width: 50%;
 }
 @media (max-width: 768px) {
+  #section-1-header .sub-cta .img-box {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+.section-4 .sub-cta .img-box {
+  background: url("../assets/notebook.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section-4 .sub-cta {
+    flex-direction: column;
+  }
   .section-4 .sub-cta .img-box {
     width: 100%;
     height: 600px;
@@ -47,13 +63,13 @@
 }
 
 .section-5 .sub-cta .img-box {
-  background: url("../assets/man-on-phone-right.jpg") no-repeat;
+  background: url("../assets/analytics-paper.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   width: 50%;
 }
 @media (max-width: 768px) {
-  .section-5 .sub-cta .img-box .img-box {
+  .section-5 .sub-cta .img-box {
     width: 100%;
     height: 600px;
   }

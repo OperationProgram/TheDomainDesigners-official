@@ -56,19 +56,19 @@
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-2-header">      
+      <a href="#section-3-header">      
         <div class="content-title">
           <h2>Technical SEO</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-3-header">      
+      <a href="#section-4-header">      
         <div class="content-title">
           <h2>On-Page  SEO</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
         </div>
       </a>
-      <a href="#section-4-header">      
+      <a href="#section-5-header">      
         <div class="content-title">
           <h2>Analytics</h2>
           <img src="../../assets/right-arrow.svg" width="40" height="40">
@@ -97,7 +97,7 @@
   </section>
 
   <section id="section-3-header" class="section-3">
-    <img src="../../assets/workbench.jpg" class="show-sm-screen">
+    <img src="../../assets/tech-ball.jpg" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2">Behind The Scenes Optimization</h2>
       <h1 class="custom-h1">Technical SEO</h1>
@@ -143,19 +143,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/candle-brand.jpg">
+        <img src="../../assets/phone-speed.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/bar-signs.jpg">
+        <img src="../../assets/computer-chip.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/signs.jpg">
+        <img src="../../assets/icons/speed.svg">
       </div>
       <div class="img-box">
-        <img src="../../assets/people-writing.jpg">
+        <img src="../../assets/cables.jpg">
       </div>
       <div class="img-box">
-        <img src="../../assets/ferris-wheel.jpg">
+        <img src="../../assets/laptop-speed.jpg">
       </div>
     </div>
 
@@ -166,7 +166,6 @@
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
         <h2 class="custom-h2">Let The Data Do The Heavy Lifting</h2>
