@@ -196,7 +196,7 @@ p {
 }
 .contents .contents-container a:hover .content-title {
   font-size: 26px;
-  color: #aa13dc;
+  color: #7403d1;
 }
 
 @media (max-width: 768px) {
@@ -208,7 +208,7 @@ p {
   }
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
-    color: #aa13dc;
+    color: #7403d1;
   }
 }
 @media (max-width: 480px) {
@@ -358,7 +358,7 @@ p {
 }
 .section-3 .img-container {
   scrollbar-width: thin;
-  scrollbar-color: #aa13dc transparent;
+  scrollbar-color: #7403d1 transparent;
 }
 .section-3 .img-container::-webkit-scrollbar-thumb {
   background-color: red;

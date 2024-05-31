@@ -47,17 +47,17 @@ body {
 }
 .hero-section .hero-content .hero-button {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
   border: none;
   padding: 10px 20px;
   font-size: min(1.5vw, 16px); /* Use min() to set a maximum font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
 }
 .hero-section .hero-content .hero-button:hover {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ body {
   margin-bottom: 20px;
 }
 .about-section .about-grid .about-text h3 {
-  color: #aa13dc;
+  color: #7403d1;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -112,17 +112,17 @@ body {
 }
 .about-section .about-grid .about-text button {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
 }
 .about-section .about-grid .about-text button:hover {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
 }
 .about-section .about-grid .about-image {
@@ -176,6 +176,10 @@ body {
   border-radius: 50%;
   border: 2px solid #fff;
 }
+.team-section .team-grid .team-card img:hover {
+  background: rgba(97, 0, 146, 0.7803921569);
+  transition: background-color 2s ease, transform 0.3s ease;
+}
 .team-section .team-grid .team-card h3 {
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -189,7 +193,7 @@ body {
   line-height: 1.6;
 }
 .team-section .team-grid .team-card p:first-of-type {
-  color: #aa13dc;
+  color: #7403d1;
   font-style: italic;
 }
 
@@ -212,7 +216,7 @@ body {
   text-align: center;
 }
 .our-story-section .container h2, .our-values-section .container h2 {
-  color: #aa13dc;
+  color: #7403d1;
   font-size: 32px;
   margin-bottom: 40px;
 }

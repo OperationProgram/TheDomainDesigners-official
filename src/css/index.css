@@ -76,17 +76,17 @@ body {
 }
 .hero-section .cta-button {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
 }
 .hero-section .cta-button:hover {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
 }
 
@@ -126,7 +126,7 @@ body {
 }
 .text-column h2 {
   font-size: 2rem;
-  color: #aa13dc;
+  color: #7403d1;
   margin-bottom: 1em;
 }
 .text-column h3 {
@@ -143,17 +143,17 @@ body {
 }
 .text-column button {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
 }
 .text-column button:hover {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
 }
 
@@ -366,7 +366,7 @@ body {
 
 .testimonials-title {
   font-size: 32px;
-  color: #aa13dc;
+  color: #7403d1;
   padding: 50px;
   text-align: center; /* Center the title */
 }

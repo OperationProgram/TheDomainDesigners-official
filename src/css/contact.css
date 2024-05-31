@@ -49,17 +49,17 @@ main .hero-section p {
 }
 main .hero-section button {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
   border: none;
   padding: 10px 20px;
   font-size: min(1.5vw, 16px); /* Use min() to set a minimum font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
 }
 main .hero-section button:hover {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -91,7 +91,7 @@ main .contact-section .container .contact-info {
   flex: 1;
 }
 main .contact-section .container .contact-info h2 {
-  color: #aa13dc;
+  color: #7403d1;
 }
 main .contact-section .container .contact-info h1 {
   font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
@@ -116,7 +116,7 @@ main .contact-section .container .contact-info .social-media a {
   transition: color 0.3s;
 }
 main .contact-section .container .contact-info .social-media a:hover {
-  color: #aa13dc;
+  color: #7403d1;
 }
 main .contact-section .container .contact-form {
   flex: 1;
@@ -155,7 +155,7 @@ main .contact-section .container .contact-form form .services label {
   white-space: nowrap;
 }
 main .contact-section .container .contact-form form .submit-btn {
-  background-color: #aa13dc;
+  background-color: #7403d1;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -163,12 +163,12 @@ main .contact-section .container .contact-form form .submit-btn {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #aa13dc;
+  border: 2px solid #7403d1;
   width: 125px;
 }
 main .contact-section .container .contact-form form .submit-btn:hover {
   background-color: #fff;
-  color: #aa13dc;
+  color: #7403d1;
 }
 main .contact-section .container .contact-form .error {
   margin-top: 30px;

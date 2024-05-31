@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,7 @@
 
 body, html {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #2c3e50;
+  color: #3498db;
   background-color: #222;
   line-height: 1.6;
 }
@@ -54,17 +58,19 @@ body, html {
   animation: fadeInUp 1s ease;
 }
 .hero .hero-content a {
-  display: inline-block;
+  background-color: #fff;
+  color: #7403d1;
+  border: none;
   padding: 10px 20px;
-  background: #3498db;
-  color: #fff;
+  font-size: 1rem;
   border-radius: 5px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  font-size: min(1.5vw, 16px); /* Use min() to set a maximum font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #7403d1;
 }
 .hero .hero-content a:hover {
-  background: #217dbb;
+  background-color: #7403d1;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .hero .hero-content h1 {
