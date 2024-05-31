@@ -3,6 +3,9 @@
 .hero-img {
     width: 100%;
 }
+.hero-section .hero-card-slide-container .hero-card img {
+    object-fit: cover;
+}
 
 .contents {
     background: url("../assets/information.jpg") no-repeat;
@@ -34,4 +37,17 @@
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    .section-1 .img-box {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.section-5 .sub-cta .img-box{
+    background: url("../assets/developer-window.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
