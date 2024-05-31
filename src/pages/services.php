@@ -42,7 +42,7 @@
       <div class="service-card small-card">
           <img src="../assets/google.jpg" >
           <h2>SEO</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/seo.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
 
