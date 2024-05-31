@@ -1,0 +1,53 @@
+@import "variables";
+
+.hero-img {
+    width: 100%;
+}
+.hero-section .hero-card-slide-container .hero-card img {
+    object-fit: cover;
+}
+
+.contents {
+    background: url("../assets/information.jpg") no-repeat;
+    background-size: 100%; 
+    background-position: center; 
+}
+
+.section-4 {
+    background-color: $background-color-light;
+    .sub-cta {
+        .cta-column {
+            h1, p {
+                color: $text-color-dark;
+            }
+        }
+        .img-box {
+            background: url("../assets/planning.jpg") no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-cta {
+            flex-direction: column;
+            .img-box {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section-1 .img-box {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.section-5 .sub-cta .img-box{
+    background: url("../assets/developer-window.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

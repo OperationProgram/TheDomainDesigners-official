@@ -33,44 +33,44 @@
 
   <section id="services">
     <div class="service-row">
-      <div class="service-card wordpress">
-          <img src="../assets/design.jpg" >
+      <div class="service-card large-card">
+          <img src="../assets/blog-letters.jpg" >
           <h2>Wordpress Sites</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/wordpress-sites.php"><button class="cta-button">Learn More</button></a>
       </div>
 
-      <div class="service-card custom-code">
-          <img src="../assets/SEO-services.jpg" >
+      <div class="service-card small-card">
+          <img src="../assets/google.jpg" >
           <h2>SEO</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/seo.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
 
     <div class="service-row">
-      <div class="service-card web-apps">
+      <div class="service-card small-card">
           <img src="../assets/phone-plant-dark.jpg" >
           <h2>Web Apps</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/web-apps.php"><button class="cta-button">Learn More</button></a>
       </div>
 
-      <div class="service-card social-media">
-          <img src="../assets/custom-code-services.jpg" >
-          <h2>Custom Code Sites</h2>
-          <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
+      <div class="service-card small-card">
+          <img src="../assets/computer-glasses.jpg" >
+          <h2>Maintenance</h2>
+          <a href="services/maintenance.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
 
     <div class="service-row">
-      <div class="service-card ecommerce">
+      <div class="service-card large-card">
           <img src="../assets/social-media-services.jpg" >
           <h2>Social Media Marketing</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/social-media.php"><button class="cta-button">Learn More</button></a>
       </div>
 
-      <div class="service-card seo">
-          <img src="../assets/branding-services.jpg" >
+      <div class="service-card small-card">
+          <img src="../assets/branding.jpg" >
           <h2>Branding</h2>
-          <button class="cta-button">Learn More</button>
+          <a href="services/branding.php"><button class="cta-button">Learn More</button></a>
       </div>
     </div>
     

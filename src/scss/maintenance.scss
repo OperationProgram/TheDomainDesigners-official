@@ -1,0 +1,69 @@
+@import "variables";
+
+.background-hero-img {
+    width: 100%;
+    left: 0;
+}
+
+.hero-section .hero-content img {
+    left: 0;
+}
+
+@media (max-width: 768px) {
+
+    img {
+        left: 0;
+    }
+}
+
+.contents {
+    background: url("../assets/workbench.jpg") no-repeat;
+    background-size: 100%; 
+    background-position: center; 
+}
+
+#section-1-header {
+    background-color: $background-color-light;
+    .sub-cta {
+        .cta-column {
+            h1, p {
+                color: $text-color-dark;
+            }
+        }
+        .img-box {
+            background: url("../assets/computer-updating.jpg") no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-cta {
+            flex-direction: column;
+            .img-box {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}
+
+#section-3-header {
+    .sub-cta {
+        .img-box {
+            background: url("../assets/harddrive.jpg") no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-cta {
+            flex-direction: column;
+            .img-box {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}

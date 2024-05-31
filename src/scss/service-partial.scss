@@ -22,6 +22,7 @@ p {
     border-radius: map-get($primary-btn-outline, border-radius);
     margin-top: 1.2rem;
     transition: background-color 0.4s ease, color 0.4s ease;
+    width: 50%;
 
     &:hover {
         background-color: transparent;
@@ -42,7 +43,7 @@ p {
     border-radius: map-get($secondary-btn-outline, border-radius);
     margin-top: 1.2rem;
     transition: background-color 0.4s ease, color 0.4s ease;
-    width: 25%;
+    width: 50%;
 
     &:hover {
         background-color: transparent;
@@ -53,6 +54,10 @@ p {
 .custom-h1 {
     font-size: 60px;
     line-height: 1.1em;
+    margin-top: 15px;
+    @media (max-width: 768px) {
+        font-size: 38px;
+    }
 }
 
 .custom-h2 {
@@ -67,11 +72,8 @@ p {
 }
 
 .hero-gradient {
-    background: $secondary-color;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text; 
-    color: transparent;
+    color: $text-color-light;
+    font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +112,10 @@ p {
     clear: both; /* Clear floats */
 }
 
+.border-radius-curved-tr {
+    border-radius: 32px 84px 32px 32px;
+}
+
 .hero-section {
     position: absolute;
     top: 0;
@@ -137,7 +143,11 @@ p {
         }
 
         .custom-h1 {
-            color: #ffffff;
+            // color: #ffffff;
+            -webkit-text-stroke: 2px rgb(255, 255, 255); 
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0); 
+            letter-spacing: .12em;
         }
 
         img {
@@ -175,27 +185,22 @@ p {
     .hero-card-slide-container {
         display: flex;
         width: 100%;
-        background: $background-color-dark;
+        height: auto;
+        background-color: $background-color-dark;
         color: $text-color-light;
 
         .hero-card {
             width: 25%;
-            height: 180px;
+            height: 150px;
             padding: 15px;
             position: relative;
 
             img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 border-radius: 12px;
                 background-color: $background-color-light;
-            }
-
-            p {
-                position: absolute;
-                top: 25%;
-                padding: 8%;
             }
         }
 
@@ -213,9 +218,6 @@ p {
     height: auto;
     width: 100%;
     margin-top: calc(50vh + 150px);
-    background: url("../assets/phone-plant-dark.jpg") no-repeat;
-    background-size: 100%; // Adjust this value to zoom out
-    background-position: center; // Center the background image
     
     .contents-container {
         width: 100%;
@@ -283,24 +285,13 @@ p {
         flex-direction: column;
     }
 
-    .img-box {
-        background: url("../assets/smile.jpg") no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 50%;
-    }
-
-    .border-radius-curved-tr {
-        border-radius: 32px 84px 32px 32px;
-    }
-
     p {
         color: $text-color-dark;
     }
 
     .video-box {
         width: 50%;
-        height: 700px;
+        height: 600px;
         margin-right: 4rem;
         position: relative;
 
@@ -370,33 +361,27 @@ p {
 }
 
 @media (max-width: 768px) {
-    // #marketing-strategy {
-        .sub-cta {
-            flex-direction: column-reverse;
+    .sub-cta {
+        flex-direction: column-reverse;
 
-            .cta-column {
-                width: 100%;
-                height: 100%
-            }
-
-            .img-box {
-                width: 100%;
-                height: 400px;
-            }
-
-            .video-box {
-                width: 70%;
-                margin: 25px;
-                align-self: center;
-            }
+        .cta-column {
+            width: 100%;
+            height: 100%
         }
 
-        .icons {
-            flex-direction: column;
+        .video-box {
+            width: 70%;
+            margin: 25px;
+            align-self: center;
         }
+    }
+
+    .icons {
+        flex-direction: column;
+    }
 }
 
-#ad-strategies {
+.section-3 {
     background-color: $background-color-dark;
     color: #fff;
     width: 100%;
@@ -424,7 +409,7 @@ p {
         align-items: center;
         float: right;
         padding: 0 4%;
-        
+        padding-left: 50px;
         .img-box {
             background: none;
             width: 100%;
@@ -462,22 +447,51 @@ p {
         .text-column {
             float: none;
             width: 100%;
+            padding-top: 28px;
         }
     }
 }
 
+.section-1 .img-box {
+    width: 50%;
+    min-width: 224px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
 
-#marketing-strategy, #social-media-platforms, #content-creation {
+
+@media (max-width: 768px) {
+    .section-1 .img-box {
+        margin: 0 auto;
+    }
+}
+.section-1, .section-5, .section-2 {
     background-color: $background-color-light;
     padding: 4%;
 }
 
-#ad-analytics {
+.section-4 {
     padding: 4%;
     padding-top: 12%;
+    .sub-cta {
+        .cta-column {
+            padding-top: 8%;
+            padding-bottom: 8%;
+        }
+    }
+    
     h1, p {
         color: $text-color-light;
     }
+}
 
-    
+.section-5 {
+    .sub-cta {
+        .cta-column {
+            padding-top: 8%;
+            padding-bottom: 8%;
+        }
+    }
 }

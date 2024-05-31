@@ -1,0 +1,41 @@
+@import "variables";
+
+.background-hero-img {
+    width: 100%;
+    left: 0;
+}
+
+.hero-section .hero-content img {
+    left: 0;
+}
+
+@media (max-width: 768px) {
+
+    img {
+        left: 0;
+    }
+}
+
+.hero-section .hero-card-slide-container .hero-card img {
+    object-fit: cover;
+}
+
+
+.contents {
+    background: url("../assets/UI-UX_graphic.jpg") no-repeat;
+    background-size: 100%; 
+    background-position: center; 
+}
+
+.section-3 {
+    background-color: $background-color-light;
+    h1, ul li p {
+        color: $text-color-dark;
+        padding-top: 25px;
+    }
+}
+
+.custom-bold {
+    font-weight: bold;
+    color: $secondary-color;
+}

@@ -37,7 +37,7 @@ body {
 .hero-section {
   position: absolute;
   top: 0;
-  background: url("../assets/UI_UX-rm-bg.png") no-repeat;
+  background: url("../assets/custom-code-services.jpg") no-repeat;
   background-size: cover;
   height: 50vh;
   width: 100%;
@@ -91,15 +91,11 @@ body {
   padding: 1.2rem;
   max-width: 1000px;
 }
-#services .service-row .wordpress {
-  background-color: #000;
+#services .service-row .large-card {
   flex: 2 2;
 }
-#services .service-row .custom-code, #services .service-row .web-apps, #services .service-row .social-media, #services .service-row .seo {
+#services .service-row .small-card {
   flex: 1 1;
-}
-#services .service-row .ecommerce {
-  flex: 2 2;
 }
 #services .service-card {
   height: 325px;

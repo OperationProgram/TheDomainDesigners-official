@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
+.background-hero-img {
+  width: 100%;
+  left: 0;
+}
+
+.hero-section .hero-content img {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  img {
+    left: 0;
+  }
+}
+.hero-section .hero-card-slide-container .hero-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contents {
+  background: url("../assets/UI-UX_graphic.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.section-3 {
+  background-color: #f4f4f4;
+}
+.section-3 h1, .section-3 ul li p {
+  color: #252525;
+  padding-top: 25px;
+}
+
+.custom-bold {
+  font-weight: bold;
+  color: #3498db;
+}/*# sourceMappingURL=branding.css.map */

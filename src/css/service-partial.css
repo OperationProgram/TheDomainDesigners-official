@@ -24,6 +24,7 @@ p {
   border-radius: 100px;
   margin-top: 1.2rem;
   transition: background-color 0.4s ease, color 0.4s ease;
+  width: 50%;
 }
 .cta-button:hover {
   background-color: transparent;
@@ -43,7 +44,7 @@ p {
   border-radius: 100px;
   margin-top: 1.2rem;
   transition: background-color 0.4s ease, color 0.4s ease;
-  width: 25%;
+  width: 50%;
 }
 .cta-button-dark:hover {
   background-color: transparent;
@@ -53,6 +54,12 @@ p {
 .custom-h1 {
   font-size: 60px;
   line-height: 1.1em;
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .custom-h1 {
+    font-size: 38px;
+  }
 }
 
 .custom-h2 {
@@ -67,11 +74,8 @@ p {
 }
 
 .hero-gradient {
-  background: #3498db;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #fff;
+  font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -107,6 +111,10 @@ p {
   clear: both; /* Clear floats */
 }
 
+.border-radius-curved-tr {
+  border-radius: 32px 84px 32px 32px;
+}
+
 .hero-section {
   position: absolute;
   top: 0;
@@ -133,7 +141,10 @@ p {
   bottom: 10px;
 }
 .hero-section .hero-content .custom-h1 {
-  color: #ffffff;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0);
+  letter-spacing: 0.12em;
 }
 .hero-section .hero-content img {
   position: absolute;
@@ -163,27 +174,23 @@ p {
 .hero-section .hero-card-slide-container {
   display: flex;
   width: 100%;
-  background: #111;
+  height: auto;
+  background-color: #111;
   color: #fff;
 }
 .hero-section .hero-card-slide-container .hero-card {
   width: 25%;
-  height: 180px;
+  height: 150px;
   padding: 15px;
   position: relative;
 }
 .hero-section .hero-card-slide-container .hero-card img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 12px;
   background-color: #f4f4f4;
-}
-.hero-section .hero-card-slide-container .hero-card p {
-  position: absolute;
-  top: 25%;
-  padding: 8%;
 }
 @media (max-width: 480px) {
   .hero-section .hero-card-slide-container {
@@ -195,9 +202,6 @@ p {
   height: auto;
   width: 100%;
   margin-top: calc(50vh + 150px);
-  background: url("../assets/phone-plant-dark.jpg") no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 .contents .contents-container {
   width: 100%;
@@ -254,21 +258,12 @@ p {
   display: flex;
   flex-direction: column;
 }
-.sub-cta .img-box {
-  background: url("../assets/smile.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-}
-.sub-cta .border-radius-curved-tr {
-  border-radius: 32px 84px 32px 32px;
-}
 .sub-cta p {
   color: #252525;
 }
 .sub-cta .video-box {
   width: 50%;
-  height: 700px;
+  height: 600px;
   margin-right: 4rem;
   position: relative;
 }
@@ -340,10 +335,6 @@ p {
     width: 100%;
     height: 100%;
   }
-  .sub-cta .img-box {
-    width: 100%;
-    height: 400px;
-  }
   .sub-cta .video-box {
     width: 70%;
     margin: 25px;
@@ -353,73 +344,98 @@ p {
     flex-direction: column;
   }
 }
-#ad-strategies {
+.section-3 {
   background-color: #111;
   color: #fff;
   width: 100%;
   padding: 12%;
 }
-#ad-strategies img {
+.section-3 img {
   width: 100%;
 }
-#ad-strategies ul li p {
+.section-3 ul li p {
   color: #fff;
   font-size: 18px;
 }
-#ad-strategies .text-column {
+.section-3 .text-column {
   width: 50%;
   float: left;
 }
-#ad-strategies .img-container {
+.section-3 .img-container {
   width: 50%;
   overflow-y: scroll;
   overflow-x: hidden;
   align-items: center;
   float: right;
   padding: 0 4%;
+  padding-left: 50px;
 }
-#ad-strategies .img-container .img-box {
+.section-3 .img-container .img-box {
   background: none;
   width: 100%;
   border-radius: 20px;
   margin: 10% 5px;
 }
-#ad-strategies .img-container .img-box img {
+.section-3 .img-container .img-box img {
   display: block;
   width: 100%;
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#ad-strategies .img-container::-webkit-scrollbar {
+.section-3 .img-container::-webkit-scrollbar {
   display: none;
 }
-#ad-strategies .img-container {
+.section-3 .img-container {
   scrollbar-width: thin;
   scrollbar-color: #7403d1 transparent;
 }
-#ad-strategies .img-container::-webkit-scrollbar-thumb {
+.section-3 .img-container::-webkit-scrollbar-thumb {
   background-color: red;
 }
 @media (max-width: 768px) {
-  #ad-strategies .img-container {
+  .section-3 .img-container {
     display: none;
   }
-  #ad-strategies .text-column {
+  .section-3 .text-column {
     float: none;
     width: 100%;
+    padding-top: 28px;
   }
 }
 
-#marketing-strategy, #social-media-platforms, #content-creation {
+.section-1 .img-box {
+  width: 50%;
+  min-width: 224px;
+}
+.section-1 .img-box img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .section-1 .img-box {
+    margin: 0 auto;
+  }
+}
+.section-1, .section-5, .section-2 {
   background-color: #f4f4f4;
   padding: 4%;
 }
 
-#ad-analytics {
+.section-4 {
   padding: 4%;
   padding-top: 12%;
 }
-#ad-analytics h1, #ad-analytics p {
+.section-4 .sub-cta .cta-column {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.section-4 h1, .section-4 p {
   color: #fff;
+}
+
+.section-5 .sub-cta .cta-column {
+  padding-top: 8%;
+  padding-bottom: 8%;
 }/*# sourceMappingURL=service-partial.css.map */
