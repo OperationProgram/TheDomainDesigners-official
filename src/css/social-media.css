@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
+.contents {
+  background: url("../assets/phone-plant-dark.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.section-4 .sub-cta .img-box {
+  background: url("../assets/people-working.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section-4 .sub-cta .img-box {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+.section-5 .sub-cta .img-box {
+  background: url("../assets/man-on-phone-right.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section-5 .sub-cta .img-box .img-box {
+    width: 100%;
+    height: 600px;
+  }
+}/*# sourceMappingURL=social-media.css.map */
