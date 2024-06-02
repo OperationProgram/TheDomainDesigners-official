@@ -102,6 +102,11 @@ p {
   border-radius: 32px 84px 32px 32px;
 }
 
+@media (max-width: 480px) {
+  .border-radius-curved-tr {
+    border-radius: 32px 32px 32px 32px;
+  }
+}
 .custom-bold {
   font-weight: bold;
   color: #3498db;

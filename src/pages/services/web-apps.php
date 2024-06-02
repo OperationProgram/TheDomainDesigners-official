@@ -43,7 +43,8 @@
         <img src="../../assets/ipad-app.jpg">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>
+Transform your ideas into innovative digital solutions with expert web app development</p>
       </div>
     </div>
   </section>

@@ -46,7 +46,7 @@
         <img src="../../assets/icons/twitter.svg">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>Amplify your brand's reach and engagement through strategic social media marketing</p>
       </div>
     </div>
   </section>

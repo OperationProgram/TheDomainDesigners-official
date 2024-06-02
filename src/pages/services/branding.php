@@ -43,7 +43,7 @@
         <img src="../../assets/candle-brand.jpg">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>Establish a unique identity and leave a lasting impression with strategic branding solutions</p>
       </div>
     </div>
   </section>

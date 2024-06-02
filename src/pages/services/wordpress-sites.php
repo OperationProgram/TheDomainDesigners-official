@@ -46,7 +46,7 @@
         <img src="../../assets/portfolio/wordpress-dashboard.png">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>Create and manage your website effortlessly with WordPress, the world's leading content management system</p>
       </div>
     </div>
   </section>
