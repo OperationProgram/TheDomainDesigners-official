@@ -206,7 +206,6 @@
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <!-- <img src="../../assets/people-working.jpg" class="border-radius-curved-tr"> -->
       </div>
       <div class="cta-column">
         <h2 class="custom-h2">Sell Your Products</h2>
