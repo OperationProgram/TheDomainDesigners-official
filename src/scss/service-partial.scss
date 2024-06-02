@@ -103,6 +103,11 @@ p {
     border-radius: 32px 84px 32px 32px;
 }
 
+.custom-bold {
+    font-weight: bold;
+    color: $secondary-color;
+}
+
 .hero-section {
     position: absolute;
     top: 0;
