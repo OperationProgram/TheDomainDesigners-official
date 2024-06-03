@@ -30,7 +30,7 @@
             <h1 class="custom-h1">Branding</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/branding.svg">
+        <!-- <img class="hero-img" src="../../assets/icons/branding.svg"> -->
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
@@ -43,7 +43,7 @@
         <img src="../../assets/candle-brand.jpg">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>Establish a unique identity and leave a lasting impression with strategic branding solutions</p>
       </div>
     </div>
   </section>

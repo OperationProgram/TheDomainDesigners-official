@@ -43,7 +43,7 @@
         <img src="../../assets/icons/backup.svg">
       </div>
       <div class="hero-card">
-        <p>Help your brand grow seamlessly through social media platforms</p>
+        <p>Keep your website running smoothly and securely with professional site maintenance services</p>
       </div>
     </div>
   </section>
