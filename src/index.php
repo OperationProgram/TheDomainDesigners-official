@@ -159,9 +159,9 @@
 <section class="about-section fade-in-text">
   <div class="two-column-layout">
     <div class="text-column">
-      <h3>About Us</h3>
-      <h2>Our Story</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h3>Turning Visions into Tangible Realities</h3>
+      <h2>Empowering Emerging Ventures</h2>
+      <p>At The Domain Designers, we're dedicated to more than just delivering services – we're committed to nurturing enduring partnerships and evolving alongside our clients. Our fervor lies in teaming up with burgeoning enterprises and startups, embedding ourselves in their growth trajectory from conception to triumph. We're not merely transactional; we're invested collaborators, ready to immerse ourselves in the journey, shoulder to shoulder, ensuring mutual success every step of the way.</p>
       <button>Learn More</button>
     </div>
     <div class="image-column">
@@ -169,37 +169,42 @@
     </div>
   </div>
   </section>
-
+  
   <section class="testimonials-section">
-  <h2 class="testimonials-title">What Our Clients Say</h2>
-  <div class="testimonials-container">
-    <div class="testimonial">
-      <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
-      <p>- Sarah Williams, CEO of Tech Ventures</p>
-    </div>
-    <div class="testimonial">
-      <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
-      <p>- Michael Johnson, Founder of GreenEarth</p>
-    </div>
-    <div class="testimonial">
-      <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
-      <p>- Emily Brown, Marketing Director at EcoStart</p>
-    </div>
-  </div>
-</section>
+        <h2 class="testimonials-title">What Our Clients Say</h2>
+        <div class="testimonials-wrapper">
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
+                    <p>- Sarah Williams, CEO of Tech Ventures</p>
+                </div>
+                <div class="testimonial">
+                    <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
+                    <p>- Michael Johnson, Founder of GreenEarth</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
+                    <p>- Emily Brown, Marketing Director at EcoStart</p>
+                </div>
+                <!-- Duplicate testimonials for seamless loop -->
+                <div class="testimonial">
+                    <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
+                    <p>- Sarah Williams, CEO of Tech Ventures</p>
+                </div>
+                <div class="testimonial">
+                    <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
+                    <p>- Michael Johnson, Founder of GreenEarth</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
+                    <p>- Emily Brown, Marketing Director at EcoStart</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const container = document.querySelector('.testimonials-container');
-      const testimonials = Array.from(container.children);
 
-      // Clone testimonials to create an infinite loop
-      testimonials.forEach(testimonial => {
-        const clone = testimonial.cloneNode(true);
-        container.appendChild(clone);
-      });
-    });
-  </script>
+  <script src="scripts/testimonialController.js"></script>
 
   <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>

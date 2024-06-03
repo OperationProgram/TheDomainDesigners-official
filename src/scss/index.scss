@@ -417,48 +417,54 @@ body {
 
     
 
-    .testimonials-section {
-      overflow: hidden;
-      position: relative;
-      width: 100%;
-      background-color: $background-color-dark;
-      padding: 50px 0;
-    }
-    
-    .testimonials-container {
-      display: flex;
-      flex-direction: row; /* Ensure testimonials are in a row for sliding */
-      align-items: center;
-      justify-content: center;
-      height: 200px;
-      margin-bottom: 50px;
-      position: relative;
-      width: 100%; /* Ensure the container takes full width */
-      animation: slide 15s linear infinite;
-    }
-    
-    .testimonials-title {
-      font-size: 32px;
-      color: $primary-color;
-      padding: 50px;
-      text-align: center; /* Center the title */
-    }
-    
-    .testimonial {
-      background-color: #fff;
-      color: $text-color-dark;
-      padding: 20px;
-      box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-      text-align: center;
-      width: 80%; /* Adjust as needed */
-      border-radius: 10px;
-      margin: 0 10px; /* Add margin between testimonials */
-      flex: 0 0 100%; /* Ensure each testimonial takes full width */
-    }
-    
-    .testimonial p {
-      margin: 1em; 
-    }
+.testimonials-section {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #222; /* Replace with your dark background variable */
+    padding: 50px 0;
+}
+
+.testimonials-title {
+    font-size: 32px;
+    color: $primary-color; /* Replace with your primary color variable */
+    padding: 50px;
+    text-align: center; /* Center the title */
+}
+
+.testimonials-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row; /* Ensure testimonials are in a row for sliding */
+    align-items: center;
+    transition: transform 2s linear;
+    width: 100%; /* Adjust width based on the number of duplicated testimonials */
+}
+
+.testimonial {
+    background-color: #fff;
+    color: #333; /* Replace with your text color variable */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 100%; /* Ensure each testimonial takes full width */
+    border-radius: 10px;
+    margin: 0 10px; /* Add margin between testimonials */
+    flex: 0 0 100%; /* Ensure each testimonial takes full width */
+}
+
+.testimonial p {
+    margin: 1em;
+}
     
     @keyframes slide {
       0% { transform: translateX(0); }
