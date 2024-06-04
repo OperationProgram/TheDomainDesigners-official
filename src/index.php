@@ -19,10 +19,6 @@
 <!-- Hero Section -->
 <div class="overlay"></div>
 <section class="hero-section">
-    <!-- <video autoplay muted loop class="hero-video">
-        <source src="assets/hero-section.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->  
     <div class="hero-content">
         <h1>One Size Doesn't Fit All</h1>
         <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
@@ -105,19 +101,7 @@
     </div>
   </div>
   </section>
-
-  <!-- <section class="sliding-feature-section">
-    <div class="sliding-feature-content">
-      <h2>Content Title</h2>
-      <p>Content description goes here...</p>
-      <button>Button</button>
-    </div>
-    <div class="sliding-feature-image">
-      <img src="assets/skull-min.jpg'?>" alt="Your Image">
-    </div>
-  </section>
- -->
-
+  
   <section class="multi-image-section">
     <div class="image-row">
         <div class="image-container">
@@ -190,14 +174,14 @@
                     <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
                     <p>- Sarah Williams, CEO of Tech Ventures</p>
                 </div>
-                <div class="testimonial">
+                <!-- <div class="testimonial">
                     <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
                     <p>- Michael Johnson, Founder of GreenEarth</p>
                 </div>
                 <div class="testimonial">
                     <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
                     <p>- Emily Brown, Marketing Director at EcoStart</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
