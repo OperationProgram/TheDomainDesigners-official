@@ -20,7 +20,9 @@ body {
 }
 
 @include hero_section(url("../assets/skull-min.jpg"), 100vh);
-
+.hero-section {
+  background-position: center;
+}
 // .overlay {
 //   background-color: rgb(2 2 2 / 31%);
 //   width: 100%;

@@ -88,6 +88,10 @@ body {
   }
 }
 
+.hero-section {
+  background-position: center;
+}
+
 .contact-section {
   margin-top: 100vh;
 }
