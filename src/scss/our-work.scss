@@ -1,0 +1,4 @@
+@import "variables";
+@import "mixins";
+
+@include hero_section(url("../assets/UI-UX_graphic.jpg"), 70vh);

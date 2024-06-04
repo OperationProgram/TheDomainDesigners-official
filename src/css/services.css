@@ -28,61 +28,76 @@ body {
 .overlay {
   background-color: rgba(2, 2, 2, 0.31);
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   position: absolute;
   z-index: 1;
   top: 0;
 }
 
 .hero-section {
-  position: absolute;
-  top: 0;
   background: url("../assets/custom-code-services.jpg") no-repeat;
   background-size: cover;
-  height: 50vh;
+  position: absolute;
+  top: 0;
   width: 100%;
-  /* Example of a media query */
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .hero-section .hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
-  height: 100%;
-}
-.hero-section .hero-content .cta {
-  position: absolute;
+  margin: 0 auto;
+  width: 70%;
   z-index: 2;
+  /* Typography styles for the hero section */
 }
-.hero-section .hero-content .cta h1 {
-  font-size: min(5vw, 50px); /* Use min() to set a maximum font size */
+.hero-section .hero-content h1 {
+  font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
   letter-spacing: 0.12em;
 }
-.hero-section .hero-content .cta h2 {
-  color: #f4f4f4;
-  font-size: min(3vw, 20px); /* Use min() to set a maximum font size */
-  letter-spacing: 0.2em;
-  line-height: 1.6em;
+.hero-section .hero-content h2 {
+  font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
+  color: #fff;
+  letter-spacing: 0.12em;
+  margin-bottom: 30px;
+}
+.hero-section .hero-content .cta-button {
+  background-color: #fff;
+  color: #7403d1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #7403d1;
+}
+.hero-section .hero-content .cta-button:hover {
+  background-color: #7403d1;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .hero-section .hero-content .cta h1 {
-    font-size: 40px; /* Adjust as needed for smaller screens */
+  .hero-section .hero-content h1 {
+    font-size: 36px;
   }
-  .hero-section .hero-content .cta h2 {
-    font-size: 16px; /* Adjust as needed for smaller screens */
+  .hero-section .hero-content h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section .hero-content {
+    text-align: left;
   }
 }
 
 #services {
-  margin-top: 50vh;
+  margin-top: 70vh;
   transition: all 0.7s ease;
   display: flex;
   flex-direction: column;

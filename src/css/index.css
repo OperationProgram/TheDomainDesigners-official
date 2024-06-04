@@ -27,22 +27,21 @@ body {
 }
 
 .hero-section {
-  background: url("../assets/skull-min.jpg") center/cover;
+  background: url("../assets/skull-min.jpg") no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100vh; /* Fixed height */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* Example of a media query */
 }
 .hero-section .hero-content {
   position: relative;
   margin: 0 auto;
-  width: 70%; /* Adjust as needed */
+  width: 70%;
   z-index: 2;
   /* Typography styles for the hero section */
 }
@@ -58,23 +57,9 @@ body {
   font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
   color: #fff;
   letter-spacing: 0.12em;
-}
-.hero-section .hero-content p {
-  font-size: min(4vw, 20px); /* Use min() to set a minimum font size */
   margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-  .hero-section .hero-content h1 {
-    font-size: 40px; /* Adjust as needed for smaller screens */
-  }
-  .hero-section .hero-content h2 {
-    font-size: 24px; /* Adjust as needed for smaller screens */
-  }
-  .hero-section .hero-content p {
-    font-size: 16px; /* Adjust as needed for smaller screens */
-  }
-}
-.hero-section .cta-button {
+.hero-section .hero-content .cta-button {
   background-color: #fff;
   color: #7403d1;
   border: none;
@@ -85,9 +70,22 @@ body {
   transition: background-color 0.3s ease;
   border: 2px solid #7403d1;
 }
-.hero-section .cta-button:hover {
+.hero-section .hero-content .cta-button:hover {
   background-color: #7403d1;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 36px;
+  }
+  .hero-section .hero-content h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section .hero-content {
+    text-align: left;
+  }
 }
 
 .contact-section {

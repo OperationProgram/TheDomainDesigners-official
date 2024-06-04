@@ -26,7 +26,6 @@
     <div class="hero-content">
         <h1>One Size Doesn't Fit All</h1>
         <h2>Get a Custom-Built Website Tailored to Your Needs.</h2>
-        <p></p>
         <button class="cta-button">Free Consultation</button>
     </div>
 </section>
@@ -205,8 +204,6 @@
 
 
   <script src="scripts/testimonialController.js"></script>
-
-  <script src="scripts/handleSlideAnimation.js"></script>
   <script src="scripts/textPhaseEffect.js"></script>
 
   <?php include 'pages/Footer/footer.php';?>
