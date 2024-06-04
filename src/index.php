@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheDomainDesigners | Hire Web Designers & Developers - Launch Your Vision </title>
   <meta name="description" content="Hire web designers & developers at TheDomainDesigners. We craft user-friendly websites that empower startups to thrive. Get a free consultation today!">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, thedomaindesigners">
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="css/navbar.css">
