@@ -6,10 +6,35 @@
 
 //Typography
 // Primary Font
-$primary-font: 'Roboto', sans-serif; // Modern and clean sans-serif font
+$header-font: 'UtopiaStd-BlackHeadline', sans-serif; // Modern and clean sans-serif font
+$primary-font: 'malden-sans-medium', sans-serif; // Modern and clean sans-serif font;
+
+
+
 @font-face {
     font-family: 'Lobster';
     src: url("../assets/fonts/Lobster.ttf");
+}
+
+@font-face {
+    font-family: 'Monoton-Regular';
+    src: url('../assets/fonts/Monoton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UtopiaStd-BlackHeadline';
+    src: url('../assets/fonts/UtopiaStd-BlackHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'malden-sans-medium';
+    src: url('../assets/fonts/malden-sans-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 // Colors
 $primary-color: #7403d1; 

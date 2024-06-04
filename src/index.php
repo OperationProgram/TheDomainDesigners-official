@@ -206,7 +206,7 @@
 
   <script src="scripts/testimonialController.js"></script>
 
-  <script src="scripts/handleSlideAnimation.js"></script>
+  <script src="scripts/handleSlideAnimation.js"></script>   
   <script src="scripts/textPhaseEffect.js"></script>
 
   <?php include 'pages/Footer/footer.php';?>

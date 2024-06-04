@@ -3,6 +3,8 @@
 html, body {
     background-color: $background-color-dark;
     scroll-behavior: smooth;
+    font-family: $primary-font;
+    line-height: 1.5;
 }
 
 p {

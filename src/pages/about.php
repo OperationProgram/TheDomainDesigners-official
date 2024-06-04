@@ -85,20 +85,20 @@
     <div class="team-grid">
       <div class="team-card">
         <img src="../assets/alex-pic.png" alt="Team Member Name">
-        <h3>Big Dickin</h3>
-        <p>King of Company</p>
+        <h3>Alex Metzger</h3>
+        <p>Developer</p>
         <p>Brief description or bio of the team member.</p>
       </div>
       <div class="team-card">
         <img src="../assets/spencer-pic.png" alt="Team Member Name">
-        <h3>Alex M</h3>
-        <p>Mascot</p>
+        <h3>Spencer Holan</h3>
+        <p>Developer</p>
         <p>Brief description or bio of the team member.</p>
       </div>
       <div class="team-card">
         <img src="../assets/alex-pic.png" alt="Team Member Name">
-        <h3>Alex M clone#2</h3>
-        <p>CEO/Peasant</p>
+        <h3>Name Here</h3>
+        <p>Title</p>
         <p>Brief description or bio of the team member.</p>
       </div>
     </div>

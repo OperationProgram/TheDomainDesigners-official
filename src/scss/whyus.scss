@@ -18,10 +18,11 @@ $font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 body, html {
-  font-family: $font-family;
+  font-family: $primary-font;
   color: $secondary-color;
   background-color: #222;
   line-height: 1.6;
+  letter-spacing: .12em;
 }
 
 // Hero Section
@@ -61,12 +62,16 @@ body, html {
       -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
       letter-spacing: .12em;
       animation: fadeInDown 1s ease;
+      font-family: $header-font;
+
     }
 
     p {
       font-size: min(3vw, 20px); /* Use min() to set a maximum font size */
       margin-bottom: 20px;
       animation: fadeInUp 1s ease;
+      font-family: $primary-font;
+
     }
 
     a {
@@ -212,5 +217,60 @@ body, html {
       margin-bottom: 20px;
       width: 100px;
     }
+  }
+}
+
+
+
+.portfolio-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  color: $primary-color;
+  margin-bottom: 50px;
+  font-family: $font-secondary;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: $text-color-light;
+      padding: 10px;
+      text-align: center;
+
+      .card-title {
+          font-size: 1.2rem;
+          margin: 0;
+          font-family: $font-secondary;
+      }
   }
 }

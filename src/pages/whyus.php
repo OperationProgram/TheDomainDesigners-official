@@ -19,7 +19,7 @@
     <section class="hero">
         <div class="overlay"></div>
         <div class="hero-content" data-aos="zoom-in">
-            <h1>Why Choose Us...................</h1>
+            <h1>Why Choose Us</h1>
             <p>We provide a complete solution to bring your ideas to life.</p>
             <a href="#design">Learn More</a>
         </div>
@@ -60,6 +60,28 @@
                     <p>Once development is complete, we rigorously test your website and make sure everything is perfect before launch. We deliver a website that exceeds your expectations and helps your business grow.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section">
+        <h2 class="portfolio-title">Our Work</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-card" style="background-image: url('path/to/image1.jpg');">
+                <div class="card-content">
+                    <h3 class="card-title">Project Title 1</h3>
+                </div>
+            </div>
+            <div class="portfolio-card" style="background-image: url('path/to/image2.jpg');">
+                <div class="card-content">
+                    <h3 class="card-title">Project Title 2</h3>
+                </div>
+            </div>
+            <div class="portfolio-card" style="background-image: url('path/to/image3.jpg');">
+                <div class="card-content">
+                    <h3 class="card-title">Project Title 3</h3>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
         </div>
     </section>
 
