@@ -139,7 +139,7 @@
       <div class="video-box">
         <!-- <img src="../../assets/mobile-2.png" alt="Video thumbnail for content creation - Engaging Content Creation Strategies" class="video-thumbnail" id="video-thumbnail"> -->
         <div class="play-button" id="play-button"></div>
-        <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw">
+        <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by TheDomainDesigners.">
         </iframe>
         <!-- <video controls loop id="video">
             <source src="../../assets/videos/glow.mp4" type="video/mp4">
