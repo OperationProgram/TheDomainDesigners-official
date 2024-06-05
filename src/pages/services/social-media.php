@@ -287,7 +287,7 @@ Facebook ads enable businesses to reach targeted audiences with highly customiza
     </div>
   </section>
 
-  <script src="../../scripts/partialScrollContainer.js"></script>
+  <!-- <script src="../../scripts/partialScrollContainer.js"></script> -->
   <!-- <script src="../../scripts/videoThumbnail.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
