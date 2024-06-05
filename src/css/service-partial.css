@@ -284,7 +284,8 @@ p {
   padding: 12px;
   text-align: center;
 }
-.icons .icon h3 {
+.icons .icon span {
+  font-size: 20px;
   color: #b716e8;
   padding: 15px 0;
 }

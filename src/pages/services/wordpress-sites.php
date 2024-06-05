@@ -132,24 +132,24 @@
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/woocommerce.svg" alt="WooCommerce icon - E-commerce Solutions by WooCommerce">
-        <h3>WooCommerce</h3>
+        <span>WooCommerce</span>
         <p>WooCommerce is a robust and versatile plugin designed to transform your WordPress site into a fully functional e-commerce platform. It offers extensive features for managing products, payments, and shipping, while providing a seamless shopping experience for your customers.
         </p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/WPForms.png" alt="WPForms icon - Custom Form Building Solutions by WPForms">
-        <h3>WP Forms</h3>
+        <span>WP Forms</span>
         <p>WPForms is a powerful and user-friendly plugin that allows you to create custom contact forms, surveys, and other interactive features with ease. Its drag-and-drop interface makes form building accessible to everyone, while its advanced functionality ensures seamless integration and reliable performance on your WordPress site.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/chart-trends.svg" alt="Charts icon representing SEO - Effective SEO Strategies">
-        <h3>AIOSEO</h3>
+        <span>AIOSEO</span>
         <p>
         AIOSEO (All in One SEO) is a comprehensive plugin designed to optimize your WordPress site's search engine performance. It offers powerful tools for managing meta tags, sitemaps, and keywords, ensuring that your website ranks higher in search results and attracts more organic traffic.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/mail.svg" alt="Mail symbol representing WP Mail - Seamless Email Integration">
-        <h3>WPMail</h3>
+        <span>WPMail</span>
         <p>WP Mail SMTP is an essential plugin that improves the reliability of your WordPress site's email delivery. By reconfiguring the default email settings, it ensures your emails are sent securely using proper SMTP protocols, reducing the chances of emails being marked as spam.</p>
       </div>
     </div>
@@ -165,9 +165,8 @@
           The Hello Theme by Elementor is a minimalist, lightweight theme designed to work seamlessly with the Elementor page builder. It provides a clean slate for building highly customized websites with Elementor's powerful drag-and-drop functionality. 
           <br /><br />   
           Hello Theme is known for its fast load times and exceptional performance, making it an excellent choice for those who prioritize speed. Its simplicity and compatibility with Elementor's extensive features make it a favorite when client customizability is a must.
-
         </p></li>
-        
+
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Divi:</strong><br/>
           The Divi Theme is a versatile and highly customizable option perfect for businesses of all sizes. Its drag-and-drop builder allows you to create unique layouts without any coding knowledge.
           <br /><br />   
@@ -254,17 +253,17 @@
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/bricks.svg" alt="Icon of a stack of bricks - Bricks Builder Page Builder">
-        <h3>Bricks Builder</h3>
+        <span>Bricks Builder</span>
         <p>Bricks Builder is a versatile page builder for WordPress that offers a seamless and intuitive editing experience with its powerful visual design tools and extensive library of pre-designed templates.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/elementor.png" alt="Elementor icon - Flexible Page Building Solutions by Elementor">
-        <h3>Elementor</h3>
+        <span>Elementor</span>
         <p>Elementor is a leading page builder plugin for WordPress, renowned for its user-friendly interface, extensive customization options, and seamless integration with popular themes and plugins.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/pagebuilder.svg" alt="Icon representing other page builders - Diverse Page Building Options">
-        <h3>Other</h3>
+        <span>Other</span>
         <p>We're open to incorporating any other page builders you prefer, ensuring that your website is built on the platform that best suits your needs and preferences. Let us know your preferences, and we'll tailor our services accordingly to achieve your vision.</p>
       </div>
     </div>
