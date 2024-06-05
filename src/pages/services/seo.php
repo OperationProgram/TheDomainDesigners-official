@@ -28,7 +28,7 @@
 
   <section class="hero-section">
     <div class="hero-content">
-        <img class="background-hero-img" src="../../assets/purple-clouds.jpg">
+        <img class="background-hero-img" src="../../assets/purple-clouds.jpg" alt="">
         <div class="cta">
             <h2 class="hero-gradient">Accessible to Everyone</h2>
             <h1 class="custom-h1">Search Engine Optimization</h1>

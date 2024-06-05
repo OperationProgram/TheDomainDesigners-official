@@ -28,7 +28,7 @@
 
   <section class="hero-section">
     <div class="hero-content">
-    <img class="background-hero-img" src="../../assets/purple-splashdrop.jpg">
+    <img class="background-hero-img" src="../../assets/purple-splashdrop.jpg" alt="">
         <div class="cta">
             <h2 class="hero-gradient">Stellar Visual Designs</h2>
             <h1 class="custom-h1">Branding</h1>

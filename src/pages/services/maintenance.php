@@ -28,7 +28,7 @@
 
   <section class="hero-section">
     <div class="hero-content">
-    <img class="background-hero-img" src="../../assets/purple-splash.jpg">
+    <img class="background-hero-img" src="../../assets/purple-splash.jpg" alt="">
         <div class="cta">
             <h2 class="hero-gradient">We Got Your Back</h2>
             <h1 class="custom-h1">Maintenance</h1>
