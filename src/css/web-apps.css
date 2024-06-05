@@ -21,6 +21,12 @@
     left: 0;
   }
 }
+@media (max-width: 480px) {
+  .hero-img {
+    width: 300px;
+    bottom: -100px;
+  }
+}
 .contents {
   background: url("../assets/computer-chip.jpg") no-repeat;
   background-size: 100%;

@@ -34,17 +34,17 @@
             <h1 class="custom-h1">Web Apps</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/webapp.svg">
+        <img class="hero-img" src="../../assets/icons/webapp.svg" alt="Icon of a person dreaming up a website - Custom Web App Development">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/laptop-dark-code.jpg">
+        <img src="../../assets/laptop-dark-code.jpg" alt="Laptop with code - Customized Web Application Development ">
       </div>
       <div class="hero-card">
-        <img src="../../assets/cloud-computing.jpg">
+        <img src="../../assets/cloud-computing.jpg" alt="Photo looking up to the sky - Innovative Web App Solutions">
       </div>
       <div class="hero-card">
-        <img src="../../assets/ipad-app.jpg">
+        <img src="../../assets/ipad-app.jpg" alt="Person interacting with maps app on tablet - Location-Based Web App Development">
       </div>
       <div class="hero-card">
         <p>
@@ -54,6 +54,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
   </section>
   
   <section class="contents">
+    <img class="sr-only" alt="Background image featuring PC chip - Quick Links for Web App Development" src="../assets/computer-chip.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -91,22 +92,24 @@ Transform your ideas into innovative digital solutions with expert web app devel
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        <img class="sr-only" alt="CSS code - Frontend Development Solutions by The Domain Designers" src="../assets/css-code.jpg" />
+      </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/react.svg">
+        <img src="../../assets/icons/react.svg" alt="React icon - Dynamic Frontend Development with React">
         <h3>React</h3>
         <p>React is a powerful JavaScript library for building user interfaces, known for its component-based architecture and efficient rendering.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/js.svg">
+        <img src="../../assets/icons/js.svg" alt="ES6 JavaScript icon - Modern Frontend Development with ES6 ">
         <h3>Es6 JS</h3>
         <p>ES6 introduces classes, modules, and Promises, making JavaScript code more modular, maintainable, and scalable. Its adoption has become widespread due to its ability to streamline development and improve code quality in frontend and backend applications alike.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/bootstrap.svg">
+        <img src="../../assets/icons/bootstrap.svg" alt="Bootstrap icon - Responsive Frontend Development with Bootstrap">
         <h3>Bootstrap</h3>
         <p>Bootstrap is a popular front-end framework that simplifies and accelerates web development. It provides a collection of pre-designed HTML, CSS, and JavaScript components, such as buttons, forms, and navigation bars, that can be easily customized and integrated into projects.</p>
       </div>
@@ -128,22 +131,24 @@ Transform your ideas into innovative digital solutions with expert web app devel
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../assets/computer-next-to-servers.jpg" />
+      </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/flask.svg">
+        <img src="../../assets/icons/flask.svg" alt="Flask icon - Flask Framework for Backend Development">
         <h3>Flask</h3>
         <p>Flask is a lightweight and versatile Python web framework known for its simplicity and flexibility, making it ideal for building small to medium-sized web applications with ease.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/nodejs.svg">
+        <img src="../../assets/icons/nodejs.svg" alt="Node.js icon - Node.js Framework for Scalable Backend Development">
         <h3>Node JS</h3>
         <p>Node.js is a powerful JavaScript runtime environment that allows developers to build scalable and efficient server-side applications. Its event-driven architecture and non-blocking I/O operations make it well-suited for building real-time web applications and APIs.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/aws.svg">
+        <img src="../../assets/icons/aws.svg" alt="AWS icon - Scalable Backend Infrastructure with Amazon Web Services">
         <h3>Amazon Web Services</h3>
         <p>AWS (Amazon Web Services) is a comprehensive cloud computing platform that offers a wide range of services, including computing power, storage, and databases, as well as machine learning and analytics tools. It provides scalable and reliable infrastructure solutions, enabling businesses to deploy applications quickly and securely.</p>
       </div>
@@ -162,12 +167,14 @@ Transform your ideas into innovative digital solutions with expert web app devel
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../assets/cloud-tech.jpg" alt="Uploading to cloud graphic - Secure Database Management Solutions "/>
+      </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/sql.svg">
+        <img src="../../assets/icons/sql.svg" alt="Database icon - Efficient Database Management ">
         <h3>SQL</h3>
         <p>SQL (Structured Query Language) is the foundation of efficient database management, allowing for seamless data manipulation and retrieval. With expertise in various SQL databases like MySQL and T-SQL, we ensure your data remains organized, secure, and accessible, empowering your application to thrive.</p>
       </div>

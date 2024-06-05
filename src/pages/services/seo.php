@@ -30,21 +30,21 @@
     <div class="hero-content">
         <img class="background-hero-img" src="../../assets/purple-clouds.jpg">
         <div class="cta">
-            <h2 class="hero-gradient">Let Everyone See</h2>
+            <h2 class="hero-gradient">Accessible to Everyone</h2>
             <h1 class="custom-h1">Search Engine Optimization</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/seo.svg">
+        <img class="hero-img" src="../../assets/icons/seo.svg" alt="SEO icon - Comprehensive SEO Solutions by The Domain Designers">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/SEO-services.jpg">
+        <img src="../../assets/SEO-services.jpg" alt="Magnifying glass on paper with charts - Detailed SEO Analysis">
       </div>
       <div class="hero-card">
-        <img src="../../assets/planning.jpg">
+        <img src="../../assets/planning.jpg" alt="Group collaborating over paper with chart - Effective SEO Strategies">
       </div>
       <div class="hero-card">
-        <img src="../../assets/google.jpg">
+        <img src="../../assets/google.jpg" alt="Mobile phone with Google homepage - Mobile Optimization for SEO">
       </div>
       <div class="hero-card">
         <p>
@@ -54,6 +54,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
   </section>
   
   <section class="wp-contents contents">
+    <img class="sr-only" alt="Background image featuring phone and plant - Quick Links for SEO Services" src="../../assets/phone-plant-dark.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -85,6 +86,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
   <section id="section-1-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="Handwritten keywords - Strategic Keyword Research" src="../../assets/keywords.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Sound Professional</h2>
@@ -102,7 +104,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
   </section>
 
   <section id="section-3-header" class="section-3">
-    <img src="../../assets/tech-ball.jpg" class="show-sm-screen">
+    <img src="../../assets/tech-ball.jpg" class="show-sm-screen border-radius-curved-tr" alt="Static electricity tech ball - Cutting-Edge Technical SEO Solutions by The Domain Designers">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Behind The Scenes Optimization</h2>
       <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Technical SEO</h1>
@@ -136,19 +138,21 @@ Boost your online visibility and drive organic traffic with effective SEO strate
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/phone-speed.jpg">
+        <img src="../../assets/phone-speed.jpg" alt="Phone showing speed test - Optimizing Website Performance for Technical SEO">
       </div>
       <div class="img-box">
-        <img src="../../assets/computer-chip.jpg">
+        <img src="../../assets/computer-chip.jpg" alt="PC motherboard - Advanced Technical SEO Strategies by The Domain Designers">
       </div>
       <div class="img-box">
-        <img src="../../assets/icons/speed.svg">
+        <img src="../../assets/icons/speed.svg" alt="Speedometer icon - Enhancing Website Speed for Technical SEO">
       </div>
       <div class="img-box">
-        <img src="../../assets/cables.jpg">
+        <img src="../../assets/cables.jpg" alt=
+"Cables in a router - Network Optimization for Technical SEO by The Domain Designers">
       </div>
       <div class="img-box">
-        <img src="../../assets/laptop-speed.jpg">
+        <img src="../../assets/laptop-speed.jpg" alt=
+"Person working on a laptop in a lobby - On-the-Go Technical SEO Solutions by The Domain Designers">
       </div>
     </div>
 
@@ -159,6 +163,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="Pencil hovering over blank book - On-Page SEO Strategies" src="../../assets/notebook.jpg"/>
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Let The Data Do The Heavy Lifting</h2>
@@ -187,18 +192,20 @@ Boost your online visibility and drive organic traffic with effective SEO strate
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        <img class="sr-only" alt="Pen drawing on chart - Analytics Insights " src="../../assets/analytics-paper.jpg"/>
+      </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/google-analytics.svg">
+        <img src="../../assets/icons/google-analytics.svg" alt="Google Analytics icon - Comprehensive Website Analytics Solutions ">
         <h3>Google Analytics</h3>
         <p>
       Google Analytics is a powerful tool that tracks and reports website traffic, providing insights into user behavior, demographics, and engagement. It helps identify which pages are performing well and offers data to optimize overall site performance.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/link.svg">
+        <img src="../../assets/icons/link.svg" alt="Link symbol representing Ahrefs - Advanced Website Analysis Tools">
         <h3>Ahrefs</h3>
         <p>Ahrefs is a comprehensive SEO tool that provides detailed insights into your website's backlink profile, keyword rankings, and competitive analysis. It helps in tracking SEO progress and uncovering opportunities to improve your site's search engine performance.</p>
       </div>

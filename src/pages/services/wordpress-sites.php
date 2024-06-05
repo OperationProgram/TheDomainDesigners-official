@@ -37,17 +37,17 @@
             <h1 class="custom-h1">Wordpress Websites</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/wordpress.svg">
+        <img class="hero-img" src="../../assets/icons/wordpress.svg" alt="WordPress icon - Professional WordPress Site Builder Services by The Domain Designers">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/wp-home.jpg">
+        <img src="../../assets/wp-home.jpg" alt="WordPress dashboard screenshot - Custom WordPress Web Design and Development by The Domain Designers">
       </div>
       <div class="hero-card">
-        <img src="../../assets/dipgaldips/best_sellers.png">
+        <img src="../../assets/dipgaldips/best_sellers.png" alt="Screenshot of a custom WordPress website created by The Domain Designers - DipGalDips: Best Sellers Page">
       </div>
       <div class="hero-card">
-        <img src="../../assets/portfolio/wordpress-dashboard.png">
+        <img src="../../assets/portfolio/wordpress-dashboard.png" alt="Screenshot of WordPress Hello Theme - Customizable WordPress Themes by The Domain Designers">
       </div>
       <div class="hero-card">
         <p>Create and manage your website effortlessly with WordPress, the world's leading content management system</p>
@@ -56,6 +56,8 @@
   </section>
   
   <section class="wp-contents contents">
+    <img class="sr-only" alt=
+"Background image featuring a calculator, magnifying glass, and chart - Quick Links for WordPress Site Builder Services" src="../assets/information.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -91,6 +93,7 @@
   </section>
 
   <section id="section-1-header" class="section-4">
+  <img class="sr-only" alt="People analyzing a pie chart - Design & Customization Services by The Domain Designers" src="../assets/planning.jpg" />
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>
@@ -122,30 +125,30 @@
       </div>
 
       <div class="img-box" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../../assets/wp-plugin.jpg" class="border-radius-curved-tr">
+        <img src="../../assets/wp-plugin.jpg" class="border-radius-curved-tr" alt="Plugin symbol with WordPress icon - Essential WordPress Plugins">
       </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/woocommerce.svg">
+        <img src="../../assets/icons/woocommerce.svg" alt="WooCommerce icon - E-commerce Solutions by WooCommerce">
         <h3>WooCommerce</h3>
         <p>WooCommerce is a robust and versatile plugin designed to transform your WordPress site into a fully functional e-commerce platform. It offers extensive features for managing products, payments, and shipping, while providing a seamless shopping experience for your customers.
         </p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/WPForms.png">
+        <img src="../../assets/icons/WPForms.png" alt="WPForms icon - Custom Form Building Solutions by WPForms">
         <h3>WP Forms</h3>
         <p>WPForms is a powerful and user-friendly plugin that allows you to create custom contact forms, surveys, and other interactive features with ease. Its drag-and-drop interface makes form building accessible to everyone, while its advanced functionality ensures seamless integration and reliable performance on your WordPress site.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/chart-trends.svg">
+        <img src="../../assets/icons/chart-trends.svg" alt="Charts icon representing SEO - Effective SEO Strategies">
         <h3>AIOSEO</h3>
         <p>
         AIOSEO (All in One SEO) is a comprehensive plugin designed to optimize your WordPress site's search engine performance. It offers powerful tools for managing meta tags, sitemaps, and keywords, ensuring that your website ranks higher in search results and attracts more organic traffic.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/mail.svg">
+        <img src="../../assets/icons/mail.svg" alt="Mail symbol representing WP Mail - Seamless Email Integration">
         <h3>WPMail</h3>
         <p>WP Mail SMTP is an essential plugin that improves the reliability of your WordPress site's email delivery. By reconfiguring the default email settings, it ensures your emails are sent securely using proper SMTP protocols, reducing the chances of emails being marked as spam.</p>
       </div>
@@ -153,7 +156,7 @@
   </section>
 
   <section id="section-3-header" class="section-3">
-    <img src="../../assets/workbench.jpg" class="show-sm-screen">
+    <img src="../../assets/typewriter.jpg" class="show-sm-screen border-radius-curved-tr" alt="Typewriter typing the word WordPress - Classic WordPress Themes">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Don't Re-Invent The Wheel</h2>
       <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Themes</h1>
@@ -187,19 +190,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/laptop-quote.jpg">
+        <img src="../../assets/laptop-quote.jpg" alt="Open laptop with a quote - Inspiring Themes Selection">
       </div>
       <div class="img-box">
-        <img src="../../assets/wp-tablet.jpg">
+        <img src="../../assets/wp-tablet.jpg" alt="WordPress app on a tablet - Mobile-Optimized WordPress Themes">
       </div>
       <div class="img-box">
-        <img src="../../assets/wp-shirt.jpg">
+        <img src="../../assets/wp-shirt.jpg" alt="Guy wearing a WordPress shirt typing on a computer - Customizable WordPress Themes ">
       </div>
       <div class="img-box">
-        <img src="../../assets/wp-laptop.jpg">
+        <img src="../../assets/wp-laptop.jpg" alt="Screenshot of a WordPress admin dashboard - User-Friendly WordPress Themes">
       </div>
       <div class="img-box">
-        <img src="../../assets/typewriter.jpg">
+        <img src="../../assets/typewriter.jpg" alt="Typewriter typing the word WordPress - Classic WordPress Themes">
       </div>
     </div>
 
@@ -210,6 +213,7 @@
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="Man holding a credit card - Secure E-commerce Solutions" src="../assets/credit-card.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Sell Your Products</h2>
@@ -241,22 +245,24 @@
         <button class="cta-button-dark">Let's Chat</button>
       </div>
 
-      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
+      <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        <img class="sr-only" alt="Person coding on multiple screens - Advanced Page Building Solutions by The Domain Designers" src="../assets/developer-window.jpg" />
+      </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/bricks.svg">
+        <img src="../../assets/icons/bricks.svg" alt="Icon of a stack of bricks - Bricks Builder Page Builder">
         <h3>Bricks Builder</h3>
         <p>Bricks Builder is a versatile page builder for WordPress that offers a seamless and intuitive editing experience with its powerful visual design tools and extensive library of pre-designed templates.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/elementor.png">
+        <img src="../../assets/icons/elementor.png" alt="Elementor icon - Flexible Page Building Solutions by Elementor">
         <h3>Elementor</h3>
         <p>Elementor is a leading page builder plugin for WordPress, renowned for its user-friendly interface, extensive customization options, and seamless integration with popular themes and plugins.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/pagebuilder.svg">
+        <img src="../../assets/icons/pagebuilder.svg" alt="Icon representing other page builders - Diverse Page Building Options">
         <h3>Other</h3>
         <p>We're open to incorporating any other page builders you prefer, ensuring that your website is built on the platform that best suits your needs and preferences. Let us know your preferences, and we'll tailor our services accordingly to achieve your vision.</p>
       </div>

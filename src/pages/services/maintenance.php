@@ -6,7 +6,7 @@
   <title>TheDomainDesigners | Complete Website Maintenance: Keep Your Site Thriving</title>
   <meta name="description" content="Don't let website maintenance become a burden. TheDomainDesigners offers comprehensive website maintenance plans to ensure your site stays secure, optimized, and performing at its best.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="thedomaindesigners">
+  <meta name="keywords" content="thedomaindesigners, website maintenance">
   <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/maintenance.css">
@@ -34,17 +34,17 @@
             <h1 class="custom-h1">Maintenance</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img class="hero-img" src="../../assets/icons/tools.svg">
+        <img class="hero-img" src="../../assets/icons/tools.svg" alt="Icon of wrench and screwdriver crossing - Reliable Website Maintenance Services">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/icons/protractor.svg">
+        <img src="../../assets/icons/protractor.svg" alt="Protractor icon - Precise Website Maintenance">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/speed.svg">
+        <img src="../../assets/icons/speed.svg" alt="Speedometer icon - Optimized Website Performance Maintenance">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/backup.svg">
+        <img src="../../assets/icons/backup.svg" alt="Cloud backup icon - Secure Data Backup and Sharing for Website Maintenance">
       </div>
       <div class="hero-card">
         <p>Keep your website running smoothly and securely with professional site maintenance services</p>
@@ -53,6 +53,7 @@
   </section>
   
   <section class="wp-contents contents">
+    <img class="sr-only" alt="Background image featuring a workbench - Quick Links Website Maintenance" src="../assets/man-on-phone-right.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -78,6 +79,7 @@
   <section id="section-1-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="Laptop and desktop showing update in progress - Seamless Content Updates" src="../assets/computer-updating.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Need A Change...No Problem</h2>
@@ -95,7 +97,7 @@
   </section>
 
   <section id="section-2-header" class="section-3">
-    <img src="../../assets/cube-grid.jpg" class="show-sm-screen">
+    <img src="../../assets/cube-grid.jpg" class="show-sm-screen border-radius-curved-tr" alt="Graphic of blue cubes in digital field - Performance Monitoring Solutions">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Never Missing A Beat</h2>
       <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Performance Monitoring</h1>
@@ -129,19 +131,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/runner.jpg">
+        <img src="../../assets/runner.jpg" alt="Picture of Olympic runner - Speed Optimization for Performance Monitoring">
       </div>
       <div class="img-box">
-        <img src="../../assets/server-rack.jpg">
+        <img src="../../assets/server-rack.jpg" alt="Server rack with connected servers - Server Performance Monitoring">
       </div>
       <div class="img-box">
-        <img src="../../assets/security-cameras.jpg">
+        <img src="../../assets/security-cameras.jpg" alt="Security cameras - Comprehensive Monitoring for Website Security">
       </div>
       <div class="img-box">
-        <img src="../../assets/people-writing.jpg">
+        <img src="../../assets/people-writing.jpg" alt="Team collaborating on laptop - Collaborative Performance Monitoring">
       </div>
       <div class="img-box">
-        <img src="../../assets/cube-grid.jpg">
+        <img src="../../assets/cube-grid.jpg" alt="Graphic of blue cubes in digital field - Performance Monitoring Solutions">
       </div>
     </div>
 
@@ -152,6 +154,7 @@
   <section id="section-3-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="PC's storage disk - Robust Backup and Recovery Solutions " src="../assets/harddrive.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Have A Plan</h2>

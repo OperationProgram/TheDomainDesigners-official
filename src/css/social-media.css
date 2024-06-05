@@ -2,6 +2,15 @@
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
 }
+.background-hero-img {
+  width: 100%;
+  left: 0;
+}
+
+.hero-section .hero-content img {
+  left: 0;
+}
+
 .contents {
   background: url("../assets/phone-plant-dark.jpg") no-repeat;
   background-size: 100%;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TTheDomainDesigners | Social Media Growth for Startups: Engage & Convert</title>
+  <title>TheDomainDesigners | Social Media Growth for Startups: Engage & Convert</title>
   <meta name="description" content="Amplify your startup's reach and connect with your target audience through impactful social media marketing strategies. TheDomainDesigners helps you build a thriving online community and drive conversions.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="thedomaindesigners">
@@ -37,17 +37,17 @@
             <h1 class="custom-h1">Social Media Marketing</h1>
             <button class="cta-button">Contact Us</button>
         </div>
-        <img src="../../assets/mobile.png">
+        <img src="../../assets/mobile.png" alt="Hand holding mobile phone - Effective Social Media Marketing Strategies">
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/icons/facebook.svg">
+        <img src="../../assets/icons/facebook.svg" alt="Facebook icon - Engaging Social Media Marketing on Facebook by The Domain Designers">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/instagram.svg">
+        <img src="../../assets/icons/instagram.svg" alt="Instagram icon - Vibrant Social Media Marketing on Instagram by The Domain Designers">
       </div>
       <div class="hero-card">
-        <img src="../../assets/icons/twitter.svg">
+        <img src="../../assets/icons/twitter.svg" alt="Twitter icon - Engaging Social Media Marketing on Twitter by The Domain Designers">
       </div>
       <div class="hero-card">
         <p>Amplify your brand's reach and engagement through strategic social media marketing</p>
@@ -56,6 +56,7 @@
   </section>
   
   <section class="contents">
+    <img class="sr-only" alt="Background image featuring plant and phone - Quick Links for Social Media Marketing" src="../assets/phone-plant-dark.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -105,28 +106,28 @@
       </div>
 
       <div class="img-box" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../../assets/light-bulb.jpg" class="border-radius-curved-tr">
+        <img src="../../assets/light-bulb.jpg" class="border-radius-curved-tr" alt="Lightbulb with colors - Innovative Marketing Strategy Solutions">
       </div>
     </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/analytics-chart-earning.svg">
+        <img src="../../assets/icons/analytics-chart-earning.svg" alt="Data analytics icon - Data-Driven Marketing Strategies">
         <h3>Data Analytics</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/calendar.svg">
+        <img src="../../assets/icons/calendar.svg" alt="Calendar icon - Strategic Planning for Marketing Success">
         <h3>Content Scheduling</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/chart-trends.svg">
+        <img src="../../assets/icons/chart-trends.svg" alt="Social trends chart icon - Tracking Market Trends for Effective Marketing Strategies">
         <h3>Social Trends</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/user-speak.svg">
+        <img src="../../assets/icons/user-speak.svg" alt="User engagement symbol - Enhancing User Interaction for Effective Marketing">
         <h3>User Engagement</h3>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
@@ -136,19 +137,23 @@
   <section id="section-2-header" class="section-2">
     <div class="sub-cta">
       <div class="video-box">
-        <img src="../../assets/mobile-2.png" alt="Video Thumbnail" class="video-thumbnail" id="video-thumbnail">
+        <!-- <img src="../../assets/mobile-2.png" alt="Video thumbnail for content creation - Engaging Content Creation Strategies" class="video-thumbnail" id="video-thumbnail"> -->
         <div class="play-button" id="play-button"></div>
-        <video controls loop id="video">
+        <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw">
+        </iframe>
+        <!-- <video controls loop id="video">
             <source src="../../assets/videos/glow.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
       </div>
   
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Check Out The Future</h2>
         <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Content Creation</h1>
         <p data-aos="fade-up" data-aos-duration="1300"> Content creation is the backbone of social media marketing, driving engagement and brand awareness. We craft high-quality, relevant content that resonates with your audience, from captivating visuals to informative posts. 
-         <br /><br />   
+         <br /><br /> 
+        In our social media marketing strategy, we harness the power of AI technologies to enhance content creation when necessary. Leveraging our in-house web applications, we elevate our ability to craft high-quality, relevant content that resonates with your audience.
+        <br /><br /> 
          Our focus is on maintaining a consistent posting schedule and leveraging trends to keep your audience engaged. Through continuous analysis and refinement, we optimize content to boost its impact and reach, ensuring your social media presence remains dynamic and effective.
         </p>
       </div>
@@ -226,6 +231,7 @@
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        <img class="sr-only" alt="Two women laughing and working - In-depth Ad Analytics for Effective Marketing Strategies" src="../assets/people-working.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Analyze Your Strategy</h2>
@@ -257,22 +263,23 @@
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
-    </div>
+      <img class="sr-only" alt="Man working on phone - Strategic Social Media Platform Utilization" src="../assets/man-on-phone-right.jpg" />
+      </div>
 
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/thumbs-up.svg">
+        <img src="../../assets/icons/thumbs-up.svg" alt="Facebook Ads icon - Targeted Advertising Solutions on Facebook">
         <h3>Facebook Ads</h3>
         <p>
 Facebook ads enable businesses to reach targeted audiences with highly customizable advertisements that appear on users' feeds, in sidebars, or within Messenger, allowing for precise targeting based on demographics, interests, and behaviors.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
-        <img src="../../assets/icons/reel.svg">
+        <img src="../../assets/icons/reel.svg" alt="Reel Ads icon - Captivating Video Advertising on Instagram">
         <h3>Reel Ads</h3>
         <p>Reel ads on Instagram offer businesses the opportunity to showcase their products or services through short, captivating video content that appears seamlessly within users' feeds.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
-        <img src="../../assets/icons/vote.svg">
+        <img src="../../assets/icons/vote.svg" alt="Twitter Polls icon - Interactive Polling for Engaging Content on Twitter">
         <h3>Twitter Polls</h3>
         <p>
         Twitter polls engage audiences by allowing users to create and participate in simple, interactive polls, where they can vote on predefined options and view real-time results. </p>
@@ -281,7 +288,7 @@ Facebook ads enable businesses to reach targeted audiences with highly customiza
   </section>
 
   <script src="../../scripts/partialScrollContainer.js"></script>
-  <script src="../../scripts/videoThumbnail.js"></script>
+  <!-- <script src="../../scripts/videoThumbnail.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
     AOS.init({

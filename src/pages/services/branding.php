@@ -37,13 +37,13 @@
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
-        <img src="../../assets/cosmetics.jpg">
+        <img src="../../assets/cosmetics.jpg" alt="Image showing cosmetics - Branding Solutions for Beauty and Cosmetics Industry">
       </div>
       <div class="hero-card">
-        <img src="../../assets/bar-signs.jpg">
+        <img src="../../assets/bar-signs.jpg" alt="Bar signs with logos - Branding Solutions for Food and Beverage Industry">
       </div>
       <div class="hero-card">
-        <img src="../../assets/candle-brand.jpg">
+        <img src="../../assets/candle-brand.jpg" alt="Candle brand image - Branding Solutions for Home and Lifestyle Products">
       </div>
       <div class="hero-card">
         <p>Establish a unique identity and leave a lasting impression with strategic branding solutions</p>
@@ -52,6 +52,7 @@
   </section>
   
   <section class="wp-contents contents">
+    <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -64,10 +65,10 @@
 
 
   <section id="section-1-header" class="section-3">
-    <img src="../../assets/blue-orange.jpg" class="show-sm-screen">
+    <img src="../../assets/blue-orange.jpg" class="show-sm-screen border-radius-curved-tr" alt="Blue orange fruit brand - Effective Branding Strategies for Various Industries" data-aos="fade-up" data-aos-duration="1200">
     <div id="ps-left-column" class="text-column">
-      <h2 class="custom-h2">Build A Memory</h2>
-      <h1 class="custom-h1">What We Offer</h1>
+      <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1200">Build A Memory</h2>
+      <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1200">What We Offer</h1>
       <ul>
         <li data-aos="fade-up" data-aos-duration="1200"><p> <strong class="custom-bold">Logo Making</strong> <br />
         Logo making is a critical aspect of branding, as it serves as the visual symbol of your brand's identity. A well-designed logo captures the essence of your business and creates a lasting impression on your audience.
@@ -93,19 +94,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../../assets/blue-orange.jpg">
+        <img src="../../assets/blue-orange.jpg" alt="Blue orange fruit brand - Effective Branding Strategies for Various Industries ">
       </div>
       <div class="img-box">
-        <img src="../../assets/brands-orange-book.jpg">
+        <img src="../../assets/brands-orange-book.jpg" alt="Orange design book surrounded by design tools - Creative Branding Solutions">
       </div>
       <div class="img-box">
-        <img src="../../assets/computer-color-schemes.jpg">
+        <img src="../../assets/computer-color-schemes.jpg" alt="Computer screen with color palettes - Tailored Branding Solutions for Digital Presence">
       </div>
       <div class="img-box">
-        <img src="../../assets/brands-armful.jpg">
+        <img src="../../assets/brands-armful.jpg" alt="Armful of different branded products - Comprehensive Branding Solutions for Product Diversity">
       </div>
       <div class="img-box">
-        <img src="../../assets/color-schemes.jpg">
+        <img src="../../assets/color-schemes.jpg" alt="Collection of physical paper color palettes - Tangible Branding Solutions for Authentic Representation ">
       </div>
     </div>
 
