@@ -80,15 +80,15 @@
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Need A Change...No Problem</h2>
-        <h1 class="custom-h1">Content Updates</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
+        <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Need A Change...No Problem</h2>
+        <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Content Updates</h1>
+        <p data-aos="fade-up" data-aos-duration="1300"> Regular content updates are essential for keeping your website relevant, engaging, and optimized for search engines. Fresh content not only attracts returning visitors but also helps improve your search engine rankings, driving more organic traffic to your site. 
          <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+         Our team provides timely and accurate content updates, ensuring that your website reflects the latest information, trends, and offerings. We work closely with you to understand your content needs, from blog posts and product descriptions to news updates and promotional materials. By maintaining a consistent content schedule, we help you build credibility and authority in your industry. 
         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        Our content update services also include optimizing multimedia elements like images and videos to enhance user experience and site performance. Let us handle your content updates, so you can focus on your core business activities while ensuring your website remains fresh and competitive.
         </p>
-        <button class="cta-button-dark">Let's Chat</button>
+        <button class="cta-button-dark" >Let's Chat</button>
       </div>
 
     </div>
@@ -97,43 +97,31 @@
   <section id="section-2-header" class="section-3">
     <img src="../../assets/cube-grid.jpg" class="show-sm-screen">
     <div id="ps-left-column" class="text-column">
-      <h2 class="custom-h2">Never Missing A Beat</h2>
-      <h1 class="custom-h1">Performance Monitoring</h1>
+      <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Never Missing A Beat</h2>
+      <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Performance Monitoring</h1>
       <ul>
-        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Uptime Monitoring</strong><br />  
+         Uptime monitoring ensures that your website is accessible and operational at all times. By continuously tracking your site's availability, we can detect and address any downtime issues immediately. 
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          Our team uses advanced tools to monitor your site's uptime in real-time, providing instant alerts if any disruptions occur. This proactive approach minimizes downtime, ensuring that your visitors always have access to your services and content, ultimately maintaining your brand's reliability and reputation. 
         </p></li>
         <br />
-        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Load Time Analysis</strong><br />  
+         Load time analysis focuses on measuring and optimizing the speed at which your website loads for users. Slow loading times can frustrate visitors and negatively impact search engine rankings. We regularly test your site's load times across various devices and networks, identifying factors that may be slowing it down.
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          By optimizing images, leveraging browser caching, and minimizing CSS and JavaScript, we ensure your site loads quickly, enhancing user experience and reducing bounce rates. 
         </p></li> 
         <br />
-        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">User Experience Metrics</strong> <br />  
+        User experience metrics measure how users interact with your website, providing insights into areas needing improvement. We track metrics such as time on page, navigation paths, and interaction rates to gauge user satisfaction.
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          By understanding these patterns, we can make data-driven adjustments to enhance usability and engagement. Improving user experience metrics not only boosts customer satisfaction but also contributes to higher conversion rates and better SEO performance. 
         </p></li>
         <br />
-        <li><p> <strong>Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Error Tracking</strong> <br />  
+        Error tracking involves identifying and resolving issues that could disrupt the functionality of your website. We continuously monitor for errors such as broken links, 404 pages, and server errors, providing detailed reports on any issues found.
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          Our team promptly addresses these errors, ensuring they don't negatively impact user experience or search engine rankings. Regular error tracking and resolution help maintain the integrity and usability of your website, providing a smoother and more reliable experience for your visitors.
         </p></li>
       </ul>
       <button class="cta-button">Let's Chat</button>
@@ -166,13 +154,13 @@
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>
       <div class="cta-column">
-        <h2 class="custom-h2">Have A Plan</h2>
-        <h1 class="custom-h1">Backup & Recovery</h1>
-        <p> Social media is no longer optional for businesses. It's a powerful platform to connect with customers, build brand loyalty, and drive sales. But managing multiple platforms, creating engaging content with high quality visuals, and analyzing results can be overwhelming.
+        <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Have A Plan</h2>
+        <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Backup & Recovery</h1>
+        <p data-aos="fade-up" data-aos-duration="1300">Backup and recovery are essential components of maintaining the integrity and continuity of your website. Regular backups ensure that all your data, including content, configurations, and user information, is safely stored and can be restored in case of any data loss or corruption.
          <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+         Our team implements automated backup solutions that create frequent, reliable copies of your website's data, minimizing the risk of losing critical information. In the event of a system failure, cyber-attack, or accidental data deletion, our robust recovery processes enable quick restoration of your site to its previous state, ensuring minimal downtime and disruption.
         <br /><br />   
-        That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+        We store backups in secure, off-site locations to protect against physical damage or localized issues. By prioritizing backup and recovery, we safeguard your website's functionality and ensure that your business operations can continue seamlessly, no matter what challenges arise. 
         </p>
         <button class="cta-button">Let's Chat</button>
       </div>

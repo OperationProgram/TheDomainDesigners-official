@@ -69,41 +69,24 @@
       <h2 class="custom-h2">Build A Memory</h2>
       <h1 class="custom-h1">What We Offer</h1>
       <ul>
-        <li><p> <strong class="custom-bold">Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1200"><p> <strong class="custom-bold">Logo Making</strong> <br />
+        Logo making is a critical aspect of branding, as it serves as the visual symbol of your brand's identity. A well-designed logo captures the essence of your business and creates a lasting impression on your audience.
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          Our design team works closely with you to understand your brand values, target audience, and industry context, crafting a unique and memorable logo that stands out. Through an iterative design process, we ensure that your logo is versatile, scalable, and effectively communicates your brand's message across all platforms. 
         </p></li>
         <br />
-        <li><p> <strong class="custom-bold">Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1200"><p> <strong class="custom-bold">Brand Messaging</strong> <br />
+        Brand messaging defines how your brand communicates with your audience, including the tone, voice, and key messages that convey your brand's value proposition. Effective brand messaging differentiates your business from competitors and builds a strong emotional connection with your customers. 
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          We craft compelling and consistent messages that reflect your brand's unique personality and appeal to your target market. By aligning all communications with your brand messaging, we help you build trust and loyalty among your audience.
         </p></li> 
         <br />
-        <li><p> <strong class="custom-bold">Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
+        <li data-aos="fade-up" data-aos-duration="1200"><p> <strong class="custom-bold">Brand Consistency</strong><br />
+        Brand consistency ensures that all aspects of your brand, from visual elements to messaging, remain uniform across all channels and touchpoints. Consistency builds credibility, fosters trust, and makes your brand more recognizable.
           <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
+          We help you maintain brand consistency by developing comprehensive brand guidelines that cover all aspects of your brand identity. By adhering to these guidelines, we ensure that every interaction with your brand reinforces your core values and creates a cohesive brand experience for your audience.
         </p></li>
         <br />
-        <li><p> <strong class="custom-bold">Social media is no longer optional:</strong> for businesses. 
-          It's a powerful platform to connect with customers, build brand
-          loyalty, and drive sales. But managing multiple platforms, 
-          creating engaging content with high quality visuals, and
-          analyzing results can be overwhelming.
-          <br /><br />   
-          That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
-        </p></li>
       </ul>
       <button class="cta-button-dark">Let's Chat</button>
     </div>

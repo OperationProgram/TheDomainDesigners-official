@@ -79,9 +79,9 @@ Transform your ideas into innovative digital solutions with expert web app devel
   <section id="section-1-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
-        <h2 class="custom-h2">Sophisticated UI/UX</h2>
-        <h1 class="custom-h1">Frontend</h1>
-        <p> 
+        <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Sophisticated UI/UX</h2>
+        <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Frontend</h1>
+        <p data-aos="fade-up" data-aos-duration="1300"> 
         At our web app development agency, we prioritize understanding the unique frontend needs of each client to deliver tailored solutions that exceed expectations. Our process begins with in-depth consultations to grasp your project requirements, target audience, and brand identity. We collaborate closely with you throughout the design phase, ensuring that every element of the frontend aligns with your vision and goals.
          <br /><br />   
          We understand the importance of scalability and future-proofing your frontend architecture. Our solutions are designed with flexibility in mind, allowing for easy expansion and integration of new features as your business grows.
@@ -116,9 +116,9 @@ Transform your ideas into innovative digital solutions with expert web app devel
   <section id="section-2-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
-        <h2 class="custom-h2">Building Your Architecture</h2>
-        <h1 class="custom-h1">Backend</h1>
-        <p> 
+        <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Building Your Architecture</h2>
+        <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Backend</h1>
+        <p data-aos="fade-up" data-aos-duration="1300"> 
         Our backend technologies form the powerhouse of your web application, driving its functionality and ensuring seamless user experiences. We leverage cutting-edge frameworks that streamline development, saving you time and resources while delivering top-notch performance.  
          <br /><br />   
          These frameworks provide a structured environment, simplifying complex tasks like data processing and user authentication, so your project progresses smoothly. By investing in robust backend technologies, we future-proof your application, ensuring scalability and flexibility as your business grows.
@@ -153,13 +153,13 @@ Transform your ideas into innovative digital solutions with expert web app devel
   <section id="section-3-header" class="section-5">
     <div class="sub-cta">
       <div class="cta-column">
-        <h2 class="custom-h2">Storing Data Securely</h2>
-        <h1 class="custom-h1">Database Management</h1>
-        <p> Database management forms the foundation of your web application, ensuring seamless data storage, retrieval, and organization. We implement cutting-edge database solutions tailored to your specific needs, providing scalability, reliability, and security
+        <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Storing Data Securely</h2>
+        <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Database Management</h1>
+        <p data-aos="fade-up" data-aos-duration="1300"> Database management forms the foundation of your web application, ensuring seamless data storage, retrieval, and organization. We implement cutting-edge database solutions tailored to your specific needs, providing scalability, reliability, and security
          <br /><br />   
          Our expertise in database management allows us to optimize performance, minimize downtime, and safeguard your valuable data against potential threats. By leveraging advanced technologies and best practices, we empower your application to handle large volumes of data with ease while maintaining high levels of responsiveness. With our comprehensive database management services, you can trust that your data is in safe hands, enabling you to focus on driving your business forward.
         </p>
-        <button class="cta-button">Let's Chat</button>
+        <button class="cta-button-dark">Let's Chat</button>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
