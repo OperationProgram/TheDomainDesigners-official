@@ -81,7 +81,6 @@
                     <h3 class="card-title">Project Title 3</h3>
                 </div>
             </div>
-            <!-- Add more cards as needed -->
         </div>
     </section>
 

@@ -70,16 +70,11 @@ body {
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
   letter-spacing: 0.12em;
-  font-family: "UtopiaStd-BlackHeadline", sans-serif;
 }
 .hero-section .hero-content h2 {
   font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.12em;
-  font-family: "UtopiaStd-BlackHeadline", sans-serif;
-}
-.hero-section .hero-content p {
-  font-size: min(4vw, 20px); /* Use min() to set a minimum font size */
   margin-bottom: 30px;
 }
 .hero-section .hero-content .cta-button {
@@ -153,13 +148,11 @@ body {
   font-size: 2rem;
   color: #7403d1;
   margin-bottom: 1em;
-  font-family: "UtopiaStd-BlackHeadline", sans-serif;
 }
 .text-column h3 {
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 0.5em;
-  font-family: "UtopiaStd-BlackHeadline", sans-serif;
 }
 .text-column p {
   font-size: 1rem;
@@ -167,12 +160,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.12em;
   margin-bottom: 1em;
-  font-family: "malden-sans-medium", sans-serif;
 }
 .text-column button {
   background-color: #fff;
   color: #7403d1;
-  font-family: "malden-sans-medium", sans-serif;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
