@@ -7,6 +7,7 @@
   <meta name="description" content="Hire web designers & developers at TheDomainDesigners. We craft user-friendly websites that empower startups to thrive. Get a free consultation today!">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -147,7 +148,7 @@
   <div class="two-column-layout">
     <div class="text-column">
       <h3>Hire Web Designers Who Get Your Business</h3>
-      <h2>Empowering Emerging Ventures with Exceptional Web Design</h2>
+      <h2>Empowering Emerging Ventures</h2>
       <p>TheDomainDesigners goes beyond just building websites - we become partners in your success. We specialize in empowering startups and emerging ventures. Our team of passionate web designers and developers collaborate closely with you, translating your vision into a user-friendly, high-performing website that fuels growth. We're not just a service provider - we're invested collaborators, ready to help you launch your vision and achieve long-term success.  Ready to hire web designers who understand startups? Let's discuss your project today!</p>
       <button>Learn More</button>
     </div>

@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Complete Website Maintenance: Keep Your Site Thriving</title>
+  <meta name="description" content="Don't let website maintenance become a burden. TheDomainDesigners offers comprehensive website maintenance plans to ensure your site stays secure, optimized, and performing at its best.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/maintenance.css">
   <link rel="stylesheet" href="../../css/navbar.css">

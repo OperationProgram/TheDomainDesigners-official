@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheDomainDesigners | About Us: Empowering Startups Through Exceptional Design </title>
+  <meta name="description" content="Uncover TheDomainDesigners' story! We're passionate web designers and developers dedicated to empowering young companies and startups.  Learn about our collaborative approach and how we craft high-performing websites that fuel growth.  Let's build something amazing together!">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="our mission, our story, our values, thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <title>About Us</title>
   <link rel="stylesheet" href="../css/about.css"> 
   <link rel="stylesheet" href="../css/navbar.css"> 
@@ -86,23 +91,23 @@
     <div class="team-grid">
       <div class="team-card">
         <img src="../assets/alex-pic.png" alt="Team Member Name">
-        <h3>Big Dickin</h3>
-        <p>King of Company</p>
-        <p>Brief description or bio of the team member.</p>
+        <h3>Alex Metzger</h3>
+        <p>Co-Founder</p>
+        <!-- <p>Brief description or bio of the team member.</p> -->
       </div>
       <div class="team-card">
         <img src="../assets/spencer-pic.png" alt="Team Member Name">
-        <h3>Alex M</h3>
-        <p>Mascot</p>
-        <p>Brief description or bio of the team member.</p>
+        <h3>Spencer Holan</h3>
+        <p>Co-Founder</p>
+        <!-- <p>Brief description or bio of the team member.</p> -->
       </div>
-      <div class="team-card">
+      <!-- <div class="team-card">
         <img src="../assets/alex-pic.png" alt="Team Member Name">
         <h3>Alex M clone#2</h3>
         <p>CEO/Peasant</p>
         <p>Brief description or bio of the team member.</p>
       </div>
-    </div>
+    </div> -->
   </section>  
 
   <?php include 'Footer/footer.php';?>

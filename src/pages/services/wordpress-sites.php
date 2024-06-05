@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Expert WordPress Development for Startups</title>
+  <meta name="description" content="Leverage the power and ease of WordPress for your startup website. TheDomainDesigners creates user-friendly and adaptable websites that grow with your business.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/wordpress-sites.css">
   <link rel="stylesheet" href="../../css/navbar.css">

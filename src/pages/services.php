@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Web Design & Development Services for Startups</title>
+  <meta name="description" content="Elevate your startup with exceptional web design and development by TheDomainDesigners. We craft user-friendly, high-performing websites that empower growth. Explore our services and take your vision to the next level.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../css/services.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">

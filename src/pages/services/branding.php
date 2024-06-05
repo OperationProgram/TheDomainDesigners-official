@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Craft Your Brand Identity: Powerful Design Services</title>
+  <meta name="description" content="Unsure how to build a strong brand? TheDomainDesigners helps startups develop a unique and impactful brand identity. Discover our comprehensive branding services and elevate your online presence.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/branding.css">
   <link rel="stylesheet" href="../../css/navbar.css">

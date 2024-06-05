@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TTheDomainDesigners | Social Media Growth for Startups: Engage & Convert</title>
+  <meta name="description" content="Amplify your startup's reach and connect with your target audience through impactful social media marketing strategies. TheDomainDesigners helps you build a thriving online community and drive conversions.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/social-media.css">
   <link rel="stylesheet" href="../../css/navbar.css">

@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Boost Your Startup's Visibility: Powerful SEO Services</title>
+  <meta name="description" content="Harness the power of SEO and get your startup website seen by the right audience. TheDomainDesigners' SEO services drive organic traffic and growth for emerging ventures.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/seo.css">
   <link rel="stylesheet" href="../../css/navbar.css">

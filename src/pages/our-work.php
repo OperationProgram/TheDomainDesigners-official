@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>TheDomainDesigners | Our Work: Websites That Make a Difference</title>
+  <meta name="description" content="Explore our portfolio of successful website projects for startups and emerging ventures.">
+  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <meta name="keywords" content="thedomaindesigners">
+  <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../css/services.css"> 
   <link rel="stylesheet" href="../css/our-work.css"> 
   <link rel="stylesheet" href="../css/navbar.css">
