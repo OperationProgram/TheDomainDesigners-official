@@ -322,6 +322,9 @@ p {
 .section-3 img {
   width: 100%;
 }
+.section-3 ul li {
+  margin-bottom: 1rem;
+}
 .section-3 ul li p {
   color: #fff;
   font-size: 18px;

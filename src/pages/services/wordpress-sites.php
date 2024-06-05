@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheDomainDesigners | Expert WordPress Development for Startups</title>
   <meta name="description" content="Leverage the power and ease of WordPress for your startup website. TheDomainDesigners creates user-friendly and adaptable websites that grow with your business.">
-  <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+  <!-- <meta name="robots" content="noindex,nofollow"> -->
   <meta name="keywords" content="thedomaindesigners">
   <meta name="author" content="TheDomainDesigners">
   <link rel="stylesheet" href="../../css/service-partial.css">
@@ -165,20 +165,21 @@
           The Hello Theme by Elementor is a minimalist, lightweight theme designed to work seamlessly with the Elementor page builder. It provides a clean slate for building highly customized websites with Elementor's powerful drag-and-drop functionality. 
           <br /><br />   
           Hello Theme is known for its fast load times and exceptional performance, making it an excellent choice for those who prioritize speed. Its simplicity and compatibility with Elementor's extensive features make it a favorite when client customizability is a must.
+
         </p></li>
-        <br /><br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Divi:</strong><br/>
           The Divi Theme is a versatile and highly customizable option perfect for businesses of all sizes. Its drag-and-drop builder allows you to create unique layouts without any coding knowledge.
           <br /><br />   
           With an extensive library of pre-designed templates and modules, you can quickly build a professional-looking site. Divi also offers robust design options, including responsive editing and advanced styling, ensuring your website looks great on all devices.
         </p></li>
-          <br />
+
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Astra</strong><br/> 
           Astra is a lightweight and highly flexible theme that is ideal for performance-focused websites.  Known for its fast load times and seamless integration with popular page builders like Elementor and Bricks Builder, Astra offers a wide range of pre-built templates to get you started quickly.
           <br /><br />   
           Its customization options are extensive, allowing you to adjust layouts, colors, and typography with ease. Astra is also SEO-friendly, helping your site rank higher in search engine results.
         </p></li> 
-          <br />
+
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Kadence</strong><br/>
             Kadence is a powerful and highly customizable theme designed for speed and flexibility. It offers a range of pre-built templates and deep integration with Gutenberg and popular page builders like Elementor.
             <br /><br />   
