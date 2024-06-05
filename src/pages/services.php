@@ -23,11 +23,11 @@
   <div class="overlay"></div>
   <section class="hero-section">
       <div class="hero-content">
-        <div class="cta">
+        <!-- <div class="cta"> -->
           <h1>Web Development Services</h1>
           <h2>Customized for Your Needs</h2>
           <button class="cta-button">Contact Us</button>
-        </div>
+        <!-- </div> -->
       </div>
   </section>
 

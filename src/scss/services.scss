@@ -1,5 +1,5 @@
 @import "variables";
-// @import "_buttons";
+@import "mixins";
 
 body {
     background-color: $background-color-dark;
@@ -26,74 +26,10 @@ body {
     }
 }
 
-.overlay {
-    background-color: rgb(2 2 2 / 31%);
-    width: 100%;
-    height: 50vh;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-}
-
-.hero-section {
-    position: absolute;
-    top: 0;
-    background: url("../assets/custom-code-services.jpg") no-repeat;
-    background-size: cover;
-    height: 50vh;
-    width: 100%;
-
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center; 
-        position: relative;
-        padding: 10px;
-        margin-top: 20px;
-        width: 100%;
-        height: 100%;
-
-
-        .cta {
-            position: absolute;
-            z-index: 2;
-
-            h1 {
-                font-size: min(5vw, 50px); /* Use min() to set a maximum font size */
-                font-weight: bold;
-                margin-bottom: 20px;
-                color: rgba(0, 0, 0, 0);
-                -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
-                letter-spacing: .12em;
-            }
-
-            h2 {
-                color: $background-color-light;
-                font-size: min(3vw, 20px); /* Use min() to set a maximum font size */
-                letter-spacing: 0.2em;
-                line-height: 1.6em;
-            }
-        }
-    }
-
-    /* Example of a media query */
-    @media screen and (max-width: 768px) {
-        .hero-content {
-            .cta {
-                h1 {
-                    font-size: 40px; /* Adjust as needed for smaller screens */
-                }
-                h2 {
-                    font-size: 16px; /* Adjust as needed for smaller screens */
-                }
-            }
-        }
-    }
-}
+@include hero_section(url("../assets/custom-code-services.jpg"), 70vh);
 
 #services {
-    margin-top: 50vh;
+    margin-top: 70vh;
     transition: all 0.7s ease;
     display: flex;
     flex-direction: column;

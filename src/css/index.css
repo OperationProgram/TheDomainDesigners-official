@@ -45,22 +45,21 @@ body {
 }
 
 .hero-section {
-  background: url("../assets/skull-min.jpg") center/cover;
+  background: url("../assets/skull-min.jpg") no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100vh; /* Fixed height */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* Example of a media query */
 }
 .hero-section .hero-content {
   position: relative;
   margin: 0 auto;
-  width: 70%; /* Adjust as needed */
+  width: 70%;
   z-index: 2;
   /* Typography styles for the hero section */
 }
@@ -83,18 +82,7 @@ body {
   font-size: min(4vw, 20px); /* Use min() to set a minimum font size */
   margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-  .hero-section .hero-content h1 {
-    font-size: 40px; /* Adjust as needed for smaller screens */
-  }
-  .hero-section .hero-content h2 {
-    font-size: 24px; /* Adjust as needed for smaller screens */
-  }
-  .hero-section .hero-content p {
-    font-size: 16px; /* Adjust as needed for smaller screens */
-  }
-}
-.hero-section .cta-button {
+.hero-section .hero-content .cta-button {
   background-color: #fff;
   color: #7403d1;
   border: none;
@@ -105,9 +93,26 @@ body {
   transition: background-color 0.3s ease;
   border: 2px solid #7403d1;
 }
-.hero-section .cta-button:hover {
+.hero-section .hero-content .cta-button:hover {
   background-color: #7403d1;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 36px;
+  }
+  .hero-section .hero-content h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section .hero-content {
+    text-align: left;
+  }
+}
+
+.hero-section {
+  background-position: center;
 }
 
 .contact-section {
@@ -386,14 +391,6 @@ body {
   background-color: rgba(84, 2, 122, 0.7);
 }
 
-.testimonials-section {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-color: #222; /* Replace with your dark background variable */
-  padding: 50px 0;
-}
-
 .testimonials-title {
   font-size: 32px;
   color: #7403d1; /* Replace with your primary color variable */
@@ -402,19 +399,18 @@ body {
 }
 
 .testimonials-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 200px;
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin: 0 auto;
+  background: url("../assets/purple-splashdrop.jpg") no-repeat;
+  background-size: cover;
+  padding: 0 20px;
 }
 
 .testimonials-container {
   display: flex;
-  flex-direction: row; /* Ensure testimonials are in a row for sliding */
-  align-items: center;
   transition: transform 2s linear;
   width: 100%; /* Adjust width based on the number of duplicated testimonials */
 }
@@ -427,7 +423,8 @@ body {
   text-align: center;
   width: 100%; /* Ensure each testimonial takes full width */
   border-radius: 10px;
-  margin: 0 10px; /* Add margin between testimonials */
+  margin-right: 30px; /* Add margin between slides */
+  min-width: calc(100% - 30px);
   flex: 0 0 100%; /* Ensure each testimonial takes full width */
 }
 

@@ -156,7 +156,6 @@ p {
 .hero-section .hero-content .cta {
   width: 50%;
   position: absolute;
-  left: 30%;
   z-index: 999;
 }
 .hero-section .hero-content .custom-h1 {
@@ -170,6 +169,22 @@ p {
   right: -20%;
   min-width: 50%;
   height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content .cta h1 {
+    font-size: 36px;
+  }
+  .hero-section .hero-content .cta h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section .hero-content .cta {
+    text-align: left;
+  }
+  .hero-section .hero-content .cta h1 {
+    font-size: 30px;
+  }
 }
 .hero-section .hero-card-slide-container {
   display: flex;

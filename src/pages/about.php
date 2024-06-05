@@ -16,12 +16,13 @@
     <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>  
   </header>
 
+  <div class="overlay"></div>
   <section>
     <div class="hero-section">
       <div class="hero-content">
           <h1>Who We Are</h1>
-          <p>Learn more about our mission, values, and team.</p>
-          <button class="hero-button">Get Started</button>
+          <h2>Learn more about our mission, values, and team.</h2>
+          <button class="cta-button">Get Started</button>
       </div>
     </div>
   </section>
