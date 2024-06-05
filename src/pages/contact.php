@@ -64,6 +64,7 @@
     <main>
         <div class="overlay"></div>
         <section class="hero-section">
+            <img class="sr-only" alt="Startup owner checking website on phone." src="../assets/man-on-phone-right.jpg" />
             <div class="hero-content">
                 <h1>We're Here to Help You Succeed</h1>
                 <h2>Let's chat about your website goals and how TheDomainDesigners can bring them to life.</h2>
@@ -77,7 +78,6 @@
                     <h1>Ready to Get Started</h1>
                     <p>(832) 216-9276</p>
                     <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
-                    <p>9999 Street Name, Houston, Texas 770023</p>
                     <div class="social-media">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>

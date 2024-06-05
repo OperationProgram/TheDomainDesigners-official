@@ -20,13 +20,14 @@
     </header>
 
     <section class="hero-section">
+    <img class="sr-only" alt="DipGalDips Jalepeno Popper Dip" src="../assets/jalepeno_popper.jpg" />
     </section>
 
     <section class="contents-section">
         <div class="contents-container">
             <div class="nav-column">
                 <div class="img-box">
-                    <img src="../../assets/dipgaldips/logo.jpg">
+                    <img src="../../assets/dipgaldips/logo.jpg" alt="DipGalDips Logo Contact: dipgaldips@yahoo.com, 504-606-0039">
                 </div>
                 <ul>
                     <a href="#wordpress-solution-header"><li class="content-link">Wordpress Solution</li></a>
@@ -46,7 +47,7 @@
     </section>
 
     <section id="wordpress-solution">
-        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img">
+        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips.">
         <div class="section-container">
             <h2 id="wordpress-solution-header" class="custom-h2">Wordpress Solution</h2>
             <p>
@@ -59,10 +60,10 @@
     <section id="seo">
         <div class="offset-img-container">
             <div class="left-img">
-                <img  src="../../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg">
+                <img  src="../../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="dipgaldips - casesar salad dressing dip">
             </div>
             <div class="right-img" >
-                <img src="../../assets/dipgaldips/spicy_salsa_1280x1063.jpg">
+                <img src="../../assets/dipgaldips/spicy_salsa_1280x1063.jpg" alt="dipgaldips - spicy green salsa dip">
             </div>
         </div>
         <div class="section-container">
@@ -77,7 +78,7 @@
     <section id="branding">
         <h1>Making Everyday</h1>
         <div id="rotate-img">
-            <img src="../../assets/dipgaldips/chip.png">
+            <img src="../../assets/dipgaldips/chip.png" alt="rotating picture of a tortilla chip.">
             <div class="spark spark1"></div>
             <div class="spark spark2"></div>
             <div class="spark spark3"></div>
@@ -101,14 +102,14 @@
             <div class="image-row">
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/home.png" alt="Image 1">
+                        <img src="../../assets/dipgaldips/home.png" alt="Gallery: Home Page of the DipGalDips website">
                         <h2 class="image-title">Home</h2>
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Image 2">
+                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Gallery: Monthly Subscription Page of the DipGalDips website">
                         <h2 class="image-title">Monthly Subscription</h2>
                     </a>
                 </div>
@@ -116,19 +117,19 @@
             <div class="image-row">
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Image 3">
+                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Gallery: Best Sellers Page of the DipGalDips website">
                         <h2 class="image-title">Best Sellers</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/checkout.png" alt="Image 4">
+                        <img src="../../assets/dipgaldips/checkout.png" alt="Gallery: Checkout Page of the DipGalDips website>
                         <h2 class="image-title">Checkout</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/product.png" alt="Image 5">
+                        <img src="../../assets/dipgaldips/product.png" alt="Gallery: Products Page of the DipGalDips website">
                         <h2 class="image-title">Products</h2>
                     </a>
                 </div>

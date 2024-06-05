@@ -1,4 +1,6 @@
 @import 'variables';
+@import "mixins";
+@include sr_only;
 
 * {
     margin: 0;

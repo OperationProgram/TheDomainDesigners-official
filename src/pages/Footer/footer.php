@@ -19,9 +19,9 @@
         <div class="footer-column">
             <h3>Follow Us</h3>
             <div class="social-icons">
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg"alt="Instagram"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook Icon"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter Icon"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg"alt="Instagram Icon"></a>
             </div>
         </div>
         <div class="footer-column">

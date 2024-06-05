@@ -27,6 +27,7 @@
   <!-- Hero Section -->
   <div class="overlay"></div>
   <section class="hero-section">
+  <img class="sr-only" alt="UX Flowchart" src="../assets/UI-UX_graphic.jpg" />
       <div class="hero-content">
         <div class="cta">
           <h1>Our Work</h1>
@@ -39,7 +40,7 @@
   <section id="services">
     <div class="service-row">
       <div class="service-card wordpress">
-          <img src="../assets/portfolio/p-dips.jpg" >
+          <img src="../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="Dip Gal Dips Portfolio Picture: Caesar Salad Dressing Dip">
           <h2>Dip-Gal-Dips</h2>
           <a href="projects/dipgaldips.php"><button class="cta-button">Learn More</button></a>
       </div>
