@@ -54,7 +54,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
   </section>
   
   <section class="contents">
-    <img class="sr-only" alt="Background image featuring PC chip - Quick Links for Web App Development" src="../assets/computer-chip.jpg" />
+    <img class="sr-only" alt="Background image featuring PC chip - Quick Links for Web App Development" src="../../assets/computer-chip.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -93,7 +93,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
-        <img class="sr-only" alt="CSS code - Frontend Development Solutions by The Domain Designers" src="../assets/css-code.jpg" />
+        <img class="sr-only" alt="CSS code - Frontend Development Solutions by The Domain Designers" src="../../assets/css-code.jpg" />
       </div>
     </div>
 
@@ -132,7 +132,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
-        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../assets/computer-next-to-servers.jpg" />
+        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../../assets/computer-next-to-servers.jpg" />
       </div>
     </div>
 
@@ -168,7 +168,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
-        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../assets/cloud-tech.jpg" alt="Uploading to cloud graphic - Secure Database Management Solutions "/>
+        <img class="sr-only" alt="Person holding laptop next to server room - Robust Backend Development Solutions" src="../../assets/cloud-tech.jpg" alt="Uploading to cloud graphic - Secure Database Management Solutions "/>
       </div>
     </div>
 

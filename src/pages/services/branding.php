@@ -52,7 +52,7 @@
   </section>
   
   <section class="wp-contents contents">
-    <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" />
+    <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../../assets/UI-UX_graphic.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">

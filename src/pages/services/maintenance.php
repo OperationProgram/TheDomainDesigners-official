@@ -53,7 +53,7 @@
   </section>
   
   <section class="wp-contents contents">
-    <img class="sr-only" alt="Background image featuring a workbench - Quick Links Website Maintenance" src="../assets/man-on-phone-right.jpg" />
+    <img class="sr-only" alt="Background image featuring a workbench - Quick Links Website Maintenance" src="../../assets/man-on-phone-right.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -79,7 +79,7 @@
   <section id="section-1-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <img class="sr-only" alt="Laptop and desktop showing update in progress - Seamless Content Updates" src="../assets/computer-updating.jpg" />
+        <img class="sr-only" alt="Laptop and desktop showing update in progress - Seamless Content Updates" src="../../assets/computer-updating.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Need A Change...No Problem</h2>
@@ -154,7 +154,7 @@
   <section id="section-3-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <img class="sr-only" alt="PC's storage disk - Robust Backup and Recovery Solutions " src="../assets/harddrive.jpg" />
+        <img class="sr-only" alt="PC's storage disk - Robust Backup and Recovery Solutions " src="../../assets/harddrive.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Have A Plan</h2>

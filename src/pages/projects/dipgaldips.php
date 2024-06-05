@@ -20,7 +20,7 @@
     </header>
 
     <section class="hero-section">
-    <img class="sr-only" alt="DipGalDips Jalepeno Popper Dip" src="../assets/jalepeno_popper.jpg" />
+    <img class="sr-only" alt="DipGalDips Jalepeno Popper Dip" src="../../assets/jalepeno_popper.jpg" />
     </section>
 
     <section class="contents-section">
