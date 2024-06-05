@@ -57,7 +57,7 @@
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>What We Offer</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
         </div>
       </a>
     </div>

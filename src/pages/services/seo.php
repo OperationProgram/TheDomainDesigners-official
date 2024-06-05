@@ -59,25 +59,25 @@ Boost your online visibility and drive organic traffic with effective SEO strate
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>Keyword Research</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Keyword Research">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
           <h2>Technical SEO</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Technical SEO">
         </div>
       </a>
       <a href="#section-4-header">      
         <div class="content-title">
           <h2>On-Page  SEO</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - On Page SEO">
         </div>
       </a>
       <a href="#section-5-header">      
         <div class="content-title">
           <h2>Analytics</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Analytics">
         </div>
       </a>
     </div>

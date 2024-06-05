@@ -59,19 +59,19 @@ Transform your ideas into innovative digital solutions with expert web app devel
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>Frontend</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Frontend">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
           <h2>Backend</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Backend">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
           <h2>Database Management</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Database Management">
         </div>
       </a>
     </div>

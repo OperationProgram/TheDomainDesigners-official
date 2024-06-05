@@ -61,31 +61,31 @@
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>Marketing Strategy</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Marketing Strategy">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
           <h2>Content Creation</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Content Creation">
         </div>
       </a>
       <!-- <a href="#section-3-header">      
         <div class="content-title">
           <h2>Ad Strategies</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Ad Strategies">
         </div>
       </a> -->
       <a href="#section-4-header">      
         <div class="content-title">
           <h2>Ad Analytics</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Ad Analytics">
         </div>
       </a>
       <a href="#section-5-header">      
         <div class="content-title">
           <h2>Social Media Platforms</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Social Media Platforms">
         </div>
       </a>
     </div>

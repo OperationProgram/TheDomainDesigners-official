@@ -58,19 +58,19 @@
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>Content Updates</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Content Updates">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
           <h2>Performance Monitoring</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Performance Monitoring">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
           <h2>Backup & Recovery</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - Backup and Recovery">
         </div>
       </a>
     </div>
