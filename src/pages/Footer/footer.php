@@ -8,7 +8,7 @@
     </div>
     <div class="footer-container">
         <div class="footer-column">
-            <h3>Quick Links</h3>
+            <h1>Quick Links</h1>
             <ul class="list-unstyled">
                 <li><a href="<?php echo $basePath; ?>/">Home</a></li>
                 <li><a href="<?php echo $basePath; ?>/pages/services.php">Services</a></li>
@@ -17,15 +17,15 @@
             </ul>
         </div>
         <div class="footer-column">
-            <h3>Follow Us</h3>
+            <h1>Follow Us</h1>
             <div class="social-icons">
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg"alt="Instagram"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook Icon"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter Icon"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg"alt="Instagram Icon"></a>
             </div>
         </div>
         <div class="footer-column">
-            <h3>Contact Us</h3>
+            <h1>Contact Us</h1>
             <a href="<?php echo $basePath; ?>/pages/contact.php"><button class="footer-button">Contact Us</button></a>
         </div>
     </div>

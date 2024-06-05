@@ -2,24 +2,15 @@
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
 }
-@font-face {
-  font-family: "Monoton-Regular";
-  src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+.background-hero-img {
+  width: 100%;
+  left: 0;
 }
-@font-face {
-  font-family: "UtopiaStd-BlackHeadline";
-  src: url("../assets/fonts/UtopiaStd-BlackHeadline.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+
+.hero-section .hero-content img {
+  left: 0;
 }
-@font-face {
-  font-family: "malden-sans-medium";
-  src: url("../assets/fonts/malden-sans-medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+
 .contents {
   background: url("../assets/phone-plant-dark.jpg") no-repeat;
   background-size: 100%;

@@ -1,5 +1,13 @@
 @import "variables";
 
+.background-hero-img {
+    width: 100%;
+    left: 0;
+}
+
+.hero-section .hero-content img {
+    left: 0;
+}
 
 .contents {
     background: url("../assets/phone-plant-dark.jpg") no-repeat;

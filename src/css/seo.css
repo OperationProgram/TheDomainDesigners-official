@@ -38,6 +38,9 @@
   img {
     left: 0;
   }
+  .hero-img {
+    width: 200px;
+  }
 }
 .contents {
   background: url("../assets/phone-plant-dark.jpg") no-repeat;

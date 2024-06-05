@@ -2,7 +2,6 @@
 @import 'variables';
 @import 'mixins';
 
-
 body {
   background-color: $background-color-dark;
   font-family: $primary-font;
@@ -16,7 +15,7 @@ body {
 @include hero_section(url('../assets/information.jpg'), 70vh);
 
 .about-section {
-  margin-top: 400px;
+  margin-top: 70vh;
   padding: 60px 20px;
   background-color: $background-color-dark;
   

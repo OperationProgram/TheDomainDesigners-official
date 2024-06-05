@@ -30,7 +30,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Your Company</title>
+    <title>TheDomainDesigners | Contact Us: Let's Discuss Your Vision</title>
+    <meta name="description" content="Ready to turn your website dream into reality? TheDomainDesigners is here to help! Contact us today to discuss your project. We offer exceptional web design and development services tailored to empower startups and emerging ventures. Let's collaborate and bring your vision to life!">
+    <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+    <meta name="keywords" content="thedomaindesigners">
+    <meta name="author" content="TheDomainDesigners">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -60,9 +64,10 @@
     <main>
         <div class="overlay"></div>
         <section class="hero-section">
+            <img class="sr-only" alt="Startup owner checking website on phone." src="../assets/man-on-phone-right.jpg" />
             <div class="hero-content">
-                <h1>Who We Are</h1>
-                <h2>Learn more about our mission, values, and team.</h2>
+                <h1>We're Here to Help You Succeed</h1>
+                <h2>Let's chat about your website goals and how TheDomainDesigners can bring them to life.</h2>
                 <button class="cta-button">Get Started</button>
             </div>
         </section>
@@ -73,7 +78,6 @@
                     <h1>Ready to Get Started</h1>
                     <p>(832) 216-9276</p>
                     <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
-                    <p>9999 Street Name, Houston, Texas 770023</p>
                     <div class="social-media">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>

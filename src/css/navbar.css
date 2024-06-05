@@ -2,6 +2,7 @@
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
 }
+<<<<<<< HEAD
 @font-face {
   font-family: "Monoton-Regular";
   src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
@@ -20,6 +21,19 @@
   font-weight: normal;
   font-style: normal;
 }
+=======
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+>>>>>>> e673115c4bf85dc8b9654fea985c45b4900b66cf
 * {
   margin: 0;
   padding: 0;

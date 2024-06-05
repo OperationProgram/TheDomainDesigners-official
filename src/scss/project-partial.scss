@@ -131,13 +131,13 @@ a {
     background: url("../assets/dipgaldips/jalepeno_popper.png") no-repeat;
     background-size: contain;
     background-position: center;
-    height: 110vh;
+    height: 100vh;
     width: 100%;  
     background-color: #b36a5e;
 }
 
 .contents-section {
-    margin-top: calc(110vh - 62px);
+    margin-top: calc(100vh - 62px);
     background-color: $background-color-light;
     padding: 4%;
     .contents-container {

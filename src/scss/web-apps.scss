@@ -14,9 +14,14 @@
 }
 
 @media (max-width: 768px) {
-
     img {
         left: 0;
+    }
+}
+@media (max-width: 480px) {
+    .hero-img {
+        width: 300px;
+        bottom: -100px;
     }
 }
 
