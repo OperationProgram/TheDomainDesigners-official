@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Study | Dip-Gal-Dips: E-commerce Website Revamp | Web Development Agency</title>
     <meta name="description" content="Explore how our agency's expertise in web development and design transformed Dip-Gal-Dips' e-commerce platform. Learn about the integration of the Stripe payment gateway, WordPress with Elementor, and effective SEO and branding strategies employed to elevate their online presence.">
-    <!-- <meta name="robots" content="noindex,nofollow">  -->
+    <meta name="robots" content="noindex,nofollow"> 
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
     <link rel="stylesheet" href="../../css/project-partial.css">
