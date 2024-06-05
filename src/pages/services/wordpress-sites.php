@@ -47,7 +47,7 @@
         <img src="../../assets/dipgaldips/best_sellers.png" alt="Screenshot of a custom WordPress website created by The Domain Designers - DipGalDips: Best Sellers Page">
       </div>
       <div class="hero-card">
-        <img src="../../assets/portfolio/wordpress-dashboard.png" alt="Screenshot of WordPress Hello Theme - Customizable WordPress Themes by The Domain Designers">
+        <img src="../../assets/wordpress-dashboard.png" alt="Screenshot of WordPress Hello Theme - Customizable WordPress Themes by The Domain Designers">
       </div>
       <div class="hero-card">
         <p>Create and manage your website effortlessly with WordPress, the world's leading content management system</p>
@@ -93,7 +93,7 @@
   </section>
 
   <section id="section-1-header" class="section-4">
-  <img class="sr-only" alt="People analyzing a pie chart - Design & Customization Services by The Domain Designers" src="../assets/planning.jpg" />
+  <img class="sr-only" alt="People analyzing a pie chart - Design & Customization Services by The Domain Designers" src="../../assets/planning.jpg" />
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
       </div>

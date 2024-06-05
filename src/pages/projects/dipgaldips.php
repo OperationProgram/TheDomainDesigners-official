@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Study | Dip-Gal-Dips: E-commerce Website Revamp | Web Development Agency</title>
     <meta name="description" content="Explore how our agency's expertise in web development and design transformed Dip-Gal-Dips' e-commerce platform. Learn about the integration of the Stripe payment gateway, WordPress with Elementor, and effective SEO and branding strategies employed to elevate their online presence.">
-    <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
+    <!-- <meta name="robots" content="noindex,nofollow">  -->
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
     <link rel="stylesheet" href="../../css/project-partial.css">
@@ -47,7 +47,7 @@
     </section>
 
     <section id="wordpress-solution">
-        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips.">
+        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips." loading="lazy">
         <div class="section-container">
             <h2 id="wordpress-solution-header" class="custom-h2">Wordpress Solution</h2>
             <p>
@@ -60,10 +60,10 @@
     <section id="seo">
         <div class="offset-img-container">
             <div class="left-img">
-                <img  src="../../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="dipgaldips - casesar salad dressing dip">
+                <img  src="../../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="dipgaldips - casesar salad dressing dip" loading="lazy">
             </div>
             <div class="right-img" >
-                <img src="../../assets/dipgaldips/spicy_salsa_1280x1063.jpg" alt="dipgaldips - spicy green salsa dip">
+                <img src="../../assets/dipgaldips/spicy_salsa_1280x1063.jpg" alt="dipgaldips - spicy green salsa dip" loading="lazy">
             </div>
         </div>
         <div class="section-container">
@@ -102,14 +102,14 @@
             <div class="image-row">
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/home.png" alt="Gallery: Home Page of the DipGalDips website">
+                        <img src="../../assets/dipgaldips/home.png" alt="Gallery: Home Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Home</h2>
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Gallery: Monthly Subscription Page of the DipGalDips website">
+                        <img src="../../assets/dipgaldips/dip_plans.png" alt="Gallery: Monthly Subscription Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Monthly Subscription</h2>
                     </a>
                 </div>
@@ -117,19 +117,19 @@
             <div class="image-row">
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Gallery: Best Sellers Page of the DipGalDips website">
+                        <img src="../../assets/dipgaldips/best_sellers.png" alt="Gallery: Best Sellers Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Best Sellers</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/checkout.png" alt="Gallery: Checkout Page of the DipGalDips website>
+                        <img src="../../assets/dipgaldips/checkout.png" alt="Gallery: Checkout Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Checkout</h2>
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="javascript:void(0);">
-                        <img src="../../assets/dipgaldips/product.png" alt="Gallery: Products Page of the DipGalDips website">
+                        <img src="../../assets/dipgaldips/product.png" alt="Gallery: Products Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Products</h2>
                     </a>
                 </div>

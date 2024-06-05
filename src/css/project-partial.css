@@ -127,7 +127,7 @@ a {
 }
 
 .contents-section {
-  margin-top: calc(110vh - 62px);
+  margin-top: calc(100vh - 62px);
   background-color: #f4f4f4;
   padding: 4%;
 }
