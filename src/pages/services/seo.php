@@ -114,19 +114,19 @@ Boost your online visibility and drive organic traffic with effective SEO strate
           <br /><br />   
           Our team employs various techniques, such as image optimization, browser caching, and minimizing CSS and JavaScript, to enhance your site's speed. Ensuring your website loads quickly across all devices not only improves user satisfaction but also boosts your SEO performance. 
         </p></li>
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Mobile Optimization</strong> <br /> 
         Mobile optimization ensures that your website is fully responsive and functional on all mobile devices. With an increasing number of users accessing websites via smartphones and tablets, it's essential to provide a seamless mobile experience. 
           <br /><br />   
           We focus on responsive design, mobile-friendly navigation, and fast load times to enhance user engagement. Proper mobile optimization can significantly improve your search engine rankings, as search engines prioritize mobile-friendly sites.
         </p></li> 
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Sitemaps</strong> <br />
         Sitemaps play a vital role in helping search engines understand your website's structure and index its pages more efficiently. By creating and submitting an XML sitemap, we ensure that all important pages on your site are discoverable by search engines.
           <br /><br />   
           This enhances the crawlability and indexing process, leading to better visibility in search results. Regularly updating your sitemap as you add new content keeps search engines informed about changes to your site.
         </p></li>
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Performance Monitoring</strong> <br />
         Performance monitoring is essential to ensure your website maintains optimal functionality and speed. Our team uses advanced tools to regularly monitor your site's performance, identifying any issues that could affect user experience or SEO.
           <br /><br />   
@@ -200,13 +200,13 @@ Boost your online visibility and drive organic traffic with effective SEO strate
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/google-analytics.svg" alt="Google Analytics icon - Comprehensive Website Analytics Solutions ">
-        <h3>Google Analytics</h3>
+        <span>Google Analytics</span>
         <p>
       Google Analytics is a powerful tool that tracks and reports website traffic, providing insights into user behavior, demographics, and engagement. It helps identify which pages are performing well and offers data to optimize overall site performance.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/link.svg" alt="Link symbol representing Ahrefs - Advanced Website Analysis Tools">
-        <h3>Ahrefs</h3>
+        <span>Ahrefs</span>
         <p>Ahrefs is a comprehensive SEO tool that provides detailed insights into your website's backlink profile, keyword rankings, and competitive analysis. It helps in tracking SEO progress and uncovering opportunities to improve your site's search engine performance.</p>
       </div>
     </div>

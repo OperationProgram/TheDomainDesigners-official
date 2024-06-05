@@ -107,19 +107,19 @@
           <br /><br />   
           Our team uses advanced tools to monitor your site's uptime in real-time, providing instant alerts if any disruptions occur. This proactive approach minimizes downtime, ensuring that your visitors always have access to your services and content, ultimately maintaining your brand's reliability and reputation. 
         </p></li>
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Load Time Analysis</strong><br />  
          Load time analysis focuses on measuring and optimizing the speed at which your website loads for users. Slow loading times can frustrate visitors and negatively impact search engine rankings. We regularly test your site's load times across various devices and networks, identifying factors that may be slowing it down.
           <br /><br />   
           By optimizing images, leveraging browser caching, and minimizing CSS and JavaScript, we ensure your site loads quickly, enhancing user experience and reducing bounce rates. 
         </p></li> 
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">User Experience Metrics</strong> <br />  
         User experience metrics measure how users interact with your website, providing insights into areas needing improvement. We track metrics such as time on page, navigation paths, and interaction rates to gauge user satisfaction.
           <br /><br />   
           By understanding these patterns, we can make data-driven adjustments to enhance usability and engagement. Improving user experience metrics not only boosts customer satisfaction but also contributes to higher conversion rates and better SEO performance. 
         </p></li>
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong class="custom-bold">Error Tracking</strong> <br />  
         Error tracking involves identifying and resolving issues that could disrupt the functionality of your website. We continuously monitor for errors such as broken links, 404 pages, and server errors, providing detailed reports on any issues found.
           <br /><br />   

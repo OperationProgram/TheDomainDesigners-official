@@ -62,31 +62,31 @@
       <a href="#section-1-header">      
         <div class="content-title">
           <h2>Design & Customization</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic">
         </div>
       </a>
       <a href="#section-2-header">      
         <div class="content-title">
           <h2>Plugins</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic for Plugins section">
         </div>
       </a>
       <a href="#section-3-header">      
         <div class="content-title">
           <h2>Themes</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic for Themes section">
         </div>
       </a>
       <a href="#section-4-header">      
         <div class="content-title">
           <h2>E-commerce</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic for E-Commerce section">
         </div>
       </a>
       <a href="#section-5-header">      
         <div class="content-title">
           <h2>Page Builders</h2>
-          <img src="../../assets/right-arrow.svg" width="40" height="40">
+          <img src="../../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic for Page Builders Section">
         </div>
       </a>
     </div>

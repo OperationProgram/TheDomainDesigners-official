@@ -113,22 +113,22 @@
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/analytics-chart-earning.svg" alt="Data analytics icon - Data-Driven Marketing Strategies">
-        <h3>Data Analytics</h3>
+        <span>Data Analytics</span>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/calendar.svg" alt="Calendar icon - Strategic Planning for Marketing Success">
-        <h3>Content Scheduling</h3>
+        <span>Content Scheduling</span>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/chart-trends.svg" alt="Social trends chart icon - Tracking Market Trends for Effective Marketing Strategies">
-        <h3>Social Trends</h3>
+        <span>Social Trends</span>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/user-speak.svg" alt="User engagement symbol - Enhancing User Interaction for Effective Marketing">
-        <h3>User Engagement</h3>
+        <span>User Engagement</span>
         <p>We don't just guess - we leverage data and analytics to inform our strategies and ensure optimal results for your brand. We track key metrics and constantly refine your campaigns for maximum impact.</p>
       </div>
     </div>
@@ -175,7 +175,7 @@
           <br /><br />   
           That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
         </p></li>
-        <br />
+       
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong>Social media is no longer optional:</strong> for businesses. 
           It's a powerful platform to connect with customers, build brand
           loyalty, and drive sales. But managing multiple platforms, 
@@ -184,7 +184,7 @@
           <br /><br />   
           That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
         </p></li> 
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong>Social media is no longer optional:</strong> for businesses. 
           It's a powerful platform to connect with customers, build brand
           loyalty, and drive sales. But managing multiple platforms, 
@@ -193,7 +193,7 @@
           <br /><br />   
           That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
         </p></li>
-        <br />
+        
         <li data-aos="fade-up" data-aos-duration="1300"><p> <strong>Social media is no longer optional:</strong> for businesses. 
           It's a powerful platform to connect with customers, build brand
           loyalty, and drive sales. But managing multiple platforms, 
@@ -269,18 +269,18 @@
     <div class="icons">
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/thumbs-up.svg" alt="Facebook Ads icon - Targeted Advertising Solutions on Facebook">
-        <h3>Facebook Ads</h3>
+        <span>Facebook Ads</span>
         <p>
 Facebook ads enable businesses to reach targeted audiences with highly customizable advertisements that appear on users' feeds, in sidebars, or within Messenger, allowing for precise targeting based on demographics, interests, and behaviors.</p>
       </div>
       <div class="icon" data-aos="fade-up" data-aos-duration="1500">
         <img src="../../assets/icons/reel.svg" alt="Reel Ads icon - Captivating Video Advertising on Instagram">
-        <h3>Reel Ads</h3>
+        <span>Reel Ads</span>
         <p>Reel ads on Instagram offer businesses the opportunity to showcase their products or services through short, captivating video content that appears seamlessly within users' feeds.</p>
       </div>
       <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/vote.svg" alt="Twitter Polls icon - Interactive Polling for Engaging Content on Twitter">
-        <h3>Twitter Polls</h3>
+        <span>Twitter Polls</span>
         <p>
         Twitter polls engage audiences by allowing users to create and participate in simple, interactive polls, where they can vote on predefined options and view real-time results. </p>
       </div>
