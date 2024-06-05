@@ -56,7 +56,7 @@
   </section>
   
   <section class="contents">
-    <img class="sr-only" alt="Background image featuring plant and phone - Quick Links for Social Media Marketing" src="../assets/phone-plant-dark.jpg" />
+    <img class="sr-only" alt="Background image featuring plant and phone - Quick Links for Social Media Marketing" src="../../assets/phone-plant-dark.jpg" />
     <div class="contents-container">
       <a href="#section-1-header">      
         <div class="content-title">
@@ -231,7 +231,7 @@
   <section id="section-4-header" class="section-4">
     <div class="sub-cta">
       <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
-        <img class="sr-only" alt="Two women laughing and working - In-depth Ad Analytics for Effective Marketing Strategies" src="../assets/people-working.jpg" />
+        <img class="sr-only" alt="Two women laughing and working - In-depth Ad Analytics for Effective Marketing Strategies" src="../../assets/people-working.jpg" />
       </div>
       <div class="cta-column">
         <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Analyze Your Strategy</h2>
@@ -263,7 +263,7 @@
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>
-      <img class="sr-only" alt="Man working on phone - Strategic Social Media Platform Utilization" src="../assets/man-on-phone-right.jpg" />
+      <img class="sr-only" alt="Man working on phone - Strategic Social Media Platform Utilization" src="../../assets/man-on-phone-right.jpg" />
       </div>
 
     <div class="icons">
