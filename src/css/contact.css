@@ -181,10 +181,13 @@ main .contact-section .container .contact-form form .services {
 }
 main .contact-section .container .contact-form form .services label {
   display: flex;
-  align-items: center;
-  gap: 5px;
   color: rgb(181, 181, 181);
-  white-space: nowrap;
+  gap: 10px;
+}
+main .contact-section .container .contact-form form .services input {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
 }
 main .contact-section .container .contact-form form .submit-btn {
   background-color: #7403d1;
