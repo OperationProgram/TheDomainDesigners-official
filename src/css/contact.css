@@ -120,9 +120,11 @@ main .contact-section .container .contact-info {
   flex: 1;
 }
 main .contact-section .container .contact-info h2 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
   color: #7403d1;
 }
 main .contact-section .container .contact-info h1 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
   margin-bottom: 20px;
