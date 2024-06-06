@@ -1,4 +1,4 @@
-<a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo" width="100" height="100"></a>
+<a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
 <nav class="navbar">
     <ul class="nav-menu" id="nav-menu">
         <li><a href="<?php echo $basePath; ?>/">Home</a></li>

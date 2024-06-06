@@ -119,8 +119,6 @@ a {
   height: 800px;
   margin-left: -4%;
   padding: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
