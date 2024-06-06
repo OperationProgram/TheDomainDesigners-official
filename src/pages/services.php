@@ -31,7 +31,7 @@
         <!-- <div class="cta"> -->
           <h1>Web Development Services</h1>
           <h2>Customized for Your Needs</h2>
-          <button class="cta-button">Contact Us</button>
+          <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
         <!-- </div> -->
       </div>
   </section>
@@ -82,7 +82,7 @@
     <div class="lets-chat">
         <img src="../assets/laptop-side.png" data-aos="fade-right" alt="Open laptop computer">
         <h2>Let's Chat</h2>
-        <button class="cta-button">Contact Us</button>
+        <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
     </div>
   
   </section>

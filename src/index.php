@@ -26,7 +26,7 @@
     <div class="hero-content">
         <h1>Launch Your Dream Website</h1>
         <h2> Hire Web Developers Who Deliver Results</h2>
-        <button class="cta-button">Free Consultation</button>
+        <a href="pages/contact.php"><button class="cta-button">Free Consultation</button></a>
     </div>
 </section>
 
@@ -99,7 +99,7 @@
       We're more than web designers and developers - we're your growth partners. We fuel young companies and startups with exceptional design and development, collaborating closely to translate your vision into a high-performing website that drives results. We're invested in your success, not just a paycheck.
  
       </p>
-      <button>Learn More</button>
+      <a href="pages/our-work.php"><button>Learn More</button></a>
     </div>
     <div class="image-column">
       <img src="assets/sticky-notes.jpg" alt="Startup Planning: Brainstorming Business Ideas on Sticky Notes Wall">
@@ -150,7 +150,7 @@
       <h3>Hire Web Designers Who Get Your Business</h3>
       <h2>Empowering Emerging Ventures</h2>
       <p>TheDomainDesigners goes beyond just building websites - we become partners in your success. We specialize in empowering startups and emerging ventures. Our team of passionate web designers and developers collaborate closely with you, translating your vision into a user-friendly, high-performing website that fuels growth. We're not just a service provider - we're invested collaborators, ready to help you launch your vision and achieve long-term success.  Ready to hire web designers who understand startups? Let's discuss your project today!</p>
-      <button>Learn More</button>
+      <a href="pages/services.php"><button>Learn More</button></a>
     </div>
     <div class="image-column">
       <img src="assets/people-writing.jpg" alt="Startup Team Brainstorming: Web Designers and Developers Collaborating on Project ">

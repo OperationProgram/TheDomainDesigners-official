@@ -32,7 +32,7 @@
         <div class="cta">
           <h1>Our Work</h1>
           <h2>Creating Concepts That Stick</h2>
-          <button class="cta-button">Contact Us</button>
+          <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
       </div>
   </section>
