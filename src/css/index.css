@@ -422,11 +422,12 @@ body {
   border-radius: 10px;
   margin-right: 30px; /* Add margin between slides */
   min-width: calc(100% - 30px);
-  flex: 0 0 100%; /* Ensure each testimonial takes full width */
+  flex: 0 0 100%;
 }
 
 .testimonial p {
   margin: 1em;
+  font-family: "malden-sans-medium", sans-serif;
 }
 
 @keyframes slide {
