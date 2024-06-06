@@ -35,6 +35,7 @@
     <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
     <meta name="keywords" content="thedomaindesigners">
     <meta name="author" content="TheDomainDesigners">
+    <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">

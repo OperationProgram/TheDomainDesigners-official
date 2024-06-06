@@ -8,6 +8,7 @@
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="thedomaindesigners">
   <meta name="author" content="TheDomainDesigners">
+  <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/branding.css">
   <link rel="stylesheet" href="../../css/navbar.css">

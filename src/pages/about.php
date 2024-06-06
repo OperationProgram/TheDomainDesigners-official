@@ -8,7 +8,7 @@
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="our mission, our story, our values, thedomaindesigners">
   <meta name="author" content="TheDomainDesigners">
-  <title>About Us</title>
+  <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../css/about.css"> 
   <link rel="stylesheet" href="../css/navbar.css"> 
   <link rel="stylesheet" href="../css/footer.css">

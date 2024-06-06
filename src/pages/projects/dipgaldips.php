@@ -8,6 +8,7 @@
     <meta name="robots" content="noindex,nofollow"> 
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
+    <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
     <link rel="stylesheet" href="../../css/project-partial.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/footer.css">

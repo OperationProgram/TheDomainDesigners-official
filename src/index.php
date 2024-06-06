@@ -8,6 +8,7 @@
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
   <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, thedomaindesigners">
   <meta name="author" content="TheDomainDesigners">
+  <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
   <link rel="stylesheet" href="css/index.css"> <!-- Link to your compiled CSS file -->
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
