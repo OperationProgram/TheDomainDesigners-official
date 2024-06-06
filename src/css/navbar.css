@@ -2,7 +2,6 @@
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
 }
-<<<<<<< HEAD
 @font-face {
   font-family: "Monoton-Regular";
   src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
@@ -21,7 +20,6 @@
   font-weight: normal;
   font-style: normal;
 }
-=======
 .sr-only {
   position: absolute;
   width: 1px;
@@ -33,7 +31,6 @@
   border: 0;
 }
 
->>>>>>> e673115c4bf85dc8b9654fea985c45b4900b66cf
 * {
   margin: 0;
   padding: 0;
@@ -80,16 +77,6 @@
 }
 #nav-menu a::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  border-radius: 20px; /* Match the border radius of the link */
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  z-index: -1;
 }
 #nav-menu a:hover::before {
   opacity: 1;
