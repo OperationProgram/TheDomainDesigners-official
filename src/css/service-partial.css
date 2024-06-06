@@ -27,8 +27,14 @@ html, body {
   line-height: 1.5;
 }
 
+h1, h2 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
+}
+
 p {
   font-size: 18px;
+  line-height: 1.6em;
+  font-family: "malden-sans-medium", sans-serif;
 }
 
 .cta-button {

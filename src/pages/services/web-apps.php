@@ -108,7 +108,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
         <span>Es6 JS</span>
         <p>ES6 introduces classes, modules, and Promises, making JavaScript code more modular, maintainable, and scalable. Its adoption has become widespread due to its ability to streamline development and improve code quality in frontend and backend applications alike.</p>
       </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/bootstrap.svg" alt="Bootstrap icon - Responsive Frontend Development with Bootstrap">
         <span>Bootstrap</span>
         <p>Bootstrap is a popular front-end framework that simplifies and accelerates web development. It provides a collection of pre-designed HTML, CSS, and JavaScript components, such as buttons, forms, and navigation bars, that can be easily customized and integrated into projects.</p>
@@ -147,7 +147,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
         <span>Node JS</span>
         <p>Node.js is a powerful JavaScript runtime environment that allows developers to build scalable and efficient server-side applications. Its event-driven architecture and non-blocking I/O operations make it well-suited for building real-time web applications and APIs.</p>
       </div>
-      <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1500">
         <img src="../../assets/icons/aws.svg" alt="AWS icon - Scalable Backend Infrastructure with Amazon Web Services">
         <span>Amazon Web Services</span>
         <p>AWS (Amazon Web Services) is a comprehensive cloud computing platform that offers a wide range of services, including computing power, storage, and databases, as well as machine learning and analytics tools. It provides scalable and reliable infrastructure solutions, enabling businesses to deploy applications quickly and securely.</p>

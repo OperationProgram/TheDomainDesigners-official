@@ -5,9 +5,14 @@ html, body {
     scroll-behavior: smooth;
 }
 
+h1, h2 {
+    font-family: $header-font;
+}
+
 p {
     font-size: 18px;
     line-height: 1.6em;
+    font-family: $primary-font;
 }
 
 a {
@@ -170,13 +175,15 @@ a {
                 list-style: none;
                 margin-top: 40px;
                 .content-link {
-                    color: $primary-color;
+                    color: $secondary-color;
                     font-size: 18px;
                     padding: 5px;
+                    text-decoration: none;
+                    font-family: $primary-font;
                 }
 
                 .content-link:hover {
-                    color: $secondary-color;
+                    color: $primary-color;
                 }
             }
         }

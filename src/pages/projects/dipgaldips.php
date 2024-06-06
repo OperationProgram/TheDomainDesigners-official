@@ -30,10 +30,10 @@
                     <img src="../../assets/dipgaldips/logo.jpg" alt="DipGalDips Logo Contact: dipgaldips@yahoo.com, 504-606-0039">
                 </div>
                 <ul>
-                    <li class="content-link"><a href="#wordpress-solution-header">Wordpress Solution</a></li>
-                    <li class="content-link"><a href="#seo-header">Search Engine Optimization</a></li>
-                    <li class="content-link"><a href="#branding-header">Branding</a></li>
-                    <li class="content-link"><a href="#gallery-header">Gallery</a></li>
+                    <li><a href="#wordpress-solution-header" class="content-link">Wordpress Solution</a></li>
+                    <li><a href="#seo-header" class="content-link">Search Engine Optimization</a></li>
+                    <li><a href="#branding-header" class="content-link">Branding</a></li>
+                    <li><a href="#gallery-header" class="content-link">Gallery</a></li>
                 </ul>   
             </div>
             <div class="text-column">

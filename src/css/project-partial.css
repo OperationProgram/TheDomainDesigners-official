@@ -25,9 +25,14 @@ html, body {
   scroll-behavior: smooth;
 }
 
+h1, h2 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
+}
+
 p {
   font-size: 18px;
   line-height: 1.6em;
+  font-family: "malden-sans-medium", sans-serif;
 }
 
 a {
@@ -181,12 +186,14 @@ a {
   margin-top: 40px;
 }
 .contents-section .contents-container .nav-column ul .content-link {
-  color: #7403d1;
+  color: #3498db;
   font-size: 18px;
   padding: 5px;
+  text-decoration: none;
+  font-family: "malden-sans-medium", sans-serif;
 }
 .contents-section .contents-container .nav-column ul .content-link:hover {
-  color: #3498db;
+  color: #7403d1;
 }
 .contents-section .contents-container .text-column {
   flex: 1 1;

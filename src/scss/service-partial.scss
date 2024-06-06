@@ -6,10 +6,16 @@ html, body {
     font-family: $primary-font;
     line-height: 1.5;
 }
+h1, h2 {
+    font-family: $header-font;
+}
 
 p {
     font-size: 18px;
+    line-height: 1.6em;
+    font-family: $primary-font;
 }
+
 
 .cta-button {
     background-color: map-get($primary-btn-outline, background-color);
