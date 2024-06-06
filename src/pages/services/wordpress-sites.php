@@ -8,6 +8,7 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="keywords" content="thedomaindesigners">
   <meta name="author" content="TheDomainDesigners">
+  <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/wordpress-sites.css">
   <link rel="stylesheet" href="../../css/navbar.css">
