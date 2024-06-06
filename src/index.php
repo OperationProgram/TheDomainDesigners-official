@@ -40,7 +40,7 @@
           <p>
           Develop, design, and deliver - that's the power of a well-designed website.  TheDomainDesigners is a team of skilled web designers and developers work together to craft exceptional online experiences that elevate your brand and achieve your business goals.  Need a stunning new website? A user-friendly redesign? Or cutting-edge web applications? We've got the expertise to bring it to life. Let's discuss your vision today!
           </p>
-          <button>Contact Us</button>
+          <a href="pages/contact.php"><button>Contact Us</button></a>
       </div>  
       <div class="image-column">
           <img src="assets/teamwork.jpg" alt="Collaborative Web Design & Development Team Celebrating Success">
