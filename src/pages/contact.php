@@ -68,7 +68,6 @@
             <div class="hero-content">
                 <h1>Helping You to Succeed</h1>
                 <h2>Let's chat about your website goals</h2>
-                <button class="cta-button">Get Started</button>
             </div>
         </section>
         <section class="contact-section">

@@ -32,7 +32,7 @@
         <div class="cta">
             <h2 class="hero-gradient">Stellar Visual Designs</h2>
             <h1 class="custom-h1">Branding</h1>
-            <button class="cta-button">Contact Us</button>
+            <a href="../contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
     </div>
     <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
@@ -88,7 +88,7 @@
           We help you maintain brand consistency by developing comprehensive brand guidelines that cover all aspects of your brand identity. By adhering to these guidelines, we ensure that every interaction with your brand reinforces your core values and creates a cohesive brand experience for your audience.
         </p></li>
       </ul>
-      <button class="cta-button-dark">Start Here</button>
+      <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
     </div>
     
     <div class="img-container">

@@ -32,7 +32,7 @@
         <div class="cta">
             <h2 class="hero-gradient">We Got Your Back</h2>
             <h1 class="custom-h1">Maintenance</h1>
-            <button class="cta-button">Contact Us</button>
+            <a href="../contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
         <img class="hero-img" src="../../assets/icons/tools.svg" alt="Icon of wrench and screwdriver crossing - Reliable Website Maintenance Services">
     </div>
@@ -90,7 +90,7 @@
         <br /><br />   
         Our content update services also include optimizing multimedia elements like images and videos to enhance user experience and site performance. Let us handle your content updates, so you can focus on your core business activities while ensuring your website remains fresh and competitive.
         </p>
-        <button class="cta-button-dark" >Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark" >Start Here</button></a>
       </div>
 
     </div>
@@ -126,7 +126,7 @@
           Our team promptly addresses these errors, ensuring they don't negatively impact user experience or search engine rankings. Regular error tracking and resolution help maintain the integrity and usability of your website, providing a smoother and more reliable experience for your visitors.
         </p></li>
       </ul>
-      <button class="cta-button">Start Here</button>
+      <a href="../contact.php"><button class="cta-button">Start Here</button></a>
     </div>
     
     <div class="img-container">
@@ -165,7 +165,7 @@
         <br /><br />   
         We store backups in secure, off-site locations to protect against physical damage or localized issues. By prioritizing backup and recovery, we safeguard your website's functionality and ensure that your business operations can continue seamlessly, no matter what challenges arise. 
         </p>
-        <button class="cta-button">Start Here</button>
+        <a href="../contact.php"><button class="cta-button">Start Here</button></a>
       </div>
 
     </div>

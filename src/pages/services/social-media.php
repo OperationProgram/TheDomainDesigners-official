@@ -35,7 +35,7 @@
         <div class="cta">
             <h2 class="hero-gradient">Scrolling to Success!</h2>
             <h1 class="custom-h1">Social Media Marketing</h1>
-            <button class="cta-button">Contact Us</button>
+            <a href="../contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
         <img src="../../assets/mobile.png" alt="Hand holding mobile phone - Effective Social Media Marketing Strategies">
     </div>
@@ -102,7 +102,7 @@
          <br /><br />   
 
         </p>
-        <button class="cta-button-dark">Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
       <div class="img-box" data-aos="fade-left" data-aos-duration="1000">
@@ -138,7 +138,7 @@
     <div class="sub-cta">
       <div class="video-box">
         <!-- <img src="../../assets/mobile-2.png" alt="Video thumbnail for content creation - Engaging Content Creation Strategies" class="video-thumbnail" id="video-thumbnail"> -->
-        <div class="play-button" id="play-button"></div>
+        <!-- <div class="play-button" id="play-button"></div> -->
         <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by TheDomainDesigners.">
         </iframe>
         <!-- <video controls loop id="video">
@@ -203,7 +203,7 @@
           That's where Kreative Media, a leading social media marketing company, comes in. Our visuals stand out so your brand can thrive, ensuring your messages resonate and capture your audience. We help businesses of all sizes develop and execute winning social media strategies that deliver real results. 
         </p></li>
       </ul>
-      <button class="cta-button">Start Here</button>
+      <a href="../contact.php"><button class="cta-button">Start Here</button></a>
     </div>
     
     <div class="img-container">
@@ -242,7 +242,7 @@
         <br /><br />   
         Regular performance analysis and reporting allow us to identify trends, spot opportunities, and make data-driven decisions to improve campaign performance over time. With our focus on ad analytics, we ensure that your advertising efforts deliver maximum ROI and drive meaningful results for your business.
         </p>
-        <button class="cta-button">Start Here</button>
+        <a href="../contact.php"><button class="cta-button">Start Here</button></a>
       </div>
 
     </div>
@@ -259,7 +259,7 @@
          <br /><br /> 
          We also leverage platforms like Twitter to expand your reach, foster brand awareness, and drive traffic to your website.  By strategically selecting and optimizing social media platforms, we maximize your brand's visibility, engagement, and conversion opportunities.
         </p>
-        <button class="cta-button-dark">Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000"></div>

@@ -32,7 +32,7 @@
         <div class="cta">
             <h2 class="hero-gradient">Full Stack Solutions</h2>
             <h1 class="custom-h1">Web Apps</h1>
-            <button class="cta-button">Contact Us</button>
+            <a href="../contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
         <img class="hero-img" src="../../assets/icons/webapp.svg" alt="Icon of a person dreaming up a website - Custom Web App Development">
     </div>
@@ -89,7 +89,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
          <br /><br />   
           With our client-centric approach and commitment to excellence, we deliver frontend solutions that not only meet but exceed your expectations, driving user engagement and maximizing the success of your web application.
         </p>
-        <button class="cta-button-dark">Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
@@ -128,7 +128,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
          <br /><br /> 
          With our expertise in selecting the best-fit frameworks for your project, we guarantee a reliable, secure, and high-performing backend that meets your unique needs and exceeds your expectations. Let us empower your digital journey with powerful backend solutions that propel your business forward.
         </p>
-        <button class="cta-button-dark">Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
@@ -164,7 +164,7 @@ Transform your ideas into innovative digital solutions with expert web app devel
          <br /><br />   
          Our expertise in database management allows us to optimize performance, minimize downtime, and safeguard your valuable data against potential threats. By leveraging advanced technologies and best practices, we empower your application to handle large volumes of data with ease while maintaining high levels of responsiveness. With our comprehensive database management services, you can trust that your data is in safe hands, enabling you to focus on driving your business forward.
         </p>
-        <button class="cta-button-dark">Start Here</button>
+        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
