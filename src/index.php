@@ -164,20 +164,20 @@
             <div class="testimonials-container">
                 <div class="testimonial">
                     <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
-                    <p>- Sarah Williams, CEO of Tech Ventures</p>
+                    <p>- Sarah Williams</p>
                 </div>
                 <div class="testimonial">
                     <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>
-                    <p>- Michael Johnson, Founder of GreenEarth</p>
+                    <p>- Michael Johnson</p>
                 </div>
                 <div class="testimonial">
                     <p>"Their expertise in web development and marketing has significantly boosted our online growth. We couldn't be happier with the results."</p>
-                    <p>- Emily Brown, Marketing Director at EcoStart</p>
+                    <p>- Emily Brown</p>
                 </div>
                 <!-- Duplicate testimonials for seamless loop -->
                 <div class="testimonial">
                     <p>"Working with Innovate Web Solutions has been a game changer for our business. Their attention to detail and innovative designs exceeded our expectations."</p>
-                    <p>- Sarah Williams, CEO of Tech Ventures</p>
+                    <p>- Sarah Williams</p>
                 </div>
                 <!-- <div class="testimonial">
                     <p>"The team at Innovate Web Solutions truly understands our vision and has delivered a website that perfectly aligns with our brand. Highly recommended!"</p>

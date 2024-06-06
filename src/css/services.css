@@ -73,6 +73,7 @@ body {
   /* Typography styles for the hero section */
 }
 .hero-section .hero-content h1 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
   margin-bottom: 20px;
@@ -81,6 +82,7 @@ body {
   letter-spacing: 0.12em;
 }
 .hero-section .hero-content h2 {
+  font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
   color: #fff;
   letter-spacing: 0.12em;
