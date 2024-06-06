@@ -27,8 +27,7 @@
       <div class="hero-content">
           <h1>Who We Are</h1>
           <h2>Learn more about our mission, values, and team.</h2>
-          <button class="cta-button">Get Started</button>
-      </div>
+          <a href="contact.php" class="cta-button">Contact Us</a>      </div>
     </div>
   </section>
 
@@ -39,13 +38,15 @@
         <h3>Our Mission</h3>
         <p>Our mission is to provide the best services to our clients with utmost dedication and professionalism.</p>
         <p>We strive to deliver exceptional results and continuously improve our offerings to meet the evolving needs of our customers.</p>
-        <button>Learn More</button>
+        <a href="contact.php"><button>Learn More</button></a>
+
       </div>
       <div class="about-image">
         <img src="../assets/skull-min.jpg" alt="About Us Image">
       </div>
     </div>
   </section>
+
 
   <section class="our-story-section">
     <div class="container">

@@ -75,7 +75,7 @@
                 <div class="contact-info">
                     <h2>Contact Us</h2>
                     <h1>Ready to Get Started</h1>
-                    <p>(832) 216-9276</p>
+                    <p></p>
                     <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
                     <div class="social-media">
                         <a href="#"><i class="fab fa-instagram"></i></a>
