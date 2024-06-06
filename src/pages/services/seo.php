@@ -97,7 +97,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
         <br /><br />   
         Regular keyword updates and trend analysis keep your content relevant and aligned with evolving search behaviors. With targeted keyword research, we can improve your website's visibility, attract more qualified leads, and ultimately boost your online presence. 
         </p>
-        <button class="cta-button-dark">Let's Chat</button>
+        <button class="cta-button-dark">Start Here</button>
       </div>
 
     </div>
@@ -133,7 +133,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
           By tracking key metrics such as load times, uptime, and server response, we can quickly address and resolve potential problems. Continuous performance monitoring helps keep your website running smoothly, ensuring a consistently high level of service for your visitors.
         </p></li>
       </ul>
-      <button class="cta-button">Let's Chat</button>
+      <button class="cta-button">Start Here</button>
     </div>
     
     <div class="img-container">
@@ -174,7 +174,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
         <br /><br />   
         Additionally, ensuring that your website has a clear and logical URL structure improves navigation and makes it easier for search engines to index your pages. With our on-page SEO strategies, we ensure that every element of your site is optimized for both search engines and users.
         </p>
-        <button class="cta-button">Let's Chat</button>
+        <button class="cta-button">Start Here</button>
       </div>
 
     </div>
@@ -189,7 +189,7 @@ Boost your online visibility and drive organic traffic with effective SEO strate
          <br /><br />   
          This data-driven approach helps us refine our SEO strategies to better meet the needs of your audience. Regularly reviewing user behavior and site performance allows us to continuously optimize our efforts, ensuring your website ranks higher and attracts more organic traffic. 
         </p>
-        <button class="cta-button-dark">Let's Chat</button>
+        <button class="cta-button-dark">Start Here</button>
       </div>
 
       <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">

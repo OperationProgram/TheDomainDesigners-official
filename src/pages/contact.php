@@ -66,8 +66,8 @@
         <section class="hero-section">
             <img class="sr-only" alt="Startup owner checking website on phone." src="../assets/man-on-phone-right.jpg" />
             <div class="hero-content">
-                <h1>We're Here to Help You Succeed</h1>
-                <h2>Let's chat about your website goals and how TheDomainDesigners can bring them to life.</h2>
+                <h1>Helping You to Succeed</h1>
+                <h2>Let's chat about your website goals</h2>
                 <button class="cta-button">Get Started</button>
             </div>
         </section>

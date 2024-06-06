@@ -8,6 +8,23 @@
     box-sizing: border-box;
 }
 
+.logo-link {
+    z-index: 9999;
+    position: absolute;
+    margin-left: 4%;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.logo {
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 4%;
+}
+
 .navbar {
     display: flex;
     justify-content: center;

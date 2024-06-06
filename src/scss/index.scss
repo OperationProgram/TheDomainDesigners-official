@@ -18,7 +18,7 @@ body {
   }
 }
 
-@include hero_section(url("../assets/skull-min.jpg"), 100vh);
+@include hero_section(url("../assets/mountain-lake.jpg"), 100vh);
 .hero-section {
   background-position: center;
 }
