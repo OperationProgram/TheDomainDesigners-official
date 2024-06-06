@@ -83,6 +83,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border: 2px solid #7403d1;
+  text-decoration: none;
 }
 .hero-section .hero-content .cta-button:hover {
   background-color: #7403d1;
@@ -102,9 +103,14 @@ body {
   }
 }
 
+.custom-bold {
+  font-weight: bold;
+  color: #3498db;
+}
+
 .about-section {
   margin-top: 70vh;
-  padding: 60px 20px;
+  padding: 30px 4%;
   background-color: #111;
 }
 .about-section .about-grid {
@@ -118,7 +124,7 @@ body {
 }
 .about-section .about-grid .about-text {
   background-color: #222;
-  padding: 50px;
+  padding: 4%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 500px;
@@ -139,11 +145,17 @@ body {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+.about-section .about-grid .about-text ul {
+  margin: 5rem 0;
+}
+.about-section .about-grid .about-text ul li {
+  margin-bottom: 1rem;
+}
 .about-section .about-grid .about-text button {
   background-color: #fff;
   color: #7403d1;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 4%;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -168,7 +180,7 @@ body {
 }
 
 .team-section {
-  padding: 60px 20px;
+  padding: 30px 20px;
   background-color: #111;
 }
 .team-section h2 {
@@ -226,6 +238,9 @@ body {
   font-style: italic;
 }
 
+.our-story-section .container {
+  height: auto;
+}
 .our-story-section .container p {
   background-color: #222;
   border-radius: 10px;
@@ -236,13 +251,12 @@ body {
 }
 
 .our-story-section, .our-values-section {
-  padding: 60px 20px;
+  padding: 60px 4%;
   background-color: #111;
 }
 .our-story-section .container, .our-values-section .container {
   max-width: 1600px;
   margin: 0 auto;
-  text-align: center;
 }
 .our-story-section .container h2, .our-values-section .container h2 {
   color: #7403d1;
