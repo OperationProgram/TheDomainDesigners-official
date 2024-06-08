@@ -86,6 +86,7 @@ main .hero-section .hero-content .cta-button {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border: 2px solid #7403d1;
+  text-decoration: none;
 }
 main .hero-section .hero-content .cta-button:hover {
   background-color: #7403d1;
@@ -180,10 +181,13 @@ main .contact-section .container .contact-form form .services {
 }
 main .contact-section .container .contact-form form .services label {
   display: flex;
-  align-items: center;
-  gap: 5px;
   color: rgb(181, 181, 181);
-  white-space: nowrap;
+  gap: 10px;
+}
+main .contact-section .container .contact-form form .services input {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
 }
 main .contact-section .container .contact-form form .submit-btn {
   background-color: #7403d1;

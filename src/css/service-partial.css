@@ -271,7 +271,7 @@ p {
   width: 100%;
   display: flex;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .sub-cta .cta-column {
   padding: 26px;
@@ -363,7 +363,7 @@ p {
 .section-3 .img-container {
   width: 50%;
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   align-items: center;
   float: right;
   padding: 0 4%;
@@ -418,11 +418,13 @@ p {
   }
 }
 .section-1, .section-5, .section-2 {
+  overflow: hidden;
   background-color: #f4f4f4;
   padding: 4%;
 }
 
 .section-4 {
+  overflow: hidden;
   padding: 4%;
   padding-top: 12%;
 }
