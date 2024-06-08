@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | Web App Development for Startups: Drive Growth & Engagement</title>
-  <meta name="description" content="Transform your idea into a powerful tool. TheDomainDesigners develops custom web apps that streamline operations, boost user engagement, and fuel growth for startups.">
+  <title>The Domain Designers | Web App Development for Startups: Drive Growth & Engagement</title>
+  <meta name="description" content="Transform your idea into a powerful tool. The Domain Designers develops custom web apps that streamline operations, boost user engagement, and fuel growth for startups.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="the domain designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/web-apps.css">

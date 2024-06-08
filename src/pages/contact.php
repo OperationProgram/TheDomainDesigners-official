@@ -8,7 +8,7 @@
             $userSubject = '<DO NOT REPLY> Thank you for contacting us';
             $fullname = $_POST['fullname'];
             $email = $_POST['email'];
-            $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, TheDomainDesigners.com";
+            $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, The Domain Designers.com";
 
             sendMail([
                         'userEmail' => $email, 
@@ -30,11 +30,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TheDomainDesigners | Contact Us: Let's Discuss Your Vision</title>
-    <meta name="description" content="Ready to turn your website dream into reality? TheDomainDesigners is here to help! Contact us today to discuss your project. We offer exceptional web design and development services tailored to empower startups and emerging ventures. Let's collaborate and bring your vision to life!">
-    <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-    <meta name="keywords" content="thedomaindesigners">
-    <meta name="author" content="TheDomainDesigners">
+    <title>The Domain Designers | Contact Us: Let's Discuss Your Vision</title>
+    <meta name="description" content="Ready to turn your website dream into reality? The Domain Designers is here to help! Contact us today to discuss your project. We offer exceptional web design and development services tailored to empower startups and emerging ventures. Let's collaborate and bring your vision to life!">
+    <meta name="robots" content="noindex,nofollow"> 
+    <meta name="keywords" content="The Domain Designers">
+    <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">

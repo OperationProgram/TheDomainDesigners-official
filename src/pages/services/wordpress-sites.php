@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | Expert WordPress Development for Startups</title>
-  <meta name="description" content="Leverage the power and ease of WordPress for your startup website. TheDomainDesigners creates user-friendly and adaptable websites that grow with your business.">
+  <title>The Domain Designers | Expert WordPress Development for Startups</title>
+  <meta name="description" content="Leverage the power and ease of WordPress for your startup website. The Domain Designers creates user-friendly and adaptable websites that grow with your business.">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="keywords" content="thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="the domain designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/wordpress-sites.css">

@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | Craft Your Brand Identity: Powerful Design Services</title>
-  <meta name="description" content="Unsure how to build a strong brand? TheDomainDesigners helps startups develop a unique and impactful brand identity. Discover our comprehensive branding services and elevate your online presence.">
+  <title>The Domain Designers | Craft Your Brand Identity: Powerful Design Services</title>
+  <meta name="description" content="Unsure how to build a strong brand? The Domain Designers helps startups develop a unique and impactful brand identity. Discover our comprehensive branding services and elevate your online presence.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="the domain designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/branding.css">

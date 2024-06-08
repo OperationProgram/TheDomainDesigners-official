@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | About Us: Empowering Startups Through Exceptional Design </title>
-  <meta name="description" content="Uncover TheDomainDesigners' story! We're passionate web designers and developers dedicated to empowering young companies and startups.  Learn about our collaborative approach and how we craft high-performing websites that fuel growth.  Let's build something amazing together!">
+  <title>The Domain Designers | About Us: Empowering Startups Through Exceptional Design </title>
+  <meta name="description" content="Uncover The Domain Designers' story! We're passionate web designers and developers dedicated to empowering young companies and startups.  Learn about our collaborative approach and how we craft high-performing websites that fuel growth.  Let's build something amazing together!">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="our mission, our story, our values, thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="our mission, our story, our values, The Domain Designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../css/about.css"> 
   <link rel="stylesheet" href="../css/navbar.css"> 

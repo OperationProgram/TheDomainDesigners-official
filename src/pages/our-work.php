@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | Our Work: Websites That Make a Difference</title>
+  <title>The Domain Designers | Our Work: Websites That Make a Difference</title>
   <meta name="description" content="Explore our portfolio of successful website projects for startups and emerging ventures.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="The Domain Designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../css/services.css"> 
   <link rel="stylesheet" href="../css/our-work.css"> 

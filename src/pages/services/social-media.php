@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheDomainDesigners | Social Media Growth for Startups: Engage & Convert</title>
-  <meta name="description" content="Amplify your startup's reach and connect with your target audience through impactful social media marketing strategies. TheDomainDesigners helps you build a thriving online community and drive conversions.">
+  <title>The Domain Designers | Social Media Growth for Startups: Engage & Convert</title>
+  <meta name="description" content="Amplify your startup's reach and connect with your target audience through impactful social media marketing strategies. The Domain Designers helps you build a thriving online community and drive conversions.">
   <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
-  <meta name="keywords" content="thedomaindesigners">
-  <meta name="author" content="TheDomainDesigners">
+  <meta name="keywords" content="the domain designers">
+  <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../../css/service-partial.css">
   <link rel="stylesheet" href="../../css/social-media.css">
@@ -140,7 +140,7 @@
       <div class="video-box">
         <!-- <img src="../../assets/mobile-2.png" alt="Video thumbnail for content creation - Engaging Content Creation Strategies" class="video-thumbnail" id="video-thumbnail"> -->
         <!-- <div class="play-button" id="play-button"></div> -->
-        <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by TheDomainDesigners.">
+        <iframe  src="https://youtube.com/embed/pnNDPxWe1Vw" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by The Domain Designers.">
         </iframe>
         <!-- <video controls loop id="video">
             <source src="../../assets/videos/glow.mp4" type="video/mp4">
