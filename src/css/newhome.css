@@ -87,6 +87,8 @@ header .navbar .social-media a:hover {
   background-size: cover;
   color: #ececec;
   text-align: left;
+  margin-top: 0px; /* Adjust as needed */
+  margin-bottom: 0px; /* Adjust as needed */
 }
 
 .hero-container {
