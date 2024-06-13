@@ -590,60 +590,10 @@ header {
 
 
 
-.testimonials-title {
-    font-size: 32px;
-    color: #333; /* Replace with your primary color */
-    padding: 50px;
-    text-align: center;
-}
 
-.testimonials-wrapper {
-    height: 200px;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-    background: url('../assets/purple-splashdrop.jpg') no-repeat;
-    background-size: cover;
-    padding: 0 20px;
-}
 
-.testimonials-container {
-    display: flex;
-    transition: transform 2s linear; /* This transition property is for smooth sliding */
-    width: 300%; /* Adjust based on the number of testimonials */
-    animation: slide 10s infinite; /* Apply the slide animation */
-}
 
-.testimonial {
-    background-color: #fff;
-    color: #333;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-right: 30px;
-    min-width: calc(33.33% - 30px); /* Adjust for the number of testimonials per slide */
-    flex: 0 0 33.33%;
-}
 
-.testimonial p {
-    margin: 1em;
-    font-family: Arial, sans-serif; /* Replace with your font stack */
-}
 
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    33% {
-        transform: translateX(-100%);
-    }
-    66% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
+
+
