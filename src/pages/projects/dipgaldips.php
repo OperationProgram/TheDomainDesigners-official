@@ -73,7 +73,7 @@
             Furthermore, we used Instagram to focus on creating high-quality, engaging content such as recipes featuring Dip-Gal-Dips' dips that not only provided value to users but also helped establish the website as a trusted authority in the niche. Regular performance monitoring and analysis allowed us to refine our SEO strategies over time, ensuring continuous improvement and maximized results for Dip-Gal-Dips' online presence.
         </p>
         </div> 
-        <!-- <img src="../../assets/dipgaldips/best_sellers.png" class="screenshot"> -->
+        <img src="../../assets/dipgaldips/dipgaldips-responsive.png" class="screenshot">
     </section>
 
     <section id="branding">
