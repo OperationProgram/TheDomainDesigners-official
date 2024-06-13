@@ -326,6 +326,18 @@ header .navbar .social-media a:hover {
   opacity: 1; /* Fade in paragraph on hover */
 }
 
+.team-cards {
+  display: flex;
+  margin: 5rem 0;
+  padding: 4%;
+}
+.team-cards .team-card {
+  width: 50%;
+}
+.team-cards .team-card .team-card-content .team-member img {
+  width: 100%;
+}
+
 .pricing {
   background: #fff;
   padding: 40px 0;
@@ -416,6 +428,10 @@ header .navbar .social-media a:hover {
   }
   .pricing .pricing-content .pricing-text:last-child, .pricing .pricing-content .pricing-image:last-child {
     margin-bottom: 0;
+  }
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
   }
 }
 .pricing-section {
