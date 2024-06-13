@@ -190,13 +190,12 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     z-index: 1;
-    opacity: 1;
+    opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease, transform 0.3s ease;
     color: rgba(255, 255, 255, 0);
     font-size: 5vw;
     letter-spacing: 0.12em;
     text-align: center;
-    z-index: 0;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     font-family: $header-font;
   }
