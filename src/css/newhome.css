@@ -281,22 +281,30 @@ header .navbar .hamburger-menu .hamburger-icon {
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  flex-direction: row;
 }
-.our-services .services-image {
+@media (max-width: 768px) {
+  .our-services .services-content {
+    flex-direction: column;
+  }
+}
+.our-services .services-image,
+.our-services .services-text {
   flex: 1;
   max-width: 50%;
   padding: 20px;
+}
+@media (max-width: 768px) {
+  .our-services .services-image,
+  .our-services .services-text {
+    max-width: 100%;
+  }
 }
 .our-services .services-image img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
-}
-.our-services .services-text {
-  flex: 1;
-  max-width: 50%;
-  padding: 20px;
 }
 .our-services .services-text h2 {
   font-size: 28px;

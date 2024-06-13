@@ -20,7 +20,7 @@
         <!-- Regular Navigation Links -->
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="newabout.html">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -140,7 +140,7 @@
 
 
 
-    <section class="our-services">
+<section class="our-services">
     <div class="container">
         <div class="services-content">
             <div class="services-image">
@@ -242,46 +242,53 @@
 
 <section class="pricing-section">
     <div class="container">
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <div class="pricing-card-content">
-                    <h3>E-COMMERCE</h3>
-                    <div class="price">$8K</div>
-                    <p>$8000 min. Up Front Cost</p>
-                    <ul>
-                        <li>Custom Designed</li>
-                        <li>Custom Coded Shopify Integration</li>
-                        <li>Easy to edit</li>
-                    </ul>
-                    <a href="#" class="cta-button">CONTACT US</a>
-                </div>
-            </div>
-            <div class="pricing-card">
-                <div class="pricing-card-content">
-                    <h3>E-COMMERCE</h3>
-                    <div class="price">$8K</div>
-                    <p>$8000 min. Up Front Cost</p>
-                    <ul>
-                        <li>Custom Designed</li>
-                        <li>Custom Coded Shopify Integration</li>
-                        <li>Easy to edit</li>
-                    </ul>
-                    <a href="#" class="cta-button">CONTACT US</a>
-                </div>
-            </div>
-            <div class="pricing-card">
-                <div class="pricing-card-content">
-                    <h3>E-COMMERCE</h3>
-                    <div class="price">$8K</div>
-                    <p>$8000 min. Up Front Cost</p>
-                    <ul>
-                        <li>Custom Designed</li>
-                        <li>Custom Coded Shopify Integration</li>
-                        <li>Easy to edit</li>
-                    </ul>
-                    <a href="#" class="cta-button">CONTACT US</a>
-                </div>
-            </div>
+    <div class="pricing-cards">
+    <div class="pricing-card">
+        <div class="pricing-card-content">
+            <h3>Standard Website</h3>
+            <div class="price">$1500</div>
+            <p>$500 min. Up Front Cost</p>
+            <ul>
+                <li>5-Page Site</li>
+                <li>Responsive Design</li>
+                <li>Contact Form</li>
+                <li>Basic SEO</li>
+                <li>1-Month Maintenance</li>
+            </ul>
+            <a href="#" class="cta-button">CONTACT US</a>
+        </div>
+    </div>
+    <div class="pricing-card">
+        <div class="pricing-card-content">
+            <h3>Premium Website</h3>
+            <div class="price">$3000</div>
+            <p>$1000 min. Up Front Cost</p>
+            <ul>
+                <li>Custom Number of Pages</li>
+                <li>Custom Design</li>
+                <li>E-commerce Integration</li>
+                <li>Advanced SEO</li>
+                <li>3-Month Maintenance</li>
+            </ul>
+            <a href="#" class="cta-button">CONTACT US</a>
+        </div>
+    </div>
+    <div class="pricing-card">
+        <div class="pricing-card-content">
+            <h3>Website Maintenance</h3>
+            <div class="price">$100/month</div>
+            <p>Ongoing Support & Updates</p>
+            <ul>
+                <li>Monthly Backup</li>
+                <li>Security Monitoring</li>
+                <li>Content Updates</li>
+                <li>Software Updates</li>
+                <li>Priority Support</li>
+            </ul>
+            <a href="#" class="cta-button">CONTACT US</a>
+        </div>
+    </div>
+</div>
             <!-- Add more pricing cards as needed -->
         </div>
     </div>

@@ -1,0 +1,109 @@
+/* Style for the About page */
+.about-hero {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  padding: 80px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.our-team {
+  padding: 80px 0;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.our-team h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.team-member {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.mission-vision {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.mission-vision p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0;
+}/*# sourceMappingURL=newabout.css.map */
