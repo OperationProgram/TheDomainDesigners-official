@@ -39,6 +39,11 @@ body {
     padding: 0 20px;
 }
 
+section {
+    margin-top: 80px; /* Adjust as needed */
+    margin-bottom: 80px; /* Adjust as needed */
+}
+
 header {
     background: #333;
     color: #fff;
@@ -102,6 +107,8 @@ header {
     background-size: cover;
     color: #ececec;
     text-align: left;
+    margin-top: 0px; /* Adjust as needed */
+    margin-bottom: 0px; /* Adjust as needed */
 }
 
 .hero-container {
