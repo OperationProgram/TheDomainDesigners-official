@@ -199,6 +199,8 @@ header .navbar .social-media a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: url("../assets/blob.png") no-repeat;
+  background-size: cover;
 }
 
 .bullet-point {
@@ -328,6 +330,8 @@ header .navbar .social-media a:hover {
 }
 .team-cards .team-card {
   width: 50%;
+  background: url("../assets/blob.png") no-repeat;
+  background-size: cover;
 }
 .team-cards .team-card .team-card-content .team-member img {
   width: 100%;

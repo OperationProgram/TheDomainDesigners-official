@@ -76,64 +76,64 @@
 
 
     <section class="bullet-point-section">
-  <div class="bullet-point">
-    <div class="info">
-      <!-- Placeholder for infographic -->
-      <img src="infographic1.jpg" alt="Infographic 1">
-    </div>
-    <div class="text">
-      <h2>OPTIMIZE YOUR PROCESSES!</h2>
-      <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
-    </div>
-  </div>
+        <div class="bullet-point">
+            <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="infographic1.jpg" alt="Infographic 1">
+            </div>
+            <div class="text">
+            <h2>OPTIMIZE YOUR PROCESSES!</h2>
+            <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
+            </div>
+        </div>
 
-  <div class="bullet-point">
-    <div class="info">
-      <!-- Placeholder for infographic -->
-      <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-    </div>
-    <div class="text">
-      <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-      <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-    </div>
-  </div>
+        <div class="bullet-point">
+            <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
+            </div>
+            <div class="text">
+            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
+            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
+            </div>
+        </div>
 
-  <div class="bullet-point">
-    <div class="info">
-      <!-- Placeholder for infographic -->
-      <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-    </div>
-    <div class="text">
-      <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-      <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-    </div>
-  </div>
+        <div class="bullet-point">
+            <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
+            </div>
+            <div class="text">
+            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
+            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
+            </div>
+        </div>
 
-  <div class="bullet-point">
-    <div class="info">
-      <!-- Placeholder for infographic -->
-      <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-    </div>
-    <div class="text">
-      <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-      <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-    </div>
-  </div>
+        <div class="bullet-point">
+            <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
+            </div>
+            <div class="text">
+            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
+            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
+            </div>
+        </div>
 
-  <div class="bullet-point">
-    <div class="info">
-      <!-- Placeholder for infographic -->
-      <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-    </div>
-    <div class="text">
-      <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-      <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-    </div>
-  </div>
+        <div class="bullet-point">
+            <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
+            </div>
+            <div class="text">
+            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
+            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
+            </div>
+        </div>
 
-  <!-- Repeat the structure for other bullet points -->
+        <!-- Repeat the structure for other bullet points -->
 
-</section>
+    </section>
 
 
 
