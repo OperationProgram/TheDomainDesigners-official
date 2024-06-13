@@ -8,22 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">MyLogo</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="social-media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </nav>
-    </header>
+<header>
+    <nav class="navbar">
+        <div class="logo">MyLogo</div>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu">
+            <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
+        </div>
+
+        <!-- Regular Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </nav>
+</header>
+
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content">
@@ -36,13 +45,6 @@
             </div>
         </div>
     </section>
-
-    <!-- SVG Divider -->
-    <div class="custom-shape-divider-top-1718233137">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
-        </svg>
-    </div>
 
     <section class="what-we-do">
         <div class="container">
@@ -57,18 +59,18 @@
         <div class="container">
             <div class="feature">
                 <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
-                <h3>Mobile-First Design</h3>
-                <p>We start building your site for mobile devices first, then we add on to it to make tablet and desktop.</p>
+                <h3>Mobile-Centric Approach</h3>
+                <p>We adopt a mobile-first strategy, ensuring your website is optimized for smartphones, then scaling seamlessly to tablets and desktops.</p>
             </div>
             <div class="feature">
                 <div class="feature-icon"><i class="fas fa-laptop"></i></div>
-                <h3>Fully Responsive</h3>
-                <p>Your website will fit all mobile screens sizes, tablets, and desktop sizes so new clients can access your site from anywhere.</p>
+                <h3>Responsive Design</h3>
+                <p>Your website adapts flawlessly across all devices, ensuring an optimal user experience on mobile phones, tablets, and desktop computers.</p>
             </div>
             <div class="feature">
                 <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
-                <h3>Optimization</h3>
-                <p>60% of all internet traffic is on mobile devices, so we optimize your mobile to perform their best in search engines.</p>
+                <h3>SEO Optimization</h3>
+                <p>We enhance your mobile presence to maximize performance in search engine rankings, capitalizing on the predominant share of internet traffic from mobile devices.</p>
             </div>
         </div>
     </section>
@@ -137,6 +139,27 @@
 
 
 
+
+    <section class="our-services">
+    <div class="container">
+        <div class="services-content">
+            <div class="services-image">
+                <img src="/src/assets/good/our-services.svg" alt="Services Image">
+            </div>
+            <div class="services-text">
+                <h2>Discover Our Offerings</h2>
+                <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
+                <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
+                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
     <section class="work-flow">
         <div class="clickable-section">
             <div class="overlay">
@@ -184,7 +207,7 @@
 
 
 
-<section class="team-section">
+<!-- <section class="team-section">
     <div class="container">
         <div class="team-cards">
             <div class="team-card">
@@ -199,7 +222,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Repeat for other team members -->
+
             <div class="team-card">
                 <div class="team-card-content">
                     <div class="team-member">
@@ -214,7 +237,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="pricing-section">
