@@ -227,8 +227,16 @@ header .navbar .hamburger-menu .hamburger-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: url("../assets/blob.png") no-repeat;
-  background-size: cover;
+  position: relative;
+}
+.bullet-point-section .blob-img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  max-width: 866px;
+  min-width: 490px;
 }
 
 .bullet-point {
@@ -265,7 +273,7 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 
 .our-services {
-  background-color: #333;
+  background-color: #fff;
   padding: 40px 0;
 }
 .our-services .container {
@@ -281,7 +289,6 @@ header .navbar .hamburger-menu .hamburger-icon {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
-  color: #fff;
 }
 @media (max-width: 768px) {
   .our-services .services-content {
@@ -410,8 +417,6 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 .team-cards .team-card {
   width: 50%;
-  background: url("../assets/blob.png") no-repeat;
-  background-size: cover;
 }
 .team-cards .team-card .team-card-content .team-member img {
   width: 100%;

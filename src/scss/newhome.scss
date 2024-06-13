@@ -255,8 +255,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: url("../assets/blob.png") no-repeat;
-    background-size: cover;
+    position: relative;
+    .blob-img {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        max-width: 866px;
+        min-width: 490px;
+    }
+    // background: url("../assets/blob.png") no-repeat;
+    // background-size: cover;
     // background-color: $background-color-dark;
   }
   
@@ -298,8 +308,8 @@ header {
 
 
   .our-services {
-    // background-color: #fff;
-    background-color: $background-color-dark;
+    background-color: #fff;
+    // background-color: $background-color-dark;
     padding: 40px 0;
 
     .container {
@@ -316,7 +326,7 @@ header {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
-        color: $text-color-light;
+        // color: $text-color-light;
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -468,8 +478,8 @@ header {
     padding: 4%;
     .team-card {
         width: 50%;
-        background: url("../assets/blob.png") no-repeat;
-        background-size: cover;
+        // background: url("../assets/blob.png") no-repeat;
+        // background-size: cover;
         .team-card-content .team-member img {
             width: 100%;
         }

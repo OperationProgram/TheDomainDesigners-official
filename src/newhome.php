@@ -83,6 +83,7 @@
 
 
     <section class="bullet-point-section">
+        <img class="blob-img" src="assets/blob.png" >
     <div class="bullet-point">
         <div class="info">
             <!-- Placeholder for infographic -->
