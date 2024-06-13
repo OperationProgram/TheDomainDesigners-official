@@ -78,60 +78,72 @@
 
 
     <section class="bullet-point-section">
-        <div class="bullet-point">
-            <div class="info">
+    <div class="bullet-point">
+        <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="infographic1.jpg" alt="Infographic 1">
-            </div>
-            <div class="text">
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
+        </div>
+        <div class="text">
             <h2>OPTIMIZE YOUR PROCESSES!</h2>
             <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
-            </div>
         </div>
+    </div>
 
-        <div class="bullet-point">
-            <div class="info">
+    <div class="bullet-point">
+        <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-            </div>
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
         </div>
+        <div class="text">
+            <h2>WEB DESIGN & DEVELOPMENT</h2>
+            <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
+        </div>
+    </div>
 
-        <div class="bullet-point">
-            <div class="info">
+    <div class="bullet-point">
+        <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-            </div>
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
         </div>
+        <div class="text">
+            <h2>ECOMMERCE SOLUTIONS</h2>
+            <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
+        </div>
+    </div>
 
-        <div class="bullet-point">
-            <div class="info">
+    <div class="bullet-point">
+        <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-            </div>
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
         </div>
+        <div class="text">
+            <h2>DIGITAL MARKETING</h2>
+            <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
+        </div>
+    </div>
 
-        <div class="bullet-point">
-            <div class="info">
+    <div class="bullet-point">
+        <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-            <h2>GET YOUR LEADS GENERATION STRATEGY!</h2>
-            <p>Combining marketing and technology, we provide a full range of services from the UI/UX design and web development to SEO and promotion.</p>
-            </div>
+            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
         </div>
+        <div class="text">
+            <h2>BRANDING & IDENTITY</h2>
+            <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
+        </div>
+    </div>
+
+    <div class="bullet-point">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
+        </div>
+        <div class="text">
+            <h2>CONTENT CREATION</h2>
+            <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
+        </div>
+    </div>
+</section>
 
         <!-- Repeat the structure for other bullet points -->
 
