@@ -35,7 +35,6 @@ body {
 }
 
 section {
-  margin-top: 80px; /* Adjust as needed */
   margin-bottom: 80px; /* Adjust as needed */
 }
 
@@ -298,6 +297,58 @@ header .navbar .hamburger-menu .hamburger-icon {
   line-height: 1.6;
 }
 
+.our-services {
+  background-color: #333;
+  padding: 40px 0;
+}
+.our-services .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.our-services .services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .our-services .services-content {
+    flex-direction: column;
+  }
+}
+.our-services .services-image,
+.our-services .services-text {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .our-services .services-image,
+  .our-services .services-text {
+    max-width: 100%;
+  }
+}
+.our-services .services-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+.our-services .services-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.our-services .services-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 .work-flow {
   padding: 8%;
   background: #fff;
@@ -400,7 +451,7 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 
 .pricing {
-  background: #fff;
+  background: #333;
   padding: 40px 0;
 }
 .pricing .container {
@@ -415,6 +466,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  color: #fff;
 }
 .pricing .pricing-text {
   flex: 1;
