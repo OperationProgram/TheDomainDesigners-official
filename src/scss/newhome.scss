@@ -18,7 +18,7 @@ body {
 }
 
 section {
-    margin-top: 80px; /* Adjust as needed */
+    // margin-top: 80px; /* Adjust as needed */
     margin-bottom: 80px; /* Adjust as needed */
 }
 
@@ -298,7 +298,8 @@ header {
 
 
   .our-services {
-    background: #fff;
+    // background-color: #fff;
+    background-color: $background-color-dark;
     padding: 40px 0;
 
     .container {
@@ -315,6 +316,7 @@ header {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
+        color: $text-color-light;
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -475,7 +477,8 @@ header {
 }
 
 .pricing {
-    background: #fff;
+    background: $background-color-dark;
+    // background: #fff;
     padding: 40px 0;
 
     .container {
@@ -491,6 +494,7 @@ header {
         justify-content: space-between;
         width: 100%;
         flex-wrap: wrap;
+        color: $text-color-light;
     }
 
     .pricing-text {
