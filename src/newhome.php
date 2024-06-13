@@ -38,7 +38,7 @@
             <div class="hero-content">
                 <h1>Small Business Web Design + Development</h1>
                 <p>No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
-                <a href="#" class="cta-button">GET IN TOUCH!</a>
+                <a href="#" class="cta-button">Contact Us</a>
             </div>
             <div class="hero-image">
                 <img src="/src/assets/good/dev.svg" alt="Hero Image">
