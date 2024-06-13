@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
+@font-face {
+  font-family: "Monoton-Regular";
+  src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "UtopiaStd-BlackHeadline";
+  src: url("../assets/fonts/UtopiaStd-BlackHeadline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "malden-sans-medium";
+  src: url("../assets/fonts/malden-sans-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .custom-shape-divider-top-1718233137 {
   position: absolute;
   top: 500px;
