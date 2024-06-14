@@ -77,23 +77,149 @@
   color: #666;
 }
 
-.mission-vision {
-  padding: 100px 0;
+.mission-section, .vision-section {
+  padding: 40px 0;
+  background: #fff;
+}
+.mission-section .container, .vision-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mission-section .mission, .mission-section .vision, .vision-section .mission, .vision-section .vision {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+.mission-section .mission h2, .mission-section .vision h2, .vision-section .mission h2, .vision-section .vision h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.mission-section .mission p, .mission-section .vision p, .vision-section .mission p, .vision-section .vision p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.mission-section .mission-image, .mission-section .vision-image, .vision-section .mission-image, .vision-section .vision-image {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+.mission-section .mission-image img, .mission-section .vision-image img, .vision-section .mission-image img, .vision-section .vision-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .mission-section .container, .vision-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission-section .mission, .mission-section .vision, .mission-section .mission-image, .mission-section .vision-image, .vision-section .mission, .vision-section .vision, .vision-section .mission-image, .vision-section .vision-image {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .mission-section .mission img, .mission-section .vision img, .mission-section .mission-image img, .mission-section .vision-image img, .vision-section .mission img, .vision-section .vision img, .vision-section .mission-image img, .vision-section .vision-image img {
+    max-width: 80%;
+  }
+  .mission-section .mission, .mission-section .vision, .vision-section .mission, .vision-section .vision {
+    text-align: center;
+  }
+  .mission-section .mission h2, .mission-section .vision h2, .vision-section .mission h2, .vision-section .vision h2 {
+    font-size: 24px;
+  }
+  .mission-section .mission p, .mission-section .vision p, .vision-section .mission p, .vision-section .vision p {
+    font-size: 14px;
+  }
+}
+
+.key-features {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+.key-features .container {
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
 }
-
-.mission-vision h2 {
-  font-size: 2rem;
-  color: #333;
+.key-features h2 {
+  font-size: 36px;
   margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
 }
-
-.mission-vision p {
-  font-size: 1.1rem;
-  color: #666;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto;
+.key-features .features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.key-features .features .feature {
+  flex: 1 1 calc(25% - 20px);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: calc(25% - 20px);
+}
+@media (max-width: 1024px) {
+  .key-features .features .feature {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .key-features .features .feature {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.key-features .features .feature .feature-icon {
+  margin-right: 20px;
+}
+.key-features .features .feature .feature-icon img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .key-features .features .feature .feature-icon img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .key-features .features .feature .feature-icon {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+.key-features .features .feature .feature-content {
+  text-align: left;
+}
+.key-features .features .feature .feature-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+.key-features .features .feature .feature-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 768px) {
+  .key-features .features .feature .feature-content {
+    text-align: center;
+  }
+  .key-features .features .feature .feature-content h3 {
+    font-size: 20px;
+  }
+  .key-features .features .feature .feature-content p {
+    font-size: 14px;
+  }
 }
 
 footer {

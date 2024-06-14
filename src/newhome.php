@@ -77,6 +77,31 @@
 
 
 
+
+
+
+
+
+    <section class="our-services">
+    <div class="container">
+        <div class="services-content">
+            <div class="services-image">
+                <img src="/src/assets/good/our-services.svg" alt="Services Image">
+            </div>
+            <div class="services-text">
+                <h2>Discover Our Offerings</h2>
+                <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
+                <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
+                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
     <section class="bullet-point-section">
     <div class="bullet-point">
         <div class="info">
@@ -152,21 +177,7 @@
 
 
 
-<section class="our-services">
-    <div class="container">
-        <div class="services-content">
-            <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image">
-            </div>
-            <div class="services-text">
-                <h2>Discover Our Offerings</h2>
-                <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
-                <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
-                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 
 

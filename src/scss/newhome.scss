@@ -324,8 +324,7 @@ header {
 
 
   .our-services {
-    // background-color: #fff;
-    background-color: $background-color-dark;
+    background-color: #fff;
     padding: 40px 0;
 
     .container {
@@ -342,7 +341,7 @@ header {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
-        color: $text-color-light;
+        color: #333;
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -503,8 +502,7 @@ header {
 }
 
 .pricing {
-    background: $background-color-dark;
-    // background: #fff;
+    background: #fff;
     padding: 40px 0;
 
     .container {
@@ -520,7 +518,7 @@ header {
         justify-content: space-between;
         width: 100%;
         flex-wrap: wrap;
-        color: $text-color-light;
+        color: #333;
     }
 
     .pricing-text {

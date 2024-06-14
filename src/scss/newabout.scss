@@ -78,24 +78,174 @@
     color: #666;
 }
 
-.mission-vision {
-    padding: 100px 0;
-    text-align: center;
+.mission-section, .vision-section {
+    padding: 40px 0;
+    background: #fff;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .mission, .vision {
+        flex: 1;
+        max-width: 50%;
+        padding: 20px;
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+    }
+
+    .mission-image, .vision-image {
+        flex: 1;
+        max-width: 50%;
+        padding: 20px;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mission, .vision, .mission-image, .vision-image {
+            max-width: 100%;
+            padding: 10px;
+
+            img {
+                max-width: 80%;
+            }
+        }
+
+        .mission, .vision {
+            text-align: center;
+
+            h2 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
 }
 
-.mission-vision h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 40px;
+
+
+
+
+
+.key-features {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .feature {
+            flex: 1 1 calc(25% - 20px); // Adjust width for 4 items in a row
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            box-sizing: border-box;
+            padding: 20px;
+            max-width: calc(25% - 20px); // Ensure items don't overflow
+
+            @media (max-width: 1024px) {
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px); // Ensure items don't overflow
+            }
+
+            @media (max-width: 768px) {
+                flex: 1 1 100%;
+                max-width: 100%; // Ensure items don't overflow
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-icon {
+                margin-right: 20px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+
+                    @media (max-width: 768px) {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .feature-content {
+                text-align: left;
+
+                h3 {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    font-family: 'Inter', sans-serif;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    font-family: 'Inter', sans-serif;
+                }
+
+                @media (max-width: 768px) {
+                    text-align: center;
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }
 
-.mission-vision p {
-    font-size: 1.1rem;
-    color: #666;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-}
 
 footer {
     background-color: #333;
