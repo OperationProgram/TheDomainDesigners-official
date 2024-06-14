@@ -13,30 +13,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<header>
-    <nav class="navbar">
-        <div class="logo">MyLogo</div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyLogo</div>
 
-        <!-- Hamburger Menu Icon -->
-        <div class="hamburger-menu">
-            <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
-        </div>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger-menu">
+                <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
+            </div>
 
-        <!-- Regular Navigation Links -->
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="newabout.html">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+            <!-- Regular Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="newabout.html">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
 
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-    </nav>
-</header>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </nav>
+    </header>
 
     <section class="hero">
         <div class="container hero-container">
@@ -82,26 +82,21 @@
 
 
 
-
-
-
-
-
     <section class="our-services">
-    <div class="container">
-        <div class="services-content">
-            <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image">
-            </div>
-            <div class="services-text">
-                <h2>Discover Our Offerings</h2>
-                <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
-                <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
-                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
+        <div class="container">
+            <div class="services-content">
+                <div class="services-image">
+                    <img src="/src/assets/good/our-services.svg" alt="Services Image">
+                </div>
+                <div class="services-text">
+                    <h2>Discover Our Offerings</h2>
+                    <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
+                    <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
+                    <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -109,73 +104,71 @@
 
     <section class="bullet-point-section">
         <img class="blob-img" src="assets/blob.png" >
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
+            </div>
+            <div class="text">
+                <h2>OPTIMIZE YOUR PROCESSES!</h2>
+                <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>OPTIMIZE YOUR PROCESSES!</h2>
-            <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
-        </div>
-    </div>
 
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
+            </div>
+            <div class="text">
+                <h2>WEB DESIGN & DEVELOPMENT</h2>
+                <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>WEB DESIGN & DEVELOPMENT</h2>
-            <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
-        </div>
-    </div>
 
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
+            </div>
+            <div class="text">
+                <h2>ECOMMERCE SOLUTIONS</h2>
+                <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>ECOMMERCE SOLUTIONS</h2>
-            <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
-        </div>
-    </div>
 
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
+            </div>
+            <div class="text">
+                <h2>DIGITAL MARKETING</h2>
+                <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>DIGITAL MARKETING</h2>
-            <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
-        </div>
-    </div>
 
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
+            </div>
+            <div class="text">
+                <h2>BRANDING & IDENTITY</h2>
+                <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>BRANDING & IDENTITY</h2>
-            <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
-        </div>
-    </div>
 
-    <div class="bullet-point">
-        <div class="info">
-            <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
+        <div class="bullet-point">
+            <div class="info">
+                <!-- Placeholder for infographic -->
+                <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
+            </div>
+            <div class="text">
+                <h2>CONTENT CREATION</h2>
+                <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
+            </div>
         </div>
-        <div class="text">
-            <h2>CONTENT CREATION</h2>
-            <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
-        </div>
-    </div>
-</section>
-
         <!-- Repeat the structure for other bullet points -->
 
     </section>
@@ -217,7 +210,7 @@
 
 
 
-    
+
     <section class="pricing">
         <div class="container">
             <div class="pricing-content">
@@ -236,96 +229,88 @@
 
 
 
-<!-- <section class="team-section">
-    <div class="container">
-        <div class="team-cards">
-            <div class="team-card">
-                <div class="team-card-content">
-                    <div class="team-member">
-                        <img src="/src/assets/alex-pic.png" alt="Team Member 1">
+    <!-- <section class="team-section">
+        <div class="container">
+            <div class="team-cards">
+                <div class="team-card">
+                    <div class="team-card-content">
+                        <div class="team-member">
+                            <img src="/src/assets/alex-pic.png" alt="Team Member 1">
+                        </div>
+                        <div class="blob-graphic"></div>
+                        <div class="team-info">
+                            <h3>John Doe</h3>
+                            <p>Web Developer</p>
+                        </div>
                     </div>
-                    <div class="blob-graphic"></div>
-                    <div class="team-info">
-                        <h3>John Doe</h3>
-                        <p>Web Developer</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-content">
+                        <div class="team-member">
+                            <img src="/src/assets/alex-pic.png" alt="Team Member 2">
+                        </div>
+                        <div class="blob-graphic"></div>
+                        <div class="team-info">
+                            <h3>Jane Smith</h3>
+                            <p>Graphic Designer</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section> -->
 
-            <div class="team-card">
-                <div class="team-card-content">
-                    <div class="team-member">
-                        <img src="/src/assets/alex-pic.png" alt="Team Member 2">
-                    </div>
-                    <div class="blob-graphic"></div>
-                    <div class="team-info">
-                        <h3>Jane Smith</h3>
-                        <p>Graphic Designer</p>
-                    </div>
-                </div>
+
+    <section class="pricing-section">
+        <div class="container">
+        <div class="pricing-cards">
+        <div class="pricing-card">
+            <div class="pricing-card-content">
+                <h3>Standard Website</h3>
+                <div class="price">$1500</div>
+                <p>$500 min. Up Front Cost</p>
+                <ul>
+                    <li>5-Page Site</li>
+                    <li>Responsive Design</li>
+                    <li>Contact Form</li>
+                    <li>Basic SEO</li>
+                    <li>1-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
             </div>
         </div>
-    </div>
-</section> -->
-
-
-<section class="pricing-section">
-    <div class="container">
-    <div class="pricing-cards">
-    <div class="pricing-card">
-        <div class="pricing-card-content">
-            <h3>Standard Website</h3>
-            <div class="price">$1500</div>
-            <p>$500 min. Up Front Cost</p>
-            <ul>
-                <li>5-Page Site</li>
-                <li>Responsive Design</li>
-                <li>Contact Form</li>
-                <li>Basic SEO</li>
-                <li>1-Month Maintenance</li>
-            </ul>
-            <a href="#" class="cta-button">CONTACT US</a>
+        <div class="pricing-card">
+            <div class="pricing-card-content">
+                <h3>Premium Website</h3>
+                <div class="price">$3000</div>
+                <p>$1000 min. Up Front Cost</p>
+                <ul>
+                    <li>Custom Number of Pages</li>
+                    <li>Custom Design</li>
+                    <li>E-commerce Integration</li>
+                    <li>Advanced SEO</li>
+                    <li>3-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
         </div>
-    </div>
-    <div class="pricing-card">
-        <div class="pricing-card-content">
-            <h3>Premium Website</h3>
-            <div class="price">$3000</div>
-            <p>$1000 min. Up Front Cost</p>
-            <ul>
-                <li>Custom Number of Pages</li>
-                <li>Custom Design</li>
-                <li>E-commerce Integration</li>
-                <li>Advanced SEO</li>
-                <li>3-Month Maintenance</li>
-            </ul>
-            <a href="#" class="cta-button">CONTACT US</a>
+        <div class="pricing-card">
+            <div class="pricing-card-content">
+                <h3>Website Maintenance</h3>
+                <div class="price">$100/month</div>
+                <p>Ongoing Support & Updates</p>
+                <ul>
+                    <li>Monthly Backup</li>
+                    <li>Security Monitoring</li>
+                    <li>Content Updates</li>
+                    <li>Software Updates</li>
+                    <li>Priority Support</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
         </div>
-    </div>
-    <div class="pricing-card">
-        <div class="pricing-card-content">
-            <h3>Website Maintenance</h3>
-            <div class="price">$100/month</div>
-            <p>Ongoing Support & Updates</p>
-            <ul>
-                <li>Monthly Backup</li>
-                <li>Security Monitoring</li>
-                <li>Content Updates</li>
-                <li>Software Updates</li>
-                <li>Priority Support</li>
-            </ul>
-            <a href="#" class="cta-button">CONTACT US</a>
-        </div>
-    </div>
-</div>
-            <!-- Add more pricing cards as needed -->
-        </div>
-    </div>
-</section>
-
-
-
-
+    </section>
 
 </body>
 </html>

@@ -177,6 +177,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
+  text-align: left;
 }
 .what-we-do p .learn-more {
   display: inline-block;
@@ -236,8 +237,17 @@ header .navbar .hamburger-menu .hamburger-icon {
   z-index: -1;
   top: 0;
   max-width: 866px;
-  min-width: 490px;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  .bullet-point-section .blob-img {
+    top: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .bullet-point-section .blob-img {
+    display: none;
+  }
 }
 
 .bullet-point {
@@ -315,7 +325,6 @@ header .navbar .hamburger-menu .hamburger-icon {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
-  color: #fff;
 }
 @media (max-width: 768px) {
   .our-services .services-content {
