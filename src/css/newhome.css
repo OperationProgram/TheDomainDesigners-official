@@ -237,6 +237,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   top: 0;
   max-width: 866px;
   min-width: 490px;
+  overflow: hidden;
 }
 
 .bullet-point {
