@@ -35,7 +35,7 @@ body {
 }
 
 section {
-  margin-bottom: 80px;
+  margin-bottom: 80px; /* Adjust as needed */
 }
 
 header {
@@ -101,17 +101,20 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 
 .hero {
+  width: 100%;
+  height: 70vh;
   display: flex;
   align-items: center;
   background: url("../assets/good/dark-abstract-background.jpg") no-repeat center center;
   background-size: cover;
   color: #ececec;
   text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px; /* Adjust as needed */
+  margin-bottom: 0px; /* Adjust as needed */
   padding: 100px;
 }
-.hero .hero-container {
+
+.hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -119,38 +122,41 @@ header .navbar .hamburger-menu .hamburger-icon {
   margin: 0 auto;
   padding: 0 20px;
 }
-.hero .hero-content {
+
+.hero-content {
   max-width: 50%;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
-.hero .hero-content h1 {
+.hero-content h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2);
+  font-family: "Poppins", sans-serif; /* Custom font */
+  font-weight: 700; /* Bold weight */
+  color: #f2f2f2; /* Dark color for contrast */
+  letter-spacing: 1px; /* Slightly increased letter spacing */
+  line-height: 1.2; /* Adjusted line height for better readability */
+  text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2); /* Subtle text shadow for depth */
 }
-.hero .hero-content p {
+.hero-content p {
   font-size: 24px;
   margin-bottom: 30px;
 }
-.hero .hero-content .cta-button {
-  background: #ab0ae0;
+.hero-content .cta-button {
+  background: #AB0AE0;
   color: #fff;
   padding: 10px 20px;
   font-size: 18px;
   text-decoration: none;
   border-radius: 5px;
 }
-.hero .hero-content .cta-button:hover {
+.hero-content .cta-button:hover {
   background: #ff4500;
 }
-.hero .hero-image {
+
+.hero-image {
   max-width: 50%;
 }
-.hero .hero-image img {
+.hero-image img {
   width: 100%;
   height: auto;
   position: relative;
@@ -160,6 +166,9 @@ header .navbar .hamburger-menu .hamburger-icon {
   background: #fff;
   padding: 40px 0;
   text-align: center;
+}
+.what-we-do .container {
+  max-width: 1200px;
 }
 .what-we-do h2 {
   font-size: 36px;
@@ -173,7 +182,7 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 .what-we-do p .learn-more {
   display: inline-block;
-  color: #ab0ae0;
+  color: #AB0AE0;
   text-decoration: none;
   font-weight: bold;
   margin-left: 10px;
@@ -200,7 +209,7 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 .features .feature .feature-icon {
   font-size: 40px;
-  color: #ab0ae0;
+  color: #AB0AE0;
   margin-bottom: 20px;
 }
 .features .feature h3 {
@@ -212,6 +221,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   line-height: 1.6;
 }
 
+/* styles.css */
 .bullet-point-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -219,14 +229,16 @@ header .navbar .hamburger-menu .hamburger-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: url("../assets/blob.png") no-repeat;
-  background-size: cover;
+  position: relative;
 }
-@media (max-width: 768px) {
-  .bullet-point-section {
-    flex-direction: column;
-    align-items: center;
-  }
+.bullet-point-section .blob-img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  max-width: 866px;
+  min-width: 490px;
 }
 
 .bullet-point {
@@ -304,6 +316,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .our-services .services-content {
@@ -316,18 +329,17 @@ header .navbar .hamburger-menu .hamburger-icon {
   max-width: 50%;
   padding: 20px;
 }
-.our-services .services-image img,
-.our-services .services-text img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-}
 @media (max-width: 768px) {
   .our-services .services-image,
   .our-services .services-text {
     max-width: 100%;
   }
+}
+.our-services .services-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
 .our-services .services-text h2 {
   font-size: 28px;
@@ -343,23 +355,24 @@ header .navbar .hamburger-menu .hamburger-icon {
   padding: 8%;
   background: #fff;
 }
-.work-flow .clickable-section {
+
+.clickable-section {
   position: relative;
 }
-.work-flow .clickable-section img {
+.clickable-section img {
   width: 100%;
   display: block;
   transition: transform 0.3s ease;
 }
-.work-flow .clickable-section:first-child img {
+.clickable-section:first-child img {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
 }
-.work-flow .clickable-section:last-child img {
+.clickable-section:last-child img {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }
-.work-flow .clickable-section h2 {
+.clickable-section h2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -375,7 +388,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   font-family: "Arial", sans-serif;
 }
-.work-flow .clickable-section .overlay {
+.clickable-section .overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -394,7 +407,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   border-radius: 40px;
   box-sizing: border-box;
 }
-.work-flow .clickable-section .overlay p {
+.clickable-section .overlay p {
   color: white;
   font-size: 1rem;
   letter-spacing: 0.12em;
@@ -404,24 +417,24 @@ header .navbar .hamburger-menu .hamburger-icon {
   transition: opacity 0.3s ease;
 }
 @media (max-width: 768px) {
-  .work-flow .clickable-section .overlay p {
+  .clickable-section .overlay p {
     font-size: 0.675rem;
   }
 }
 @media (max-width: 480px) {
-  .work-flow .clickable-section .overlay p {
+  .clickable-section .overlay p {
     font-size: 0.45rem;
   }
 }
-.work-flow .clickable-section:hover h2 {
+.clickable-section:hover h2 {
   opacity: 0;
 }
-.work-flow .clickable-section:hover .overlay {
+.clickable-section:hover .overlay {
   transform: translate(-50%, -50%) scale(1); /* Expand overlay on hover */
   opacity: 1;
   transition-delay: 0.1s; /* Remove delay for overlay */
 }
-.work-flow .clickable-section:hover .overlay p {
+.clickable-section:hover .overlay p {
   opacity: 1; /* Fade in paragraph on hover */
 }
 
@@ -435,7 +448,6 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 .team-cards .team-card .team-card-content .team-member img {
   width: 100%;
-  display: block;
 }
 
 .pricing {
@@ -486,17 +498,128 @@ header .navbar .hamburger-menu .hamburger-icon {
 }
 
 @media (max-width: 768px) {
-  .work-flow {
-    padding: 8% 4%;
+  .hero {
+    height: auto;
+    padding: 20px 0;
+  }
+  .hero .hero-container {
+    flex-direction: column;
+  }
+  .hero .hero-container .hero-content, .hero .hero-container .hero-image {
+    max-width: 100%;
+  }
+  .hero .hero-container .hero-content {
+    text-align: center;
+  }
+  .hero .hero-container .hero-content h1 {
+    font-size: 36px;
+  }
+  .hero .hero-container .hero-content p {
+    font-size: 18px;
+  }
+  .hero .hero-container .hero-content .cta-button {
+    font-size: 16px;
+  }
+  .features .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features .feature {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .features .feature:last-child {
+    margin-bottom: 0;
+  }
+  .pricing .pricing-content {
+    flex-direction: column;
+  }
+  .pricing .pricing-content .pricing-text, .pricing .pricing-content .pricing-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .pricing .pricing-content .pricing-text:last-child, .pricing .pricing-content .pricing-image:last-child {
+    margin-bottom: 0;
   }
   .team-cards {
     flex-direction: column;
     align-items: center;
   }
-  .team-cards .team-card {
-    width: 100%;
-  }
-  .team-cards .team-card .team-card-content .team-member img {
-    max-width: 300px;
-  }
+}
+.pricing-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  width: 300px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing-card-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #AB0AE0; /* Price color */
+}
+
+.pricing-card-content p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.pricing-card-content ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.pricing-card-content ul li {
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #AB0AE0;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
 }/*# sourceMappingURL=newhome.css.map */
