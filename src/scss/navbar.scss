@@ -43,7 +43,10 @@
     width: fit-content;
     margin: 30px auto;
     border-radius: 100px;
-    position: relative;
+    // position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 9999;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -124,11 +127,13 @@
         padding: 10px 20px;
         background-color: transparent;
         width: auto;
+        transform: translate(0%, 0%);
+        right: 0;
     }
 
-    .social-links-container {
-        margin-top: 1rem;
-    }
+    // .social-links-container {
+    //     margin-top: 1rem;
+    // }
 
     .nav-menu {
         position: fixed;

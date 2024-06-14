@@ -38,69 +38,8 @@ section {
   margin-bottom: 80px; /* Adjust as needed */
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
-}
-header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-header .navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-header .navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-header .navbar .nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
-header .navbar .nav-links li a:hover {
-  text-decoration: underline;
-}
-header .navbar .social-media {
-  display: flex;
-  gap: 10px;
-}
-header .navbar .social-media a {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-}
-header .navbar .social-media a:hover {
-  color: #ddd;
-}
-header .navbar .hamburger-menu {
-  display: none;
-}
-header .navbar .hamburger-menu .hamburger-icon {
-  font-size: 24px;
-  cursor: pointer;
-  color: #fff;
-  padding: 10px;
-  margin-right: 20px;
-  display: block;
-}
-@media (max-width: 768px) {
-  header .navbar .nav-links {
-    display: none;
-  }
-  header .navbar .hamburger-menu {
-    display: block;
-  }
-}
-
 .hero {
+  width: 100%;
   display: flex;
   align-items: center;
   background: url("../assets/good/dark-abstract-background.jpg") no-repeat center center;
@@ -109,7 +48,6 @@ header .navbar .hamburger-menu .hamburger-icon {
   text-align: left;
   margin-top: 0px; /* Adjust as needed */
   margin-bottom: 0px; /* Adjust as needed */
-  padding: 100px;
 }
 
 .hero-container {
@@ -118,7 +56,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 100px 20px;
 }
 
 .hero-content {
@@ -164,6 +102,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   background: #fff;
   padding: 40px 0;
   text-align: center;
+  margin-top: 80vh;
 }
 .what-we-do .container {
   max-width: 1200px;
