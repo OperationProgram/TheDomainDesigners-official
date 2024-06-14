@@ -1,6 +1,9 @@
-<a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
 <nav class="navbar">
+    <div class="logo-container">
+        <a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
+    </div>
     <ul class="nav-menu" id="nav-menu">
+        <a class="logo-link logo-hidden" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
         <li><a href="<?php echo $basePath; ?>/">Home</a></li>
         <li><a href="<?php echo $basePath; ?>/newhome.php">Home Beta</a></li>
 
@@ -11,9 +14,9 @@
         <!-- <div class="consultation">
             <button>Free Consultation</button>
             </div> -->
-        <!-- <div class="social-links-container">
+        <div class="social-links-container">
             <a href="https://www.instagram.com/thedomaindesigners/"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg" width="20" height="20"></a>
-        </div> -->
+        </div>
     </ul>
     <div class="hamburger-menu" id="hamburger-menu">
         <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>

@@ -117,7 +117,7 @@ body {
 }
 
 #services {
-  margin-top: 70vh;
+  margin-top: 80px;
   transition: all 0.7s ease;
   display: flex;
   flex-direction: column;

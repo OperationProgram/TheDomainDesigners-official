@@ -41,21 +41,24 @@ body {
   overflow-x: hidden;
 }
 
+.logo-container {
+  display: block;
+}
+
+.logo-hidden {
+  display: none;
+}
+
 .logo-link {
   z-index: 9999;
-  position: absolute;
-  margin-left: 4%;
   border-radius: 50px;
   width: 100px;
   height: 100px;
-  display: block;
 }
 
 .logo {
   border-radius: 50px;
-  position: absolute;
   z-index: 1;
-  margin-left: 4%;
   width: 100px;
   height: 100px;
 }
@@ -68,16 +71,15 @@ body {
 }
 .navbar {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 15px 10px;
-  background-color: rgba(51, 51, 51, 0.6509803922);
   width: -moz-fit-content;
   width: fit-content;
   margin: 30px auto;
-  border-radius: 100px;
   position: absolute;
   left: 50%;
+  top: 8%;
   transform: translate(-50%, -50%);
   z-index: 9999;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -88,9 +90,10 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   letter-spacing: 0;
-  line-height: 0;
+  background-color: rgba(22, 22, 22, 0.6509803922);
+  border-radius: 100px;
 }
 .nav-menu li {
   margin-left: 5px;
@@ -105,6 +108,7 @@ body {
   border-radius: 20px; /* Adjust the border radius as needed */
   position: relative;
   z-index: 1;
+  white-space: nowrap;
 }
 .nav-menu a::before {
   content: "";
@@ -144,12 +148,12 @@ body {
   display: inline-block;
   transition: transform 0.5s ease; /* Add transition for rotation */
   margin: 10px;
+  margin-top: 35px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
 @media (max-width: 768px) {
   .navbar {
-    justify-content: flex-end;
     padding: 10px 20px;
     background-color: transparent;
     width: auto;
@@ -158,6 +162,15 @@ body {
     right: 0;
     top: -30px;
     position: fixed;
+  }
+  .logo-container {
+    display: none;
+  }
+  .logo-hidden {
+    display: block;
+  }
+  .social-links-container {
+    margin-top: 1rem;
   }
   .nav-menu {
     position: fixed;
@@ -173,6 +186,9 @@ body {
     transition: right 0.3s ease;
     z-index: 1;
   }
+  .nav-menu a {
+    padding: 0;
+  }
   .nav-menu.active {
     right: 0; /* Slide in from the right */
     background-color: #222;
@@ -186,7 +202,7 @@ body {
   }
   .hamburger-menu {
     display: block;
-    align-self: flex-start;
+    align-self: flex-end;
   }
   .hamburger-icon.active {
     transform: rotate(90deg);
