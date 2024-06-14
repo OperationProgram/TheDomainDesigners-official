@@ -7,6 +7,8 @@
     <!-- <link rel="stylesheet" href="../src/css/newhome.css">  -->
     <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../src/css/newhome.css"> <!-- Custom CSS for About page -->
+
     <link rel="stylesheet" href="../src/css/newabout.css"> <!-- Custom CSS for About page -->
 </head>
 <body>
@@ -128,6 +130,48 @@
         </div>
     </div>
 </section>
+
+
+
+<section class="join-team">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          <h2>Join Our Team</h2>
+          <p>We are always looking for creative individuals to join our team. Please upload your resume or portfolio, and a member of our team will be in touch.</p>
+          <img src="/src/assets/alex-pic.png" alt="Team Member 1">
+        </div>
+      </div>
+      <div class="col">
+        <form action="submit_resume.php" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="resume">Upload Resume or Portfolio</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 

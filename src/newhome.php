@@ -54,7 +54,7 @@
     </section>
 
     <section class="what-we-do">
-        <div class="container">
+        <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
             <p>We specialize in small business web design and development for clients anywhere in the US. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business. <a href="#" class="learn-more">LEARN MORE</a></p>
         </div>
@@ -64,17 +64,17 @@
 
     <section class="features">
         <div class="container">
-            <div class="feature">
+            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
                 <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
                 <h3>Mobile-Centric Approach</h3>
                 <p>We adopt a mobile-first strategy, ensuring your website is optimized for smartphones, then scaling seamlessly to tablets and desktops.</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
                 <div class="feature-icon"><i class="fas fa-laptop"></i></div>
                 <h3>Responsive Design</h3>
                 <p>Your website adapts flawlessly across all devices, ensuring an optimal user experience on mobile phones, tablets, and desktop computers.</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
                 <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
                 <h3>SEO Optimization</h3>
                 <p>We enhance your mobile presence to maximize performance in search engine rankings, capitalizing on the predominant share of internet traffic from mobile devices.</p>
@@ -106,7 +106,7 @@
 
     <section class="bullet-point-section">
         <img class="blob-img" src="assets/blob.png" >
-        <div class="bullet-point">
+        <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <div class="bullet-point">
+        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
@@ -128,7 +128,7 @@
             </div>
         </div>
 
-        <div class="bullet-point">
+        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
@@ -139,7 +139,7 @@
             </div>
         </div>
 
-        <div class="bullet-point">
+        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
@@ -150,7 +150,7 @@
             </div>
         </div>
 
-        <div class="bullet-point">
+        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
@@ -161,7 +161,7 @@
             </div>
         </div>
 
-        <div class="bullet-point">
+        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
             <div class="info">
                 <!-- Placeholder for infographic -->
                 <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
@@ -191,13 +191,13 @@
     <section class="pricing">
         <div class="container">
             <div class="pricing-content">
-                <div class="pricing-text">
+                <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
                     <h2>$0 Down, $150 Per Month, <br>12 Month Minimum Contract</h2>
                     <p>$0 down for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.</p>
                     <p>You own your domain, content, listing, and profiles. Cancel anytime with no fees or hassle.</p>
                 </div>
                 <div class="pricing-image">
-                    <img src="/src/assets/good/handshake.svg" alt="Pricing Image">
+                    <img src="/src/assets/good/handshake.svg" alt="Pricing Image"  data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
                 </div>
             </div>
         </div>
@@ -242,7 +242,7 @@
     <section class="pricing-section">
         <div class="container">
         <div class="pricing-cards">
-        <div class="pricing-card">
+        <div class="pricing-card"  data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
             <div class="pricing-card-content">
                 <h3>Standard Website</h3>
                 <div class="price">$1500</div>
@@ -257,7 +257,7 @@
                 <a href="#" class="cta-button">CONTACT US</a>
             </div>
         </div>
-        <div class="pricing-card">
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
                 <h3>Premium Website</h3>
                 <div class="price">$3000</div>
@@ -272,7 +272,7 @@
                 <a href="#" class="cta-button">CONTACT US</a>
             </div>
         </div>
-        <div class="pricing-card">
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
             <div class="pricing-card-content">
                 <h3>Website Maintenance</h3>
                 <div class="price">$100/month</div>

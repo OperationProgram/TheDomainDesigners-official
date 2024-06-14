@@ -160,8 +160,9 @@
 .key-features .features .feature {
   flex: 1 1 calc(25% - 20px);
   display: flex;
+  justify-content: normal;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 40px;
   box-sizing: border-box;
   padding: 20px;
@@ -236,4 +237,80 @@ footer {
 footer p {
   font-size: 1rem;
   margin: 0;
+}
+
+.join-team {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+.join-team .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.join-team h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.join-team p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+.join-team form {
+  margin-top: 30px;
+}
+.join-team .form-group {
+  margin-bottom: 20px;
+}
+.join-team .form-group label {
+  font-weight: bold;
+  color: #555;
+}
+.join-team .form-group input[type=text],
+.join-team .form-group input[type=tel],
+.join-team .form-group input[type=email],
+.join-team .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.join-team .form-group input[type=text]:focus,
+.join-team .form-group input[type=tel]:focus,
+.join-team .form-group input[type=email]:focus,
+.join-team .form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.join-team .form-group textarea {
+  resize: vertical;
+}
+.join-team .form-group input[type=file] {
+  display: block;
+  margin-top: 5px;
+}
+.join-team button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.join-team button:hover {
+  background-color: #0056b3;
+}
+.join-team .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.join-team .row .col {
+  flex: 0 0 48%;
+  padding: 0 15px;
 }/*# sourceMappingURL=newabout.css.map */
