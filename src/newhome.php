@@ -9,23 +9,25 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
-    <link rel="stylesheet" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <!-- <header>
+    <header>
         <nav class="navbar">
             <div class="logo">MyLogo</div>
+
+            <!-- Hamburger Menu Icon -->
             <div class="hamburger-menu">
                 <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
             </div>
 
+            <!-- Regular Navigation Links -->
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="newabout.html">About</a></li>
+                <li><a href="newabout.php">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -36,22 +38,17 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </nav>
-    </header> -->
-    <header>  
-        <?php $basePath = '.';?>
-        <?php include 'pages/Navigation/navbar.php';?>
-        <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
 
     <section class="hero">
-        <div class="hero-container">
+        <div class="container hero-container">
             <div class="hero-content">
-                <h1 data-aos="fade-up">Small Business Web Design + Development</h1>
-                <p data-aos="fade-up" data-aos-delay="10">No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
-                <a href="#" class="cta-button"  data-aos="zoom-in">Contact Us</a>
+                <h1 data-aos="fade-up" data-aos-once="true">Small Business Web Design + Development</h1>
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="10">No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
+                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-left">
+                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-left" data-aos-once="true">
             </div>
         </div>
     </section>
@@ -91,9 +88,9 @@
     <div class="container">
         <div class="services-content">
             <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image" data-aos="slide-right">
+                <img src="/src/assets/good/our-services.svg" alt="Services Image" data-aos="slide-right" data-aos-once="true">
             </div>
-            <div class="services-text">
+            <div class="services-text" data-aos="zoom-in" data-aos-once="true">
                 <h2>Discover Our Offerings</h2>
                 <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
                 <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
@@ -185,31 +182,6 @@
 
 
 
-
-
-    <section class="work-flow">
-        <div class="clickable-section">
-            <div class="overlay">
-            <p>We team up with clients to grasp their vision, then our skilled web designers and developers create user-friendly websites that flawlessly embody your brand.</p>
-            </div>
-            <h2>Develop</h2>
-            <img src="assets/00.jpg" alt="Development Stage of Website Design on Split Computer Screen">
-        </div>
-        <div class="clickable-section">
-            <div class="overlay">
-            <p>The Domain Designers collaborate closely with you to understand your brand and vision. Together, we'll craft a stunning website design that perfectly captures your essence and drives results.</p>
-            </div>
-            <h2>Design</h2>
-            <img src="assets/01.jpg" alt="Website Design Stage on Split Screen Featuring Grid Layout">
-        </div>
-        <div class="clickable-section">
-            <div class="overlay">
-            <p>Our skilled developers meticulously test and launch your website, guaranteeing a flawless user experience and optimal performance. We'll equip you with the tools to succeed - let's grow your online presence together!</p>
-            </div>
-            <h2>Deliver</h2>
-            <img src="assets/02.jpg" alt="Delivering a Finished Website Stage on Split Computer Screen">
-        </div>
-    </section>
 
 
 
