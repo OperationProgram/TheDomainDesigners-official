@@ -2,7 +2,7 @@
     .overlay {
         background-color: rgb(2 2 2 / 31%);
         width: 100%;
-        height: $height;
+        // height: $height;
         position: absolute;
         z-index: 1;
         top: 0;
@@ -10,14 +10,16 @@
     .hero-section {
         background: $background-url no-repeat;
         background-size: cover;
-        position: absolute;
-        top: 0;
+        // position: absolute;
+        // top: 0;
         width: 100%;
-        height: $height;
+        // height: $height;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        // margin: 80px auto;
+        padding-top: 180px;
         .hero-content {
             position: relative;
             margin: 0 auto; 

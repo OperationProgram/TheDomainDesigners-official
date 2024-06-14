@@ -8,21 +8,31 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+.logo-container {
+    display: block;
+    
+}
+
+.logo-hidden {
+    display: none;
+}
+
 .logo-link {
     z-index: 9999;
-    position: absolute;
-    margin-left: 4%;
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    display: block;
 }
 
 .logo {
     border-radius: 50px;
-    position: absolute;
+    // position: absolute;
     z-index: 1;
-    margin-left: 4%;
+    // margin-left: 4%;
     width: 100px;
     height: 100px;
 }
@@ -36,26 +46,30 @@
 
 .navbar {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 15px 10px;
-    background-color: #333333a6;
+    // background-color: #333333a6;
     width: fit-content;
     margin: 30px auto;
-    border-radius: 100px;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
     z-index: 9999;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#nav-menu {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 0;
-    line-height: 0;
+    }
+    
+    .nav-menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+        letter-spacing: 0;
+        background-color: #161616a6;
+        border-radius: 100px;
+    // line-height: 0;
 
     li {
         margin-left: 5px;
@@ -71,6 +85,7 @@
         border-radius: 20px; /* Adjust the border radius as needed */
         position: relative;
         z-index: 1;
+        white-space: nowrap;
     }
 
     a::before {
@@ -115,17 +130,31 @@
     color: white;
     display: inline-block;
     transition: transform 0.5s ease; /* Add transition for rotation */
+    margin: 10px;
+    margin-top: 35px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
 @media (max-width: 768px) {
     .navbar {
-        justify-content: flex-end;
+        // justify-content: flex-end;
         padding: 10px 20px;
         background-color: transparent;
         width: auto;
+        transform: translate(0%, 0%);
+        height: 100%;
+        right: 0;
+        top: -30px;
+        position: fixed;
     }
 
+    .logo-container {
+        display: none;
+    }
+
+    .logo-hidden {
+        display: block;
+    }
     .social-links-container {
         margin-top: 1rem;
     }
@@ -143,11 +172,15 @@
         align-items: center;
         transition: right 0.3s ease; 
         z-index: 1;
+        a {
+            padding: 0;
+        }
     }
 
     .nav-menu.active {
         right: 0; /* Slide in from the right */
         background-color: #222;
+        display: flex;
     }
 
     .nav-menu li {
@@ -160,6 +193,11 @@
     
     .hamburger-menu {
         display: block;
+        align-self: flex-end;
+    }
+
+    .hamburger-icon.active {
+        transform: rotate(90deg);
     }
 
 }

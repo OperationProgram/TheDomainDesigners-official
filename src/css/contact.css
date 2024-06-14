@@ -36,7 +36,6 @@ body {
 main .overlay {
   background-color: rgba(2, 2, 2, 0.31);
   width: 100%;
-  height: 70vh;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -44,14 +43,12 @@ main .overlay {
 main .hero-section {
   background: url("../assets/man-on-phone-right.jpg") no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0;
   width: 100%;
-  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-top: 180px;
 }
 main .hero-section .hero-content {
   position: relative;
@@ -106,7 +103,7 @@ main .hero-section .hero-content .cta-button:hover {
   }
 }
 main .contact-section {
-  margin-top: 70vh;
+  margin-top: 80px;
   padding: 60px 0;
   display: flex;
   justify-content: center;

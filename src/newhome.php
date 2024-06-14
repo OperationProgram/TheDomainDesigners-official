@@ -9,22 +9,20 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
+    <link rel="stylesheet" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <nav class="navbar">
             <div class="logo">MyLogo</div>
-
-            <!-- Hamburger Menu Icon -->
             <div class="hamburger-menu">
                 <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
             </div>
 
-            <!-- Regular Navigation Links -->
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="newabout.html">About</a></li>
@@ -38,10 +36,15 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </nav>
+    </header> -->
+    <header>  
+        <?php $basePath = '.';?>
+        <?php include 'pages/Navigation/navbar.php';?>
+        <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
 
     <section class="hero">
-        <div class="container hero-container">
+        <div class="hero-container">
             <div class="hero-content">
                 <h1 data-aos="fade-up">Small Business Web Design + Development</h1>
                 <p data-aos="fade-up" data-aos-delay="10">No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
