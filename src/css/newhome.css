@@ -315,6 +315,7 @@ header .navbar .hamburger-menu .hamburger-icon {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .our-services .services-content {

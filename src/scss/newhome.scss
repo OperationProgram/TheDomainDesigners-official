@@ -347,7 +347,7 @@ header {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
-        // color: $text-color-light;
+        color: $text-color-light;
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -717,14 +717,3 @@ header {
 .cta-button:hover {
     background-color: #ff4500;
 }
-
-
-
-
-
-
-
-
-
-
-
