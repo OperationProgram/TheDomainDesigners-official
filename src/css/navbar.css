@@ -37,6 +37,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .logo-link {
   z-index: 9999;
   position: absolute;
@@ -79,7 +83,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#nav-menu {
+.nav-menu {
   list-style: none;
   display: flex;
   align-items: center;
@@ -88,10 +92,10 @@
   letter-spacing: 0;
   line-height: 0;
 }
-#nav-menu li {
+.nav-menu li {
   margin-left: 5px;
 }
-#nav-menu a {
+.nav-menu a {
   color: white;
   text-decoration: none;
   transition: color 0.5s ease, background-color 0.5s ease;
@@ -102,13 +106,13 @@
   position: relative;
   z-index: 1;
 }
-#nav-menu a::before {
+.nav-menu a::before {
   content: "";
 }
-#nav-menu a:hover::before {
+.nav-menu a:hover::before {
   opacity: 1;
 }
-#nav-menu a:hover {
+.nav-menu a:hover {
   color: #7403d1;
 }
 
@@ -139,6 +143,7 @@
   color: white;
   display: inline-block;
   transition: transform 0.5s ease; /* Add transition for rotation */
+  margin: 10px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
@@ -149,7 +154,10 @@
     background-color: transparent;
     width: auto;
     transform: translate(0%, 0%);
+    height: 100%;
     right: 0;
+    top: -30px;
+    position: fixed;
   }
   .nav-menu {
     position: fixed;
@@ -168,6 +176,7 @@
   .nav-menu.active {
     right: 0; /* Slide in from the right */
     background-color: #222;
+    display: flex;
   }
   .nav-menu li {
     margin: 20px 0;
@@ -177,5 +186,9 @@
   }
   .hamburger-menu {
     display: block;
+    align-self: flex-start;
+  }
+  .hamburger-icon.active {
+    transform: rotate(90deg);
   }
 }/*# sourceMappingURL=navbar.css.map */

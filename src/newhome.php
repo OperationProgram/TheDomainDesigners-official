@@ -35,11 +35,11 @@
             </div>
         </nav>
     </header> -->
-    <!-- <header>  
+    <header>  
         <?php $basePath = '.';?>
         <?php include 'pages/Navigation/navbar.php';?>
         <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
-    </header> -->
+    </header>
 
     <section class="hero">
         <div class="hero-container">
