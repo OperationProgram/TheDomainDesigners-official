@@ -4,30 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Web Development Agency</title>
-    <link rel="stylesheet" href="../src/css/newhome.css"> <!-- Link to your homepage CSS -->
+    <!-- <link rel="stylesheet" href="../src/css/newhome.css">  -->
+    <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../src/css/newabout.css"> <!-- Custom CSS for About page -->
 </head>
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">MyLogo</div>
-        <div class="hamburger-menu">
-            <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
-        </div>
-        <ul class="nav-links">
-            <li><a href="newhome.html">Home</a></li> <!-- Link to your homepage -->
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-    </nav>
+<header>  
+    <?php $basePath = '.';?>
+    <?php include 'pages/Navigation/navbar.php';?>
+    <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
 </header>
 
 <section class="hero about-hero">
