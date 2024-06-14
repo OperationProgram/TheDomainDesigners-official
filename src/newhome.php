@@ -11,6 +11,8 @@
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
 <header>
@@ -41,12 +43,12 @@
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <h1>Small Business Web Design + Development</h1>
-                <p>No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
-                <a href="#" class="cta-button">Contact Us</a>
+                <h1 data-aos="fade-up">Small Business Web Design + Development</h1>
+                <p data-aos="fade-up" data-aos-delay="10">No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
+                <a href="#" class="cta-button"  data-aos="zoom-in">Contact Us</a>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Hero Image">
+                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-left">
             </div>
         </div>
     </section>
@@ -91,7 +93,7 @@
     <div class="container">
         <div class="services-content">
             <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image">
+                <img src="/src/assets/good/our-services.svg" alt="Services Image" data-aos="slide-right">
             </div>
             <div class="services-text">
                 <h2>Discover Our Offerings</h2>
@@ -325,7 +327,9 @@
 
 
 
-
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

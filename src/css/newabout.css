@@ -1,8 +1,8 @@
 /* Style for the About page */
 .about-hero {
-  background-color: #f2f2f2;
   padding: 100px 0;
   text-align: center;
+  background-image: url("/src/assets/back-pack.jpg");
 }
 
 .about-hero h1 {
@@ -30,8 +30,9 @@
 
 .about-section p {
   font-size: 1.1rem;
-  color: #666;
+  color: #333;
   line-height: 1.8;
+  letter-spacing: 0.12em;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -99,6 +100,7 @@
 .mission-section .mission p, .mission-section .vision p, .vision-section .mission p, .vision-section .vision p {
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.12em;
   margin-bottom: 10px;
 }
 .mission-section .mission-image, .mission-section .vision-image, .vision-section .mission-image, .vision-section .vision-image {
@@ -151,12 +153,14 @@
 }
 .key-features .features {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .key-features .features .feature {
   flex: 1 1 calc(25% - 20px);
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   margin-bottom: 40px;
   box-sizing: border-box;

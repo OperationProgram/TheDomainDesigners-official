@@ -9,14 +9,14 @@ $header-font: 'Arial', sans-serif;
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0;     
     box-sizing: border-box;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 100%;
+    padding: 20px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensures padding doesn't add to width */
 }
 
 section {
@@ -347,7 +347,7 @@ header {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
-        color: $text-color-light;
+        color: #333;
 
         @media (max-width: 768px) {
             flex-direction: column;
