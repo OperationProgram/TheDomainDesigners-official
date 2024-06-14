@@ -10,7 +10,10 @@
         <li><a href="<?php echo $basePath; ?>/pages/contact.php">Contact Us</a></li>
         <!-- <div class="consultation">
             <button>Free Consultation</button>
-        </div> -->
+            </div> -->
+        <div class="social-links-container">
+            <a href="https://www.instagram.com/thedomaindesigners/"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg" width="20" height="20"></a>
+        </div>
     </ul>
     <div class="hamburger-menu" id="hamburger-menu">
         <span class="hamburger-icon" id="hamburger-icon">&#9776;</span>
