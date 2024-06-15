@@ -9,37 +9,18 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
+    <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">MyLogo</div>
-
-            <!-- Hamburger Menu Icon -->
-            <div class="hamburger-menu">
-                <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
-            </div>
-
-            <!-- Regular Navigation Links -->
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="newabout.php">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-
-            <div class="social-media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </nav>
+    <header>  
+        <?php $basePath = '.';?>
+        <?php include 'pages/Navigation/navbar.php';?>
+        <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
-
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content">
