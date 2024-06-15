@@ -16,7 +16,8 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
+    
 }
 
 section {
@@ -97,6 +98,7 @@ section {
     background: #fff;
     padding: 40px 0;
     text-align: center;
+    padding-top: 150px;
 
     .container {
         max-width: 1200px;
@@ -141,7 +143,7 @@ section {
         flex: 1;
         max-width: 30%;
         text-align: center;
-        padding: 20px;
+        padding: 40px;
         box-sizing: border-box;
 
         .feature-icon {
@@ -463,7 +465,6 @@ section {
 
 
 
-
 .pricing-section {
     background-color: #f9f9f9;
     padding: 40px 0;
@@ -489,6 +490,7 @@ section {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    flex: 1 0 calc(300px - 20px); /* Adjusting for margin */
 }
 
 .pricing-card:hover {
@@ -508,12 +510,17 @@ section {
 .price {
     font-size: 36px;
     font-weight: bold;
-    color: #AB0AE0; /* Price color */
 }
 
-.pricing-card-content p {
+.pricing-card-content .starting-price {
+    font-size: 18px;
     color: #666;
-    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pricing-card-content .estimated-price {
+    font-size: 14px;
+    color: #999;
     margin-bottom: 15px;
 }
 
@@ -542,4 +549,78 @@ section {
 }
 
 
+.gradient-text {
+    // background: linear-gradient(45deg, #ff4500, #ab0ae0);
+    -webkit-background-clip: text;
+    background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
 
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes sparkle {
+    0% {
+        text-shadow: 0 0 1px rgba(222, 37, 255, 0.8);
+    }
+    50% {
+        text-shadow: 0 0 6px rgba(222, 37, 255, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 1px rgba(222, 37, 255, 0.8);
+    }
+}
+
+.sparkly-text2 {
+    position: relative; /* Ensures text-shadow works properly */
+    transition: color 0.3s ease;
+}
+
+.sparkly-text2:hover {
+    color: transparent; /* Hides original text color */
+    animation: sparkle 1s infinite; /* Applies the sparkle animation */
+}
+
+
+
+.gradient-text2 {
+    // background: linear-gradient(45deg, #ff4500, #ab0ae0);
+    -webkit-background-clip: text;
+    background: linear-gradient(45deg, #9b02d3, #ab0ae0);
+
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    z-index: 1; /* Ensure text appears above the background */
+}
+
+@keyframes sparkle {
+    0% {
+        background-size: 100% 100%; /* Full size */
+    }
+    50% {
+        background-size: 300% 300%; /* Increase size */
+    }
+    100% {
+        background-size: 100% 100%; /* Return to original size */
+    }
+}
+
+.sparkly-text2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ff4500, #ab0ae0);
+    z-index: -1;
+    background-size: 100% 100%; /* Full size */
+    opacity: 0;
+    transition: opacity 0.3s ease, background-size 0.7s ease;
+    pointer-events: none; /* Ensure hover works on text */
+}
+
+.sparkly-text2:hover::before {
+    opacity: 1;
+    animation: sparkle 1s infinite; /* Applies the sparkle animation */
+}

@@ -121,6 +121,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ffffff;
 }
 #services .service-row {
   display: flex;
@@ -138,6 +139,7 @@ body {
   position: relative;
   border-radius: 30px;
   margin: 0 0.6rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 12px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
 }
 #services .service-card h2 {
   position: absolute;

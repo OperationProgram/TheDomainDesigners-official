@@ -24,8 +24,8 @@
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <h1 data-aos="fade-up" data-aos-once="true">Small Business Web Design + Development</h1>
-                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="10">No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</p>
+                <h1 data-aos="fade-up" data-aos-once="true">Tailored Websites for Startups</h1>
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="10">Elevate your online presence with tailor-made, hand-coded websites. No page builders or WordPress, just pure, high-performance web design starting from $150/month.</p>
                 <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
             </div>
             <div class="hero-image">
@@ -46,25 +46,25 @@
 
 
 
-    <section class="features">
-        <div class="container">
-            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-                <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
-                <h3>Mobile-Centric Approach</h3>
-                <p>We adopt a mobile-first strategy, ensuring your website is optimized for smartphones, then scaling seamlessly to tablets and desktops.</p>
-            </div>
-            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-                <div class="feature-icon"><i class="fas fa-laptop"></i></div>
-                <h3>Responsive Design</h3>
-                <p>Your website adapts flawlessly across all devices, ensuring an optimal user experience on mobile phones, tablets, and desktop computers.</p>
-            </div>
-            <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
-                <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
-                <h3>SEO Optimization</h3>
-                <p>We enhance your mobile presence to maximize performance in search engine rankings, capitalizing on the predominant share of internet traffic from mobile devices.</p>
-            </div>
+<section class="features">
+    <div class="container">
+        <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Mobile-Centric Approach</h3>
+            <p>We prioritize a mobile-first strategy, designing your website specifically for smartphones before seamlessly scaling up to tablets and desktops. This ensures a superior mobile experience that meets the needs of today’s on-the-go users.</p>
         </div>
-    </section>
+        <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+            <div class="feature-icon"><i class="fas fa-laptop"></i></div>
+            <h3>Responsive Design</h3>
+            <p>Our responsive design guarantees that your website looks and functions perfectly on any device, providing an optimal user experience whether visitors are on a mobile phone, tablet, or desktop computer.</p>
+        </div>
+        <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>SEO Optimization</h3>
+            <p>We boost your mobile presence with advanced SEO techniques to ensure high performance in search engine rankings. By focusing on the growing share of internet traffic from mobile devices, we help your business capture more organic traffic and increase visibility.</p>
+        </div>
+    </div>
+</section>
 
 
 
@@ -173,19 +173,19 @@
 
 
     <section class="pricing">
-        <div class="container">
-            <div class="pricing-content">
-                <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">>
-                    <h2>$0 Down, $150 Per Month, <br>12 Month Minimum Contract</h2>
-                    <p>$0 down for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.</p>
-                    <p>You own your domain, content, listing, and profiles. Cancel anytime with no fees or hassle.</p>
-                </div>
-                <div class="pricing-image">
-                    <img src="/src/assets/good/handshake.svg" alt="Pricing Image"  data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
-                </div>
+    <div class="container">
+        <div class="pricing-content">
+            <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+                <h2>Get Your Business Online Starting at $300</h2>
+                <p>Launch your online presence with our affordable package starting at $300. This includes a standard 3-page small business website. For larger projects, like custom features or additional pages, we provide personalized pricing based on your specific needs and project scope.</p>
+                <p>You maintain ownership of your domain, content, listings, and profiles. Cancel anytime without any fees or hassle.</p>
+            </div>
+            <div class="pricing-image">
+                <img src="/src/assets/good/handshake.svg" alt="Pricing Image" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
             </div>
         </div>
-    </section>
+    </div>
+</section>  
 
 
 
@@ -223,44 +223,63 @@
     </section> -->
 
 
-    <section class="pricing-section">
-        <div class="container">
-        <div class="pricing-cards">
-        <div class="pricing-card"  data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
-            <div class="pricing-card-content">
-                <h3>Standard Website</h3>
-                <div class="price">$1500</div>
-                <p>$500 min. Up Front Cost</p>
-                <ul>
-                    <li>5-Page Site</li>
-                    <li>Responsive Design</li>
-                    <li>Contact Form</li>
-                    <li>Basic SEO</li>
-                    <li>1-Month Maintenance</li>
-                </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
-            </div>
-        </div>
+    <section class="pricing">
+    <div class="container">
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
-                <h3>Premium Website</h3>
-                <div class="price">$3000</div>
-                <p>$1000 min. Up Front Cost</p>
+                <h3>Starter Website</h3>
+                <div class="gradient-text price">$500 - $1000</div>
+                <p>Perfect for small businesses and startups looking to establish an online presence.</p>
                 <ul>
-                    <li>Custom Number of Pages</li>
+                    <li>Up to 5 Pages</li>
+                    <li>Responsive Design</li>
+                    <li>Basic SEO Setup</li>
+                    <li>Contact Form Integration</li>
+                    <li>1-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">GET STARTED</a>
+            </div>
+        </div>
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
+            <div class="pricing-card-content">
+                <h3>Business Website</h3>
+                <div class="gradient-text price">$1500 - $3000</div>
+                <p>Comprehensive solution for growing businesses needing more features and customization.</p>
+                <ul>
+                    <li>Up to 10 Pages</li>
                     <li>Custom Design</li>
-                    <li>E-commerce Integration</li>
-                    <li>Advanced SEO</li>
+                    <li>Mobile Optimization</li>
+                    <li>CMS Integration (e.g., WordPress)</li>
+                    <li>Basic E-commerce Functionality</li>
                     <li>3-Month Maintenance</li>
                 </ul>
                 <a href="#" class="cta-button">CONTACT US</a>
             </div>
         </div>
-        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="900">
             <div class="pricing-card-content">
-                <h3>Website Maintenance</h3>
-                <div class="price">$100/month</div>
-                <p>Ongoing Support & Updates</p>
+                <h3>Advanced Website</h3>
+                <div class="gradient-text price">$5000 - $8000</div>
+                <p>Tailored for businesses requiring advanced features, scalability, and performance.</p>
+                <ul>
+                    <li>Unlimited Pages</li>
+                    <li>Custom Design with UI/UX Optimization</li>
+                    <li>Advanced SEO and Analytics Setup</li>
+                    <li>E-commerce Solution with Payment Gateway Integration</li>
+                    <li>Custom Web Applications or Integrations</li>
+                    <li>6-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
+        </div>
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="1200">
+            <div class="pricing-card-content">
+                <h3 >Website Maintenance</h3>
+                <div class="gradient-text price" >$100 - $300/month</div>
+                <p>Ongoing support, updates, and security management for existing websites.</p>
                 <ul>
                     <li>Monthly Backup</li>
                     <li>Security Monitoring</li>
@@ -271,8 +290,8 @@
                 <a href="#" class="cta-button">CONTACT US</a>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 
 
 <script>
