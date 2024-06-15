@@ -313,4 +313,9 @@ footer p {
 .join-team .row .col {
   flex: 0 0 48%;
   padding: 0 15px;
+}
+@media (max-width: 768px) {
+  .join-team .row .col {
+    flex: 0 0 100%;
+  }
 }/*# sourceMappingURL=newabout.css.map */

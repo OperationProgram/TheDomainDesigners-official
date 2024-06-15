@@ -356,6 +356,11 @@ $secondary-color: #0056b3;
       .col {
         flex: 0 0 48%; // Adjust column width as needed
         padding: 0 15px;
+
+        @media (max-width: 768px) {
+            flex: 0 0 100%; // Adjust column width for tablets and larger screens
+            
+        }
       }
     }
   }

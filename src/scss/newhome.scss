@@ -449,6 +449,8 @@ header {
         max-width: 50%;
         padding: 20px;
         position: relative;
+        overflow: hidden;
+
 
         img {
             width: 100%;
@@ -617,3 +619,37 @@ header {
 .cta-button:hover {
     background-color: #ff4500;
 }
+
+
+
+/* Sass */
+.dotted-border {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+  }
+  
+  .dot {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: turquoise;
+  }
+  
+  @for $num from 0 through 100 { /* Adjust the number of dots as needed */
+    .dot:nth-child(#{$num + 1}) {
+      left: $num * 6px; /* Adjust spacing between dots */
+      animation: move-dot 1s infinite;
+      animation-delay: $num * 0.05s;
+    }
+  }
+  
+  @keyframes move-dot {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 5px);
+    }
+  }

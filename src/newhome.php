@@ -56,9 +56,12 @@
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>We specialize in small business web design and development for clients anywhere in the US. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business. <a href="#" class="learn-more">LEARN MORE</a></p>
+            <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="learn-more">LEARN MORE</a></p>
         </div>
     </section>
+    <div class="dotted-border">
+  <!-- Dotted border line will be created dynamically by Sass -->
+</div>
 
 
 
@@ -191,7 +194,7 @@
     <section class="pricing">
         <div class="container">
             <div class="pricing-content">
-                <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+                <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">>
                     <h2>$0 Down, $150 Per Month, <br>12 Month Minimum Contract</h2>
                     <p>$0 down for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.</p>
                     <p>You own your domain, content, listing, and profiles. Cancel anytime with no fees or hassle.</p>
