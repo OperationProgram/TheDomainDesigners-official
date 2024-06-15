@@ -72,13 +72,14 @@ body {
 }
 .navbar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 15px 10px;
   width: -moz-fit-content;
   width: fit-content;
   margin: 30px auto;
+  margin-top: 25px;
   position: absolute;
   left: 50%;
   top: 8%;

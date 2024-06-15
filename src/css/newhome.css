@@ -56,11 +56,12 @@ section {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 100px 20px;
 }
 
 .hero-content {
   max-width: 50%;
+  margin-top: 80px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
 .hero-content h1 {
