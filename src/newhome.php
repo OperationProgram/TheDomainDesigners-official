@@ -49,17 +49,17 @@
 <section class="features">
     <div class="container">
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="feature-icon"><i class="gradient-text fas fa-mobile-alt"></i></div>
             <h3>Mobile-Centric Approach</h3>
             <p>We prioritize a mobile-first strategy, designing your website specifically for smartphones before seamlessly scaling up to tablets and desktops. This ensures a superior mobile experience that meets the needs of today’s on-the-go users.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="feature-icon"><i class="fas fa-laptop"></i></div>
+            <div class="feature-icon"><i class="gradient-text fas fa-laptop"></i></div>
             <h3>Responsive Design</h3>
             <p>Our responsive design guarantees that your website looks and functions perfectly on any device, providing an optimal user experience whether visitors are on a mobile phone, tablet, or desktop computer.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
-            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="feature-icon"><i class="gradient-text fas fa-chart-line"></i></div>
             <h3>SEO Optimization</h3>
             <p>We boost your mobile presence with advanced SEO techniques to ensure high performance in search engine rankings. By focusing on the growing share of internet traffic from mobile devices, we help your business capture more organic traffic and increase visibility.</p>
         </div>
@@ -89,7 +89,7 @@
 
 
     <section class="bullet-point-section">
-        <img class="blob-img" src="assets/blob.png" >
+        <img class="blob-img" src="assets/blob-3.png" >
         <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <div class="info">
                 <!-- Placeholder for infographic -->

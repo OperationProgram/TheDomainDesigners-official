@@ -175,9 +175,11 @@ section {
   position: absolute;
   z-index: -1;
   top: 0;
+  left: 400px;
   max-width: 866px;
   min-width: 490px;
   overflow: hidden;
+  opacity: 0.1;
 }
 
 .bullet-point {
