@@ -93,7 +93,7 @@ body {
   margin: 0;
   padding: 10px;
   letter-spacing: 0;
-  background-color: rgba(22, 22, 22, 0.6509803922);
+  background-color: rgba(22, 22, 22, 0);
   border-radius: 100px;
 }
 .nav-menu li {

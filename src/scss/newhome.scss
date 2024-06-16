@@ -32,7 +32,7 @@ section {
 .hero {
     display: flex;
     align-items: center;
-    background: url('../assets/good/background-2.jpg') no-repeat center center;
+    background: url('../assets/good/plain-background.png') no-repeat center center;
     background-size: cover;
     color: #ececec;
     text-align: left;
@@ -128,7 +128,7 @@ section {
 
         .learn-more {
             display: inline-block;
-            color: #AB0AE0;
+            // color: #AB0AE0;
             text-decoration: none;
             font-weight: bold;
             margin-left: 10px;

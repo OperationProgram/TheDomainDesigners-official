@@ -34,10 +34,16 @@
         </div>
     </section>
 
+    <section class="curved-section">
+    <div class="content">
+        <!-- Your section content here -->
+    </div>
+</section>
+
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="learn-more">LEARN MORE</a></p>
+            <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
         </div>
     </section>
     <div class="dotted-border">
