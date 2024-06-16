@@ -41,13 +41,13 @@ section {
 .hero {
   display: flex;
   align-items: center;
-  background: url("../assets/good/dark-abstract-background.jpg") no-repeat center center;
+  background: url("../assets/good/background-2.jpg") no-repeat center center;
   background-size: cover;
   color: #ececec;
   text-align: left;
   margin-top: 0px; /* Adjust as needed */
   margin-bottom: 0px; /* Adjust as needed */
-  padding: 100px;
+  padding: 200px 0;
 }
 
 .hero-container {
@@ -60,8 +60,7 @@ section {
 }
 
 .hero-content {
-  max-width: 50%;
-  margin-top: 80px;
+  flex: 1; /* Adjusts the width based on available space */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
 .hero-content h1 {
@@ -79,7 +78,7 @@ section {
   margin-bottom: 30px;
 }
 .hero-content .cta-button {
-  background: #AB0AE0;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   padding: 10px 20px;
   font-size: 18px;
@@ -87,12 +86,12 @@ section {
   border-radius: 5px;
 }
 .hero-content .cta-button:hover {
-  background: #ff4500;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
 }
 
 .hero-image {
-  max-width: 50%;
-  padding: 50px;
+  flex: 1; /* Adjusts the width based on available space */
+  padding: 10px;
 }
 .hero-image img {
   width: 100%;
@@ -112,6 +111,14 @@ section {
 .what-we-do h2 {
   font-size: 36px;
   margin-bottom: 20px;
+}
+.what-we-do h2::before {
+  content: attr(data-first-word); /* Use content attribute to insert the first word */
+  color: #AB0AE0; /* Color for the first word */
+  font-weight: bold; /* Optionally, make it bold */
+  position: absolute; /* Position absolutely relative to h2 */
+  top: 0;
+  left: 0;
 }
 .what-we-do p {
   font-size: 18px;
@@ -423,13 +430,14 @@ section {
 
 .pricing-card {
   width: 300px;
+  height: 0 auto;
   background-color: #fff;
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  flex: 1 0 280px; /* Adjusting for margin */
+  flex: 1 0 250px; /* Adjusting for margin */
 }
 
 .pricing-card:hover {
@@ -475,7 +483,7 @@ section {
 
 .cta-button {
   display: inline-block;
-  background-color: #AB0AE0;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -494,63 +502,76 @@ section {
   color: transparent;
 }
 
-@keyframes sparkle {
-  0% {
-    text-shadow: 0 0 1px rgba(222, 37, 255, 0.8);
-  }
-  50% {
-    text-shadow: 0 0 6px rgba(222, 37, 255, 0.8);
-  }
-  100% {
-    text-shadow: 0 0 1px rgba(222, 37, 255, 0.8);
-  }
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 14px;
 }
-.sparkly-text2 {
-  position: relative; /* Ensures text-shadow works properly */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-left h3, .footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.sparkly-text2:hover {
-  color: transparent; /* Hides original text color */
-  animation: sparkle 1s infinite; /* Applies the sparkle animation */
+.footer-links a:hover {
+  color: #AB0AE0;
 }
 
-.gradient-text2 {
-  -webkit-background-clip: text;
-  background: linear-gradient(45deg, #9b02d3, #ab0ae0);
-  background-clip: text;
-  color: transparent;
-  position: relative;
-  z-index: 1; /* Ensure text appears above the background */
-}
-
-@keyframes sparkle {
-  0% {
-    background-size: 100% 100%; /* Full size */
-  }
-  50% {
-    background-size: 300% 300%; /* Increase size */
-  }
-  100% {
-    background-size: 100% 100%; /* Return to original size */
-  }
-}
-.sparkly-text2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, #ff4500, #ab0ae0);
-  z-index: -1;
-  background-size: 100% 100%; /* Full size */
-  opacity: 0;
-  transition: opacity 0.3s ease, background-size 0.7s ease;
-  pointer-events: none; /* Ensure hover works on text */
-}
-
-.sparkly-text2:hover::before {
-  opacity: 1;
-  animation: sparkle 1s infinite; /* Applies the sparkle animation */
+.footer-bottom-text {
+  margin-top: 20px;
+  font-size: 12px;
 }/*# sourceMappingURL=newhome.css.map */
