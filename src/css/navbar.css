@@ -81,8 +81,7 @@ body {
   margin-top: 25px;
   position: absolute;
   left: 50%;
-  top: 8%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -15%);
   z-index: 9999;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
