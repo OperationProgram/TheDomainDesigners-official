@@ -24,8 +24,8 @@
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <h1 data-aos="fade-up" data-aos-once="true">Tailored Websites for Startups</h1>
-                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="10">Elevate your online presence with tailor-made, hand-coded websites. No page builders or WordPress, just pure, high-performance web design starting from $150/month.</p>
+                <h1>Tailored Websites for Startups</h1>
+                <p >Elevate your online presence with tailor-made, hand-coded websites. No page builders or WordPress, just pure, high-performance web design starting from $150/month.</p>
                 <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
             </div>
             <div class="hero-image">
