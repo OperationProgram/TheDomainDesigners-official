@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
-    <link rel="icon" type="image/x-icon" href="assets/tdd_logo.svg">
+    <link rel="icon" type="image/x-icon" href="assets/logo-test.png">
     <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -48,20 +48,21 @@
 
 <section class="features">
     <div class="container">
-        <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="feature-icon"><i class="gradient-text fas fa-mobile-alt"></i></div>
-            <h3>Mobile-Centric Approach</h3>
-            <p>We prioritize a mobile-first strategy, designing your website specifically for smartphones before seamlessly scaling up to tablets and desktops. This ensures a superior mobile experience that meets the needs of today’s on-the-go users.</p>
-        </div>
+
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
             <div class="feature-icon"><i class="gradient-text fas fa-laptop"></i></div>
             <h3>Responsive Design</h3>
-            <p>Our responsive design guarantees that your website looks and functions perfectly on any device, providing an optimal user experience whether visitors are on a mobile phone, tablet, or desktop computer.</p>
+            <p>Our design adapts perfectly to any device, providing an optimal user experience on mobile phones, tablets, and desktops.</p>
+        </div>
+        <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+            <div class="feature-icon"><i class="gradient-text fas fa-mobile-alt"></i></div>
+            <h3>Mobile-Centric Approach</h3>
+            <p>We design your website for smartphones first, ensuring an exceptional mobile experience that scales seamlessly to tablets and desktops.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
             <div class="feature-icon"><i class="gradient-text fas fa-chart-line"></i></div>
             <h3>SEO Optimization</h3>
-            <p>We boost your mobile presence with advanced SEO techniques to ensure high performance in search engine rankings. By focusing on the growing share of internet traffic from mobile devices, we help your business capture more organic traffic and increase visibility.</p>
+            <p>We enhance your mobile presence with advanced SEO, boosting search rankings to capture more organic traffic from mobile users.</p>
         </div>
     </div>
 </section>
@@ -83,11 +84,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
     <section class="bullet-point-section">
         <img class="blob-img" src="assets/blob-3.png" >
         <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
@@ -293,10 +289,37 @@
     </div>
 </section>
 
-
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Company Name</h3>
+                <p>A brief description of your company.</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-bottom-text">&copy; 2024 Company Name. All Rights Reserved.</p>
+    </div>
+</footer>
 <script>
     AOS.init();
 </script>
+
+
 
 </body>
 </html>

@@ -1,9 +1,9 @@
 <nav class="navbar">
     <div class="logo-container">
-        <a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
+        <a class="logo-link" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/logo-2.png" alt="TheDomainDesigners Logo"></a>
     </div>
     <ul class="nav-menu" id="nav-menu">
-        <a class="logo-link logo-hidden" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/tdd_logo.svg" alt="TheDomainDesigners Logo"></a>
+        <a class="logo-link logo-hidden" href="<?php echo $basePath; ?>/"><img class="logo" src="<?php echo $basePath; ?>/assets/logo-1.png" alt="TheDomainDesigners Logo"></a>
         <li><a href="<?php echo $basePath; ?>/">Home</a></li>
         <li><a href="<?php echo $basePath; ?>/newhome.php">Home Beta</a></li>
 
