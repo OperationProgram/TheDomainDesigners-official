@@ -61,7 +61,6 @@ body {
   z-index: 1;
   width: 100px;
   height: 100px;
-  margin-right: 120px; /* Move logo to the left */
 }
 
 @media (max-width: 480px) {
