@@ -71,7 +71,6 @@ body {
 }
 .navbar {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 15px 10px;
@@ -121,19 +120,12 @@ body {
   color: #7403d1;
 }
 
-.consultation {
-  margin: 0 30px;
+.social-links-container {
+  margin-left: 1rem;
 }
-.consultation button {
-  background-color: #7403d1;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  cursor: pointer;
+
+.social-links-container-hamburger {
+  display: none;
 }
 
 /* Styles for the hamburger icon */
@@ -148,8 +140,9 @@ body {
   color: white;
   display: inline-block;
   transition: transform 0.5s ease; /* Add transition for rotation */
-  margin: 10px;
-  margin-top: 35px;
+  position: absolute;
+  top: 21px;
+  right: 17px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
@@ -171,7 +164,10 @@ body {
     display: block;
   }
   .social-links-container {
-    margin-top: 1rem;
+    display: none;
+  }
+  .social-links-container-hamburger {
+    display: block;
   }
   .nav-menu {
     position: fixed;

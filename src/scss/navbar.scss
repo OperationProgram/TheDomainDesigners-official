@@ -48,7 +48,7 @@ body {
 
 .navbar {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
@@ -105,22 +105,28 @@ body {
     }
 }
 
-.consultation {
-    margin: 0 30px; // Adjust margin as needed
+// .consultation {
+//     margin: 0 30px; // Adjust margin as needed
 
-    button {
-        background-color: map-get($primary-btn, background-color);
-        color: map-get($primary-btn, color);
-        border: map-get($primary-btn, border);
-        padding: map-get($primary-btn, padding);
-        text-align: map-get($primary-btn, text-align);
-        text-decoration: map-get($primary-btn, text-decoration);
-        display: map-get($primary-btn, display);
-        font-size: map-get($primary-btn, font-size);
-        cursor: map-get($primary-btn, cursor);
-    }
+//     button {
+//         background-color: map-get($primary-btn, background-color);
+//         color: map-get($primary-btn, color);
+//         border: map-get($primary-btn, border);
+//         padding: map-get($primary-btn, padding);
+//         text-align: map-get($primary-btn, text-align);
+//         text-decoration: map-get($primary-btn, text-decoration);
+//         display: map-get($primary-btn, display);
+//         font-size: map-get($primary-btn, font-size);
+//         cursor: map-get($primary-btn, cursor);
+//     }
+// }
+
+.social-links-container {
+    margin-left: 1rem;
 }
-
+.social-links-container-hamburger {
+    display: none;
+}
 /* Styles for the hamburger icon */
 .hamburger-menu {
     display: none;
@@ -133,8 +139,9 @@ body {
     color: white;
     display: inline-block;
     transition: transform 0.5s ease; /* Add transition for rotation */
-    margin: 10px;
-    margin-top: 35px;
+    position: absolute;
+    top: 21px;
+    right: 17px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
@@ -159,7 +166,10 @@ body {
         display: block;
     }
     .social-links-container {
-        margin-top: 1rem;
+        display: none;
+    }
+    .social-links-container-hamburger {
+        display: block;
     }
 
     .nav-menu {
