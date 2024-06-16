@@ -54,7 +54,6 @@ body {
     margin: 30px auto;
     position: absolute;
     left: 50%;
-    // top: 8%;
     transform: translate(-50%, -15%);
     z-index: 9999;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -77,6 +76,7 @@ body {
     letter-spacing: 0;
     background-color: #161616a6;
     border-radius: 100px;
+    height: 50px;
 
     li {
         margin-left: 5px;

@@ -101,6 +101,7 @@ body {
   letter-spacing: 0;
   background-color: rgba(22, 22, 22, 0.6509803922);
   border-radius: 100px;
+  height: 50px;
 }
 .nav-menu li {
   margin-left: 5px;
