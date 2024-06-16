@@ -60,7 +60,7 @@ section {
 }
 
 .hero-content {
-  max-width: 60%;
+  flex: 1; /* Adjusts the width based on available space */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
 .hero-content h1 {
@@ -78,7 +78,7 @@ section {
   margin-bottom: 30px;
 }
 .hero-content .cta-button {
-  background: #AB0AE0;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   padding: 10px 20px;
   font-size: 18px;
@@ -86,11 +86,11 @@ section {
   border-radius: 5px;
 }
 .hero-content .cta-button:hover {
-  background: #ff4500;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
 }
 
 .hero-image {
-  max-width: 50%;
+  flex: 1; /* Adjusts the width based on available space */
   padding: 10px;
 }
 .hero-image img {
@@ -483,7 +483,7 @@ section {
 
 .cta-button {
   display: inline-block;
-  background-color: #AB0AE0;
+  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
