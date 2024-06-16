@@ -23,7 +23,7 @@
     </header>
     <section class="hero">
         <div class="container hero-container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="slide-right" data-aos-once="true">
                 <h1>Tailored Websites for Startups</h1>
                 <p >Elevate your online presence with tailor-made, hand-coded websites. No page builders or WordPress, just pure, high-performance web design starting from $150/month.</p>
                 <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
