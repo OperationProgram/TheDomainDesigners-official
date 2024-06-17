@@ -61,6 +61,7 @@ section {
 
 .hero-content {
   flex: 1; /* Adjusts the width based on available space */
+  text-align: left;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
 .hero-content h1 {
@@ -76,6 +77,7 @@ section {
 .hero-content p {
   font-size: 24px;
   margin-bottom: 30px;
+  line-height: 1.5em; /* Adjusted line height for better readability */
 }
 .hero-content .cta-button {
   background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
@@ -106,6 +108,9 @@ section {
   padding-top: 150px;
 }
 .what-we-do .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 1200px;
 }
 .what-we-do h2 {
@@ -372,7 +377,7 @@ section {
     max-width: 100%;
   }
   .hero .hero-container .hero-content {
-    text-align: center;
+    text-align: left;
   }
   .hero .hero-container .hero-content h1 {
     font-size: 36px;
@@ -416,27 +421,55 @@ section {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .pricing-cards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .pricing-card {
-  width: 300px;
-  height: 0 auto;
+  width: calc(33.33% - 40px); /* Adjust card width based on the number of cards per row */
   background-color: #fff;
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  flex: 1 0 250px; /* Adjusting for margin */
+  flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
+  display: flex;
+  flex-direction: row; /* Ensure flex children behave as columns */
+  height: 470px; /* Set a fixed height for all cards */
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    justify-content: center; /* Center cards in a single column */
+  }
+  .pricing-card {
+    justify-content: space-between;
+    width: 90%;
+  }
+  .pricing-card:nth-child(2) {
+    height: 470px;
+    margin-top: 0; /* Adjust to overlap the second card */
+  }
+  .container {
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+  }
+}
+.pricing-card:nth-child(2) {
+  height: 530px;
+  margin-top: -60px; /* Adjust to overlap the second card */
+  z-index: 1; /* Ensure this card is above the others */
 }
 
 .pricing-card:hover {
@@ -446,6 +479,10 @@ section {
 .pricing-card-content {
   padding: 20px;
   text-align: center;
+  flex: 1; /* Grow to fill available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
 }
 
 .pricing-card-content h3 {
@@ -474,6 +511,7 @@ section {
   list-style-type: none;
   padding: 0;
   text-align: left;
+  margin-top: auto; /* Push list to bottom if there's extra space */
 }
 
 .pricing-card-content ul li {
@@ -485,9 +523,10 @@ section {
   background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  margin: auto auto;
 }
 
 .cta-button:hover {

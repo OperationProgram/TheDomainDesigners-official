@@ -1,4 +1,14 @@
 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+
+
 /* Style for the About page */
 .about-hero {
     // background-color: #f2f2f2;
@@ -22,19 +32,29 @@
 .about-section {
     padding: 80px 0;
     background-color: #fff;
-    text-align: center;
+    text-align: left;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+    }
 }
+
 
 .about-section h2 {
     font-size: 2rem;
     color: #333;
+    padding: 20px;
 }
 
 .about-section p {
     font-size: 1.1rem;
     color: #333;
-    line-height: 1.8;
-    letter-spacing: .12em;
+
+    
     max-width: 800px;
     margin: 0 auto;
     
@@ -106,7 +126,7 @@
         p {
             font-size: 16px;
             line-height: 1.6;
-                letter-spacing: .12em;
+                
 
             margin-bottom: 10px;
         }
@@ -359,6 +379,7 @@ $secondary-color: #0056b3;
 
         @media (max-width: 768px) {
             flex: 0 0 100%; // Adjust column width for tablets and larger screens
+            margin: 0 auto;
             
         }
       }

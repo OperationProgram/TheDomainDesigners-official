@@ -7,7 +7,6 @@
     <!-- <link rel="stylesheet" href="../src/css/newhome.css">  -->
     <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../src/css/newhome.css"> <!-- Custom CSS for About page -->
 
     <link rel="stylesheet" href="../src/css/newabout.css"> <!-- Custom CSS for About page -->
 </head>

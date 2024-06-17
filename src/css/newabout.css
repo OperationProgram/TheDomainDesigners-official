@@ -1,3 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* Style for the About page */
 .about-hero {
   padding: 100px 0;
@@ -20,19 +26,25 @@
 .about-section {
   padding: 80px 0;
   background-color: #fff;
-  text-align: center;
+  text-align: left;
+}
+.about-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
 }
 
 .about-section h2 {
   font-size: 2rem;
   color: #333;
+  padding: 20px;
 }
 
 .about-section p {
   font-size: 1.1rem;
   color: #333;
-  line-height: 1.8;
-  letter-spacing: 0.12em;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -100,7 +112,6 @@
 .mission-section .mission p, .mission-section .vision p, .vision-section .mission p, .vision-section .vision p {
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.12em;
   margin-bottom: 10px;
 }
 .mission-section .mission-image, .mission-section .vision-image, .vision-section .mission-image, .vision-section .vision-image {
@@ -317,5 +328,6 @@ footer p {
 @media (max-width: 768px) {
   .join-team .row .col {
     flex: 0 0 100%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=newabout.css.map */
