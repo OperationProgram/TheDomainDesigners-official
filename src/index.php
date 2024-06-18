@@ -24,8 +24,8 @@
     <section class="hero">
         <div class="container hero-container">
             <div class="hero-content" data-aos="slide-right" data-aos-once="true">
-                <h1>Tailored Websites for Startups</h1>
-                <p >Elevate your online presence with tailor-made, hand-coded websites. No page builders or WordPress, just pure, high-performance web design starting from $150/month.</p>
+                <h1>Design Your Dream with Professionals</h1>
+                <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.
                 <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
             </div>
             <div class="hero-image">
@@ -64,8 +64,8 @@
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <div class="feature-icon"><i class="gradient-text fas fa-mobile-alt"></i></div>
-            <h3>Mobile-Centric Approach</h3>
-            <p>We design your website for smartphones first, ensuring an exceptional mobile experience that scales seamlessly to tablets and desktops.</p>
+            <h3>Tailored Web Solutions</h3>
+            <p>Hire our expert web designers for an upfront consultation to assess your unique needs and deliver a custom web solution. Our domain-specific approach ensures your website meets your specific goals and requirements.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
             <div class="feature-icon"><i class="gradient-text fas fa-chart-line"></i></div>
@@ -85,9 +85,9 @@
             </div>
             <div class="services-text" data-aos="zoom-in" data-aos-once="true">
                 <h2>Discover Our Offerings</h2>
-                <p>Explore our range of tailored web solutions designed to meet your business needs. Get started with an affordable entry point of $0 down and $150 per month on a 12-month contract for a standard 5-page small business website.</p>
-                <p>If your requirements extend beyond our standard package, we provide custom pricing based on the scope of work, additional pages, and project timeline.</p>
-                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel anytime without any fees or hassle.</p>
+                <p>Explore our range of tailored web design solutions designed to meet your business needs. Prices start at $500 and scale up depending on your requirements.</p>
+                <p>When you hire our expert web designers for a free consultation to assess your needs and provide a custom quote. Our maintenance plan includes three content updates per month, priority support, and free hosting, ensuring your website remains up-to-date and fully supported.</p>
+                <p>You maintain full ownership of your domain, content, listings, and profiles, with the flexibility to cancel our maintenance plan anytime without any fees or hassle.
             </div>
         </div>
     </div>
@@ -180,9 +180,9 @@
     <div class="container">
         <div class="pricing-content">
             <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-                <h2>Get Your Business Online Starting at $300</h2>
-                <p>Launch your online presence with our affordable package starting at $300. This includes a standard 3-page small business website. For larger projects, like custom features or additional pages, we provide personalized pricing based on your specific needs and project scope.</p>
-                <p>You maintain ownership of your domain, content, listings, and profiles. Cancel anytime without any fees or hassle.</p>
+                <h2>Custom-Coded Web Solutions </h2>
+                <p>Discover our custom-coded web design solutions, meticulously crafted by our expert designers. We excel in developing highly customizable websites that cater specifically to your requirements, guaranteeing exceptional performance and adaptability. </p>
+                <p>Our specialization lies in delivering distinctive, high-performance web designs that elevate your online presence, complete with robust ecommerce capabilities. </p>
             </div>
             <div class="pricing-image">
                 <img src="/src/assets/good/handshake.svg" alt="Pricing Image" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
@@ -243,7 +243,7 @@
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
                 <h3>Starter Website</h3>
-                <div class="gradient-text price">$500 - $1000</div>
+                <div class="gradient-text price">$500+</div>
                 <p>Perfect for small businesses and startups looking to establish an online presence.</p>
                 <ul>
                     <li>Up to 5 Pages</li>
@@ -259,14 +259,14 @@
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
             <div class="pricing-card-content">
                 <h3>Business Website</h3>
-                <div class="gradient-text price">$1500 - $3000</div>
+                <div class="gradient-text price">$2000+</div>
                 <p>Comprehensive solution for growing businesses needing more features and customization.</p>
                 <ul>
                     <li>Up to 10 Pages</li>
                     <li>Custom Design</li>
-                    <li>Mobile Optimization</li>
-                    <li>CMS Integration (e.g., WordPress)</li>
-                    <li>Basic E-commerce Functionality</li>
+                    <!-- <li>Mobile Optimization</li> -->
+                    <!-- <li>CMS Integration (e.g., WordPress)</li> -->
+                    <li>E-commerce Functionality</li>
                     <li>3-Month Maintenance</li>
                 </ul>
                 <a href="#" class="cta-button">CONTACT US</a>
@@ -276,13 +276,13 @@
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="900">
             <div class="pricing-card-content">
                 <h3>Advanced Website</h3>
-                <div class="gradient-text price">$5000 - $8000</div>
+                <div class="gradient-text price">$5000+</div>
                 <p>Tailored for businesses requiring advanced features, scalability, and performance.</p>
                 <ul>
                     <li>Unlimited Pages</li>
                     <li>Custom Design with UI/UX Optimization</li>
-                    <li>Advanced SEO and Analytics Setup</li>
-                    <li>E-commerce Solution with Payment Gateway Integration</li>
+                    <li>SEO and Analytics Setup</li>
+                    <li>E-commerce Functionality</li>
                     <li>Custom Web Applications or Integrations</li>
                     <li>6-Month Maintenance</li>
                 </ul>
