@@ -108,31 +108,65 @@ section {
 }
 
 .what-we-do {
-
     background: #fff;
-    padding: 40px 0;
+    padding: 80px 0;
     text-align: center;
     padding-top: 150px;
+    position: relative; // Ensure the content is positioned relative to the container
 
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         max-width: 1200px;
+        position: relative;
+        z-index: 2; // Ensure the content is above the background graphic
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 200px;
+        width: 20%;
+        height: 100%;
+        background: url('/src/assets/UI-Graphics/Leaf-1.png') no-repeat center center;
+        background-size: cover;
+        opacity: 0.1; // Adjust opacity for a subtle effect
+        z-index: 1; // Ensure the graphic is behind the content
+        transform: rotate(25deg); // Rotate the background graphic
+        transform-origin: center center; // Ensure the rotation occurs around the center
+        margin-top: 50px;   
+        border: 150px;
+
+        @media (max-width: 1024px) {
+            right: 50px;
+            width: 25%;
+        }
+
+        @media (max-width: 768px) {
+            top: 50px;
+            right: 20px;
+            width: 30%;
+        }
     }
 
     h2 {
         font-size: 36px;
         margin-bottom: 20px;
-    }
-    
-    h2::before {
-        content: attr(data-first-word); /* Use content attribute to insert the first word */
-        color: #AB0AE0; /* Color for the first word */
-        font-weight: bold; /* Optionally, make it bold */
-        position: absolute; /* Position absolutely relative to h2 */
-        top: 0;
-        left: 0;
+        position: relative; // Ensure the position is relative for the pseudo-element
+
+        &::before {
+            content: attr(data-first-word); /* Use content attribute to insert the first word */
+            color: #AB0AE0; /* Color for the first word */
+            font-weight: bold; /* Optionally, make it bold */
+            position: absolute; /* Position absolutely relative to h2 */
+            top: 0;
+            left: 0;
+            transform: translateX(-110%); /* Adjust position of the first word */
+            white-space: nowrap; /* Ensure the first word stays on one line */
+        }
     }
 
     p {
@@ -140,11 +174,11 @@ section {
         line-height: 1.6;
         max-width: 800px;
         margin: 0 auto;
-        
+        margin-bottom: 20px;
 
         .learn-more {
             display: inline-block;
-            // color: #AB0AE0;
+            color: #AB0AE0;
             text-decoration: none;
             font-weight: bold;
             margin-left: 10px;
@@ -155,7 +189,6 @@ section {
         }
     }
 }
-
 
 
 

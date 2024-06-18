@@ -103,19 +103,53 @@ section {
 
 .what-we-do {
   background: #fff;
-  padding: 40px 0;
+  padding: 80px 0;
   text-align: center;
   padding-top: 150px;
+  position: relative;
 }
 .what-we-do .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   max-width: 1200px;
+  position: relative;
+  z-index: 2;
+}
+.what-we-do:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 200px;
+  width: 20%;
+  height: 100%;
+  background: url("/src/assets/UI-Graphics/Leaf-1.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 1;
+  transform: rotate(25deg);
+  transform-origin: center center;
+  margin-top: 50px;
+  border: 150px;
+}
+@media (max-width: 1024px) {
+  .what-we-do:before {
+    right: 50px;
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .what-we-do:before {
+    top: 50px;
+    right: 20px;
+    width: 30%;
+  }
 }
 .what-we-do h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  position: relative;
 }
 .what-we-do h2::before {
   content: attr(data-first-word); /* Use content attribute to insert the first word */
@@ -124,15 +158,19 @@ section {
   position: absolute; /* Position absolutely relative to h2 */
   top: 0;
   left: 0;
+  transform: translateX(-110%); /* Adjust position of the first word */
+  white-space: nowrap; /* Ensure the first word stays on one line */
 }
 .what-we-do p {
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .what-we-do p .learn-more {
   display: inline-block;
+  color: #AB0AE0;
   text-decoration: none;
   font-weight: bold;
   margin-left: 10px;

@@ -32,10 +32,15 @@
 
 <section class="about-section">
     <div class="container">
-        <h2>Who We Are</h2>
-        <p>We are innovators in the digital landscape, driven by a passion for crafting bespoke web solutions that empower small businesses to thrive in the digital age.</p>
-        <p>With a deep understanding of market dynamics and cutting-edge technologies, we specialize in delivering tailored web development and design services that elevate your brand's online presence.</p>
-        <p>Our commitment extends beyond just building websites; we are dedicated partners in your journey towards achieving sustainable growth and success.</p>
+        <div class="about-content">
+            <h2>Who We Are</h2>
+            <p>We are innovators in the digital landscape, driven by a passion for crafting bespoke web solutions that empower small businesses to thrive in the digital age.</p>
+            <p>With a deep understanding of market dynamics and cutting-edge technologies, we specialize in delivering tailored web development and design services that elevate your brand's online presence.</p>
+            <p>Our commitment extends beyond just building websites; we are dedicated partners in your journey towards achieving sustainable growth and success.</p>
+        </div>
+        <div class="about-graphic">
+            <img src="/src/assets/UI-Grcs/Leaf-1.png" alt="UI Graphic">
+        </div>
     </div>
 </section>
 
@@ -65,45 +70,46 @@
     </div>
 </section>
 
-
-<section class="key-features">
+<section class="about-us">
     <div class="container">
-        <h2>Key Features for Your Website "MOVE TO SERVICES"</h2>
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">
-                    <img src="/src/assets/bullet-points/branding.svg" alt="Mobile Responsive Icon">
+        <h2>About Us</h2>
+        <p>At [Your Company Name], we are passionate about delivering excellence in web development and digital solutions. Our journey began with a simple idea: to empower businesses with cutting-edge technology and unparalleled service. Discover what makes us unique and meet the team dedicated to your success.</p>
+        
+        <div class="highlights">
+            <div class="highlight">
+                <div class="highlight-icon">
+                    <img src="/src/assets/icons/team.svg" alt="Our Team Icon">
                 </div>
-                <div class="feature-content">
-                    <h3>Mobile Responsive</h3>
-                    <p>Our expert team will ensure that your website is optimized for a seamless user experience on smartphones, tablets, and desktops.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">
-                    <img src="/src/assets/bullet-points/branding.svg" alt="Ecommerce Compatibility Icon">
-                </div>
-                <div class="feature-content">
-                    <h3>Ecommerce Compatibility</h3>
-                    <p>Maximize your online sales potential with our ecommerce-compatible web development services.</p>
+                <div class="highlight-content">
+                    <h3>Our Story</h3>
+                    <p>Founded in [Year], [Your Company Name] has grown from a small startup to a leading web development firm. Our success is driven by our commitment to innovation and customer satisfaction.</p>
                 </div>
             </div>
-            <div class="feature">
-                <div class="feature-icon">
-                    <img src="/src/assets/bullet-points/branding.svg" alt="Security Icon">
+            <div class="highlight">
+                <div class="highlight-icon">
+                    <img src="/src/assets/icons/mission.svg" alt="Our Mission Icon">
                 </div>
-                <div class="feature-content">
-                    <h3>Security (SSL)</h3>
-                    <p>Protect your website and your customers' data with our SSL security services. Our expert team will ensure that your website is equipped with the latest security measures.</p>
+                <div class="highlight-content">
+                    <h3>Our Mission</h3>
+                    <p>We aim to transform businesses through technology. Our mission is to provide exceptional digital solutions that drive growth, enhance user experiences, and secure your online presence.</p>
                 </div>
             </div>
-            <div class="feature">
-                <div class="feature-icon">
-                    <img src="/src/assets/bullet-points/branding.svg" alt="Maintenance Icon">
+            <div class="highlight">
+                <div class="highlight-icon">
+                    <img src="/src/assets/icons/values.svg" alt="Our Values Icon">
                 </div>
-                <div class="feature-content">
-                    <h3>Maintenance</h3>
-                    <p>Ensure your website runs smoothly and stays up-to-date with our web maintenance services.</p>
+                <div class="highlight-content">
+                    <h3>Our Values</h3>
+                    <p>Integrity, innovation, and excellence are the pillars of our company. We believe in creating long-term relationships with our clients through transparent and ethical practices.</p>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-icon">
+                    <img src="/src/assets/icons/support.svg" alt="Customer Support Icon">
+                </div>
+                <div class="highlight-content">
+                    <h3>Customer Support</h3>
+                    <p>We are dedicated to providing outstanding customer support. Our team is always ready to assist you with any questions or issues, ensuring a smooth and satisfying experience.</p>
                 </div>
             </div>
         </div>
@@ -126,6 +132,55 @@
                 <p>Graphic Designer</p>
             </div>
             <!-- Add more team members as needed -->
+        </div>
+    </div>
+</section>
+
+<section class="review-carousel">
+    <div class="container">
+        <h2>Read our reviews</h2>
+        <div class="carousel">
+            <button class="carousel-control prev" aria-label="Previous review">&lt;</button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide current-slide">
+                        <div class="review">
+                            <div class="rating">★★★★★</div>
+                            <p>I bought a couple of used cellphones from GoRecell...</p>
+                            <div class="reviewer">
+                                <p class="name">Joselito F.</p>
+                                <p class="source">Trustpilot</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review">
+                            <div class="rating">★★★★★</div>
+                            <p>Initially a bit skeptical as the process was too...</p>
+                            <div class="reviewer">
+                                <p class="name">Bob A.</p>
+                                <p class="source">Google Plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review">
+                            <div class="rating">★★★★★</div>
+                            <p>Great Service! Super quick and reliable!...</p>
+                            <div class="reviewer">
+                                <p class="name">Carling L.</p>
+                                <p class="source">Google Plus</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-control next" aria-label="Next review">&gt;</button>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-indicator current-slide"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
         </div>
     </div>
 </section>
@@ -173,6 +228,7 @@
 
 
 
+<script src="reviewController.js"></script>
 
 <footer>
     <div class="container">
