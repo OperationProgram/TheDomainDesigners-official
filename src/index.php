@@ -235,6 +235,75 @@
     
 
 
+    <section class="pricing-section">
+    <div class="container">
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
+            <div class="pricing-card-content">
+                <h3>Starter Website</h3>
+                <div class="gradient-text price">$500+</div>
+                <p>Perfect for small businesses and startups looking to establish an online presence.</p>
+                <ul>
+                    <li>Up to 5 Pages</li>
+                    <li>Responsive Design</li>
+                    <li>Basic SEO Setup</li>
+                    <li>Contact Form Integration</li>
+                    <li>1-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">GET STARTED</a>
+            </div>
+        </div>
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
+            <div class="pricing-card-content">
+                <h3>Business Website</h3>
+                <div class="gradient-text price">$2000+</div>
+                <p>Comprehensive solution for growing businesses needing more features and customization.</p>
+                <ul>
+                    <li>Up to 10 Pages</li>
+                    <li>Custom Design</li>
+                    <!-- <li>Mobile Optimization</li> -->
+                    <!-- <li>CMS Integration (e.g., WordPress)</li> -->
+                    <li>E-commerce Functionality</li>
+                    <li>3-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
+        </div>
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="900">
+            <div class="pricing-card-content">
+                <h3>Advanced Website</h3>
+                <div class="gradient-text price">$5000+</div>
+                <p>Tailored for businesses requiring advanced features, scalability, and performance.</p>
+                <ul>
+                    <li>Unlimited Pages</li>
+                    <li>Custom Design with UI/UX Optimization</li>
+                    <li>SEO and Analytics Setup</li>
+                    <li>E-commerce Functionality</li>
+                    <li>Custom Web Applications or Integrations</li>
+                    <li>6-Month Maintenance</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
+        </div>
+        
+        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+            <div class="pricing-card-content">
+                <h3 >Website Maintenance</h3>
+                <div class="gradient-text price" >$100 - $300/month</div>
+                <p>Ongoing support, updates, and security management for existing websites.</p>
+                <ul>
+                    <li>Monthly Backup</li>
+                    <li>Security Monitoring</li>
+                    <li>Content Updates</li>
+                    <li>Software Updates</li>
+                    <li>Priority Support</li>
+                </ul>
+                <a href="#" class="cta-button">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="footer">
     <div class="container">
