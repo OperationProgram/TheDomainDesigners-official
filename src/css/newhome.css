@@ -61,7 +61,6 @@ section {
 
 .hero-content {
   flex: 1; /* Adjusts the width based on available space */
-  text-align: left;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 }
 .hero-content h1 {
@@ -77,7 +76,6 @@ section {
 .hero-content p {
   font-size: 24px;
   margin-bottom: 30px;
-  line-height: 1.5em; /* Adjusted line height for better readability */
 }
 .hero-content .cta-button {
   background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
@@ -106,49 +104,13 @@ section {
   padding: 40px 0;
   text-align: center;
   padding-top: 150px;
-  position: relative;
 }
 .what-we-do .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 1200px;
-  position: relative;
-  z-index: 2;
-}
-.what-we-do:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100px;
-  width: 20%;
-  height: 100%;
-  background: url("/src/assets/UI-Graphics/Leaf-1.png") no-repeat center center;
-  background-size: cover;
-  opacity: 0.1;
-  z-index: 1;
-  transform: rotate(25deg);
-  transform-origin: center center;
-  padding-top: 200px;
-}
-@media (max-width: 1024px) {
-  .what-we-do:before {
-    right: 50px;
-    width: 25%;
-  }
-}
-@media (max-width: 768px) {
-  .what-we-do:before {
-    top: 50px;
-    right: 20px;
-    width: 30%;
-  }
 }
 .what-we-do h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  position: relative;
 }
 .what-we-do h2::before {
   content: attr(data-first-word); /* Use content attribute to insert the first word */
@@ -157,19 +119,15 @@ section {
   position: absolute; /* Position absolutely relative to h2 */
   top: 0;
   left: 0;
-  transform: translateX(-110%); /* Adjust position of the first word */
-  white-space: nowrap; /* Ensure the first word stays on one line */
 }
 .what-we-do p {
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 20px;
 }
 .what-we-do p .learn-more {
   display: inline-block;
-  color: #AB0AE0;
   text-decoration: none;
   font-weight: bold;
   margin-left: 10px;
@@ -414,7 +372,7 @@ section {
     max-width: 100%;
   }
   .hero .hero-container .hero-content {
-    text-align: left;
+    text-align: center;
   }
   .hero .hero-container .hero-content h1 {
     font-size: 36px;
@@ -458,55 +416,27 @@ section {
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .pricing-cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .pricing-card {
-  width: calc(33.33% - 40px); /* Adjust card width based on the number of cards per row */
+  width: 300px;
+  height: 0 auto;
   background-color: #fff;
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
-  display: flex;
-  flex-direction: row; /* Ensure flex children behave as columns */
-  height: 470px; /* Set a fixed height for all cards */
-}
-
-@media (max-width: 768px) {
-  .pricing-cards {
-    justify-content: center; /* Center cards in a single column */
-  }
-  .pricing-card {
-    justify-content: space-between;
-    width: 90%;
-  }
-  .pricing-card:nth-child(2) {
-    height: 470px;
-    margin-top: 0; /* Adjust to overlap the second card */
-  }
-  .container {
-    flex-direction: column;
-    padding: 10px;
-    margin: 20px;
-  }
-}
-.pricing-card:nth-child(2) {
-  height: 530px;
-  margin-top: -60px; /* Adjust to overlap the second card */
-  z-index: 1; /* Ensure this card is above the others */
+  flex: 1 0 250px; /* Adjusting for margin */
 }
 
 .pricing-card:hover {
@@ -516,10 +446,6 @@ section {
 .pricing-card-content {
   padding: 20px;
   text-align: center;
-  flex: 1; /* Grow to fill available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center content vertically */
 }
 
 .pricing-card-content h3 {
@@ -548,7 +474,6 @@ section {
   list-style-type: none;
   padding: 0;
   text-align: left;
-  margin-top: auto; /* Push list to bottom if there's extra space */
 }
 
 .pricing-card-content ul li {
@@ -560,10 +485,9 @@ section {
   background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
   color: #fff;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  margin: auto auto;
 }
 
 .cta-button:hover {
