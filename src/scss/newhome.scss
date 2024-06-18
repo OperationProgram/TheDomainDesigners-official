@@ -13,13 +13,6 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    
-}
-
 section {
     // margin-top: 80px; /* Adjust as needed */
     margin-bottom: 80px; /* Adjust as needed */
@@ -547,14 +540,6 @@ section {
 .pricing-section {
     background-color: #f9f9f9;
     padding: 40px 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .pricing-cards {

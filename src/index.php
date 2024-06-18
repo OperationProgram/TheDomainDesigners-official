@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
-    <link rel="icon" type="image/x-icon" href="assets/good/custom-logo.png">
+    <link rel="icon" type="image/x-icon" href="assets/tdd_logo.png">
     <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="../src/css/newhome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -44,9 +44,9 @@
 
         </div>
         
-                <div class="about-graphic">
+        <!-- <div class="about-graphic">
             <img src="/src/assets/UI-Grcs/Leaf-1.png" alt="UI Graphic">
-        </div>
+        </div> -->
     </section>
     <div class="dotted-border">
   <!-- Dotted border line will be created dynamically by Sass -->
