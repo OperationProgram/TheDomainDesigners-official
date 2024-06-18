@@ -30,11 +30,9 @@
   <section class="hero-section">
   <img class="sr-only" alt="UX Flowchart" src="../assets/UI-UX_graphic.jpg" />
       <div class="hero-content">
-        <!-- <div class="cta"> -->
           <h1>Our Work</h1>
           <h2>Creating Concepts That Stick</h2>
           <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
-        <!-- </div> -->
       </div>
   </section>
 
