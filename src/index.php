@@ -33,8 +33,8 @@
             </div>
         </div>
     </section>
-    <div class="divider"></div>
     
+    <div class="border-divider"></div>
 
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
@@ -232,6 +232,7 @@
 
     
 
+    <div class="border-divider-top"></div>
 
     <section class="pricing-section">
     <div class="container">

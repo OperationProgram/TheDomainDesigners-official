@@ -21,6 +21,46 @@
   font-weight: normal;
   font-style: normal;
 }
+.border-divider {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1, #fbc2eb);
+  overflow: hidden;
+  z-index: 5;
+}
+.border-divider::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  bottom: -20px; /* Half of the ::before height */
+  border-radius: 50% 50% 0 0; /* Creates the curved effect */
+}
+
+.border-divider-top {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1, #fbc2eb);
+  overflow: hidden;
+  z-index: 5;
+}
+.border-divider-top::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  top: -20px; /* Adjusted to create a downward curve */
+  border-radius: 0 0 50% 50%; /* Creates the downward curved effect */
+}
+
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -41,7 +81,7 @@ section {
 .hero {
   display: flex;
   align-items: center;
-  background: url("../assets/good/plain-background.png") no-repeat center center;
+  background-image: linear-gradient(to bottom, #a18cd1, #fbc2eb);
   background-size: cover;
   color: #ececec;
   text-align: left;
@@ -118,6 +158,36 @@ section {
   position: relative;
   z-index: 2;
 }
+.what-we-do:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 200px;
+  width: 20%;
+  height: 100%;
+  background: url("/src/assets/UI-Graphics/Leaf-1.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 1;
+  transform: rotate(25deg);
+  transform-origin: center center;
+  margin-top: 50px;
+  border: 150px;
+  filter: brightness(15) invert(2);
+}
+@media (max-width: 1024px) {
+  .what-we-do:before {
+    right: 50px;
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .what-we-do:before {
+    top: 50px;
+    right: 20px;
+    width: 30%;
+  }
+}
 .what-we-do h2 {
   font-size: 36px;
   margin-bottom: 20px;
@@ -190,6 +260,8 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
+  background-image: linear-gradient(to bottom, #a18cd1, #fbc2eb);
+  border-radius: 40px;
 }
 .bullet-point-section .blob-img {
   width: 80%;
@@ -437,7 +509,7 @@ section {
   }
 }
 .pricing-section {
-  background-color: #f9f9f9;
+  background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1);
   padding: 40px 0;
 }
 

@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import "variables.scss";
+.border-divider {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    position: relative;
+    background-image: linear-gradient(to bottom,  #fbc2eb, #a18cd1, #fbc2eb);
+    overflow: hidden;
+    z-index: 5;
+  
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100px; /* Adjust height for the curve effect */
+      background-color: #ffffff; /* Match the background color */
+      position: absolute;
+      left: 0;
+      bottom: -20px; /* Half of the ::before height */
+      border-radius: 50% 50% 0 0; /* Creates the curved effect */
+    }
+  }
 
+
+  .border-divider-top {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    position: relative;
+    background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1, #fbc2eb);
+    overflow: hidden;
+    z-index: 5;
+  
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100px; /* Adjust height for the curve effect */
+      background-color: #ffffff; /* Match the background color */
+      position: absolute;
+      left: 0;
+      top: -20px; /* Adjusted to create a downward curve */
+      border-radius: 0 0 50% 50%; /* Creates the downward curved effect */
+    }
+  }
 
 $background-color-dark: #333;
 $header-font: 'Arial', sans-serif;
@@ -41,7 +82,7 @@ section {
 .hero {
     display: flex;
     align-items: center;
-    background: url('../assets/good/plain-background.png') no-repeat center center;
+    background-image: linear-gradient(to bottom, #a18cd1, #fbc2eb);
     background-size: cover;
     color: #ececec;
     text-align: left;
@@ -126,33 +167,35 @@ section {
         z-index: 2; // Ensure the content is above the background graphic
     }
 
-    // &:before {
-    //     content: '';
-    //     position: absolute;
-    //     top: 0;
-    //     right: 200px;
-    //     width: 20%;
-    //     height: 100%;
-    //     background: url('/src/assets/UI-Graphics/Leaf-1.png') no-repeat center center;
-    //     background-size: cover;
-    //     opacity: 0.1; 
-    //     z-index: 1; 
-    //     transform: rotate(25deg); 
-    //     transform-origin: center center; 
-    //     margin-top: 50px;   
-    //     border: 150px;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 200px;
+        width: 20%;
+        height: 100%;
+        background: url('/src/assets/UI-Graphics/Leaf-1.png') no-repeat center center;
+        background-size: cover;
+        opacity: 0.1; 
+        z-index: 1; 
+        transform: rotate(25deg); 
+        transform-origin: center center; 
+        margin-top: 50px;   
+        border: 150px;
+        filter: brightness(15) invert(2); // Example filter to change color
 
-    //     @media (max-width: 1024px) {
-    //         right: 50px;
-    //         width: 25%;
-    //     }
 
-    //     @media (max-width: 768px) {
-    //         top: 50px;
-    //         right: 20px;
-    //         width: 30%;
-    //     }
-    // }
+        @media (max-width: 1024px) {
+            right: 50px;
+            width: 25%;
+        }
+
+        @media (max-width: 768px) {
+            top: 50px;
+            right: 20px;
+            width: 30%;
+        }
+    }
 
     h2 {
         font-size: 36px;
@@ -252,6 +295,10 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+    background-image: linear-gradient(to bottom, #a18cd1, #fbc2eb);
+    border-radius: 40px;
+
+    
     .blob-img {
         width: 80%;
         height: auto;
@@ -554,7 +601,7 @@ section {
 
 
 .pricing-section {
-    background-color: #f9f9f9;
+    background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1);
     padding: 40px 0;
 }
 
@@ -570,6 +617,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .pricing-card {
