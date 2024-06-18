@@ -185,8 +185,7 @@ section {
 }
 .features .container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .features .feature {
   flex: 1;
@@ -365,7 +364,7 @@ section {
   align-items: center;
   flex-wrap: wrap;
 }
-.pricing .container .pricing-content {
+.pricing .pricing-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -373,42 +372,34 @@ section {
   flex-wrap: wrap;
   color: #333;
 }
-.pricing .container .pricing-content .pricing-text {
+.pricing .pricing-text {
   flex: 1;
   max-width: 50%;
   padding: 20px;
 }
-.pricing .container .pricing-content .pricing-text h2 {
+.pricing .pricing-text h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
-.pricing .container .pricing-content .pricing-text p {
+.pricing .pricing-text p {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 10px;
 }
-.pricing .container .pricing-content .pricing-image {
+.pricing .pricing-image {
   flex: 1;
   max-width: 50%;
   padding: 20px;
   position: relative;
   overflow: hidden;
 }
-.pricing .container .pricing-content .pricing-image img {
+.pricing .pricing-image img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 22%; /* Adjust as needed */
-}
-@media (max-width: 768px) {
-  .pricing .container {
-    flex-direction: column;
-  }
-  .pricing .pricing-content .pricing-text,
-  .pricing .pricing-content .pricing-image {
-    max-width: 100%; /* Full width on smaller screens */
-    padding: 10px; /* Reduce padding on smaller screens */
-  }
+  background: rgb(255, 255, 255);
+  border-radius: 22%;
+  /* Adjust the polygon values to create your desired blob shape */
 }
 
 @media (max-width: 768px) {
@@ -491,7 +482,7 @@ section {
   flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
   display: flex;
   flex-direction: row; /* Ensure flex children behave as columns */
-  height: auto; /* Set a fixed height for all cards */
+  height: 535px; /* Set a fixed height for all cards */
 }
 
 @media (max-width: 768px) {

@@ -43,10 +43,7 @@
             <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
 
         </div>
-        
-                <div class="about-graphic">
-            <img src="/src/assets/UI-Grcs/Leaf-1.png" alt="UI Graphic">
-        </div>
+
     </section>
     <div class="dotted-border">
   <!-- Dotted border line will be created dynamically by Sass -->

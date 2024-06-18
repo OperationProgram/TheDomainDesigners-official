@@ -202,8 +202,7 @@ section {
 
     .container {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .feature {
@@ -408,60 +407,49 @@ section {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+    }
 
-        .pricing-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            flex-wrap: wrap;
-            color: #333;
+    .pricing-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        color: #333;
+    }
 
-            .pricing-text {
-                flex: 1;
-                max-width: 50%;
-                padding: 20px;
+    .pricing-text {
+        flex: 1;
+        max-width: 50%;
+        padding: 20px;
 
-                h2 {
-                    font-size: 28px;
-                    margin-bottom: 20px;
-                }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
 
-                p {
-                    font-size: 16px;
-                    line-height: 1.6;
-                    margin-bottom: 10px;
-                }
-            }
-
-            .pricing-image {
-                flex: 1;
-                max-width: 50%;
-                padding: 20px;
-                position: relative;
-                overflow: hidden;
-
-                img {
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                    border-radius: 22%; /* Adjust as needed */
-                }
-            }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
         }
     }
 
-    @media (max-width: 768px) {
-        .container {
-            flex-direction: column;
-        }
+    .pricing-image {
+        flex: 1;
+        max-width: 50%;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
 
-        .pricing-content {
-            .pricing-text,
-            .pricing-image {
-                max-width: 100%; /* Full width on smaller screens */
-                padding: 10px; /* Reduce padding on smaller screens */
-            }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            background: rgb(255, 255, 255);
+            border-radius: 22%;
+            /* Adjust the polygon values to create your desired blob shape */
         }
     }
 }
@@ -574,7 +562,7 @@ section {
     flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
     display: flex;
     flex-direction: row; /* Ensure flex children behave as columns */
-    height: auto; /* Set a fixed height for all cards */
+    height: 535px; /* Set a fixed height for all cards */
 }
 
 @media (max-width: 768px) {
