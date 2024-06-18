@@ -82,10 +82,13 @@ body {
   transform: translate(-50%, -15%);
   z-index: 9999;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .social-links-container {
   margin-left: 1rem;
+  padding: 30px;
 }
 
 .social-links-container-hamburger {

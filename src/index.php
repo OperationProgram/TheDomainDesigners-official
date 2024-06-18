@@ -39,13 +39,8 @@
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
-            <p>We specialize in custom web design and development for small businesses nationwide. Each line of code is meticulously crafted to maximize your site's performance, attracting more customers and boosting your revenue.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
-
-        </div>
-        
-                <div class="about-graphic">
-            <img src="/src/assets/UI-Grcs/Leaf-1.png" alt="UI Graphic">
+            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
+           
         </div>
     </section>
     <div class="dotted-border">
@@ -176,7 +171,7 @@
 
 
 
-    <section class="pricing">
+<section class="pricing">
     <div class="container">
         <div class="pricing-content">
             <div class="pricing-text" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">

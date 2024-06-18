@@ -25,23 +25,76 @@ body {
 
 /* Style for the About page */
 .about-hero {
-    // background-color: #f2f2f2;
-    padding: 100px 0;
-    text-align: center;
-    background-image: url("/src/assets/back-pack.jpg");
+    display: flex;
+    align-items: center;
+    background: url('../assets/good/plain-background.png') no-repeat center center;
+    background-size: cover;
+    color: #ececec;
+    text-align: left;
+    margin-top: 0px; /* Adjust as needed */
+    margin-bottom: 0px; /* Adjust as needed */
+    padding: 200px 0;
 }
 
-.about-hero h1 {
-    font-size: 2.5rem;
-    color: #ffffff;
-}
-
-.about-hero p {
-    font-size: 1.2rem;
-    color: #ffffff;
-    max-width: 800px;
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 20px;
 }
+
+.hero-content {
+    margin: auto;
+    flex: 1; /* Adjusts the width based on available space */
+    text-align: left;
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif; /* Custom font */
+        font-weight: 700; /* Bold weight */
+        color: #f2f2f2; /* Dark color for contrast */
+        letter-spacing: 1px; /* Slightly increased letter spacing */
+        line-height: 1.2; /* Adjusted line height for better readability */
+        text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2); /* Subtle text shadow for depth */
+    }
+
+    p {
+        font-size: 24px;
+        margin-bottom: 30px;
+        line-height: 1.5em; /* Adjusted line height for better readability */
+    }
+
+    .cta-button {
+        background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block; /* Ensures button is displayed inline */
+
+        &:hover {
+            background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
+        }
+    }
+}
+
+.hero-image {
+    flex: 1; /* Adjusts the width based on available space */
+    padding: 10px;
+
+    img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block; /* Ensures image is displayed as a block element */
+        border-radius: 10px; /* Adds a subtle rounded corner effect */
+    }
+}
+
 
 
 
@@ -73,10 +126,10 @@ body {
         height: 100%;
         background: url('/src/assets/UI-Graphics/Leaf-1.png') no-repeat center center;
         background-size: cover;
-        opacity: 0.1; // Adjust opacity for a subtle effect
-        z-index: 1; // Ensure the graphic is behind the content
-        transform: rotate(25deg); // Rotate the background graphic
-        transform-origin: center center; // Ensure the rotation occurs around the center
+        opacity: 0.1; 
+        z-index: 1; 
+        transform: rotate(25deg); 
+        transform-origin: center center; 
     }
 
     h2 {
@@ -133,47 +186,66 @@ body {
 
 
 
-.our-team {
-    padding: 80px 0;
-    background-color: #f2f2f2;
+.team-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
     text-align: center;
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
 }
 
-.our-team h2 {
-    font-size: 2rem;
-    color: #333;
-}
-
-.team-members {
+.team-cards {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
-.team-member {
-    margin: 0 20px;
-    text-align: center;
+.team-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
+
+    }
+
+    .team-member {
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .member-info {
+            padding: 20px;
+
+            h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                color: #666;
+            }
+        }
+    }
 }
 
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
 
-.team-member h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
-}
 
-.team-member p {
-    font-size: 1.1rem;
-    
-    color: #666;
-}
+
 
 .mission-section, .vision-section {
     padding: 40px 0;
@@ -198,7 +270,7 @@ body {
 
         p {
             font-size: 16px;
-            line-height: 1.6;
+            line-height: 2;
                 
 
             margin-bottom: 10px;
@@ -414,9 +486,37 @@ $secondary-color: #0056b3;
       color: #666;
     }
   
-    form {
-      margin-top: 30px;
+form {
+    margin-top: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(171, 10, 224, 0.6), rgba(133, 0, 181, 0.7), rgba(141, 0, 212, 0.5), rgba(109, 10, 144, 0.4), rgba(171, 10, 224, 0.35));
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adding a box shadow for 3D effect */
+
+    // Adjusting padding and margin for inner elements
+    input,
+    textarea,
+    button {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
     }
+
+    button {
+        background-color: #AB0AE0;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 25%;
+    }
+
+    button:hover {
+        background-color: #8500b5;
+    }
+}
   
     .form-group {
       margin-bottom: 20px;

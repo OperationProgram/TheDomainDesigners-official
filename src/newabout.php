@@ -52,7 +52,7 @@
         </div>
         <div class="mission">
             <h2>Our Mission</h2>
-            <p>To collaborate closely with emerging businesses, leveraging our expertise in web development to cultivate robust, user-friendly websites. By enhancing online presence and driving growth together, we aim to forge enduring partnerships that propel both our clients and ourselves towards sustained success.</p>
+            <p>To empower small businesses by providing professional and cost-effective online solutions. We aim to establish long-term partnerships by offering reliable web maintenance and hosting services.</p>
         </div>
 
     </div>
@@ -62,7 +62,7 @@
     <div class="container">
         <div class="vision">
             <h2>Our Vision</h2>
-            <p>The Domain Designers, envision forging strong partnerships with fellow emerging businesses. Our aim is to lead the way as the foremost provider of affordable and effective web solutions, meticulously tailored to meet the distinctive needs of small enterprises. Together, we strive to elevate your online presence and propel your growth in the digital landscape.</p>
+            <p>To be the trusted partner of choice for small businesses seeking to thrive online. We envision a digital landscape where every small business can achieve growth and success through our tailored web solutions and dedicated support.</p>
         </div>
         <div class="vision-image">
             <img src="/src/assets/bullet-points/branding.svg" alt="Vision Image">
@@ -70,68 +70,31 @@
     </div>
 </section>
 
-<section class="about-us">
-    <div class="container">
-        <h2>About Us</h2>
-        <p>At [Your Company Name], we are passionate about delivering excellence in web development and digital solutions. Our journey began with a simple idea: to empower businesses with cutting-edge technology and unparalleled service. Discover what makes us unique and meet the team dedicated to your success.</p>
-        
-        <div class="highlights">
-            <div class="highlight">
-                <div class="highlight-icon">
-                    <img src="/src/assets/icons/team.svg" alt="Our Team Icon">
-                </div>
-                <div class="highlight-content">
-                    <h3>Our Story</h3>
-                    <p>Founded in [Year], [Your Company Name] has grown from a small startup to a leading web development firm. Our success is driven by our commitment to innovation and customer satisfaction.</p>
-                </div>
-            </div>
-            <div class="highlight">
-                <div class="highlight-icon">
-                    <img src="/src/assets/icons/mission.svg" alt="Our Mission Icon">
-                </div>
-                <div class="highlight-content">
-                    <h3>Our Mission</h3>
-                    <p>We aim to transform businesses through technology. Our mission is to provide exceptional digital solutions that drive growth, enhance user experiences, and secure your online presence.</p>
-                </div>
-            </div>
-            <div class="highlight">
-                <div class="highlight-icon">
-                    <img src="/src/assets/icons/values.svg" alt="Our Values Icon">
-                </div>
-                <div class="highlight-content">
-                    <h3>Our Values</h3>
-                    <p>Integrity, innovation, and excellence are the pillars of our company. We believe in creating long-term relationships with our clients through transparent and ethical practices.</p>
-                </div>
-            </div>
-            <div class="highlight">
-                <div class="highlight-icon">
-                    <img src="/src/assets/icons/support.svg" alt="Customer Support Icon">
-                </div>
-                <div class="highlight-content">
-                    <h3>Customer Support</h3>
-                    <p>We are dedicated to providing outstanding customer support. Our team is always ready to assist you with any questions or issues, ensuring a smooth and satisfying experience.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
-<section class="our-team">
+<section class="team-section">
     <div class="container">
         <h2>Our Team</h2>
-        <div class="team-members">
-            <div class="team-member">
-                <img src="/src/assets/alex-pic.png" alt="Team Member 1">
-                <h3>John Doe</h3>
-                <p>Web Developer</p>
+        <div class="team-cards">
+            <div class="team-card">
+                <div class="team-member">
+                    <img src="/src/assets/spencer-pic.png" alt="Team Member 1">
+                    <div class="member-info">
+                        <h3>Spencer</h3>
+                        <p>Co-Founder / Web Developer</p>
+                    </div>
+                </div>
             </div>
-            <div class="team-member">
-                <img src="/src/assets/team-member2.jpg" alt="Team Member 2">
-                <h3>Jane Smith</h3>
-                <p>Graphic Designer</p>
+            <div class="team-card">
+                <div class="team-member">
+                    <img src="/src/assets/alex-pic.png" alt="Team Member 2">
+                    <div class="member-info">
+                        <h3>Jane Smith</h3>
+                        <p>Designer / UX Specialist</p>
+                    </div>
+                </div>
             </div>
-            <!-- Add more team members as needed -->
+            <!-- Add more team cards as needed -->
         </div>
     </div>
 </section>
