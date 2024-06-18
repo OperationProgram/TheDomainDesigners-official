@@ -25,8 +25,8 @@
     <script src=" <?php echo $basePath . '/scripts/navbarController.js';?>"></script>
   </header>
 
+  
   <div class="overlay"></div>
-
   <section class="hero-section">
     <div class="hero-content">
         <video autoplay muted>

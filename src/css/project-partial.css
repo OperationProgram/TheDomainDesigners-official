@@ -137,7 +137,6 @@ a {
   }
 }
 .hero-section {
-  position: absolute;
   top: 0;
   background: url("../assets/dipgaldips/jalepeno_popper.png") no-repeat;
   background-size: contain;
@@ -148,7 +147,6 @@ a {
 }
 
 .contents-section {
-  margin-top: calc(100vh - 62px);
   background-color: #f4f4f4;
   padding: 4%;
 }
