@@ -109,7 +109,7 @@ section {
 
 .what-we-do {
     background: #fff;
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: center;
     padding-top: 150px;
     position: relative; // Ensure the content is positioned relative to the container
@@ -128,7 +128,7 @@ section {
         content: '';
         position: absolute;
         top: 0;
-        right: 200px;
+        right: 100px;
         width: 20%;
         height: 100%;
         background: url('/src/assets/UI-Graphics/Leaf-1.png') no-repeat center center;
@@ -137,8 +137,7 @@ section {
         z-index: 1; // Ensure the graphic is behind the content
         transform: rotate(25deg); // Rotate the background graphic
         transform-origin: center center; // Ensure the rotation occurs around the center
-        margin-top: 50px;   
-        border: 150px;
+        padding-top: 200px;
 
         @media (max-width: 1024px) {
             right: 50px;
@@ -563,7 +562,7 @@ section {
     flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
     display: flex;
     flex-direction: row; /* Ensure flex children behave as columns */
-    height: 535px; /* Set a fixed height for all cards */
+    height: 470px; /* Set a fixed height for all cards */
 }
 
 @media (max-width: 768px) {
@@ -592,7 +591,7 @@ section {
 }
 
 .pricing-card:nth-child(2) {
-    height: 600px;
+    height: 530px;
     margin-top: -60px; /* Adjust to overlap the second card */
     z-index: 1; /* Ensure this card is above the others */
 }
@@ -635,13 +634,10 @@ section {
 }
 
 .pricing-card-content ul {
-    padding: 32px;
+    list-style-type: none;
+    padding: 0;
     text-align: left;
     margin-top: auto; /* Push list to bottom if there's extra space */
-}
-
-.pricing-card-content p {
-    padding: 1rem;
 }
 
 .pricing-card-content ul li {
@@ -666,10 +662,11 @@ section {
 
 .gradient-text {
     // background: linear-gradient(45deg, #ff4500, #ab0ae0);
+    -webkit-background-clip: text;
     background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
-    -webkit-background-clip: text; /* For WebKit-based browsers */
-    background-clip: text; /* Standard syntax */
-    color: transparent; /* Hides the original text color */
+
+    background-clip: text;
+    color: transparent;
 }
 
 
