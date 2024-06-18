@@ -52,7 +52,7 @@ section {
 
 .hero-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
   justify-content: center;
   max-width: 1200px;
@@ -439,14 +439,6 @@ section {
 .pricing-section {
   background-color: #f9f9f9;
   padding: 40px 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .pricing-cards {
