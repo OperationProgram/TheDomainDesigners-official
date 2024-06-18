@@ -560,22 +560,20 @@ section {
 
 .pricing-cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .pricing-card {
-    width: calc(33.33% - 40px); /* Adjust card width based on the number of cards per row */
     background-color: #fff;
     margin-bottom: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    flex: 1 0 calc(33.33% - 40px); /* Adjusting for margin */
+    flex: 1 0 calc(33.33% - 40px); 
     display: flex;
-    flex-direction: row; /* Ensure flex children behave as columns */
-    height: 535px; /* Set a fixed height for all cards */
+    flex-direction: row; 
+    height: 535px; 
 }
 
 @media (max-width: 768px) {
