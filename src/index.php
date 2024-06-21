@@ -25,8 +25,8 @@
         <div class="container hero-container">
             <div class="hero-content" data-aos="slide-right" data-aos-once="true">
                 <h1>Design Your Dream with Professionals</h1>
-                <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.
-                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">Contact Us</a>
+                <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
+                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
             </div>
             <div class="hero-image">
                 <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-left" data-aos-once="true">
