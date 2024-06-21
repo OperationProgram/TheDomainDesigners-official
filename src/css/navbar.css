@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 @font-face {
   font-family: "Lobster";
   src: url("../assets/fonts/Lobster.ttf");
@@ -37,7 +38,7 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -87,7 +88,7 @@ body {
 
 .social-links-container {
   margin-left: 1rem;
-  padding: 30px;
+  padding: 17px;
 }
 
 .social-links-container-hamburger {
@@ -99,14 +100,9 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 10px;
   letter-spacing: 0;
-  background-color: rgba(22, 22, 22, 0);
   border-radius: 100px;
   height: 50px;
-}
-.nav-menu li {
-  margin-left: 5px;
 }
 .nav-menu a {
   color: white;
@@ -130,19 +126,10 @@ body {
   color: #7403d1;
 }
 
-.consultation {
-  margin: 0 30px;
-}
-.consultation button {
-  background-color: #7403d1;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  cursor: pointer;
+.links-container {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
 }
 
 /* Styles for the hamburger icon */
@@ -194,7 +181,6 @@ body {
     height: 100%;
     width: 250px;
     background-color: transparent;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

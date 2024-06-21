@@ -1,6 +1,7 @@
 @import 'variables';
 @import "mixins";
 @include sr_only;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     overflow-x: hidden;
 }
 
@@ -49,7 +50,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
-    // background-color: #333333a6;
     width: fit-content;
     margin: 30px auto;
     position: absolute;
@@ -62,27 +62,27 @@ body {
     
 .social-links-container {
     margin-left: 1rem;
-    padding: 30px;
+    padding: 17px;
 }
 
 .social-links-container-hamburger {
     display: none;
 }
 
+
 .nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 10px;
     letter-spacing: 0;
-    background-color: #16161600;
     border-radius: 100px;
     height: 50px;
 
-    li {
-        margin-left: 5px;
-    }
+
+    // li {
+    //     margin-left: 5px;
+    // }
 
     a {
         color: white;
@@ -111,20 +111,10 @@ body {
     }
 }
 
-.consultation {
-    margin: 0 30px; // Adjust margin as needed
-
-    button {
-        background-color: map-get($primary-btn, background-color);
-        color: map-get($primary-btn, color);
-        border: map-get($primary-btn, border);
-        padding: map-get($primary-btn, padding);
-        text-align: map-get($primary-btn, text-align);
-        text-decoration: map-get($primary-btn, text-decoration);
-        display: map-get($primary-btn, display);
-        font-size: map-get($primary-btn, font-size);
-        cursor: map-get($primary-btn, cursor);
-    }
+.links-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Styles for the hamburger icon */
@@ -181,7 +171,7 @@ body {
         height: 100%;
         width: 250px;
         background-color: transparent;
-        display: flex;
+        // display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;

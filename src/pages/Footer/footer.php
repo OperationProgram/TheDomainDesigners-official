@@ -19,9 +19,9 @@
         <div class="footer-column">
             <h1>Follow Us</h1>
             <div class="social-icons">
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook Icon"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter Icon"></a>
-                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg"alt="Instagram Icon"></a>
+                <!-- <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/facebook.svg"alt="Facebook Icon"></a>
+                <a href="#"><img src="<?php echo $basePath; ?>/assets/icons/twitter.svg" alt="Twitter Icon"></a> -->
+                <a href="https://www.instagram.com/thedomaindesigners/"><img src="<?php echo $basePath; ?>/assets/icons/instagram.svg" width="20" height="20"></a>
             </div>
         </div>
         <div class="footer-column">

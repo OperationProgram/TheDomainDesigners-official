@@ -25,7 +25,7 @@
   width: 100%;
   height: 150px; /* Adjust height as needed */
   position: relative;
-  background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1, #fbc2eb);
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   overflow: hidden;
   z-index: 1;
 }
@@ -45,7 +45,7 @@
   width: 100%;
   height: 150px; /* Adjust height as needed */
   position: relative;
-  background-image: linear-gradient(to bottom, #fbc2eb, #a18cd1, #fbc2eb);
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   overflow: hidden;
   z-index: 5;
 }
@@ -81,7 +81,7 @@ section {
 .hero {
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to bottom, #a18cd1, #fbc2eb);
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   background-size: cover;
   color: #ececec;
   text-align: left;
