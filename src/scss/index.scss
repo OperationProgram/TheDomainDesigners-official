@@ -563,7 +563,13 @@ section {
 }
 
 
-
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 @media (max-width: 768px) {
 
@@ -647,6 +653,7 @@ section {
     
 }
 
+
 .pricing-card {
     width: calc(33.33% - 40px); /* Adjust card width based on the number of cards per row */
     background-color: #fff;
@@ -676,6 +683,12 @@ section {
 @media (max-width: 768px) {
     .pricing-cards {
         justify-content: center; /* Center cards in a single column */
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px;
     }
 
     .pricing-card {

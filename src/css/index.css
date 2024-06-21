@@ -486,6 +486,14 @@ section {
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
   .hero {
     height: auto;
@@ -577,6 +585,11 @@ section {
 @media (max-width: 768px) {
   .pricing-cards {
     justify-content: center; /* Center cards in a single column */
+  }
+  .container {
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
   }
   .pricing-card {
     justify-content: space-between;
