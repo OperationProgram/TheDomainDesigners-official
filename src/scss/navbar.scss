@@ -49,7 +49,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
-    // background-color: #333333a6;
     width: fit-content;
     margin: 30px auto;
     position: absolute;
@@ -70,6 +69,7 @@ body {
     display: none;
 }
 
+
 .nav-menu {
     list-style: none;
     display: flex;
@@ -77,10 +77,11 @@ body {
     margin: 0;
     padding: 10px;
     letter-spacing: 0;
-    background-color: transparent;
+    // background-color: #161616a6;
     // background-color: #161616a6;
     border-radius: 100px;
     height: 50px;
+
 
     li {
         margin-left: 5px;
@@ -113,20 +114,9 @@ body {
     }
 }
 
-.consultation {
-    margin: 0 30px; // Adjust margin as needed
-
-    button {
-        background-color: map-get($primary-btn, background-color);
-        color: map-get($primary-btn, color);
-        border: map-get($primary-btn, border);
-        padding: map-get($primary-btn, padding);
-        text-align: map-get($primary-btn, text-align);
-        text-decoration: map-get($primary-btn, text-decoration);
-        display: map-get($primary-btn, display);
-        font-size: map-get($primary-btn, font-size);
-        cursor: map-get($primary-btn, cursor);
-    }
+.links-container {
+    display: flex;
+    align-items: center;
 }
 
 /* Styles for the hamburger icon */
