@@ -58,9 +58,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    
-    
+    padding: 20px; 
 }
 
 section {
@@ -99,15 +97,13 @@ section {
     h1 {
         font-size: 48px;
         margin-bottom: 20px;
-        font-family: 'Poppins', sans-serif; /* Custom font */
+        font-family: 'Inter', sans-serif; /* Custom font */
         font-weight: 700; /* Bold weight */
         color: #f2f2f2; /* Dark color for contrast */
         letter-spacing: 1px; /* Slightly increased letter spacing */
         line-height: 1.2; /* Adjusted line height for better readability */
         text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2); /* Subtle text shadow for depth */
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
     p {
         font-size: 24px;
@@ -521,7 +517,6 @@ section {
 
 @media (max-width: 768px) {
 
-
     .hero {
         height: auto;
         padding: 20px 0;
@@ -589,22 +584,9 @@ section {
 }
 
 
-
-
-
-
-
 .pricing-section {
     background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
     padding: 40px 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .pricing-cards {
@@ -660,15 +642,6 @@ section {
         padding: 12px;
         padding-left: 12%;
     }
-
-    .container {
-        flex-direction: column;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    
-
 }
 
 
@@ -751,78 +724,3 @@ section {
 
 
 
-
-
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 50px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.footer-left, .footer-right {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-.footer-left h3, .footer-right h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.social-icons {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-icons li {
-    margin: 0 10px;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 24px;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links li {
-    margin-bottom: 10px;
-}
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #AB0AE0;
-}
-
-.footer-bottom-text {
-    margin-top: 20px;
-    font-size: 12px;
-}
