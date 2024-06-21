@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<div class="hide-overlay">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>The Domain Designers | Hire Web Designers & Developers - Launch Your Vision </title>
     <meta name="description" content="Hire web designers & developers at The Domain Designers. We craft user-friendly websites that empower startups to thrive. Get a free consultation today!">
     <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
@@ -15,10 +14,11 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
-
+        
 <body>
+<div class="hide-overlay">
     <header>  
         <?php $basePath = '.';?>
         <?php include 'pages/Navigation/navbar.php';?>
@@ -48,11 +48,6 @@
            
         </div>
     </section>
-    <div class="dotted-border">
-  <!-- Dotted border line will be created dynamically by Sass -->
-</div>
-
-
 
 <section class="features">
     <div class="container">
@@ -77,7 +72,7 @@
 
 
 
-    <section class="our-services">
+<section class="our-services">
     <div class="container">
         <div class="services-content">
             <div class="services-image">
@@ -92,89 +87,76 @@
         </div>
     </div>
 </section>
-    <section class="bullet-point-section">
-        <!-- <img class="blob-img" src="assets/blob-3.png" > -->
-        <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
-            </div>
-            <div class="text">
-                <h2>OPTIMIZE YOUR PROCESSES!</h2>
-                <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
-            </div>
+<section class="bullet-point-section">
+    <!-- <img class="blob-img" src="assets/blob-3.png" > -->
+    <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-                <h2>WEB DESIGN & DEVELOPMENT</h2>
-                <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
-            </div>
+        <div class="text">
+            <h2>OPTIMIZE YOUR PROCESSES!</h2>
+            <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
         </div>
+    </div>
 
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
-            </div>
-            <div class="text">
-                <h2>ECOMMERCE SOLUTIONS</h2>
-                <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
-            </div>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
-            </div>
-            <div class="text">
-                <h2>DIGITAL MARKETING</h2>
-                <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
-            </div>
+        <div class="text">
+            <h2>WEB DESIGN & DEVELOPMENT</h2>
+            <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
         </div>
+    </div>
 
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
-            </div>
-            <div class="text">
-                <h2>BRANDING & IDENTITY</h2>
-                <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
-            </div>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
-            </div>
-            <div class="text">
-                <h2>CONTENT CREATION</h2>
-                <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
-            </div>
+        <div class="text">
+            <h2>ECOMMERCE SOLUTIONS</h2>
+            <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
         </div>
-        <!-- Repeat the structure for other bullet points -->
+    </div>
 
-    </section>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
+        </div>
+        <div class="text">
+            <h2>DIGITAL MARKETING</h2>
+            <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
+        </div>
+    </div>
 
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
+        </div>
+        <div class="text">
+            <h2>BRANDING & IDENTITY</h2>
+            <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
+        </div>
+    </div>
 
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
+        </div>
+        <div class="text">
+            <h2>CONTENT CREATION</h2>
+            <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
+        </div>
+    </div>
+    <!-- Repeat the structure for other bullet points -->
 
-
-
-
-
-
-
-
-
-
-
+</section>
 
 <section class="pricing">
     <div class="container">
@@ -192,54 +174,9 @@
 </section>  
 
 
+<div class="border-divider-top"></div>
 
-
-    <!-- <section class="team-section">
-        <div class="container">
-            <div class="team-cards">
-                <div class="team-card">
-                    <div class="team-card-content">
-                        <div class="team-member">
-                            <img src="/src/assets/alex-pic.png" alt="Team Member 1">
-                        </div>
-                        <div class="blob-graphic"></div>
-                        <div class="team-info">
-                            <h3>John Doe</h3>
-                            <p>Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-card">
-                    <div class="team-card-content">
-                        <div class="team-member">
-                            <img src="/src/assets/alex-pic.png" alt="Team Member 2">
-                        </div>
-                        <div class="blob-graphic"></div>
-                        <div class="team-info">
-                            <h3>Jane Smith</h3>
-                            <p>Graphic Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-
-
-
-
-
-
-
-    
-
-    <div class="border-divider-top"></div>
-
-    <section class="pricing-section">
+<section class="pricing-section">
     <div class="container">
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
@@ -316,6 +253,6 @@
 
 
 
+</div>
 </body>
-<!-- </div> -->
 </html>
