@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Domain Designers | Hire Web Designers & Developers - Launch Your Vision </title>
     <meta name="description" content="Hire web designers & developers at The Domain Designers. We craft user-friendly websites that empower startups to thrive. Get a free consultation today!">
     <meta name="robots" content="noindex,nofollow"> <!-- Remove in production -->
