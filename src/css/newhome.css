@@ -27,7 +27,7 @@
   position: relative;
   background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   overflow: hidden;
-  z-index: 5;
+  z-index: 1;
 }
 .border-divider::before {
   content: "";
@@ -539,6 +539,7 @@ section {
   display: flex;
   flex-direction: row; /* Ensure flex children behave as columns */
   height: 535px; /* Set a fixed height for all cards */
+  z-index: 2;
 }
 
 @media (max-width: 768px) {
