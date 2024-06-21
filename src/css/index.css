@@ -511,6 +511,7 @@ section {
 .pricing-section {
   background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   padding: 40px 0;
+  margin-bottom: 0;
 }
 
 .pricing-cards {

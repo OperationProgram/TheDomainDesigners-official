@@ -30,7 +30,7 @@
                 <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-left" data-aos-once="true">
+                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-right" data-aos-once="true">
             </div>
         </div>
     </section>

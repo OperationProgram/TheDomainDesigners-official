@@ -63,7 +63,7 @@ body {
     
 .social-links-container {
     margin-left: 1rem;
-    padding: 30px;
+    padding: 17px;
 }
 
 .social-links-container-hamburger {
@@ -76,17 +76,14 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 10px;
     letter-spacing: 0;
-    // background-color: #161616a6;
-    // background-color: #161616a6;
     border-radius: 100px;
     height: 50px;
 
 
-    li {
-        margin-left: 5px;
-    }
+    // li {
+    //     margin-left: 5px;
+    // }
 
     a {
         color: white;
@@ -175,7 +172,7 @@ body {
         height: 100%;
         width: 250px;
         background-color: transparent;
-        display: flex;
+        // display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
