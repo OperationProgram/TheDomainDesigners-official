@@ -126,8 +126,6 @@ section {
   font-size: 18px;
   text-decoration: none;
   border-radius: 5px;
-  position: relative;
-  float: right;
   margin-right: 4%;
 }
 .hero-content .cta-button:hover {
