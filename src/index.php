@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div class="hide-overlay">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
-<div class="hide-overlay">
+
 <body>
     <header>  
         <?php $basePath = '.';?>
@@ -316,5 +317,5 @@
 
 
 </body>
-</div>
+<!-- </div> -->
 </html>
