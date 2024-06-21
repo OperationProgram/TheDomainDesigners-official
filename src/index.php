@@ -23,6 +23,8 @@
         <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
     <section class="hero">
+        <div class="overlay-1"></div>
+        <div class="overlay-2"></div>
         <div class="container hero-container">
             <div class="hero-content" data-aos="slide-right" data-aos-once="true">
                 <h1>Design Your Dream with Professionals</h1>
