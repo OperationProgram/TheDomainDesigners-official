@@ -38,9 +38,6 @@
             <p>With a deep understanding of market dynamics and cutting-edge technologies, we specialize in delivering tailored web development and design services that elevate your brand's online presence.</p>
             <p>Our commitment extends beyond just building websites; we are dedicated partners in your journey towards achieving sustainable growth and success.</p>
         </div>
-        <div class="about-graphic">
-            <img src="/src/assets/UI-Grcs/Leaf-1.png" alt="UI Graphic">
-        </div>
     </div>
 </section>
 
@@ -72,7 +69,7 @@
 
 
 
-<section class="team-section">
+<!-- <section class="team-section">
     <div class="container">
         <h2>Our Team</h2>
         <div class="team-cards">
@@ -94,10 +91,33 @@
                     </div>
                 </div>
             </div>
-            <!-- Add more team cards as needed -->
         </div>
     </div>
-</section>
+</section> -->
+
+<section class="team-section">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="assets/alex-pic.png" alt="TheDomainDesigners CoFounder - Alex Metzger">
+        <h3>Alex Metzger</h3>
+        <p>Co-Founder</p>
+        <!-- <p>Brief description or bio of the team member.</p> -->
+      </div>
+      <div class="team-card">
+        <img src="assets/spencer-pic.png" alt="TheDomainDesigners CoFounder - Spencer Holan">
+        <h3>Spencer Holan</h3>
+        <p>Co-Founder</p>
+        <!-- <p>Brief description or bio of the team member.</p> -->
+      </div>
+      <!-- <div class="team-card">
+        <img src="../assets/alex-pic.png" alt="Team Member Name">
+        <h3>Name Here</h3>
+        <p>Title</p>
+        <p>Brief description or bio of the team member.</p>
+      </div>
+    </div> -->
+  </section>  
 
 <section class="review-carousel">
     <div class="container">
