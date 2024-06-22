@@ -38,6 +38,11 @@
   box-sizing: border-box;
 }
 
+.hide-overlay {
+  overflow-x: hidden;
+  position: relative;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -75,8 +80,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 10px;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   margin: 30px auto;
   position: absolute;
   left: 50%;
