@@ -1,5 +1,11 @@
 {
+    "autoload": {
+        "psr-4": {
+            "PHPMailer\\PHPMailer\\": "src/plugins/contactForm/"
+        }
+    },
     "require": {
+        "phpmailer/phpmailer": "^6.9",
         "vlucas/phpdotenv": "^5.6"
     }
 }
