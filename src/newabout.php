@@ -191,20 +191,19 @@
                     </div>
                 </div>
                 <div class="col">
-                    <form id="resumeForm" method="post" enctype="multipart/form-data">
-                        <input type="text" name="name" placeholder="Name" required><br>
-                        <input type="tel" name="phone" placeholder="Phone" pattern="\d+" required><br>
-                        <input type="email" name="email" placeholder="Email" required><br>
-                        <textarea name="message" placeholder="Message" required></textarea><br>
-                        <input type="file" name="resume" required><br>
-                        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
-                        <button type="submit">Submit</button>
-                    </form>
+                <form id="resumeForm" method="post" enctype="multipart/form-data">
+                    <input type="text" name="name" placeholder="Name" required><br>
+                    <input type="tel" name="phone" placeholder="Phone" pattern="\d+" required><br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    <textarea name="message" placeholder="Message" required></textarea><br>
+                    <input type="file" name="resume" required><br>
+                    <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
+                    <button type="submit">Submit</button>
+                </form>
                 </div>
             </div>
         </div>
-    </section> 
-
+    </section>
 
 
 <div id="responseMessage"></div>
