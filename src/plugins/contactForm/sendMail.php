@@ -75,7 +75,7 @@ function sendMail($args) {
         // $mail->addAddress($email);
 
         // Content
-        $mail->isHTML(false);
+        $mail->isHTML(true);
         $mail->Subject = $subject;
         $mail->Body = $body;
 

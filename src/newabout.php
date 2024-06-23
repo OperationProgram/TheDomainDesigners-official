@@ -197,19 +197,19 @@
             <div class="col">
                 <form id="resumeForm" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Name" required><br>
+                        <input type="text" name="name" placeholder="Name*" required><br>
                     </div>
                     <div class="form-group">
-                        <input type="tel" name="phone" placeholder="Phone" pattern="\d+" required><br>
+                        <input type="tel" name="phone" placeholder="Phone*" pattern="\d+" required><br>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Email" required><br>
+                        <input type="email" name="email" placeholder="Email*" required><br>
                     </div>
                     <div class="form-group">
                         <textarea name="message" placeholder="Message" required></textarea><br>
                     </div>
                     <div class="form-group">
-                        <input type="file" name="resume" required><br>
+                        <input type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
                     </div>
                     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <button type="submit">Submit</button>
