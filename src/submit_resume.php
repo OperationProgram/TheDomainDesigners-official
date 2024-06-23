@@ -54,25 +54,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $targetDir = "uploads/";
-    if (!is_dir($targetDir)) {
-        mkdir($targetDir, 0777, true);
-    }
-    $targetFile = $targetDir . basename($_FILES["resume"]["name"]);
-    $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
-    $allowedTypes = array("pdf", "doc", "docx");
+    if (isset($_FILES["resume"]) && $_FILES["resume"]["error"] == 0) {
+        $targetFile = $_FILES["resume"]["name"];
+        $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+        $allowedTypes = array("pdf", "doc", "docx");
 
-    if (!in_array($fileType, $allowedTypes)) {
-        echo "Only PDF, DOC, and DOCX files are allowed.";
-        exit;
-    }
-
-    $safeFileName = preg_replace('/[^A-Za-z0-9_\-\.]/', '_', basename($_FILES["resume"]["name"]));
-    $targetFile = $targetDir . $safeFileName;
-
-    if (!move_uploaded_file($_FILES["resume"]["tmp_name"], $targetFile)) {
-        echo "Sorry, there was an error uploading your file.";
-        exit;
+        if (!in_array($fileType, $allowedTypes)) {
+            echo "Only PDF, DOC, and DOCX files are allowed.";
+            exit;
+        }
+    } else {
+        echo "No file was uploaded or there was an error with the upload.";
     }
 
     try {
@@ -91,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Resume Submission';
         $mail->Body = "Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
-        $mail->addAttachment($targetFile);
+        $mail->addAttachment($_FILES['resume']['tmp_name'], $targetFile);
 
         $mail->send();
         echo 'The file has been uploaded and the email has been sent.';
