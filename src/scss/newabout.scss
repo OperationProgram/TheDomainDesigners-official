@@ -39,6 +39,7 @@ body {
 .hero-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: start;
     justify-content: center;
     max-width: 1200px;
@@ -92,6 +93,15 @@ body {
         position: relative;
         display: block; /* Ensures image is displayed as a block element */
         border-radius: 10px; /* Adds a subtle rounded corner effect */
+    }
+
+
+
+    @media (max-width: 768px) {
+        .hero-container {
+            flex-direction: column;
+            
+        }
     }
 }
 
@@ -529,7 +539,18 @@ footer p {
 
 
 
-
+#loader {
+    display: none;
+    position: relative;
+    bottom: -570px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(220 106 255 / 55%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
 // Variables (optional)
 $primary-color: #007bff;
 $secondary-color: #0056b3;
@@ -568,6 +589,10 @@ $secondary-color: #0056b3;
             @media (max-width: 768px) {
                 flex: 0 0 100%; // Adjust column width for tablets and smaller screens
                 margin-bottom: 30px; // Add space between columns on smaller screens
+            }
+            h2 {
+                padding-bottom: 20px;
+                text-align: center;
             }
 
             .content {

@@ -189,13 +189,16 @@
         <div class="row">
             <div class="col">
                 <div class="content">
-                    <h2>Join Our Team</h2>
+                    <h2>Welcoming New Team Members!</h2>
                     <p>We are always looking for creative individuals to join our team. Please upload your resume or portfolio, and a member of our team will be in touch.</p>
                     <img src="/src/assets/people-writing.jpg" alt="Team Member 1">
                 </div>
             </div>
             <div class="col">
                 <form id="resumeForm" method="post" enctype="multipart/form-data">
+                <h2>Join Our Team</h2>
+
+                <div id="loader">Loading...</div>
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Name*" required><br>
                     </div>
@@ -221,6 +224,7 @@
 </section>
 
 
+
 <div id="responseMessage"></div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -231,6 +235,9 @@
 
             var formData = new FormData(this);
 
+            // Show loader
+            $('#loader').fadeIn();
+
             $.ajax({
                 url: 'submit_resume.php',
                 type: 'POST',
@@ -238,9 +245,13 @@
                 contentType: false,
                 processData: false,
                 success: function(response) {
+                    // Hide loader on success
+                    $('#loader').fadeOut();
                     $('#responseMessage').html(response); 
                 },
                 error: function(xhr, status, error) {
+                    // Hide loader on error
+                    $('#loader').fadeOut();
                     $('#responseMessage').html('<p class="error">Error: ' + error + '</p>'); // Display error message
                 }
             });
