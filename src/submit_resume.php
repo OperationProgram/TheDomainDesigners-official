@@ -25,12 +25,11 @@ if (!isset($_SESSION['csrf_token'])) {
 }
 
 
-var_dump($_POST); // Dump $_POST data for debugging
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
-        die("Invalid CSRF token");
+        die("Please refresh the page.");
     }
 
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
