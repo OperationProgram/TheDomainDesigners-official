@@ -31,14 +31,14 @@
     <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
 </header>
 
-<section class="hero about-hero">
+<section class="hero about-hero" >
     <div class="container hero-container">
-        <div class="hero-content">
+        <div class="hero-content" data-aos="slide-right" data-aos-duration="200" data-aos-once="true">
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mi felis.</p>
         </div>
         <div class="hero-image">
-            <img src="/src/assets/Our-Team/Our-Team.svg" alt="About Us Image">
+            <img data-aos="slide-left" data-aos-duration="200" data-aos-once="true" src="/src/assets/Our-Team/Our-Team.svg" alt="About Us Image">
         </div>
     </div>
 </section>
@@ -46,10 +46,10 @@
 <section class="about-section">
     <div class="container">
         <div class="about-content">
-            <h2>Who We Are</h2>
-            <p>We are innovators in the digital landscape, driven by a passion for crafting bespoke web solutions that empower small businesses to thrive in the digital age.</p>
-            <p>With a deep understanding of market dynamics and cutting-edge technologies, we specialize in delivering tailored web development and design services that elevate your brand's online presence.</p>
-            <p>Our commitment extends beyond just building websites; we are dedicated partners in your journey towards achieving sustainable growth and success.</p>
+            <h2 data-aos="zoom-in" data-aos-duration="100" data-aos-once="true">Who We Are</h2>
+            <p data-aos="slide-right" data-aos-duration="100" data-aos-once="true">We are innovators in the digital landscape, driven by a passion for crafting bespoke web solutions that empower small businesses to thrive in the digital age.</p>
+            <p data-aos="slide-left" data-aos-duration="300" data-aos-once="true">With a deep understanding of market dynamics and cutting-edge technologies, we specialize in delivering tailored web development and design services that elevate your brand's online presence.</p>
+            <p data-aos="slide-right" data-aos-duration="500" data-aos-once="true">Our commitment extends beyond just building websites; we are dedicated partners in your journey towards achieving sustainable growth and success.</p>
         </div>
     </div>
 </section>
@@ -58,11 +58,11 @@
 <section class="mission-section">
     <div class="container">
         <div class="mission-image">
-            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Mission Image">
+            <img data-aos="slide-right" data-aos-duration="100" data-aos-once="true" src="/src/assets/bullet-points/digital-marketing.svg" alt="Mission Image">
         </div>
         <div class="mission">
-            <h2>Our Mission</h2>
-            <p>Our mission at The Domain Designers is to transform innovative ideas into impactful digital experiences. We specialize in crafting intuitive and visually captivating websites that resonate deeply with our clients' target audiences. By merging creativity with technical excellence and a user-centric design approach, we aim to surpass expectations and deliver measurable results. Our steadfast commitment to continuous support and optimization ensures that our clients' websites evolve alongside their businesses, driving sustained growth and fostering competitive advantage.</p>
+            <h2 data-aos="zoom-in" data-aos-duration="100" data-aos-once="true">Our Mission</h2>
+            <p data-aos="zoom-in" data-aos-duration="100" data-aos-once="true">Our mission at The Domain Designers is to transform innovative ideas into impactful digital experiences. We specialize in crafting intuitive and visually captivating websites that resonate deeply with our clients' target audiences. By merging creativity with technical excellence and a user-centric design approach, we aim to surpass expectations and deliver measurable results. Our steadfast commitment to continuous support and optimization ensures that our clients' websites evolve alongside their businesses, driving sustained growth and fostering competitive advantage.</p>
         </div>
 
     </div>
@@ -71,11 +71,11 @@
 <section class="vision-section">
     <div class="container">
         <div class="vision">
-            <h2>Our Vision</h2>
-            <p>Our vision at The Domain Designers is to be recognized as a pioneer in web design and development, known for our dedication to creating functional, aesthetically pleasing websites. We aim to leverage the latest technologies and industry best practices to deliver custom solutions that meet our clients' unique needs. By fostering innovation and collaboration, we seek to build enduring relationships and drive business success through digital excellence.</p>
+            <h2 data-aos="zoom-in" data-aos-duration="100" data-aos-once="true">Our Vision</h2>
+            <p data-aos="zoom-in" data-aos-duration="100" data-aos-once="true">Our vision at The Domain Designers is to be recognized as a pioneer in web design and development, known for our dedication to creating functional, aesthetically pleasing websites. We aim to leverage the latest technologies and industry best practices to deliver custom solutions that meet our clients' unique needs. By fostering innovation and collaboration, we seek to build enduring relationships and drive business success through digital excellence.</p>
         </div>
         <div class="vision-image">
-            <img src="/src/assets/bullet-points/branding.svg" alt="Vision Image">
+            <img data-aos="slide-left" data-aos-duration="100" data-aos-once="true" src="/src/assets/bullet-points/branding.svg" alt="Vision Image">
         </div>
     </div>
 </section>
@@ -184,30 +184,40 @@
 
 
 
-    <section class="join-team">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="content">
-                        <h2>Join Our Team</h2>
-                        <p>We are always looking for creative individuals to join our team. Please upload your resume or portfolio, and a member of our team will be in touch.</p>
-                        <img src="/src/assets/people-writing.jpg" alt="Team Member 1">
-                    </div>
+<section class="join-team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="content">
+                    <h2>Join Our Team</h2>
+                    <p>We are always looking for creative individuals to join our team. Please upload your resume or portfolio, and a member of our team will be in touch.</p>
+                    <img src="/src/assets/people-writing.jpg" alt="Team Member 1">
                 </div>
-                <div class="col">
+            </div>
+            <div class="col">
                 <form id="resumeForm" method="post" enctype="multipart/form-data">
-                    <input type="text" name="name" placeholder="Name" required><br>
-                    <input type="tel" name="phone" placeholder="Phone" pattern="\d+" required><br>
-                    <input type="email" name="email" placeholder="Email" required><br>
-                    <textarea name="message" placeholder="Message" required></textarea><br>
-                    <input type="file" name="resume" required><br>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Name" required><br>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone" pattern="\d+" required><br>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required><br>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Message" required></textarea><br>
+                    </div>
+                    <div class="form-group">
+                        <input type="file" name="resume" required><br>
+                    </div>
                     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <button type="submit">Submit</button>
                 </form>
-                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 <div id="responseMessage"></div>
@@ -216,7 +226,7 @@
 <script>
     $(document).ready(function() {
         $('#resumeForm').submit(function(e) {
-            e.preventDefault(); // Prevent the default form submission
+            e.preventDefault();     
 
             var formData = new FormData(this);
 
@@ -227,7 +237,7 @@
                 contentType: false,
                 processData: false,
                 success: function(response) {
-                    $('#responseMessage').html(response); // Display response on the page
+                    $('#responseMessage').html(response); 
                 },
                 error: function(xhr, status, error) {
                     $('#responseMessage').html('<p class="error">Error: ' + error + '</p>'); // Display error message
@@ -237,7 +247,14 @@
     });
 </script>
 
-
+<script>
+  AOS.init({
+    offset: 100, // Offset (in px) from the original trigger point
+    duration: 1000, // Animation duration (in ms)
+    easing: 'ease', // Easing function
+    once: true // Only once animation flag
+  });
+</script>
 <script src="reviewController.js"></script>
 
 <footer>
