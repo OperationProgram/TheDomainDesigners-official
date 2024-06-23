@@ -412,95 +412,70 @@ footer p {
   line-height: 1.6;
   color: #666;
 }
-.join-team form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 30px;
-  padding: 30px;
-  background: linear-gradient(135deg, rgba(171, 10, 224, 0.6), rgba(133, 0, 181, 0.7), rgba(141, 0, 212, 0.5), rgba(109, 10, 144, 0.4), rgba(171, 10, 224, 0.35));
-  border-radius: 30px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adding a box shadow for 3D effect */
-}
-.join-team form input,
-.join-team form textarea,
-.join-team form button {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  width: 75%;
-  margin: 20px auto;
-}
-.join-team form button {
-  background-color: #AB0AE0;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: 25%;
-}
-.join-team form button:hover {
-  background-color: #8500b5;
-}
-.join-team .form-group {
-  margin-bottom: 20px;
-}
-.join-team .form-group label {
-  font-weight: bold;
-  color: #555;
-}
-.join-team .form-group input[type=text],
-.join-team .form-group input[type=tel],
-.join-team .form-group input[type=email],
-.join-team .form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-.join-team .form-group input[type=text]:focus,
-.join-team .form-group input[type=tel]:focus,
-.join-team .form-group input[type=email]:focus,
-.join-team .form-group textarea:focus {
-  outline: none;
-  border-color: #007bff;
-}
-.join-team .form-group textarea {
-  resize: vertical;
-}
-.join-team .form-group input[type=file] {
-  display: block;
-  margin-top: 5px;
-}
-.join-team button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
-.join-team button:hover {
-  background-color: #0056b3;
-}
 .join-team .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .join-team .row .col {
-  flex: 0 0 48%;
+  flex: 0 0 calc(50% - 15px);
   padding: 0 15px;
 }
 @media (max-width: 768px) {
   .join-team .row .col {
     flex: 0 0 100%;
-    margin: 0 auto;
+    margin-bottom: 30px;
   }
+}
+.join-team .row .col .content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.join-team .row .col form {
+  padding: 30px;
+  background: linear-gradient(135deg, rgba(171, 10, 224, 0.6), rgba(133, 0, 181, 0.7), rgba(141, 0, 212, 0.5), rgba(109, 10, 144, 0.4), rgba(171, 10, 224, 0.35));
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adding a box shadow for 3D effect */
+  color: #fff;
+}
+.join-team .row .col form .form-group {
+  margin-bottom: 15px;
+}
+.join-team .row .col form .form-group input, .join-team .row .col form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.join-team .row .col form .form-group input:focus, .join-team .row .col form .form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.join-team .row .col form .form-group textarea {
+  resize: vertical;
+}
+.join-team .row .col form .form-group input[type=file] {
+  display: block;
+  margin-top: 5px;
+}
+.join-team .row .col form button {
+  background-color: #AB0AE0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.join-team .row .col form button:hover {
+  background-color: #8500b5;
 }/*# sourceMappingURL=newabout.css.map */
