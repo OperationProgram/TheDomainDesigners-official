@@ -16,7 +16,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/');
 try {
     $dotenv->load();
 } catch (Dotenv\Exception\InvalidPathException $e) {
-    echo "Error loading .env file: " . $e->getMessage();
+    echo json_encode(['status' => 'error', 'message' => 'Error loading .env file: ' . $e->getMessage()]);
     exit;
 }
 
@@ -24,12 +24,10 @@ if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
-
-
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
-        die("Please refresh the page.");
+        echo json_encode(['status' => 'error', 'message' => 'Please refresh the page.']);
+        exit;
     }
 
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
@@ -40,17 +38,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message = filter_var(trim($_POST['message']), FILTER_SANITIZE_STRING);
 
     if (empty($name) || empty($phone) || empty($email) || empty($message)) {
-        echo "All fields are required.";
+        echo json_encode(['status' => 'error', 'message' => 'All fields are required.']);
         exit;
     }
 
     if (!$email) {
-        echo "Invalid email address";
+        echo json_encode(['status' => 'error', 'message' => 'Invalid email address']);
         exit;
     }
 
     if (!ctype_digit($phone)) {
-        echo "Invalid phone number. Only digits are allowed.";
+        echo json_encode(['status' => 'error', 'message' => 'Invalid phone number. Only digits are allowed.']);
         exit;
     }
 
@@ -60,11 +58,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $allowedTypes = array("pdf", "doc", "docx");
 
         if (!in_array($fileType, $allowedTypes)) {
-            echo "Only PDF, DOC, and DOCX files are allowed.";
+            echo json_encode(['status' => 'error', 'message' => 'Only PDF, DOC, and DOCX files are allowed.']);
             exit;
         }
     } else {
-        echo "No file was uploaded or there was an error with the upload.";
+        echo json_encode(['status' => 'error', 'message' => 'No file was uploaded or there was an error with the upload.']);
+        exit;
     }
 
     try {
@@ -76,19 +75,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = $_ENV['MAIL_PORT'];
 
+        // Send confirmation email to the user
         $mail->setFrom($_ENV['MAIL_USERNAME'], 'The Domain Designers');
-        $mail->addAddress('spencerrholan2020@gmail.com', 'Test');
+        $mail->addAddress($email, $name); // User's email and name
 
         $mail->isHTML(true);
+        $mail->Subject = 'Thank you for your submission';
+        $mail->Body = "Dear $name,<br><br>Thank you for submitting your resume/portfolio. We have received your information and will get back to you shortly.<br><br>Best regards,<br>The Domain Designers";
+
+        // Attachments for confirmation email (if needed)
+        // $mail->addAttachment($_FILES['resume']['tmp_name'], $targetFile);
+
+        $mail->send();
+
+        // Send email to the administrator
+        $mail->clearAddresses();
+        $mail->addAddress('admin@thedomaindesigners.com', 'Administrator'); // Admin's email and name
+
         $mail->Subject = 'New Resume Submission';
         $mail->Body = "Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
+        // Attachments for admin email
         $mail->addAttachment($_FILES['resume']['tmp_name'], $targetFile);
 
         $mail->send();
-        echo 'The file has been uploaded and the email has been sent.';
+
+        echo json_encode(['status' => 'success', 'message' => 'The file has been uploaded, and emails have been sent to you and the administrator.']);
+
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        echo json_encode(['status' => 'error', 'message' => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"]);
     }
+} else {
+    echo json_encode(['status' => 'error', 'message' => 'Method not allowed.']);
 }
 ?>

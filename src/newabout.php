@@ -225,17 +225,16 @@
 
 
 <div id="responseMessage"></div>
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
         $('#resumeForm').submit(function(e) {
             e.preventDefault();     
 
-            var formData = new FormData(this);
+            // Display loader
+            $('#loader').show();
 
-            // Show loader
-            $('#loader').fadeIn();
+            var formData = new FormData(this);
 
             $.ajax({
                 url: 'submit_resume.php',
@@ -243,15 +242,21 @@
                 data: formData,
                 contentType: false,
                 processData: false,
+                dataType: 'json', // Expect JSON response
                 success: function(response) {
-                    // Hide loader on success
-                    $('#loader').fadeOut();
-                    $('#responseMessage').html(response); 
+                    if (response.status === 'success') {
+                        $('#responseMessage').html('<p class="success">' + response.message + '</p>');
+                        $('#resumeForm')[0].reset(); // Optionally reset form fields
+                    } else {
+                        $('#responseMessage').html('<p class="error">' + response.message + '</p>');
+                    }
                 },
                 error: function(xhr, status, error) {
-                    // Hide loader on error
-                    $('#loader').fadeOut();
-                    $('#responseMessage').html('<p class="error">Error: ' + error + '</p>'); // Display error message
+                    $('#responseMessage').html('<p class="error">Error: ' + error + '</p>');
+                },
+                complete: function() {
+                    // Hide loader when request completes
+                    $('#loader').hide();
                 }
             });
         });
