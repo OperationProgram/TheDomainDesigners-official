@@ -1,5 +1,5 @@
 .vscode/
-# vendor
+vendor
 .env
 .htaccess
-.vendor
+

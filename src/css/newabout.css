@@ -413,6 +413,9 @@ footer p {
   color: #666;
 }
 .join-team form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 30px;
   padding: 30px;
   background: linear-gradient(135deg, rgba(171, 10, 224, 0.6), rgba(133, 0, 181, 0.7), rgba(141, 0, 212, 0.5), rgba(109, 10, 144, 0.4), rgba(171, 10, 224, 0.35));
@@ -427,6 +430,8 @@ footer p {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  width: 75%;
+  margin: 20px auto;
 }
 .join-team form button {
   background-color: #AB0AE0;

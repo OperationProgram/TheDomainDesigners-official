@@ -13,11 +13,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Web Development Agency</title>
-    <!-- <link rel="stylesheet" href="../src/css/newhome.css">  -->
     <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="stylesheet" href="../src/css/newabout.css"> <!-- Custom CSS for About page -->
+
+    <!-- AOS Library CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- AOS Library JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body> 
 
@@ -58,7 +62,7 @@
         </div>
         <div class="mission">
             <h2>Our Mission</h2>
-            <p>To empower small businesses by providing professional and cost-effective online solutions. We aim to establish long-term partnerships by offering reliable web maintenance and hosting services.</p>
+            <p>Our mission at The Domain Designers is to transform innovative ideas into impactful digital experiences. We specialize in crafting intuitive and visually captivating websites that resonate deeply with our clients' target audiences. By merging creativity with technical excellence and a user-centric design approach, we aim to surpass expectations and deliver measurable results. Our steadfast commitment to continuous support and optimization ensures that our clients' websites evolve alongside their businesses, driving sustained growth and fostering competitive advantage.</p>
         </div>
 
     </div>
@@ -68,7 +72,7 @@
     <div class="container">
         <div class="vision">
             <h2>Our Vision</h2>
-            <p>To be the trusted partner of choice for small businesses seeking to thrive online. We envision a digital landscape where every small business can achieve growth and success through our tailored web solutions and dedicated support.</p>
+            <p>Our vision at The Domain Designers is to be recognized as a pioneer in web design and development, known for our dedication to creating functional, aesthetically pleasing websites. We aim to leverage the latest technologies and industry best practices to deliver custom solutions that meet our clients' unique needs. By fostering innovation and collaboration, we seek to build enduring relationships and drive business success through digital excellence.</p>
         </div>
         <div class="vision-image">
             <img src="/src/assets/bullet-points/branding.svg" alt="Vision Image">
@@ -187,7 +191,7 @@
                     <div class="content">
                         <h2>Join Our Team</h2>
                         <p>We are always looking for creative individuals to join our team. Please upload your resume or portfolio, and a member of our team will be in touch.</p>
-                        <img src="/src/assets/alex-pic.png" alt="Team Member 1">
+                        <img src="/src/assets/people-writing.jpg" alt="Team Member 1">
                     </div>
                 </div>
                 <div class="col">
