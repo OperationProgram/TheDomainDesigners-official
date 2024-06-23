@@ -209,7 +209,8 @@
                         <textarea name="message" placeholder="Message" required></textarea><br>
                     </div>
                     <div class="form-group">
-                        <input type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
+                        <label class="resume-label" for="resume">Upload CV/Resume <span style="color: red;">*</span></label> 
+                        <input id="resume" type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
                     </div>
                     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <button type="submit">Submit</button>
