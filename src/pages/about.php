@@ -26,8 +26,8 @@
 <body> 
 
 <header>  
-    <?php $basePath = '../';?>
-    <?php include 'Navigation/navbar.php';?>
+    <?php $basePath = '..';?>
+    <?php include $basePath . '/pages/Navigation/navbar.php';?>
     <script src=" <?php echo '../scripts/navbarController.js';?>"></script>
 </header>
 
