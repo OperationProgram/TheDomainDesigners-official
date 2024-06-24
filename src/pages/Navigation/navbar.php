@@ -10,8 +10,6 @@
             <!-- <li><a href="<?php echo $basePath; ?>/newhome.php">Home Beta</a></li> -->
 
             <li><a href="<?php echo $basePath; ?>/index.php">Home</a></li>
-            <li><a href="<?php echo $basePath; ?>/newabout.php">New About</a></li>
-
             <li><a href="<?php echo $basePath; ?>/pages/services.php">Services</a></li>
             <li><a href="<?php echo $basePath; ?>/pages/our-work.php">Our Work</a></li>
             <li><a href="<?php echo $basePath; ?>/pages/about.php">Our Team</a></li>
