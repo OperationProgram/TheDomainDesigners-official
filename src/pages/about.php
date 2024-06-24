@@ -238,7 +238,7 @@
             var formData = new FormData(this);
 
             $.ajax({
-                url: '../submit_resume.php',
+                url: '../plugins/resumeForm/submit_resume.php',
                 type: 'POST',
                 data: formData,
                 contentType: false,

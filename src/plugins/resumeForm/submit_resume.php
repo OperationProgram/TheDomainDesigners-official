@@ -1,18 +1,21 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+// require_once __DIR__ . '../vendor/autoload.php';
+require_once  '../../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'plugins/contactForm/PHPMailer.php';
-require 'plugins/contactForm/Exception.php';
-require 'plugins/contactForm/SMTP.php';
+require '../contactForm/PHPMailer.php';
+require '../contactForm/Exception.php';
+require '../contactForm/SMTP.php';
 
 $mail = new PHPMailer(true);
 
 session_start();
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/');
+
+$dotenv = Dotenv\Dotenv::createImmutable('../..');
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '../.env');
 try {
     $dotenv->load();
 } catch (Dotenv\Exception\InvalidPathException $e) {
