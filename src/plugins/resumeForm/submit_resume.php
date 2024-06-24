@@ -15,7 +15,7 @@ session_start();
 
 
 $dotenv = Dotenv\Dotenv::createImmutable('../..');
-// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '../.env');
+
 try {
     $dotenv->load();
 } catch (Dotenv\Exception\InvalidPathException $e) {
