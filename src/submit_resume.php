@@ -67,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     try {
+        // Send confirmation email to the user
         $mail->isSMTP();
         $mail->Host = $_ENV['MAIL_HOST'];
         $mail->SMTPAuth = true;
@@ -75,16 +76,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = $_ENV['MAIL_PORT'];
 
-        // Send confirmation email to the user
         $mail->setFrom($_ENV['MAIL_USERNAME'], 'The Domain Designers');
         $mail->addAddress($email, $name); // User's email and name
 
         $mail->isHTML(true);
         $mail->Subject = 'Thank you for your submission';
         $mail->Body = "Dear $name,<br><br>Thank you for submitting your resume/portfolio. We have received your information and will get back to you shortly.<br><br>Best regards,<br>The Domain Designers";
-
-        // Attachments for confirmation email (if needed)
-        // $mail->addAttachment($_FILES['resume']['tmp_name'], $targetFile);
 
         $mail->send();
 
@@ -95,10 +92,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Resume Submission';
         $mail->Body = "Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
-        // Attachments for admin email
         $mail->addAttachment($_FILES['resume']['tmp_name'], $targetFile);
 
         $mail->send();
+
+        // Send SMS notification to admin using T-Mobile email-to-SMS gateway
+        $adminPhoneNumber = $_ENV['ADMIN_PHONE_NUMBER'];
+        $smsMail = new PHPMailer(true);
+        $smsMail->isSMTP();
+        $smsMail->Host = $_ENV['SMS_MAIL_HOST'];
+        $smsMail->SMTPAuth = true;
+        $smsMail->Username = $_ENV['SMS_MAIL_USERNAME'];
+        $smsMail->Password = $_ENV['SMS_MAIL_PASSWORD'];
+        $smsMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $smsMail->Port = $_ENV['SMS_MAIL_PORT'];
+
+        $smsMail->setFrom($_ENV['SMS_MAIL_USERNAME'], 'The Domain Designers');
+        $smsMail->addAddress("$adminPhoneNumber@tmomail.net"); // T-Mobile email-to-SMS address
+
+        $smsMail->Subject = ''; // SMS messages don't typically use subjects
+        $smsMail->Body = "New resume submission from $name. Email: $email. Phone: $phone.";
+
+        $smsMail->send();
 
         echo json_encode(['status' => 'success', 'message' => 'The file has been uploaded, and emails have been sent to you and the administrator.']);
 

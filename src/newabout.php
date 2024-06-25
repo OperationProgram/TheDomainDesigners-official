@@ -35,7 +35,7 @@
     <div class="container hero-container">
         <div class="hero-content" data-aos="slide-right" data-aos-duration="200" data-aos-once="true">
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mi felis.</p>
+            <p>Explore how we can collaborate with your young company to achieve mutual success. Let's partner and innovate together!</p>
         </div>
         <div class="hero-image">
             <img data-aos="slide-left" data-aos-duration="200" data-aos-once="true" src="/src/assets/Our-Team/Our-Team.svg" alt="About Us Image">
