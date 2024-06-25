@@ -1,5 +1,4 @@
 function openOverlay(imageSrc) {
-    console.log("clicked");
     document.getElementById('overlay-image').src = imageSrc;
     document.getElementById('image-overlay').style.display = 'flex';
 }

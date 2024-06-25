@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/about.css"> <!-- Custom CSS for About page -->
+    <script src="../scripts/showSuccessMessage.js" defer></script> 
 
     <!-- AOS Library CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
@@ -195,21 +196,27 @@
                 </div>
             </div>
             <div class="col">
-                <form id="resumeForm" method="post" enctype="multipart/form-data">
+                <form id="resume_form" method="post" enctype="multipart/form-data">
                 <h2>Join Our Team</h2>
 
-                <div id="loader">Loading...</div>
+                <!-- <div id="loader">Loading...</div> -->
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Name*" required><br>
+                        <input id="full_name" type="text" name="name" placeholder="Full Name*" required><br>
+                        <img id="name_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="name_error" class="error_msg">Field is Required</span>
                     </div>
                     <div class="form-group">
-                        <input type="tel" name="phone" placeholder="Phone*" pattern="\d+" required><br>
+                        <input id="phone" type="tel" name="phone" placeholder="Phone*"  required><br>
+                        <img id="phone_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="phone_error" class="error_msg">Field is Required</span>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Email*" required><br>
+                        <input id="email" type="email" name="email" placeholder="Email*" required><br>
+                        <img id="email_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                        <span id="email_error" class="error_msg">Field is Required</span>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="Message" required></textarea><br>
+                        <textarea id="message" name="message" placeholder="Message (optional)"></textarea><br>
                     </div>
                     <div class="form-group">
                         <label class="resume-label" for="resume">Upload CV/Resume <span style="color: red;">*</span></label> 
@@ -217,23 +224,50 @@
                     </div>
                     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <button type="submit">Submit</button>
+                    <span id="form_error" class="error">There was a problem submitting the form. <br />
+                                                Check the fields for errors.</span>
+                    <p class="success">Submission successfully submitted!</p>
+                    <p class="error">Something went wrong. Please refresh the page and try again.</p>
                 </form>
             </div>
         </div>
+    </div>
+
+    <div id="spinner_overlay" class="spinner-overlay">
+        <div class="spinner"></div>
     </div>
 </section>
 
 
 
 <div id="responseMessage"></div>
+<script type="module" src="../scripts/contactForm.js"></script>
+<script type="module" src="../scripts/validators.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+<script type="module">
+    import {validators} from "../scripts/validators.js";
+
     $(document).ready(function() {
-        $('#resumeForm').submit(function(e) {
+        $('#resume_form').submit(function(e) {
             e.preventDefault();     
 
+            const isValid = validators.validateForm();
+
+            if (!isValid) {
+                console.log("not valid here");
+                event.preventDefault();
+                // Display error message beneath the form
+                document.getElementById('form_error').style.display = "block";
+                document.querySelector('.success').style.display = "none";
+                // Prevent form submission
+                event.preventDefault();
+
+                return;
+            }
             // Display loader
-            $('#loader').show();
+            // $('#loader').show();
+            $('#spinner_overlay').css('display', 'flex');
+
 
             var formData = new FormData(this);
 
@@ -246,18 +280,39 @@
                 dataType: 'json', // Expect JSON response
                 success: function(response) {
                     if (response.status === 'success') {
-                        $('#responseMessage').html('<p class="success">' + response.message + '</p>');
-                        $('#resumeForm')[0].reset(); // Optionally reset form fields
+                        // $('#responseMessage').html('<p class="success">' + response.message + '</p>');
+                        $('.success').css('display', 'block');
+                        $('.error').css('display', 'none');
+                        $('#resume_form')[0].reset(); // Optionally reset form fields
+                        <?php
+                            echo 'showMessage("Email sent successfully!");';
+                        ?>
                     } else {
-                        $('#responseMessage').html('<p class="error">' + response.message + '</p>');
+                        // $('#responseMessage').html('<p class="error">' + response.message + '</p>');
+                        console.log(response.message );
+                        $('.success').css('display', 'none');
+                        $('.error').css('display', 'block');
+                        <?php
+                            echo 'showMessage("Oops! Something went wrong.");';
+                        ?>
+
                     }
+
+                    
                 },
                 error: function(xhr, status, error) {
-                    $('#responseMessage').html('<p class="error">Error: ' + error + '</p>');
+                    // $('#responseMessage').html('<p class="error">Error: ' + error + '</p>');
+                    $('.success').css('display', 'none');
+                    $('.error').css('display', 'block');
+                    <?php
+                        echo 'showMessage("Oops! Something went wrong.");';
+                    ?>
                 },
                 complete: function() {
                     // Hide loader when request completes
-                    $('#loader').hide();
+                    // $('#loader').hide();
+                    $('#spinner_overlay').css('display', 'none');
+
                 }
             });
         });
@@ -272,7 +327,8 @@
     once: true // Only once animation flag
   });
 </script>
-<script src="../scripts/reviewController.js"></script>
+<!-- <script src="../scripts/reviewController.js"></script> -->
+
 
 <footer>
     <div class="container">

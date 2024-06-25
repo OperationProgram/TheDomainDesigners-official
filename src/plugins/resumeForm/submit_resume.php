@@ -39,18 +39,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = filter_var(trim($_POST['email']), FILTER_VALIDATE_EMAIL);
     $message = filter_var(trim($_POST['message']), FILTER_SANITIZE_STRING);
 
-    if (empty($name) || empty($phone) || empty($email) || empty($message)) {
+    if (empty($name) || empty($phone) || empty($email)) {
         echo json_encode(['status' => 'error', 'message' => 'All fields are required.']);
         exit;
     }
 
     if (!$email) {
         echo json_encode(['status' => 'error', 'message' => 'Invalid email address']);
-        exit;
-    }
-
-    if (!ctype_digit($phone)) {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid phone number. Only digits are allowed.']);
         exit;
     }
 

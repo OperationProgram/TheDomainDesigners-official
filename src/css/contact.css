@@ -258,7 +258,7 @@ main .contact-section .container .contact-form .spinner {
 }
 .success-message {
   background-color: #f4f4f4;
-  position: absolute;
+  position: fixed;
   font-size: 22px;
   top: 0;
   z-index: 9999;
