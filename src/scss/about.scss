@@ -539,18 +539,18 @@ footer p {
 
 
 
-#loader {
-    display: none;
-    position: relative;
-    bottom: -570px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(220 106 255 / 55%);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 9999;
-}
+// #loader {
+//     display: none;
+//     position: relative;
+//     bottom: -570px;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     background-color: rgb(220 106 255 / 55%);
+//     padding: 20px;
+//     border-radius: 5px;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     z-index: 9999;
+// }
 // Variables (optional)
 $primary-color: #007bff;
 $secondary-color: #0056b3;
@@ -656,6 +656,18 @@ $secondary-color: #0056b3;
                         background-color: #8500b5;
                     }
                 }
+                
+                .error{
+                    margin-top: 30px;
+                    color: #ff3c3c;
+                    display: none;
+                }
+                
+                .success{
+                    margin-top: 30px;
+                    color: green;
+                    display: none;
+                }
             }
         }
     }
@@ -664,3 +676,48 @@ $secondary-color: #0056b3;
 .resume-label {
     color: black;
 }
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.success-message {
+    background-color: $background-color-light;
+    position: fixed;
+    font-size: 22px;
+    top: 0;
+    z-index: 9999;
+}
+
+#form_error, .success_icon, .error_msg {
+    margin: 0.5rem;
+    display: none;
+}
+
+.error_msg {
+    color: #b91616;
+}
+
