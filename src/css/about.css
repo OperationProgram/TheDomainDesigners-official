@@ -35,7 +35,7 @@ body {
 }
 
 /* Style for the About page */
-.about-hero {
+.hero-section {
   display: flex;
   align-items: center;
   background: url("../assets/good/plain-background.png") no-repeat center center;
@@ -46,49 +46,59 @@ body {
   margin-bottom: 0px; /* Adjust as needed */
   padding: 200px 0;
 }
-
-.hero-container {
+.hero-section .hero-content {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: start;
-  justify-content: center;
-  max-width: 1200px;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
-  padding: 100px 20px;
+  z-index: 2;
+  /* Typography styles for the hero section */
 }
-
-.hero-content {
-  margin: auto;
-  flex: 1; /* Adjusts the width based on available space */
-  text-align: left;
-}
-.hero-content h1 {
-  font-size: 48px;
+.hero-section .hero-content h1 {
+  font-family: "Arial", sans-serif;
+  font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
+  font-weight: bold;
   margin-bottom: 20px;
-  font-family: "Poppins", sans-serif; /* Custom font */
-  font-weight: 700; /* Bold weight */
-  color: #f2f2f2; /* Dark color for contrast */
-  letter-spacing: 1px; /* Slightly increased letter spacing */
-  line-height: 1.2; /* Adjusted line height for better readability */
-  text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2); /* Subtle text shadow for depth */
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
+  letter-spacing: 0.12em;
 }
-.hero-content p {
-  font-size: 24px;
-  margin-bottom: 30px;
-  line-height: 1.5em; /* Adjusted line height for better readability */
-}
-.hero-content .cta-button {
-  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
+.hero-section .hero-content h2 {
+  font-family: "Arial", sans-serif;
+  font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
   color: #fff;
-  padding: 10px 20px;
-  font-size: 18px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block; /* Ensures button is displayed inline */
+  letter-spacing: 0.12em;
+  margin-bottom: 30px;
 }
-.hero-content .cta-button:hover {
-  background: linear-gradient(135deg, #AB0AE0, #8500b5, #8d00d4, #6D0A90, #AB0AE0);
+.hero-section .hero-content .cta-button {
+  background-color: #fff;
+  color: #7403d1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #7403d1;
+  text-decoration: none;
+}
+.hero-section .hero-content .cta-button:hover {
+  background-color: #7403d1;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 36px;
+  }
+  .hero-section .hero-content h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section .hero-content {
+    text-align: left;
+  }
 }
 
 .hero-image {

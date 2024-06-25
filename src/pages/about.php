@@ -38,7 +38,16 @@
     <script src=" <?php echo '../scripts/navbarController.js';?>"></script>
 </header>
 
-<section class="hero about-hero" >
+<div class="overlay"></div>
+<section class="hero-section">
+<img class="sr-only" src="../assets/custom-code-services.jpg" />
+    <div class="hero-content">
+        <h1>Our Team</h1>
+        <h2>The Domain Designers: Meet The Team</h2>
+        <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
+    </div>
+</section>
+<!-- <section class="hero about-hero" >
     <div class="container hero-container">
         <div class="hero-content" data-aos="slide-right" data-aos-duration="200" data-aos-once="true">
             <h1>About Us</h1>
@@ -49,7 +58,7 @@
             <img data-aos="slide-left" data-aos-duration="200" data-aos-once="true" src="../assets/Our-Team/Our-Team.svg" alt="Cartoon Infographic of people relaxing in a park">
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="about-section">
     <div class="container">
