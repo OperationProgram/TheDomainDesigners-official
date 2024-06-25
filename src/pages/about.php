@@ -10,9 +10,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Web Development Agency</title>
+    <title>The Domain Designers | About Us: Learn About Our Team</title>
+    <meta name="description" content="Want to get to know us? The Domain Designers is an open book! We are always looking for help, apply now!">
+    <meta name="robots" content="noindex,nofollow"> 
+    <meta name="keywords" content="The Domain Designers">
+    <meta name="author" content="The Domain Designers">
+    <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
     <link rel="stylesheet" href="../css/navbar.css"> <!-- Link to your homepage CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/about.css"> <!-- Custom CSS for About page -->
