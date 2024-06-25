@@ -37,7 +37,6 @@ body {
 /* Style for the About page */
 .hero-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background: url("../assets/good/plain-background.png") no-repeat center center;
   background-size: cover;
