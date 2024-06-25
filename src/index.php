@@ -105,7 +105,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design>
+            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design">
         </div>
         <div class="text">
             <h2>WEB DESIGN & DEVELOPMENT</h2>
@@ -127,7 +127,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing>
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing">
         </div>
         <div class="text">
             <h2>DIGITAL MARKETING</h2>

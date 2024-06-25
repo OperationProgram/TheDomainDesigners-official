@@ -42,7 +42,8 @@
     <div class="container hero-container">
         <div class="hero-content" data-aos="slide-right" data-aos-duration="200" data-aos-once="true">
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mi felis.</p>
+            <p>The Domain Designers: Meet The Team
+            </p>
         </div>
         <div class="hero-image">
             <img data-aos="slide-left" data-aos-duration="200" data-aos-once="true" src="../assets/Our-Team/Our-Team.svg" alt="Cartoon Infographic of people relaxing in a park">
