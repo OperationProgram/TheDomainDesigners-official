@@ -9,8 +9,8 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.png">
-    <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
-    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="css/navbar.css"> <!-- Link to your homepage CSS -->
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />

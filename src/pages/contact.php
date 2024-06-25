@@ -119,7 +119,7 @@
                         <?php
                             if(@$response == "success") {
                         ?>
-                            <p class="success">Email sent successfully</p>
+                            <p class="success">Submission successfully submitted!</p>
                         <?php
                             } else {
                         ?>
