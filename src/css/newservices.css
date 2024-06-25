@@ -1,91 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
+@font-face {
+  font-family: "Monoton-Regular";
+  src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "UtopiaStd-BlackHeadline";
+  src: url("../assets/fonts/UtopiaStd-BlackHeadline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "malden-sans-medium";
+  src: url("../assets/fonts/malden-sans-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.border-divider {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+  overflow: hidden;
+  z-index: 1;
+}
+.border-divider::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  bottom: -20px; /* Half of the ::before height */
+  border-radius: 50% 50% 0 0; /* Creates the curved effect */
+}
+
+.border-divider-top {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+  overflow: hidden;
+  z-index: 1;
+}
+.border-divider-top::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  top: -20px; /* Adjusted to create a downward curve */
+  border-radius: 0 0 50% 50%; /* Creates the downward curved effect */
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
-}
-header .logo {
-  width: 40px;
-  height: 40px;
-  background-color: #000;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
-header nav ul li a:hover {
-  color: #6b24f5;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: url("../assets/good/plain-background.png") no-repeat center center;
-  background-size: cover;
-  color: #ececec;
-  text-align: left;
-  margin-top: 0px; /* Adjust as needed */
-  margin-bottom: 0px; /* Adjust as needed */
-  padding: 200px 0;
-}
-.hero h1 {
-  font-size: 2.5rem;
-  margin: 0 0 20px 0;
-}
-.hero p {
-  font-size: 1.2rem;
-  margin: 0 0 30px 0;
-}
-.hero .cta-button {
-  background-color: #6b24f5;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
-}
-.hero .cta-button:hover {
-  background-color: #561fd1;
-}
-
-.services {
-  background-color: #f0f0f0;
-  padding: 50px 20px;
-  border-top-left-radius: 50% 50px;
-  border-top-right-radius: 50% 50px;
-}
-.services ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.services ul li a {
-  text-decoration: none;
-  color: #000;
-  font-size: 1.2rem;
-}
-.services ul li a:hover {
-  color: #6b24f5;
+section {
+  margin-bottom: 80px; /* Adjust as needed */
 }/*# sourceMappingURL=newservices.css.map */

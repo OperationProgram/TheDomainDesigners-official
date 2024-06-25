@@ -17,12 +17,10 @@ body {
     padding: 20px;
 }
 
-main {
+// main {
 
     @include hero_section(url("../assets/man-on-phone-right.jpg"), 70vh);
     .contact-section {
-        // background: url('../assets/skull-min.jpg') no-repeat center center/cover;
-        margin-top: 80px;
         padding: 60px 0;
         display: flex;
         justify-content: center;
@@ -187,7 +185,7 @@ main {
             }
         }
     }
-}
+// }
 
 // Media Queries
 @media (max-width: 768px) {

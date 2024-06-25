@@ -33,7 +33,7 @@ body {
   padding: 20px;
 }
 
-main .hero-section {
+.hero-section {
   display: flex;
   align-items: center;
   background: url("../assets/good/plain-background.png") no-repeat center center;
@@ -44,7 +44,7 @@ main .hero-section {
   margin-bottom: 0px; /* Adjust as needed */
   padding: 200px 0;
 }
-main .hero-section .hero-content {
+.hero-section .hero-content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@ main .hero-section .hero-content {
   z-index: 2;
   /* Typography styles for the hero section */
 }
-main .hero-section .hero-content h1 {
+.hero-section .hero-content h1 {
   font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
@@ -62,14 +62,14 @@ main .hero-section .hero-content h1 {
   -webkit-text-stroke: 2px rgb(255, 255, 255); /* Border width and color */
   letter-spacing: 0.12em;
 }
-main .hero-section .hero-content h2 {
+.hero-section .hero-content h2 {
   font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(3vw, 30px); /* Use min() to set a minimum font size */
   color: #fff;
   letter-spacing: 0.12em;
   margin-bottom: 30px;
 }
-main .hero-section .hero-content .cta-button {
+.hero-section .hero-content .cta-button {
   background-color: #fff;
   color: #7403d1;
   border: none;
@@ -81,43 +81,43 @@ main .hero-section .hero-content .cta-button {
   border: 2px solid #7403d1;
   text-decoration: none;
 }
-main .hero-section .hero-content .cta-button:hover {
+.hero-section .hero-content .cta-button:hover {
   background-color: #7403d1;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  main .hero-section .hero-content h1 {
+  .hero-section .hero-content h1 {
     font-size: 36px;
   }
-  main .hero-section .hero-content h2 {
+  .hero-section .hero-content h2 {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 480px) {
-  main .hero-section .hero-content {
+  .hero-section .hero-content {
     text-align: left;
   }
 }
-main .contact-section {
-  margin-top: 80px;
+
+.contact-section {
   padding: 60px 0;
   display: flex;
   justify-content: center;
 }
-main .contact-section .container {
+.contact-section .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
 }
-main .contact-section .container .contact-info {
+.contact-section .container .contact-info {
   flex: 1;
 }
-main .contact-section .container .contact-info h2 {
+.contact-section .container .contact-info h2 {
   font-family: "UtopiaStd-BlackHeadline", sans-serif;
   color: #7403d1;
 }
-main .contact-section .container .contact-info h1 {
+.contact-section .container .contact-info h1 {
   font-family: "UtopiaStd-BlackHeadline", sans-serif;
   font-size: min(5vw, 50px); /* Use min() to set a minimum font size */
   font-weight: bold;
@@ -126,24 +126,24 @@ main .contact-section .container .contact-info h1 {
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   letter-spacing: 0.12em;
 }
-main .contact-section .container .contact-info p, main .contact-section .container .contact-info a {
+.contact-section .container .contact-info p, .contact-section .container .contact-info a {
   color: #fff;
   margin: 10px 0;
   text-decoration: none;
 }
-main .contact-section .container .contact-info .social-media {
+.contact-section .container .contact-info .social-media {
   display: flex;
   gap: 10px;
 }
-main .contact-section .container .contact-info .social-media a {
+.contact-section .container .contact-info .social-media a {
   color: #3498db;
   font-size: 1.5em;
   transition: color 0.3s;
 }
-main .contact-section .container .contact-info .social-media a:hover {
+.contact-section .container .contact-info .social-media a:hover {
   color: #7403d1;
 }
-main .contact-section .container .contact-form {
+.contact-section .container .contact-form {
   flex: 1;
   background-color: rgba(34, 34, 34, 0.4156862745);
   padding: 20px;
@@ -152,12 +152,12 @@ main .contact-section .container .contact-form {
   margin: 0 auto;
   border: 2px solid #fff;
 }
-main .contact-section .container .contact-form form {
+.contact-section .container .contact-form form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-main .contact-section .container .contact-form form input, main .contact-section .container .contact-form form textarea {
+.contact-section .container .contact-form form input, .contact-section .container .contact-form form textarea {
   width: 100%;
   padding: 10px;
   border: none;
@@ -167,22 +167,22 @@ main .contact-section .container .contact-form form input, main .contact-section
   resize: none;
   border: 1px solid #fff;
 }
-main .contact-section .container .contact-form form .services {
+.contact-section .container .contact-form form .services {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-main .contact-section .container .contact-form form .services label {
+.contact-section .container .contact-form form .services label {
   display: flex;
   color: rgb(181, 181, 181);
   gap: 10px;
 }
-main .contact-section .container .contact-form form .services input {
+.contact-section .container .contact-form form .services input {
   margin-left: 5px;
   width: 15px;
   height: 15px;
 }
-main .contact-section .container .contact-form form .submit-btn {
+.contact-section .container .contact-form form .submit-btn {
   background-color: #7403d1;
   color: #fff;
   border: none;
@@ -194,26 +194,26 @@ main .contact-section .container .contact-form form .submit-btn {
   border: 2px solid #7403d1;
   width: 125px;
 }
-main .contact-section .container .contact-form form .submit-btn:hover {
+.contact-section .container .contact-form form .submit-btn:hover {
   background-color: #fff;
   color: #7403d1;
 }
-main .contact-section .container .contact-form .error {
+.contact-section .container .contact-form .error {
   margin-top: 30px;
   color: #ff3c3c;
 }
-main .contact-section .container .contact-form .success {
+.contact-section .container .contact-form .success {
   margin-top: 30px;
   color: green;
 }
-main .contact-section .container .contact-form #form_error, main .contact-section .container .contact-form .success_icon, main .contact-section .container .contact-form .error_msg {
+.contact-section .container .contact-form #form_error, .contact-section .container .contact-form .success_icon, .contact-section .container .contact-form .error_msg {
   margin: 0.5rem;
   display: none;
 }
-main .contact-section .container .contact-form .error_msg {
+.contact-section .container .contact-form .error_msg {
   color: #ff3c3c;
 }
-main .contact-section .container .contact-form .spinner-overlay {
+.contact-section .container .contact-form .spinner-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -224,7 +224,7 @@ main .contact-section .container .contact-form .spinner-overlay {
   justify-content: center;
   align-items: center;
 }
-main .contact-section .container .contact-form .spinner {
+.contact-section .container .contact-form .spinner {
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-left-color: #333;
   border-radius: 50%;

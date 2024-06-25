@@ -31,10 +31,10 @@
             <div class="hero-content" data-aos="slide-right" data-aos-once="true">
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
-                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" data-aos="slide-right" data-aos-once="true">
             </div>
         </div>
     </section>
@@ -44,7 +44,7 @@
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
+            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="pages/services.php" class="gradient-text learn-more">LEARN MORE</a></p>
            
         </div>
     </section>
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="services-content">
             <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/our-services.svg" alt="Cartoon Infographic of a coder" data-aos="slide-right" data-aos-once="true">
             </div>
             <div class="services-text" data-aos="zoom-in" data-aos-once="true">
                 <h2>Discover Our Offerings</h2>
@@ -94,7 +94,7 @@
     <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Cartoon Infographic of a bar graph">
         </div>
         <div class="text">
             <h2>OPTIMIZE YOUR PROCESSES!</h2>
@@ -105,7 +105,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
+            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design">
         </div>
         <div class="text">
             <h2>WEB DESIGN & DEVELOPMENT</h2>
@@ -116,7 +116,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic for eccommerce solutions">
         </div>
         <div class="text">
             <h2>ECOMMERCE SOLUTIONS</h2>
@@ -127,7 +127,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing">
         </div>
         <div class="text">
             <h2>DIGITAL MARKETING</h2>
@@ -138,7 +138,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
+            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic for branding">
         </div>
         <div class="text">
             <h2>BRANDING & IDENTITY</h2>
@@ -149,7 +149,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
+            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic for content creation">
         </div>
         <div class="text">
             <h2>CONTENT CREATION</h2>
@@ -169,7 +169,7 @@
                 <p>Our specialization lies in delivering distinctive, high-performance web designs that elevate your online presence, complete with robust ecommerce capabilities. </p>
             </div>
             <div class="pricing-image">
-                <img src="/src/assets/good/handshake.svg" alt="Pricing Image" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
+                <img src="/src/assets/good/handshake.svg" alt="Cartoon Infographic of a handshake" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
             </div>
         </div>
     </div>
@@ -192,7 +192,7 @@
                     <li>Contact Form Integration</li>
                     <li>1-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">GET STARTED</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -209,7 +209,7 @@
                     <li>E-commerce Functionality</li>
                     <li>3-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -226,7 +226,7 @@
                     <li>Custom Web Applications or Integrations</li>
                     <li>6-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -242,7 +242,7 @@
                     <li>Software Updates</li>
                     <li>Priority Support</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
     </div>
