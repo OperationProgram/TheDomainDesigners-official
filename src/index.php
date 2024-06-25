@@ -31,7 +31,7 @@
             <div class="hero-content" data-aos="slide-right" data-aos-once="true">
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
-                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
             </div>
             <div class="hero-image">
                 <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-right" data-aos-once="true">
@@ -44,7 +44,7 @@
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
+            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="pages/services.php" class="gradient-text learn-more">LEARN MORE</a></p>
            
         </div>
     </section>
@@ -192,7 +192,7 @@
                     <li>Contact Form Integration</li>
                     <li>1-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">GET STARTED</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -209,7 +209,7 @@
                     <li>E-commerce Functionality</li>
                     <li>3-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -226,7 +226,7 @@
                     <li>Custom Web Applications or Integrations</li>
                     <li>6-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -242,7 +242,7 @@
                     <li>Software Updates</li>
                     <li>Priority Support</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
     </div>
