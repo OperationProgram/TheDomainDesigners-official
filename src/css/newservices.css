@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@font-face {
+  font-family: "Lobster";
+  src: url("../assets/fonts/Lobster.ttf");
+}
+@font-face {
+  font-family: "Monoton-Regular";
+  src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "UtopiaStd-BlackHeadline";
+  src: url("../assets/fonts/UtopiaStd-BlackHeadline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "malden-sans-medium";
+  src: url("../assets/fonts/malden-sans-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.border-divider {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+  overflow: hidden;
+  z-index: 1;
+}
+.border-divider::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  bottom: -20px; /* Half of the ::before height */
+  border-radius: 50% 50% 0 0; /* Creates the curved effect */
+}
+
+.border-divider-top {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  position: relative;
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+  overflow: hidden;
+  z-index: 1;
+}
+.border-divider-top::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px; /* Adjust height for the curve effect */
+  background-color: #ffffff; /* Match the background color */
+  position: absolute;
+  left: 0;
+  top: -20px; /* Adjusted to create a downward curve */
+  border-radius: 0 0 50% 50%; /* Creates the downward curved effect */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 80px; /* Adjust as needed */
+}/*# sourceMappingURL=newservices.css.map */
