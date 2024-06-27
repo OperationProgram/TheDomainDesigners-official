@@ -140,7 +140,7 @@
       <div class="video-box">
         <!-- <img src="../../assets/mobile-2.png" alt="Video thumbnail for content creation - Engaging Content Creation Strategies" class="video-thumbnail" id="video-thumbnail"> -->
         <!-- <div class="play-button" id="play-button"></div> -->
-        <iframe  src="https://youtube.com/embed/oEClzTee5TY" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by The Domain Designers.">
+        <iframe  src="https://youtube.com/embed/oEClzTee5TY" title="Social Media Content showing luxurious lifestyle. Created using in-house built web app OmniClip by The Domain Designers."></iframe>
         <!-- <video controls loop id="video">
             <source src="../../assets/videos/glow.mp4" type="video/mp4">
             Your browser does not support the video tag.
