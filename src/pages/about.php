@@ -256,7 +256,7 @@
 
 
 <!-- Response Message for debugging -->
-<!-- <div id="responseMessage"></div> -->
+<div id="responseMessage"></div>
 <script type="module" src="../scripts/contactForm.js"></script>
 <script type="module" src="../scripts/validators.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -295,7 +295,7 @@
                 dataType: 'json', // Expect JSON response
                 success: function(response) {
                     if (response.status === 'success') {
-                        // $('#responseMessage').html('<p class="success">' + response.message + '</p>');
+                        $('#responseMessage').html('<p class="success">' + response.message + '</p>');
                         $('.success').css('display', 'block');
                         $('.error').css('display', 'none');
                         $('#resume_form')[0].reset(); // Optionally reset form fields
@@ -303,7 +303,7 @@
                             echo 'showMessage("Email sent successfully!");';
                         ?>
                     } else {
-                        // $('#responseMessage').html('<p class="error">' + response.message + '</p>');
+                        $('#responseMessage').html('<p class="error">' + response.message + '</p>');
                         $('.success').css('display', 'none');
                         $('.error').css('display', 'block');
                         <?php

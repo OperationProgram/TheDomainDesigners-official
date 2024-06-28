@@ -94,23 +94,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
 
         // Send SMS notification to admin using T-Mobile email-to-SMS gateway
-        $adminPhoneNumber = $_ENV['ADMIN_PHONE_NUMBER'];
-        $smsMail = new PHPMailer(true);
-        $smsMail->isSMTP();
-        $smsMail->Host = $_ENV['SMS_MAIL_HOST'];
-        $smsMail->SMTPAuth = true;
-        $smsMail->Username = $_ENV['SMS_MAIL_USERNAME'];
-        $smsMail->Password = $_ENV['SMS_MAIL_PASSWORD'];
-        $smsMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $smsMail->Port = $_ENV['SMS_MAIL_PORT'];
+        // $adminPhoneNumber = $_ENV['ADMIN_PHONE_NUMBER'];
+        // $smsMail = new PHPMailer(true);
+        // $smsMail->isSMTP();
+        // $smsMail->Host = $_ENV['SMS_MAIL_HOST'];
+        // $smsMail->SMTPAuth = true;
+        // $smsMail->Username = $_ENV['SMS_MAIL_USERNAME'];
+        // $smsMail->Password = $_ENV['SMS_MAIL_PASSWORD'];
+        // $smsMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        // $smsMail->Port = $_ENV['SMS_MAIL_PORT'];
 
-        $smsMail->setFrom($_ENV['SMS_MAIL_USERNAME'], 'The Domain Designers');
-        $smsMail->addAddress("$adminPhoneNumber@tmomail.net"); // T-Mobile email-to-SMS address
+        // $smsMail->setFrom($_ENV['SMS_MAIL_USERNAME'], 'The Domain Designers');
+        // $smsMail->addAddress("$adminPhoneNumber@tmomail.net"); // T-Mobile email-to-SMS address
 
-        $smsMail->Subject = ''; // SMS messages don't typically use subjects
-        $smsMail->Body = "New resume submission from $name. Email: $email. Phone: $phone.";
+        // $smsMail->Subject = ''; // SMS messages don't typically use subjects
+        // $smsMail->Body = "New resume submission from $name. Email: $email. Phone: $phone.";
 
-        $smsMail->send();
+        // $smsMail->send();
 
         echo json_encode(['status' => 'success', 'message' => 'The file has been uploaded, and emails have been sent to you and the administrator.']);
 
