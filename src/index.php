@@ -9,13 +9,11 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.png">
-    <link rel="stylesheet" href="css/navbar.css"> <!-- Link to your homepage CSS -->
+    <link rel="stylesheet" href="css/navbar.css"> 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" ></script> -->
 </head>
         
 <body>
@@ -26,9 +24,9 @@
         <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
     <section class="hero">
-        <div class="overlay-1"></div>
-        <div class="overlay-2"></div>
         <div class="container hero-container">
+            <div class="overlay-1"></div>
+            <div class="overlay-2"></div>
             <div class="hero-content" >
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
@@ -46,7 +44,7 @@
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="pages/services.php" class="gradient-text learn-more">LEARN MORE</a></p>
+            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="pages/services.php" class="gradient-text learn-more">VIEW SERVICES</a></p>
            
         </div>
     </section>

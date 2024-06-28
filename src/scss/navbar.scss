@@ -1,7 +1,10 @@
 @import 'variables';
 @import "mixins";
 @include sr_only;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.ttf') format('ttf'),
+}
 
 * {
     margin: 0;
@@ -137,7 +140,7 @@ html, body {
     transition: transform 0.5s ease; /* Add transition for rotation */
     position: absolute;
     top: 21px;
-    right: 17px;
+    left: -31px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
@@ -147,7 +150,7 @@ html, body {
         padding: 10px 20px;
         background-color: transparent;
         width: auto;
-        transform: translate(0%, 0%);
+        transform: translate(100%, 0%);
         height: 100%;
         right: 0;
         top: -30px;
@@ -189,7 +192,7 @@ html, body {
     }
 
     .nav-menu.active {
-        right: 0; /* Slide in from the right */
+        right: 100%; /* Slide in from the right */
         background-color: #222;
         display: flex;
     }
