@@ -2,4 +2,4 @@
 vendor
 .env
 .htaccess
-
+# node_modules
