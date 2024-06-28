@@ -28,13 +28,14 @@
         <div class="overlay-1"></div>
         <div class="overlay-2"></div>
         <div class="container hero-container">
-            <div class="hero-content" data-aos="slide-right" data-aos-once="true">
+            <div class="hero-content" >
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
-                <a href="pages/contact.php" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
+            <!-- data-aos="slide-right" data-aos-once="true"  data-aos="zoom-in" data-aos-once="true" data-aos="slide-right" data-aos-once="true"-->
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" >
             </div>
         </div>
     </section>
