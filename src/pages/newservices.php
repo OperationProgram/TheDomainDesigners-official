@@ -9,7 +9,7 @@
   <meta name="keywords" content="the domain designers">
   <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
-  <link rel="stylesheet" href="../css/service-partial.css">
+  <link rel="stylesheet" href="../css/newservices.css">
   <link rel="stylesheet" href="../css/branding.css">
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
@@ -26,8 +26,24 @@
   </header>
 
   <div class="overlay"></div>
-
   <section class="hero-section">
+    <!-- <img class="sr-only" src="../assets/custom-code-services.jpg" /> -->
+      <div class="hero-content">
+          <h1>Web Development Services</h1>
+          <h2>Customized for Your Needs</h2>
+          <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
+      </div>
+  </section>
+  <!-- <div class="overlay"></div> -->
+  <!-- <section class="hero-section">
+  <img class="sr-only" src="../assets/UI-UX_graphic.jpg" />
+      <div class="hero-content">
+          <h1>Our Services</h1>
+          <h2>Providing Reliable Solutions</h2>
+          <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
+      </div>
+  </section> -->
+  <!-- <section class="hero-section">
     <div class="hero-content">
     <img class="background-hero-img" src="../assets/purple-splashdrop.jpg" alt="">
         <div class="cta">
@@ -36,7 +52,7 @@
             <a href="./contact.php"><button class="cta-button">Contact Us</button></a>
         </div>
     </div>
-    <!-- <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
+    <div class="hero-card-slide-container" data-aos="fade-right" data-aos-duration="1200">
       <div class="hero-card">
         <img src="../assets/cosmetics.jpg" alt="Image showing cosmetics - Branding Solutions for Beauty and Cosmetics Industry">
       </div>
@@ -49,8 +65,8 @@
       <div class="hero-card">
         <p>Establish a unique identity and leave a lasting impression with strategic branding solutions</p>
       </div>
-    </div> -->
-  </section>
+    </div>
+  </section> -->
   
   <section class="wp-contents contents">
     <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" />

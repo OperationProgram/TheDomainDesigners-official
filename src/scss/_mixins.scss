@@ -15,7 +15,7 @@
         background: url('../assets/good/plain-background.png') no-repeat center center;
         background-size: cover;
         color: #ececec;
-        text-align: left;
+        text-align: center;
         margin-top: 0px; /* Adjust as needed */
         margin-bottom: 0px; /* Adjust as needed */
         padding: 200px 0;
@@ -75,11 +75,11 @@
             }
           }
         }
-        @media screen and (max-width: 480px) {
-            .hero-content {
-              text-align: left;
-            }
-        }    
+        // @media screen and (max-width: 480px) {
+        //     .hero-content {
+        //       text-align: left;
+        //     }
+        // }    
     }
 }
 
