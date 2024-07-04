@@ -412,8 +412,8 @@ p {
     
     .img-container {
         width: 50%;
+        overflow-x: hidden;
         overflow-y: scroll;
-        overflow: hidden;
         align-items: center;
         float: right;
         padding: 0 4%;
