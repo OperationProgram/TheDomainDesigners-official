@@ -67,16 +67,45 @@
       </div>
     </div>
   </section> -->
-  
-  <section class="wp-contents contents">
-    <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" />
-    <div class="contents-container">
-      <a href="#section-1-header">      
-        <div class="content-title">
-          <h2>What We Offer</h2>
-          <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+  <section class="contents">
+    <div class="curved">
+        <!-- <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" /> -->
+        <div class="contents-container">
+            <a href="#section-1-header">      
+                <div class="content-title">
+                    <h2>Custom Designs</h2>
+                    <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+                </div>
+            </a>
+
+            <a href="#section-2-header">      
+                <div class="content-title">
+                    <h2>Website Development</h2>
+                    <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+                </div>
+            </a>
+
+            <a href="#section-3-header">      
+                <div class="content-title">
+                    <h2>Ecommerce</h2>
+                    <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+                </div>
+            </a>
+
+            <a href="#section-4-header">      
+                <div class="content-title">
+                    <h2>SEO</h2>
+                    <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+                </div>
+            </a>
+
+            <a href="#section-4-header">      
+                <div class="content-title">
+                    <h2>Maintenance</h2>
+                    <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
+                </div>
+            </a>
         </div>
-      </a>
     </div>
   </section>
 

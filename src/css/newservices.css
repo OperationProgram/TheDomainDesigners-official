@@ -168,10 +168,17 @@
   }
 }
 
+.curved {
+  position: relative;
+  background: url("../assets/good/plain-background.png") no-repeat center center;
+  background-size: cover;
+  border-bottom-left-radius: 50% 41%;
+  border-bottom-right-radius: 50% 41%;
+}
+
 .contents {
   height: auto;
   width: 100%;
-  margin-top: 80px;
 }
 .contents .contents-container {
   width: 100%;
@@ -179,7 +186,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 100px;
   overflow: hidden;
   padding: 36px;
 }
@@ -209,11 +217,6 @@
   .contents .contents-container a:hover .content-title {
     font-size: 16px;
     color: #7403d1;
-  }
-}
-@media (max-width: 480px) {
-  .contents {
-    margin-top: 65vh;
   }
 }
 .sub-cta {
