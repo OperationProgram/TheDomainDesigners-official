@@ -251,7 +251,6 @@
 }
 
 .icons {
-  background-color: #f4f4f4;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -260,7 +259,6 @@
 .icons .icon {
   display: flex;
   flex-direction: column;
-  color: #252525;
   justify-content: center;
   align-items: center;
   padding: 12px;
@@ -296,10 +294,126 @@
     flex-direction: column;
   }
 }
-.partial-scroll {
+.development-section a .cta-button-dark {
+  width: 25%;
+}
+.development-section .img-box {
+  width: 50%;
+  min-width: 224px;
+  background: url("../assets/wp-plugin.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.development-section .icons {
   background-color: #f4f4f4;
+}
+.development-section .icons .icon {
+  color: #252525;
+}
+
+@media (max-width: 768px) {
+  .development-section a .cta-button-dark {
+    width: 50%;
+  }
+  .development-section .img-box {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+.development-section, .section-cta {
+  overflow: hidden;
+  background-color: #f4f4f4;
+  padding: 8%;
+}
+
+.section-cta .sub-cta .cta-column {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.section-cta h1, .section-cta p {
+  color: #252525;
+}
+
+.custom-design-section {
+  background-color: #f4f4f4;
+}
+.custom-design-section .sub-cta .cta-column h1, .custom-design-section .sub-cta .cta-column p {
+  color: #252525;
+}
+.custom-design-section .sub-cta .img-box {
+  background: url("../assets/planning.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .custom-design-section .sub-cta {
+    flex-direction: column;
+  }
+  .custom-design-section .sub-cta .img-box {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.ecommerce-section .sub-cta .img-box {
+  background: url("../assets/credit-card.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .ecommerce-section .sub-cta {
+    flex-direction: column;
+  }
+  .ecommerce-section .sub-cta .img-box {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.seo-section {
+  background-color: #111;
+  color: #fff;
+  padding: 8%;
+}
+.seo-section .sub-cta .cta-column p {
+  color: #fff;
+}
+.seo-section a .cta-button {
+  width: 25%;
+}
+.seo-section .img-box {
+  width: 50%;
+  min-width: 224px;
+  background: url("../assets/keywords.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.seo-section .icons {
+  background-color: #111;
+}
+.seo-section .icons .icon {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .seo-section a .cta-button {
+    width: 50%;
+  }
+  .seo-section .img-box {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+.partial-scroll {
+  background-color: #111;
   width: 100%;
   padding: 8%;
+  color: #fff;
 }
 .partial-scroll img {
   width: 100%;
@@ -309,6 +423,7 @@
 }
 .partial-scroll ul li p {
   font-size: 18px;
+  color: #fff;
 }
 .partial-scroll .text-column {
   width: 50%;
@@ -355,60 +470,4 @@
     width: 100%;
     padding-top: 28px;
   }
-}
-
-.development-section .img-box {
-  width: 50%;
-  min-width: 224px;
-  background: url("../assets/wp-plugin.jpg") no-repeat;
-  background-size: cover;
-  background-position: bottom;
-}
-
-@media (max-width: 768px) {
-  .development-section .img-box {
-    margin: 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-}
-.development-section, .section-cta, .section-2 {
-  overflow: hidden;
-  background-color: #f4f4f4;
-  padding: 8%;
-}
-
-.section-cta .sub-cta .cta-column {
-  padding-top: 8%;
-  padding-bottom: 8%;
-}
-.section-cta h1, .section-cta p {
-  color: #252525;
-}
-
-.custom-design-section {
-  background-color: #f4f4f4;
-}
-.custom-design-section .sub-cta .cta-column h1, .custom-design-section .sub-cta .cta-column p {
-  color: #252525;
-}
-.custom-design-section .sub-cta .img-box {
-  background: url("../assets/planning.jpg") no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  width: 50%;
-}
-@media (max-width: 768px) {
-  .custom-design-section .sub-cta {
-    flex-direction: column;
-  }
-  .custom-design-section .sub-cta .img-box {
-    width: 100%;
-    height: 400px;
-  }
-}
-
-.section-5 .sub-cta .cta-column {
-  padding-top: 8%;
-  padding-bottom: 8%;
 }/*# sourceMappingURL=newservices.css.map */

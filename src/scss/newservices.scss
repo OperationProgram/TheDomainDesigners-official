@@ -1,23 +1,6 @@
 @import "variables";
 @import "mixins";
 
-// html, body {
-//     background-color: $background-color-dark;
-//     scroll-behavior: smooth;
-//     font-family: $primary-font;
-//     line-height: 1.5;
-// }
-// h1, h2 {
-//     font-family: $header-font;
-// }
-
-// p {
-//     font-size: 18px;
-//     line-height: 1.6em;
-//     font-family: $primary-font;
-// }
-
-
 .cta-button {
     background-color: map-get($primary-btn-outline, background-color);
     color: map-get($primary-btn-outline, color);
@@ -78,11 +61,6 @@
     letter-spacing: 0.2em;
 }
 
-// .hero-gradient {
-//     color: $text-color-light;
-//     font-size: min(7vw, 50px);
-// }
-
 
 // .overlay {
   //     background-color: rgb(2 2 2 / 39%);
@@ -93,9 +71,9 @@
   //     top: 0;
   // }
   
-  .show-sm-screen {
-      display: none;
-  }
+.show-sm-screen {
+    display: none;
+}
 @media (max-width: 768px) {
     .show-sm-screen {
         display: block;
@@ -148,8 +126,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        // background: $background-color-light;
-        // border-radius: 100px;
         overflow: hidden;
         padding: 36px;
 
@@ -196,7 +172,6 @@
     display: flex;
     position: relative;
     overflow: hidden;
-
     .cta-column {
         padding: 26px;
         width: 50%;        
@@ -223,7 +198,6 @@
 }
 
 .icons {
-    background-color: $background-color-light;
     display: flex;
     width: 100%;
     padding: 2rem;
@@ -232,7 +206,6 @@
     .icon {
         display: flex;
         flex-direction: column;
-        color: $text-color-dark;
         justify-content: center;
         align-items: center;
         padding: 12px;
@@ -275,92 +248,40 @@
     }
 }
 
-.partial-scroll {
-    background-color: $background-color-light;
-    width: 100%;
-    padding: 8%;
-
-    img {
-        width: 100%;
-    }
-    ul li {
-        margin-bottom: 1rem;
-    }
-    ul li p{
-        font-size: 18px;
-    }
-
-    .text-column {
-        // flex: 0 0 auto;
-        width: 50%;
-        float: left;
-    }
-    
-    .img-container {
-        width: 50%;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        align-items: center;
-        float: right;
-        padding: 0 4%;
-        padding-left: 50px;
-        .img-box {
-            background: none;
-            width: 100%;
-            border-radius: 20px;
-            margin: 10% 5px;
-            
-            img {
-                display: block;
-                width: 100%;
-                border-radius: 20px;
-                object-fit: cover;
-            }
-        }    
-    }
-    .img-container::-webkit-scrollbar {
-        display: none;
-    }
-
-    .img-container {
-        scrollbar-width: thin; 
-        scrollbar-color: $primary-color transparent; 
-    }
-    
-    .img-container::-webkit-scrollbar-thumb {
-        background-color: red; 
-    }
-
-    @media (max-width: 768px) {
-        .img-container {
-            display: none;
-        }
-
-        .text-column {
-            float: none;
-            width: 100%;
-            padding-top: 28px;
-        }
-    }
-}
-
-.development-section .img-box {
+.development-section {
+  a .cta-button-dark {
+    width: 25%;
+  }
+  .img-box {
     width: 50%;
     min-width: 224px;
     background: url("../assets/wp-plugin.jpg") no-repeat;
     background-size: cover;
     background-position: bottom;
+  }
+
+  .icons {
+    background-color: $background-color-light;
+    .icon {
+      color: $text-color-dark;
+    }
+  }
 }
 
 
 @media (max-width: 768px) {
-    .development-section .img-box {
+  .development-section{
+    a .cta-button-dark {
+      width: 50%;
+    }
+    .img-box {
         margin: 0 auto;
         width: 100%;
         height: 400px;
     }
+  }
 }
-.development-section, .section-cta, .section-2 {
+.development-section, .section-cta {
     overflow: hidden;
     background-color: $background-color-light;
     padding: 8%;
@@ -405,11 +326,134 @@
   }
 }
 
-.section-5 {
+.ecommerce-section {
+  .sub-cta {
+    .img-box {
+      background: url("../assets/credit-card.jpg") no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      width: 50%;
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
     .sub-cta {
-        .cta-column {
-            padding-top: 8%;
-            padding-bottom: 8%;
+        flex-direction: column;
+        .img-box {
+            width: 100%;
+            height: 400px;
         }
     }
+  }
+}
+
+.seo-section {
+  background-color: $background-color-dark;
+  color: $text-color-light;
+  padding: 8%;
+
+  .sub-cta .cta-column p {
+    color: $text-color-light;
+  }
+  a .cta-button {
+    width: 25%;
+  }
+  .img-box {
+    width: 50%;
+    min-width: 224px;
+    background: url("../assets/keywords.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .icons {
+    background-color: $background-color-dark;
+    .icon {
+      color: $text-color-light;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .seo-section{
+    a .cta-button {
+      width: 50%;
+    }
+    .img-box {
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+    }
+  }
+}
+
+.partial-scroll {
+  background-color: $background-color-dark;
+  width: 100%;
+  padding: 8%;
+  color: $text-color-light;
+
+  img {
+      width: 100%;
+  }
+  ul li {
+      margin-bottom: 1rem;
+  }
+  ul li p{
+      font-size: 18px;
+      color: $text-color-light;
+  }
+
+  .text-column {
+      width: 50%;
+      float: left;
+  }
+  
+  .img-container {
+      width: 50%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      align-items: center;
+      float: right;
+      padding: 0 4%;
+      padding-left: 50px;
+      .img-box {
+          background: none;
+          width: 100%;
+          border-radius: 20px;
+          margin: 10% 5px;
+          
+          img {
+              display: block;
+              width: 100%;
+              border-radius: 20px;
+              object-fit: cover;
+          }
+      }    
+  }
+  .img-container::-webkit-scrollbar {
+      display: none;
+  }
+
+  .img-container {
+      scrollbar-width: thin; 
+      scrollbar-color: $primary-color transparent; 
+  }
+  
+  .img-container::-webkit-scrollbar-thumb {
+      background-color: red; 
+  }
+
+  @media (max-width: 768px) {
+      .img-container {
+          display: none;
+      }
+
+      .text-column {
+          float: none;
+          width: 100%;
+          padding-top: 28px;
+      }
+  }
 }
