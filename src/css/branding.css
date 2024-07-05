@@ -39,6 +39,12 @@
      object-fit: cover;
 }
 
+.contents {
+  background: url("../assets/UI-UX_graphic.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .section-3 {
   background-color: #f4f4f4;
 }

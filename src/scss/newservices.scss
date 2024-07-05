@@ -123,103 +123,12 @@
     color: $secondary-color;
 }
 
+.padding-box {
+  padding: 0 26px;
+}
+
 @include hero_section(url("../assets/UI-UX_graphic.jpg"), 70vh);
 
-// .hero-section {
-//     // position: absolute;
-//     top: 0;
-//     height: 70vh;
-//     width: 100%;
-    
-//     video {
-//         width: 100%;
-//         height: 100%;
-//         object-fit: cover;
-//     }
-
-//     .hero-content {
-//         position: relative;
-//         height: 100%;
-//         background-color: $background-color-dark;
-//         overflow: hidden;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         .cta {
-//             width: 50%;
-//             position: absolute;
-//             // left: 30%;
-//             z-index: 999;
-//             // bottom: 50%;
-//             // text-align: center;
-//         }
-
-//         .custom-h1 {
-//             // color: #ffffff;
-//             -webkit-text-stroke: 2px rgb(255, 255, 255); 
-//             font-weight: bold;
-//             color: rgba(0, 0, 0, 0); 
-//             letter-spacing: .12em;
-//         }
-
-//         img {
-//             position: absolute;
-//             right: -20%;
-//             min-width: 50%;
-//             height: 100%;
-//         }
-
-//         @media screen and (max-width: 768px) {
-//             .cta {
-//               h1 {
-//                   font-size: 36px; 
-//               }
-//               h2 {
-//                   font-size: 24px; 
-//               }
-//             }
-//           }
-//           @media screen and (max-width: 480px) {
-//               .cta{
-//                 text-align: left;
-//                 h1 {
-//                     font-size: 30px; 
-//                 }
-//               }
-//           }   
-//     }
-
-//     .hero-card-slide-container {
-//         display: flex;
-//         width: 100%;
-//         height: auto;
-//         background-color: $background-color-dark;
-//         color: $text-color-light;
-
-//         .hero-card {
-//             width: 25%;
-//             height: 150px;
-//             padding: 15px;
-//             position: relative;
-
-//             img {
-//                 width: 100%;
-//                 height: 100%;
-//                 object-fit: contain;
-//                 border-radius: 12px;
-//                 background-color: $background-color-light;
-//             }
-//         }
-
-//     }
-
-//     @media (max-width: 480px) {
-//         .hero-card-slide-container {
-//             display: none;
-//         }
-//     }
-    
-// }
 .curved {
   position: relative;
   background: url('../assets/good/plain-background.png') no-repeat center center;
@@ -281,11 +190,6 @@
     } 
 }
 
-// @media (max-width: 480px) {
-//     .contents {
-//         margin-top: 65vh;
-//     }
-// }
 
 .sub-cta {
     width: 100%;
@@ -311,36 +215,9 @@
         position: relative;
         overflow: hidden;
 
-        // .video-thumbnail {
-        //     display: block;
-        //     width: 100%;
-        //     height: 100%;
-        //     cursor: pointer;
-        //     object-fit: cover;
-        //     border-radius: 50px;
-        // }
-
-        // .play-button {
-        //     position: absolute;
-        //     top: 50%;
-        //     left: 50%;
-        //     transform: translate(-50%, -50%);
-        //     width: 64px;
-        //     height: 64px;
-        //     background: url('../assets/play-button.svg') no-repeat center center;
-        //     background-size: contain;
-        //     cursor: pointer;
-        // }
-
         iframe{
             width: 100%;
             height: 100%;
-            // object-fit: cover; /* Change to 'contain' if you want the entire video visible */
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // display: none;
-            // border-radius: 50px;
         }
     }
 }
@@ -398,11 +275,10 @@
     }
 }
 
-.section-3 {
-    background-color: $background-color-dark;
-    color: #fff;
+.partial-scroll {
+    background-color: $background-color-light;
     width: 100%;
-    padding: 12%;
+    padding: 8%;
 
     img {
         width: 100%;
@@ -411,7 +287,6 @@
         margin-bottom: 1rem;
     }
     ul li p{
-        color: #fff;
         font-size: 18px;
     }
 
@@ -441,9 +316,7 @@
                 border-radius: 20px;
                 object-fit: cover;
             }
-        }
-
-        
+        }    
     }
     .img-container::-webkit-scrollbar {
         display: none;
@@ -471,31 +344,29 @@
     }
 }
 
-.section-1 .img-box {
+.development-section .img-box {
     width: 50%;
     min-width: 224px;
-    img {
-        width: 100%;
-        height: auto;
-    }
+    background: url("../assets/wp-plugin.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 
 @media (max-width: 768px) {
-    .section-1 .img-box {
+    .development-section .img-box {
         margin: 0 auto;
+        width: 100%;
+        height: 400px;
     }
 }
-.section-1, .section-5, .section-2 {
+.development-section, .section-cta, .section-2 {
     overflow: hidden;
     background-color: $background-color-light;
-    padding: 4%;
+    padding: 8%;
 }
 
-.section-4 {
-    overflow: hidden;
-    padding: 4%;
-    padding-top: 12%;
+.section-cta {
     .sub-cta {
         .cta-column {
             padding-top: 8%;
@@ -504,8 +375,34 @@
     }
     
     h1, p {
-        color: $text-color-light;
+        color: $text-color-dark;
     }
+}
+
+.custom-design-section {
+  background-color: $background-color-light;
+  .sub-cta {
+      .cta-column {
+          h1, p {
+              color: $text-color-dark;
+          }
+      }
+      .img-box {
+          background: url("../assets/planning.jpg") no-repeat;
+          background-size: cover;
+          background-position: bottom;
+          width: 50%;
+      }
+  }
+  @media (max-width: 768px) {
+      .sub-cta {
+          flex-direction: column;
+          .img-box {
+              width: 100%;
+              height: 400px;
+          }
+      }
+  }
 }
 
 .section-5 {

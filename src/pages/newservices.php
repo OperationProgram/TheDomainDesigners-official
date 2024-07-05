@@ -10,7 +10,6 @@
   <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
   <link rel="stylesheet" href="../css/newservices.css">
-  <link rel="stylesheet" href="../css/branding.css">
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
@@ -67,18 +66,19 @@
       </div>
     </div>
   </section> -->
+  
   <section class="contents">
     <div class="curved">
         <!-- <img class="sr-only" alt="Background image featuring flowchart - Quick Links for Branding Services" src="../assets/UI-UX_graphic.jpg" /> -->
         <div class="contents-container">
-            <a href="#section-1-header">      
+            <a href="#custom-designs-header">      
                 <div class="content-title">
                     <h2>Custom Designs</h2>
                     <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
                 </div>
             </a>
 
-            <a href="#section-2-header">      
+            <a href="#development-header">      
                 <div class="content-title">
                     <h2>Website Development</h2>
                     <img src="../assets/right-arrow.svg" width="40" height="40" alt="arrow link graphic - What We Offer">
@@ -109,12 +109,74 @@
     </div>
   </section>
 
+  <section id="custom-designs-header" class="custom-design-section section-cta">
+    <img class="sr-only" alt="People analyzing a pie chart - Design & Customization Services by The Domain Designers" src="../assets/planning.jpg" />
+    <div class="sub-cta">
+        <div class="img-box border-radius-curved-tr" data-aos="fade-right" data-aos-duration="1000">
+        </div>
+        <div class="cta-column">
+            <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">From Concept to Creation</h2>
+            <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Custom Designs</h1>
+            <p data-aos="fade-up" data-aos-duration="1300">At our web development agency, we specialize in exceptional WordPress design and customization services that cater to your unique business needs. Our expert team crafts visually stunning and highly functional websites, ensuring a seamless user experience across all devices.
+            <br /><br />   
+            We leverage the latest design trends and tools to create customized themes and plugins, enhancing your site's performance and aesthetic appeal. Our tailored solutions not only reflect your brand identity but also drive user engagement and conversion. 
+            <br /><br />   
+            With a focus on responsive design and fast load times, we ensure your WordPress site stands out in the digital landscape. Trust us to transform your online presence with innovative design and superior customization.
+            </p>
+            <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
+        </div>
 
-  <section id="section-1-header" class="section-3">
+    </div>
+  </section>
+
+  <section id="development-header" class="development-section">
+    <div class="sub-cta">
+        <div class="cta-column">
+            <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1300">Building Your Product</h2>
+            <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1300">Website Development</h1>
+            <p data-aos="fade-up" data-aos-duration="1300"> Plugins are essential for enhancing the functionality of your WordPress website, and our agency excels at integrating and customizing them to meet your specific needs. We utilize a wide range of plugins to add features such as contact forms, e-commerce capabilities, SEO tools, and social media integration.
+            <br /><br />   
+            Our team ensures that each plugin is seamlessly integrated, optimized for performance, and regularly updated to maintain security and functionality. Trust us to extend your website's capabilities with the best plugins available, tailored to your business requirements.
+            </p>
+            <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
+        </div>
+
+        <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
+        </div>
+    </div>
+    
+    <h2 class="custom-h2 padding-box">What We Do</h2>
+    <div class="icons">
+        <div class="icon" data-aos="fade-down" data-aos-duration="1500">
+            <img src="../assets/icons/woocommerce.svg" alt="WooCommerce icon - E-commerce Solutions by WooCommerce">
+            <span>WooCommerce</span>
+            <p>WooCommerce is a robust and versatile plugin designed to transform your WordPress site into a fully functional e-commerce platform. It offers extensive features for managing products, payments, and shipping, while providing a seamless shopping experience for your customers.
+            </p>
+        </div>
+        <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+            <img src="../assets/icons/WPForms.png" alt="WPForms icon - Custom Form Building Solutions by WPForms">
+            <span>WP Forms</span>
+            <p>WPForms is a powerful and user-friendly plugin that allows you to create custom contact forms, surveys, and other interactive features with ease. Its drag-and-drop interface makes form building accessible to everyone, while its advanced functionality ensures seamless integration and reliable performance on your WordPress site.</p>
+        </div>
+        <div class="icon" data-aos="fade-down" data-aos-duration="1500">
+            <img src="../assets/icons/chart-trends.svg" alt="Charts icon representing SEO - Effective SEO Strategies">
+            <span>AIOSEO</span>
+            <p>
+            AIOSEO (All in One SEO) is a comprehensive plugin designed to optimize your WordPress site's search engine performance. It offers powerful tools for managing meta tags, sitemaps, and keywords, ensuring that your website ranks higher in search results and attracts more organic traffic.</p>
+        </div>
+        <div class="icon" data-aos="fade-up" data-aos-duration="1500">
+            <img src="../assets/icons/mail.svg" alt="Mail symbol representing WP Mail - Seamless Email Integration">
+            <span>WPMail</span>
+            <p>WP Mail SMTP is an essential plugin that improves the reliability of your WordPress site's email delivery. By reconfiguring the default email settings, it ensures your emails are sent securely using proper SMTP protocols, reducing the chances of emails being marked as spam.</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="" class="partial-scroll">
     <img src="../assets/blue-orange.jpg" class="show-sm-screen border-radius-curved-tr" alt="Blue orange fruit brand - Effective Branding Strategies for Various Industries" data-aos="fade-up" data-aos-duration="1200">
     <div id="ps-left-column" class="text-column">
-      <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1200">Build A Memory</h2>
-      <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1200">What We Offer</h1>
+      <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1200">From Concept to Creation</h2>
+      <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1200">Custom Designs</h1>
       <ul>
         <li data-aos="fade-up" data-aos-duration="1200"><p> <strong class="custom-bold">Logo Making</strong> <br />
         Logo making is a critical aspect of branding, as it serves as the visual symbol of your brand's identity. A well-designed logo captures the essence of your business and creates a lasting impression on your audience.
