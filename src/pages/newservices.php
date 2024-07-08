@@ -108,7 +108,7 @@
         </div>
 
         <div class="img-box border-radius-curved-tr" data-aos="fade-left" data-aos-duration="1000">
-            <img src="../assets/wp-plugin.jpg" class="sr-only" alt="Plugin symbol with WordPress icon - Essential WordPress Plugins">
+            <img src="../assets/laptop-dark-code.jpg" class="sr-only" alt="Laptop showing code for web development">
         </div>
     </div>
     
@@ -164,7 +164,7 @@
             <br /><br />
             <p>Sometimes, we find it best to work closely with a professional copywriter to be sure to get your website ranked highly. Just know that we will do whatever it takes to get your website noticed by others.</p>  
             <br /><br />  
-            Our aim is to drive traffic, improve rankings, and boost conversions. Relax and focus on your business while we handle your SEO with care and expertise.
+            <p>Our aim is to drive traffic, improve rankings, and boost conversions. Relax and focus on your business while we handle your SEO with care and expertise.
             </p>
         </div>
 
@@ -195,7 +195,7 @@
   </section>
 
   <section id="maintenance-header" class="partial-scroll">
-    <img src="../assets/blue-orange.jpg" class="show-sm-screen border-radius-curved-tr" alt="Blue orange fruit brand - Effective Branding Strategies for Various Industries" data-aos="fade-up" data-aos-duration="1200">
+    <img src="../assets/icons/backup.svg" class="show-sm-screen border-radius-curved-tr" alt="Cloud Storage / Backup Icon resembling backups for the maintenance package" data-aos="fade-up" data-aos-duration="1200">
     <div id="ps-left-column" class="text-column">
       <h2 class="custom-h2" data-aos="fade-up" data-aos-duration="1200">Covering You Indefinitely</h2>
       <h1 class="custom-h1" data-aos="fade-up" data-aos-duration="1200">Maintenance Package</h1>
@@ -226,19 +226,19 @@
     
     <div class="img-container">
       <div class="img-box">
-        <img src="../assets/blue-orange.jpg" alt="Blue orange fruit brand - Effective Branding Strategies for Various Industries ">
+        <img src="../assets/icons/backup.svg" alt="Cloud Storage / Backup Icon resembling backups for the maintenance package">
       </div>
       <div class="img-box">
-        <img src="../assets/brands-orange-book.jpg" alt="Orange design book surrounded by design tools - Creative Branding Solutions">
+        <img src="../assets/security-cameras.jpg" alt="Security cameras indicating comprehensive Monitoring for Website Security">
       </div>
       <div class="img-box">
-        <img src="../assets/computer-color-schemes.jpg" alt="Computer screen with color palettes - Tailored Branding Solutions for Digital Presence">
+        <img src="../assets/cube-grid.jpg" alt="Graphic of blue cubes in digital field">
       </div>
       <div class="img-box">
-        <img src="../assets/brands-armful.jpg" alt="Armful of different branded products - Comprehensive Branding Solutions for Product Diversity">
+        <img src="../assets/computer-updating.jpg" alt="Laptop and desktop showing update in progress">
       </div>
       <div class="img-box">
-        <img src="../assets/color-schemes.jpg" alt="Collection of physical paper color palettes - Tangible Branding Solutions for Authentic Representation ">
+        <img src="../assets/workbench.jpg" alt="Workbench with tools laying across it">
       </div>
     </div>
 

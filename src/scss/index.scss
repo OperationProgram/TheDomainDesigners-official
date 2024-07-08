@@ -50,7 +50,7 @@ $header-font: 'Arial', sans-serif;
 
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: $primary-font;
     margin: 0;
     padding: 0;     
     box-sizing: border-box;
@@ -144,7 +144,7 @@ section {
     h1 {
         font-size: 48px;
         margin-bottom: 20px;
-        font-family: 'Inter', sans-serif; /* Custom font */
+        font-family: $primary-font; /* Custom font */
         font-weight: 700; /* Bold weight */
         color: #f2f2f2; /* Dark color for contrast */
         letter-spacing: 1px; /* Slightly increased letter spacing */

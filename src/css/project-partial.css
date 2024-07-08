@@ -32,7 +32,7 @@ h1, h2 {
 p {
   font-size: 18px;
   line-height: 1.6em;
-  font-family: "malden-sans-medium", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -186,7 +186,7 @@ a {
   font-size: 18px;
   padding: 5px;
   text-decoration: none;
-  font-family: "malden-sans-medium", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .contents-section .contents-container .nav-column ul .content-link:hover {
   color: #7403d1;

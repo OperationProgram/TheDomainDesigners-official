@@ -23,7 +23,7 @@
 html, body {
   background-color: #111;
   scroll-behavior: smooth;
-  font-family: "malden-sans-medium", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
 }
 
@@ -34,7 +34,7 @@ h1, h2 {
 p {
   font-size: 18px;
   line-height: 1.6em;
-  font-family: "malden-sans-medium", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .cta-button {

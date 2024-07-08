@@ -20,6 +20,15 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
 .cta-button {
   background-color: white;
   color: black;
@@ -274,7 +283,7 @@
   height: 50px;
 }
 .icons .icon p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -300,7 +309,7 @@
 .development-section .img-box {
   width: 50%;
   min-width: 224px;
-  background: url("../assets/wp-plugin.jpg") no-repeat;
+  background: url("../assets/laptop-dark-code.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
 }
