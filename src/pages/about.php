@@ -40,12 +40,14 @@
 
 <div class="overlay"></div>
 <section class="hero-section">
-<img class="sr-only" src="../assets/custom-code-services.jpg" />
+    <canvas id="hero-canvas"></canvas>
+    <!-- <img class="sr-only" src="../assets/custom-code-services.jpg" /> -->
     <div class="hero-content">
         <h1>Our Team</h1>
         <h2>The Domain Designers: Meet The Team</h2>
         <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
     </div>
+    
 </section>
 <!-- <section class="hero about-hero" >
     <div class="container hero-container">
@@ -341,6 +343,7 @@
     once: true // Only once animation flag
   });
 </script>
+<script src="../scripts/mouseEffect.js"></script>
 <!-- <script src="../scripts/reviewController.js"></script> -->
 
 

@@ -65,7 +65,8 @@
     <!-- <main> -->
         <div class="overlay"></div>
         <section class="hero-section">
-            <img class="sr-only" src="../assets/man-on-phone-right.jpg" />
+            <canvas id="hero-canvas"></canvas>
+            <!-- <img class="sr-only" src="../assets/man-on-phone-right.jpg" /> -->
             <div class="hero-content">
                 <h1>Helping You to Succeed</h1>
                 <h2>Let's chat about your website goals</h2>
@@ -145,6 +146,7 @@
     <!-- </main> -->
     
     <script type="module" src="../scripts/contactForm.js"></script>
+    <script src="../scripts/mouseEffect.js"></script>
     <?php include 'Footer/footer.php';?>
 </body>
 </html>

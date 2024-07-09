@@ -26,6 +26,7 @@
 
   <div class="overlay"></div>
   <section class="hero-section">
+    <canvas id="hero-canvas"></canvas>
     <!-- <img class="sr-only" src="../assets/custom-code-services.jpg" /> -->
       <div class="hero-content">
           <h1>Web Development Services</h1>
@@ -256,4 +257,5 @@
   </script>
 
   <?php include './Footer/footer.php';?>
+  <script src="../scripts/mouseEffect.js"></script>
 </body>
