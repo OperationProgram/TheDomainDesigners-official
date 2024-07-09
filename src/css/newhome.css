@@ -135,6 +135,7 @@ section {
 .hero-image {
   flex: 1; /* Adjusts the width based on available space */
   padding: 10px;
+  z-index: 15;
 }
 .hero-image img {
   width: 100%;
