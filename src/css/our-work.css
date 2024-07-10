@@ -43,8 +43,6 @@
   align-items: center;
   margin: 0 auto;
   z-index: 2;
-  background: url("../assets/dark-symmetry.jpg") no-repeat center center;
-  background-size: cover;
   padding: 10px 20px;
   /* Typography styles for the hero section */
 }
