@@ -38,8 +38,7 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
-  background: url("../assets/good/plain-background.png") no-repeat center center;
-  background-size: cover;
+  position: relative;
   color: #ececec;
   text-align: center;
   margin-top: 0px; /* Adjust as needed */
@@ -50,6 +49,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
 }
 .hero-section .hero-content {
   position: relative;
@@ -58,6 +58,9 @@ body {
   align-items: center;
   margin: 0 auto;
   z-index: 2;
+  background: url("../assets/dark-symmetry.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 10px 20px;
   /* Typography styles for the hero section */
 }
 .hero-section .hero-content h1 {
