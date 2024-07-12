@@ -38,10 +38,10 @@
     <script src=" <?php echo '../scripts/navbarController.js';?>"></script>
 </header>
 
-<div class="overlay"></div>
+<!-- <div class="overlay"></div> -->
 <section class="hero-section">
-    <canvas id="hero-canvas"></canvas>
-    <!-- <img class="sr-only" src="../assets/custom-code-services.jpg" /> -->
+    <div class="overlay-1"></div>
+    <div class="overlay-2"></div>
     <div class="hero-content">
         <h1>Our Team</h1>
         <h2>The Domain Designers: Meet The Team</h2>
@@ -49,18 +49,6 @@
     </div>
     
 </section>
-<!-- <section class="hero about-hero" >
-    <div class="container hero-container">
-        <div class="hero-content" data-aos="slide-right" data-aos-duration="200" data-aos-once="true">
-            <h1>About Us</h1>
-            <p>The Domain Designers: Meet The Team
-            </p>
-        </div>
-        <div class="hero-image">
-            <img data-aos="slide-left" data-aos-duration="200" data-aos-once="true" src="../assets/Our-Team/Our-Team.svg" alt="Cartoon Infographic of people relaxing in a park">
-        </div>
-    </div>
-</section> -->
 
 <section class="about-section">
     <div class="container">
@@ -99,34 +87,6 @@
     </div>
 </section>
 
-
-
-<!-- <section class="team-section">
-    <div class="container">
-        <h2>Our Team</h2>
-        <div class="team-cards">
-            <div class="team-card">
-                <div class="team-member">
-                    <img src="/src/assets/spencer-pic.png" alt="Team Member 1">
-                    <div class="member-info">
-                        <h3>Spencer</h3>
-                        <p>Co-Founder / Web Developer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-member">
-                    <img src="/src/assets/alex-pic.png" alt="Team Member 2">
-                    <div class="member-info">
-                        <h3>Jane Smith</h3>
-                        <p>Designer / UX Specialist</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 <section class="team-section">
     <h2>Meet the Team</h2>
     <div class="team-grid">
@@ -134,21 +94,12 @@
         <img src="../assets/alex-pic.png" alt="The Domain Designers CoFounder - Alex Metzger">
         <h3>Alex Metzger</h3>
         <p>Co-Founder</p>
-        <!-- <p>Brief description or bio of the team member.</p> -->
       </div>
       <div class="team-card">
         <img src="../assets/spencer-pic.png" alt="The Domain Designers CoFounder - Spencer Holan">
         <h3>Spencer Holan</h3>
         <p>Co-Founder</p>
-        <!-- <p>Brief description or bio of the team member.</p> -->
       </div>
-      <!-- <div class="team-card">
-        <img src="../assets/alex-pic.png" alt="Team Member Name">
-        <h3>Name Here</h3>
-        <p>Title</p>
-        <p>Brief description or bio of the team member.</p>
-      </div>
-    </div> -->
   </section>  
 
 <!-- <section class="review-carousel">
@@ -343,7 +294,6 @@
     once: true // Only once animation flag
   });
 </script>
-<script src="../scripts/mouseEffect.js"></script>
 <!-- <script src="../scripts/reviewController.js"></script> -->
 
 

@@ -9,7 +9,7 @@
   <meta name="keywords" content="The Domain Designers">
   <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
-  <link rel="stylesheet" href="../css/services.css"> 
+  <link rel="stylesheet" href="../css/portfolios.css"> 
   <link rel="stylesheet" href="../css/our-work.css"> 
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
@@ -28,7 +28,9 @@
   <!-- Hero Section -->
   <div class="overlay"></div>
   <section class="hero-section">
-    <canvas id="hero-canvas"></canvas>
+      <div class="overlay-1"></div>
+      <div class="overlay-2"></div>
+    <!-- <canvas id="hero-canvas"></canvas> -->
   <!-- <img class="sr-only" src="../assets/UI-UX_graphic.jpg" /> -->
       <div class="hero-content">
           <h1>Our Work</h1>
@@ -92,7 +94,6 @@
   <script>
     AOS.init();
   </script>
-  <script src="../scripts/mouseEffect.js"></script>
   <?php include 'Footer/footer.php';?>
 </body>
 </html>
