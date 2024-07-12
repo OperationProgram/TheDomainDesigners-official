@@ -44,7 +44,7 @@
   width: 100%;
   height: 150px; /* Adjust height as needed */
   position: relative;
-  background-image: linear-gradient(to right, #000, #000);
+  background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
   overflow: hidden;
   z-index: 1;
 }
