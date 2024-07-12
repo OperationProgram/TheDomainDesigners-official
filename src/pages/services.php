@@ -31,7 +31,7 @@
       <div class="hero-content">
           <h1>Web Development Services</h1>
           <h2>Customized for Your Needs</h2>
-          <a href="../pages/contact.php"><button class="cta-button">Contact Us</button></a>
+          <a href="contact.php"><button class="cta-button">Contact Us</button></a>
       </div>
   </section>
   
@@ -88,7 +88,7 @@
             <br /><br />   
             You'll work closely with our design team and give feedback to ensure your ideas come to life just right. Once you're happy with the design, we start developing the site. With our personalized web design services, we help you build a strong online presence and reach your goals.
             </p>
-            <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
+            <a href="contact.php"><button class="cta-button-dark">Start Here</button></a>
         </div>
 
     </div>
@@ -131,7 +131,7 @@
             <p>Regardless of how you want your website designed and developed, we make sure your site will look great on smaller screens such as pads and mobile devices. Afterall, over 60% of web traffic is through mobile devices these days, so we make this a priority.</p>
         </div>
     </div>
-    <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
+    <a href="contact.php"><button class="cta-button-dark">Start Here</button></a>
   </section>
 
   <section id="ecommerce-header" class="ecommerce-section section-cta">
@@ -149,7 +149,7 @@
         <br /><br />   
         Let us take care of the technical details while you build your business with confidence.
         </p>
-        <a href="../contact.php"><button class="cta-button-dark">Start Here</button></a>
+        <a href="contact.php"><button class="cta-button-dark">Start Here</button></a>
       </div>
 
     </div>
@@ -191,7 +191,7 @@
             We ensure your website meets all technical requirements for optimal search engine performance. This includes optimizing site speed, ensuring mobile-friendliness, and enhancing website architecture to improve indexing and crawling by search engines.</p>
         </div>
     </div>
-    <a href="../contact.php"><button class="cta-button">Start Here</button></a>
+    <a href="contact.php"><button class="cta-button">Start Here</button></a>
   </section>
 
   <section id="maintenance-header" class="partial-scroll">
@@ -221,7 +221,7 @@
           By regularly auditing performance metrics and implementing optimizations, we ensure your website delivers a fast and seamless browsing experience for visitors. This proactive approach helps maintain high performance standards and enhances your website's reliability and user satisfaction.
         </p></li>
       </ul>
-      <a href="./contact.php"><button class="cta-button">Start Here</button></a>
+      <a href="contact.php"><button class="cta-button">Start Here</button></a>
     </div>
     
     <div class="img-container">
