@@ -54,7 +54,12 @@
         }
     }
     .hero-section {
-        background: url("../assets/good/plain-background.png") no-repeat;
+        // background: url("../assets/good/plain-background.png") no-repeat;
+        background: -webkit-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+        background: -o-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+        background: -ms-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+        background: -moz-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+        background: linear-gradient(to right, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
         display: flex;
         align-items: center;
         position: relative;

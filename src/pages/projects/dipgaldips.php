@@ -9,9 +9,10 @@
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
     <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
-    <link rel="stylesheet" href="../../css/project-partial.css">
-    <link rel="stylesheet" href="../../css/navbar.css">
-    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/project-partial.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../css/navbar.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../../css/footer.css" media="print" onload="this.media='all'">
+
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
     </header>
 
     <section class="hero-section">
-    <img class="sr-only" alt="DipGalDips Jalepeno Popper Dip" src="../../assets/jalepeno_popper.jpg" />
+    <img class="sr-only" alt="DipGalDips Jalepeno Popper Dip" src="" />
     </section>
 
     <section class="contents-section">
@@ -73,7 +74,7 @@
             Furthermore, we used Instagram to focus on creating high-quality, engaging content such as recipes featuring Dip-Gal-Dips' dips that not only provided value to users but also helped establish the website as a trusted authority in the niche. Regular performance monitoring and analysis allowed us to refine our SEO strategies over time, ensuring continuous improvement and maximized results for Dip-Gal-Dips' online presence.
         </p>
         </div> 
-        <img src="../../assets/dipgaldips/dipgaldips-responsive.png" class="screenshot">
+        <!-- <img src="../../assets/dipgaldips/dipgaldips-responsive.png" class="screenshot" alt="Image of the website shown on different devices"> -->
     </section>
 
     <section id="branding">
@@ -102,14 +103,14 @@
         <div class="multi-image-container">
             <div class="image-row">
                 <div class="image-container">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                         <img src="../../assets/dipgaldips/home.png" alt="Gallery: Home Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Home</h2>
                     </a>
                 </div>
 
                 <div class="image-container">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                         <img src="../../assets/dipgaldips/dip_plans.png" alt="Gallery: Monthly Subscription Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Monthly Subscription</h2>
                     </a>
@@ -117,19 +118,19 @@
             </div>
             <div class="image-row">
                 <div class="image-container">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                         <img src="../../assets/dipgaldips/best_sellers.png" alt="Gallery: Best Sellers Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Best Sellers</h2>
                     </a>
                 </div>
                 <div class="image-container">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                         <img src="../../assets/dipgaldips/checkout.png" alt="Gallery: Checkout Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Checkout</h2>
                     </a>
                 </div>
                 <div class="image-container">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                         <img src="../../assets/dipgaldips/product.png" alt="Gallery: Products Page of the DipGalDips website" loading="lazy">
                         <h2 class="image-title">Products</h2>
                     </a>

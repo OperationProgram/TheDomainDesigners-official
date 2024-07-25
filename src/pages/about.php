@@ -18,17 +18,14 @@
     <meta name="keywords" content="The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
+    <link rel="preload" href="../assets/good/cloud-overlay-compressed.png" as="image">
     <link rel="stylesheet" href="../css/navbar.css"> <!-- Link to your homepage CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/about.css"> <!-- Custom CSS for About page -->
     <link rel="stylesheet" href="../css/footer.css">
+    <script src="../node_modules/jQuery/jquery.min.js" async defer></script>
+    <link href="../node_modules/aos/dist/aos.css" rel="stylesheet">
     <script src="../scripts/showSuccessMessage.js" defer></script> 
 
-    <!-- AOS Library CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
-    <!-- AOS Library JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body> 
 
@@ -196,6 +193,7 @@
                     <button type="submit">Submit</button>
 
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <!-- <script src="../node_modules/recaptcha/google-recaptcha.js" async defer></script> -->
 
 
                     <span id="form_error" class="error">There was a problem submitting the form. <br />
@@ -217,7 +215,7 @@
 <div id="responseMessage"></div>
 <script type="module" src="../scripts/contactForm.js"></script>
 <script type="module" src="../scripts/validators.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" async defer></script> -->
 <script type="module">
     import {validators} from "../scripts/validators.js";
 
@@ -291,6 +289,7 @@
     });
 </script>
 
+<script src="../node_modules/aos/dist/aos.js"></script>
 <script>
   AOS.init({
     offset: 100, // Offset (in px) from the original trigger point

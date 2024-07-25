@@ -116,7 +116,12 @@ p {
 
 .curved {
   position: relative;
-  background: url('../assets/good/plain-background.png') no-repeat center center;
+//   background: url('../assets/good/plain-background.png') no-repeat center center;
+background: -webkit-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+background: -o-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+background: -ms-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+background: -moz-linear-gradient(left, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
+background: linear-gradient(to right, rgb(31, 31, 31) 0%, rgb(18, 18, 18) 80%, rgb(71, 71, 71) 100%);
   background-size: cover;
   border-bottom-left-radius: 50% 41%;
   border-bottom-right-radius: 50% 41%;

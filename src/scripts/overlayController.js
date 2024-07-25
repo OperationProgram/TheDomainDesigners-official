@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const imageContainers = document.querySelectorAll('.image-container');
     imageContainers.forEach(container => {
         container.addEventListener('click', function() {
+            event.preventDefault();
             const imgElement = container.querySelector('img');
             const imageSrc = imgElement.getAttribute('src');
             openOverlay(imageSrc);

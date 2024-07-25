@@ -47,11 +47,11 @@
     <meta name="keywords" content="The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
+    <link rel="preload" href="../assets/good/cloud-overlay-compressed.png" as="image">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../scripts/showSuccessMessage.js" defer></script> 
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </head>
 
 <body>
@@ -90,12 +90,6 @@
                 <h1>Ready to Get Started</h1>
                 <p></p>
                 <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
-                <div class="social-media">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-google"></i></a>
-                </div>
             </div>
             <div class="contact-form">
                 <form id="contact_form" action="" method="post">

@@ -9,10 +9,11 @@
   <meta name="keywords" content="the domain designers">
   <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
+  <link rel="preload" href="../assets/good/cloud-overlay-compressed.png" as="image">
   <link rel="stylesheet" href="../css/services.css">
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="../node_modules/aos/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -248,7 +249,7 @@
 
 
   <script src="../scripts/partialScrollContainer.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="../node_modules/aos/dist/aos.js"></script>
   <script>
     AOS.init({
       once: true

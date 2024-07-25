@@ -9,12 +9,11 @@
   <meta name="keywords" content="The Domain Designers">
   <meta name="author" content="The Domain Designers">
   <link rel="icon" type="image/x-icon" href="../assets/tdd_logo.svg">
+  <link rel="preload" href="../assets/good/cloud-overlay-compressed.png" as="image">
   <link rel="stylesheet" href="../css/portfolios.css"> 
   <link rel="stylesheet" href="../css/our-work.css"> 
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -42,9 +41,9 @@
   <section id="services">
     <div class="service-row">
       <div class="service-card wordpress">
-          <img src="../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="Dip Gal Dips Portfolio Picture: Caesar Salad Dressing Dip">
+          <img src="../assets/dipgaldips/caesar_salad_dressing_1280x1063.jpg" alt="Dip Gal Dips Portfolio Picture: Caesar Salad Dressing Dip" />
           <h2>Dip-Gal-Dips</h2>
-          <a href="projects/dipgaldips.php"><button class="cta-button">Learn More</button></a>
+          <a href="projects/dipgaldips.php" aria-label="View DipGalDips Site Button only seen on hover"><button class="cta-button">View Site</button></a>
       </div>
 
       <!-- <div class="service-card custom-code">
@@ -90,10 +89,6 @@
   
   </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
   <?php include 'Footer/footer.php';?>
 </body>
 </html>
