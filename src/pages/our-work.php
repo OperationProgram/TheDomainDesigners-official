@@ -28,7 +28,8 @@
   <!-- Hero Section -->
   <div class="overlay"></div>
   <section class="hero-section">
-  <img class="sr-only" alt="UX Flowchart" src="../assets/UI-UX_graphic.jpg" />
+    <canvas id="hero-canvas"></canvas>
+  <!-- <img class="sr-only" src="../assets/UI-UX_graphic.jpg" /> -->
       <div class="hero-content">
           <h1>Our Work</h1>
           <h2>Creating Concepts That Stick</h2>
@@ -91,7 +92,7 @@
   <script>
     AOS.init();
   </script>
-
+  <script src="../scripts/mouseEffect.js"></script>
   <?php include 'Footer/footer.php';?>
 </body>
 </html>

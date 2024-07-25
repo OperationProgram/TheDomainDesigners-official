@@ -1,7 +1,6 @@
 @import 'variables';
 @import "mixins";
 @include sr_only;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +8,13 @@
     box-sizing: border-box;
 }
 
+.hide-overlay {
+    overflow-x: hidden;
+    position: relative;
+}
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .logo-container {
@@ -50,7 +54,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
-    width: fit-content;
+    width: 100%;
     margin: 30px auto;
     position: absolute;
     left: 50%;
@@ -133,7 +137,7 @@ html, body {
     transition: transform 0.5s ease; /* Add transition for rotation */
     position: absolute;
     top: 21px;
-    right: 17px;
+    left: -31px;
 }
 
 /* Media query to hide the menu and show the hamburger icon on smaller screens */
@@ -143,7 +147,7 @@ html, body {
         padding: 10px 20px;
         background-color: transparent;
         width: auto;
-        transform: translate(0%, 0%);
+        transform: translate(100%, 0%);
         height: 100%;
         right: 0;
         top: -30px;
@@ -185,7 +189,7 @@ html, body {
     }
 
     .nav-menu.active {
-        right: 0; /* Slide in from the right */
+        right: 100%; /* Slide in from the right */
         background-color: #222;
         display: flex;
     }

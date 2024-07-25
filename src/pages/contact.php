@@ -62,10 +62,11 @@
         </script>
 
     </header>
-    <main>
+    <!-- <main> -->
         <div class="overlay"></div>
         <section class="hero-section">
-            <img class="sr-only" alt="Startup owner checking website on phone." src="../assets/man-on-phone-right.jpg" />
+            <canvas id="hero-canvas"></canvas>
+            <!-- <img class="sr-only" src="../assets/man-on-phone-right.jpg" /> -->
             <div class="hero-content">
                 <h1>Helping You to Succeed</h1>
                 <h2>Let's chat about your website goals</h2>
@@ -119,7 +120,7 @@
                         <?php
                             if(@$response == "success") {
                         ?>
-                            <p class="success">Email sent successfully</p>
+                            <p class="success">Submission successfully submitted!</p>
                         <?php
                             } else {
                         ?>
@@ -142,9 +143,10 @@
                 </div>
             </div>
         </section>
-    </main>
+    <!-- </main> -->
     
     <script type="module" src="../scripts/contactForm.js"></script>
+    <script src="../scripts/mouseEffect.js"></script>
     <?php include 'Footer/footer.php';?>
 </body>
 </html>

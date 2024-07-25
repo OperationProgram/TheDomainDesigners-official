@@ -28,7 +28,8 @@
   <!-- Hero Section -->
   <div class="overlay"></div>
   <section class="hero-section">
-    <img class="sr-only" alt="Open Laptop on a Desk" src="../assets/custom-code-services.jpg" />
+    <canvas id="hero-canvas"></canvas>
+    <!-- <img class="sr-only" src="../assets/custom-code-services.jpg" /> -->
       <div class="hero-content">
           <h1>Web Development Services</h1>
           <h2>Customized for Your Needs</h2>
@@ -91,7 +92,7 @@
   <script>
     AOS.init();
   </script>
-
+  <script src="../scripts/mouseEffect.js"></script>
   <?php include 'Footer/footer.php';?>
 </body>
 </html>

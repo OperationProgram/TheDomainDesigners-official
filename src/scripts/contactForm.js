@@ -25,7 +25,9 @@ emailInput.addEventListener("input", () => {
 });
 
 messageInput.addEventListener("input", () => {
-    validators.requiredNonEmpty(messageInput, messageSuccess, messageError);
+    if (messageSuccess) {
+        validators.requiredNonEmpty(messageInput, messageSuccess, messageError);
+    }
 });
 
 phoneInput.addEventListener("change", () => {
@@ -33,47 +35,46 @@ phoneInput.addEventListener("change", () => {
 });
 
 
-// Add event listener for form submission
-form.addEventListener('submit', function(event) {
-    // Prevent the default form submission behavior
-    // event.preventDefault();
+if (form) {
+    // Add event listener for form submission
+    form.addEventListener('submit', function(event) {
 
-    // Validate the form fields
-    const isValid = validators.validateForm();
+        // Validate the form fields
+        const isValid = validators.validateForm();
 
-    if (!isValid) {
-        event.preventDefault();
-        // Display error message beneath the form
-        document.getElementById('form_error').style.display = "block";
-        document.querySelector('.success').style.display = "none";
-        // Prevent form submission
-        event.preventDefault();
+        if (!isValid) {
+            console.log("not valid");
+            event.preventDefault();
+            // Display error message beneath the form
+            document.getElementById('form_error').style.display = "block";
+            document.querySelector('.success').style.display = "none";
+            // Prevent form submission
+            event.preventDefault();
 
-        return;
-    }
-    document.getElementById('spinner_overlay').style.display = 'flex';
-    // form.submit();
-   
-});
-
-// Function to show success message and auto-close after a delay
-export function showMessage(message) {
-    var successElement = document.createElement('div');
-    successElement.className = 'success-message';
-    successElement.textContent = message;
-    document.body.appendChild(successElement);
-
-    if (message.includes('success')) {
-        successElement.style.color = 'green';
-    } else {
-        successElement.style.color = 'red';
-    }
-
-    // Automatically close after 3 seconds
-    setTimeout(function() {
-        successElement.style.opacity = '0';
-        setTimeout(function() {
-            document.body.removeChild(successElement);
-        }, 1000); // Wait for transition to complete
-    }, 3000);
+            return;
+        }
+        document.getElementById('spinner_overlay').style.display = 'flex';
+    
+    });
 }
+    // Function to show success message and auto-close after a delay
+    // export function showMessage(message) {
+    //     var successElement = document.createElement('div');
+    //     successElement.className = 'success-message';
+    //     successElement.textContent = message;
+    //     document.body.appendChild(successElement);
+
+    //     if (message.includes('success')) {
+    //         successElement.style.color = 'green';
+    //     } else {
+    //         successElement.style.color = 'red';
+    //     }
+
+    //     // Automatically close after 3 seconds
+    //     setTimeout(function() {
+    //         successElement.style.opacity = '0';
+    //         setTimeout(function() {
+    //             document.body.removeChild(successElement);
+    //         }, 1000); // Wait for transition to complete
+    //     }, 3000);
+    // }

@@ -1,4 +1,5 @@
 .vscode/
-# vendor
+vendor
 .env
 .htaccess
+# node_modules

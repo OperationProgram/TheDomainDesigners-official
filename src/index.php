@@ -9,64 +9,63 @@
     <meta name="keywords" content="web design, web developers, hire web designers, startup web design, development for startups, Houston web design, The Domain Designers">
     <meta name="author" content="The Domain Designers">
     <link rel="icon" type="image/x-icon" href="assets/tdd_logo.png">
-    <link rel="stylesheet" href="../src/css/navbar.css"> <!-- Link to your homepage CSS -->
-    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="css/navbar.css"> 
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
 </head>
+        
 <body>
+<div class="hide-overlay">
     <header>  
         <?php $basePath = '.';?>
         <?php include 'pages/Navigation/navbar.php';?>
         <script src=" <?php echo 'scripts/navbarController.js';?>"></script>
     </header>
     <section class="hero">
-        <div class="overlay-1"></div>
-        <div class="overlay-2"></div>
         <div class="container hero-container">
-            <div class="hero-content" data-aos="slide-right" data-aos-once="true">
+            <div class="overlay-1"></div>
+            <div class="overlay-2"></div>
+            <div class="hero-content" >
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
-                <a href="#" class="cta-button"  data-aos="zoom-in" data-aos-once="true">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
+            <!-- data-aos="slide-right" data-aos-once="true"  data-aos="zoom-in" data-aos-once="true" data-aos="slide-right" data-aos-once="true"-->
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Hero Image" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" >
             </div>
         </div>
     </section>
-    
+
     <div class="border-divider"></div>
 
     <section class="what-we-do">
         <div class="container" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
             <h2>WHAT WE DO</h2>
-            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="#" class="gradient-text learn-more">LEARN MORE</a></p>
+            <p>The Domain Designers specialize in empowering small businesses through effective web solutions that enhance online visibility and drive growth. From SEO-optimized websites to engaging digital strategies, we're dedicated to helping you succeed in the digital landscape. Let us create a powerful online presence for your business, tailored to attract and convert your target audience.<a href="pages/services.php" class="gradient-text learn-more">VIEW SERVICES</a></p>
            
         </div>
     </section>
-    <div class="dotted-border">
-  <!-- Dotted border line will be created dynamically by Sass -->
-</div>
 
-
+    
 
 <section class="features">
     <div class="container">
 
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="feature-icon"><i class="gradient-text fas fa-laptop"></i></div>
+            <div class="feature-icon"><img src="assets/icons/mobile-screen-solid.svg" class="gradient-text" width="50" height="50" alt="mobile responsive icon"></div>
             <h3>Responsive Design</h3>
             <p>Our design adapts perfectly to any device, providing an optimal user experience on mobile phones, tablets, and desktops.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="feature-icon"><i class="gradient-text fas fa-mobile-alt"></i></div>
+            <div class="feature-icon"><img src="assets/icons/desktop-solid.svg" class="gradient-text" width="50" height="50" alt="desktop responsive icon"></div>
             <h3>Tailored Web Solutions</h3>
             <p>Hire our expert web designers for an upfront consultation to assess your unique needs and deliver a custom web solution. Our domain-specific approach ensures your website meets your specific goals and requirements.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
-            <div class="feature-icon"><i class="gradient-text fas fa-chart-line"></i></div>
+            <div class="feature-icon"><img src="assets/icons/arrow-trend-up-solid.svg" class="gradient-text" width="50" height="50" alt="chart trending upward icon"></div>
             <h3>SEO Optimization</h3>
             <p>We enhance your mobile presence with advanced SEO, boosting search rankings to capture more organic traffic from mobile users.</p>
         </div>
@@ -75,11 +74,11 @@
 
 
 
-    <section class="our-services">
+<section class="our-services">
     <div class="container">
         <div class="services-content">
             <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Services Image" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/our-services.svg" alt="Cartoon Infographic of a coder" data-aos="slide-right" data-aos-once="true">
             </div>
             <div class="services-text" data-aos="zoom-in" data-aos-once="true">
                 <h2>Discover Our Offerings</h2>
@@ -90,89 +89,76 @@
         </div>
     </div>
 </section>
-    <section class="bullet-point-section">
-        <!-- <img class="blob-img" src="assets/blob-3.png" > -->
-        <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/good/man-bar-graph.svg" alt="Infographic 6">
-            </div>
-            <div class="text">
-                <h2>OPTIMIZE YOUR PROCESSES!</h2>
-                <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
-            </div>
+<section class="bullet-point-section">
+    <!-- <img class="blob-img" src="assets/blob-3.png" > -->
+    <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Cartoon Infographic of a bar graph">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 2">
-            </div>
-            <div class="text">
-                <h2>WEB DESIGN & DEVELOPMENT</h2>
-                <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
-            </div>
+        <div class="text">
+            <h2>OPTIMIZE YOUR PROCESSES!</h2>
+            <p>You will get a free personal manager who will help to build a strategy, optimize the budget and deadline, organize the development process and launch the project.</p>
         </div>
+    </div>
 
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic 3">
-            </div>
-            <div class="text">
-                <h2>ECOMMERCE SOLUTIONS</h2>
-                <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
-            </div>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic 4">
-            </div>
-            <div class="text">
-                <h2>DIGITAL MARKETING</h2>
-                <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
-            </div>
+        <div class="text">
+            <h2>WEB DESIGN & DEVELOPMENT</h2>
+            <p>We create custom websites tailored to your business needs, focusing on responsive design, user experience, and SEO to ensure your site stands out.</p>
         </div>
+    </div>
 
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/branding.svg" alt="Infographic 5">
-            </div>
-            <div class="text">
-                <h2>BRANDING & IDENTITY</h2>
-                <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
-            </div>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic for eccommerce solutions">
         </div>
-
-        <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="info">
-                <!-- Placeholder for infographic -->
-                <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic 6">
-            </div>
-            <div class="text">
-                <h2>CONTENT CREATION</h2>
-                <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
-            </div>
+        <div class="text">
+            <h2>ECOMMERCE SOLUTIONS</h2>
+            <p>Our eCommerce solutions include everything from shopping cart integration to payment gateway setup, making it easy for you to sell online.</p>
         </div>
-        <!-- Repeat the structure for other bullet points -->
+    </div>
 
-    </section>
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing">
+        </div>
+        <div class="text">
+            <h2>DIGITAL MARKETING</h2>
+            <p>Boost your online presence with our digital marketing services, including SEO, PPC, social media management, and content marketing.</p>
+        </div>
+    </div>
 
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic for branding">
+        </div>
+        <div class="text">
+            <h2>BRANDING & IDENTITY</h2>
+            <p>We help you build a strong brand identity with our comprehensive branding services, from logo design to brand strategy development.</p>
+        </div>
+    </div>
 
+    <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
+        <div class="info">
+            <!-- Placeholder for infographic -->
+            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic for content creation">
+        </div>
+        <div class="text">
+            <h2>CONTENT CREATION</h2>
+            <p>Engage your audience with high-quality content. Our content creation services include copywriting, video production, and graphic design.</p>
+        </div>
+    </div>
+    <!-- Repeat the structure for other bullet points -->
 
-
-
-
-
-
-
-
-
-
-
+</section>
 
 <section class="pricing">
     <div class="container">
@@ -183,61 +169,16 @@
                 <p>Our specialization lies in delivering distinctive, high-performance web designs that elevate your online presence, complete with robust ecommerce capabilities. </p>
             </div>
             <div class="pricing-image">
-                <img src="/src/assets/good/handshake.svg" alt="Pricing Image" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
+                <img src="/src/assets/good/handshake.svg" alt="Cartoon Infographic of a handshake" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
             </div>
         </div>
     </div>
 </section>  
 
 
+<div class="border-divider-top"></div>
 
-
-    <!-- <section class="team-section">
-        <div class="container">
-            <div class="team-cards">
-                <div class="team-card">
-                    <div class="team-card-content">
-                        <div class="team-member">
-                            <img src="/src/assets/alex-pic.png" alt="Team Member 1">
-                        </div>
-                        <div class="blob-graphic"></div>
-                        <div class="team-info">
-                            <h3>John Doe</h3>
-                            <p>Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-card">
-                    <div class="team-card-content">
-                        <div class="team-member">
-                            <img src="/src/assets/alex-pic.png" alt="Team Member 2">
-                        </div>
-                        <div class="blob-graphic"></div>
-                        <div class="team-info">
-                            <h3>Jane Smith</h3>
-                            <p>Graphic Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-
-
-
-
-
-
-
-    
-
-    <div class="border-divider-top"></div>
-
-    <section class="pricing-section">
+<section class="pricing-section">
     <div class="container">
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
@@ -251,7 +192,7 @@
                     <li>Contact Form Integration</li>
                     <li>1-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">GET STARTED</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -268,7 +209,7 @@
                     <li>E-commerce Functionality</li>
                     <li>3-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -285,7 +226,7 @@
                     <li>Custom Web Applications or Integrations</li>
                     <li>6-Month Maintenance</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
@@ -301,18 +242,20 @@
                     <li>Software Updates</li>
                     <li>Priority Support</li>
                 </ul>
-                <a href="#" class="cta-button">CONTACT US</a>
+                <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
     </div>
 </section>
 
 <?php include 'pages/Footer/footer.php';?>
+<script src="node_modules/aos/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
 
 
 
+</div>
 </body>
 </html>
