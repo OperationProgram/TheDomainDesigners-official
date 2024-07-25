@@ -733,6 +733,7 @@ section {
     padding: 10px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 19px 0px rgba(0,0,0,0.5)
 }
 
 .cta-button:hover {
@@ -751,3 +752,10 @@ section {
 
 
 
+.gradient-icon {
+    filter: url(#gradient);
+}
+
+.gradient-icon {
+    filter: invert(41%) sepia(100%) saturate(477%) hue-rotate(233deg) brightness(100%) contrast(98%);
+}
