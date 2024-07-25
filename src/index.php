@@ -28,7 +28,7 @@
             <canvas id="hero-canvas"></canvas>
             <div class="hero-content" >
                 <h1>Design Your Dream with Professionals</h1>
-                <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
+                <p >Transform your online presence with our hand-coded websites. Starting at $100/mo., we offer customized designs, template solutions, eCommerce setups, and more.</p>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
             <div class="hero-image">
