@@ -97,7 +97,7 @@
     <div class="bullet-point" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/good/man-bar-graph.svg" alt="Cartoon Infographic of a bar graph">
+            <img src="/src/assets/good/man-bar-graph.svg" alt="Cartoon Infographic of a bar graph" width="640" height="360">
         </div>
         <div class="text">
             <h2>OPTIMIZE YOUR PROCESSES!</h2>
