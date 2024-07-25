@@ -678,7 +678,7 @@ function resizeCanvas() {
 }
 
 let startTouchY = 0;
-let isScrollingDown = false;
+let isScrollingUp = false;
 
 // Mouse events
 canvas.addEventListener('mousemove', e => {
@@ -704,7 +704,7 @@ canvas.addEventListener('mouseup', () => {
 // Touch events
 canvas.addEventListener('touchstart', e => {
   startTouchY = e.touches[0].clientY;
-  isScrollingDown = false;
+  isScrollingUp = false;
   const touches = e.targetTouches;
   for (let i = 0; i < touches.length; i++) {
     if (i >= pointers.length)
@@ -721,11 +721,11 @@ canvas.addEventListener('touchstart', e => {
 canvas.addEventListener('touchmove', e => {
   const currentTouchY = e.touches[0].clientY;
   if (currentTouchY > startTouchY) {
-    isScrollingDown = true;
+    isScrollingUp = true;
   } else {
-    isScrollingDown = false;
+    isScrollingUp = false;
   }
-  if (!isScrollingDown) {
+  if (isScrollingUp) {
     e.preventDefault();
     const touches = e.targetTouches;
     for (let i = 0; i < touches.length; i++) {
