@@ -9,7 +9,7 @@
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
     <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
-    <link rel="preload" href="../assets/dipgaldips/jalepeno_popper.png" as="image">
+    <link rel="preload" href="../../assets/dipgaldips/jalepeno_popper.png" as="image">
     <link rel="stylesheet" href="../../css/project-partial.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="../../css/navbar.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="../../css/footer.css" media="print" onload="this.media='all'">
@@ -50,7 +50,7 @@
     </section>
 
     <section id="wordpress-solution">
-        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips.">
+        <img src="../../assets/dipgaldips/dip_pack_kit.png" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips.">
         <div class="section-container">
             <h2 id="wordpress-solution-header" class="custom-h2">Wordpress Solution</h2>
             <p>
