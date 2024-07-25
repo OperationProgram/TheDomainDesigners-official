@@ -785,3 +785,10 @@ section {
 
 
 
+.gradient-icon {
+    filter: url(#gradient);
+}
+
+.gradient-icon {
+    filter: invert(41%) sepia(100%) saturate(477%) hue-rotate(233deg) brightness(100%) contrast(98%);
+}

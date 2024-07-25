@@ -51,21 +51,26 @@
 
     
 
-<section class="features">
+    <section class="features">
     <div class="container">
-
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
-            <div class="feature-icon"><img src="assets/icons/mobile-screen-solid.svg" class="gradient-text" width="50" height="50" alt="mobile responsive icon"></div>
+            <div class="feature-icon">
+                <img src="assets/icons/mobile-screen-solid.svg" class="gradient-icon" width="50" height="50" alt="mobile responsive icon">
+            </div>
             <h3>Responsive Design</h3>
             <p>Our design adapts perfectly to any device, providing an optimal user experience on mobile phones, tablets, and desktops.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
-            <div class="feature-icon"><img src="assets/icons/desktop-solid.svg" class="gradient-text" width="50" height="50" alt="desktop responsive icon"></div>
+            <div class="feature-icon">
+                <img src="assets/icons/desktop-solid.svg" class="gradient-icon" width="50" height="50" alt="desktop responsive icon">
+            </div>
             <h3>Tailored Web Solutions</h3>
             <p>Hire our expert web designers for an upfront consultation to assess your unique needs and deliver a custom web solution. Our domain-specific approach ensures your website meets your specific goals and requirements.</p>
         </div>
         <div class="feature" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
-            <div class="feature-icon"><img src="assets/icons/arrow-trend-up-solid.svg" class="gradient-text" width="50" height="50" alt="chart trending upward icon"></div>
+            <div class="feature-icon">
+                <img src="assets/icons/arrow-trend-up-solid.svg" class="gradient-icon" width="50" height="50" alt="chart trending upward icon">
+            </div>
             <h3>SEO Optimization</h3>
             <p>We enhance your mobile presence with advanced SEO, boosting search rankings to capture more organic traffic from mobile users.</p>
         </div>
