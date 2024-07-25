@@ -108,7 +108,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design">
+            <img src="/src/assets/bullet-points/applications.svg" alt="Infographic for web design" width="640" height="360">
         </div>
         <div class="text">
             <h2>WEB DESIGN & DEVELOPMENT</h2>
@@ -119,7 +119,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic for eccommerce solutions">
+            <img src="/src/assets/bullet-points/web-design.svg" alt="Infographic for eccommerce solutions" width="640" height="360">
         </div>
         <div class="text">
             <h2>ECOMMERCE SOLUTIONS</h2>
@@ -130,7 +130,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing">
+            <img src="/src/assets/bullet-points/digital-marketing.svg" alt="Infographic for digital marketing" width="640" height="360">
         </div>
         <div class="text">
             <h2>DIGITAL MARKETING</h2>
@@ -141,7 +141,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic for branding">
+            <img src="/src/assets/bullet-points/branding.svg" alt="Infographic for branding" width="640" height="360">
         </div>
         <div class="text">
             <h2>BRANDING & IDENTITY</h2>
@@ -152,7 +152,7 @@
     <div class="bullet-point"data-aos="zoom-in" data-aos-once="true" data-aos-delay="300">
         <div class="info">
             <!-- Placeholder for infographic -->
-            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic for content creation">
+            <img src="/src/assets/bullet-points/ecommerce.svg" alt="Infographic for content creation" width="640" height="360">
         </div>
         <div class="text">
             <h2>CONTENT CREATION</h2>
@@ -172,7 +172,7 @@
                 <p>Our specialization lies in delivering distinctive, high-performance web designs that elevate your online presence, complete with robust ecommerce capabilities. </p>
             </div>
             <div class="pricing-image">
-                <img src="/src/assets/good/handshake.svg" alt="Cartoon Infographic of a handshake" data-aos="slide-left" data-aos-once="true" data-aos-delay="50">
+                <img src="/src/assets/good/handshake.svg" alt="Cartoon Infographic of a handshake" data-aos="slide-left" data-aos-once="true" data-aos-delay="50" width="640" height="360">
             </div>
         </div>
     </div>
