@@ -96,6 +96,10 @@ section {
         position: absolute;
         top: 0;
         left: 0;
+        
+        pointer-events: auto; /* Ensure mouse events are captured */
+        
+        
       } 
 }
 
@@ -103,6 +107,7 @@ section {
     flex: 1; /* Adjusts the width based on available space */
     text-align: left;
     z-index: 3;
+    pointer-events: none;
     h1 {
         font-size: 48px;
         margin-bottom: 20px;
@@ -138,6 +143,7 @@ section {
 .hero-image {
     flex: 1; /* Adjusts the width based on available space */
     padding: 10px;
+    pointer-events: none;
 
     img {
         width: 100%;
