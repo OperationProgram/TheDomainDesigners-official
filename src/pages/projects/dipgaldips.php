@@ -50,7 +50,7 @@
     </section>
 
     <section id="wordpress-solution">
-        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips." loading="lazy">
+        <img src="../../assets/dipgaldips/dip_pack_kit.jpg" class="full-width-img" alt="Full Dip Pack Kit showcasing 3 different dips with a bag of tortilla chips.">
         <div class="section-container">
             <h2 id="wordpress-solution-header" class="custom-h2">Wordpress Solution</h2>
             <p>
