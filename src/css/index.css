@@ -84,7 +84,7 @@ section {
 .hero {
   display: flex;
   align-items: center;
-  background-size: cover;
+  background-color: #000;
   color: #ececec;
   text-align: left;
   margin-top: 0px; /* Adjust as needed */
