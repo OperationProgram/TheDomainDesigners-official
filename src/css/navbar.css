@@ -147,7 +147,7 @@ html, body {
 
 .hamburger-icon {
   font-size: 20px;
-  color: white;
+  color: #7403d1;
   display: inline-block;
   transition: transform 0.5s ease; /* Add transition for rotation */
   position: absolute;

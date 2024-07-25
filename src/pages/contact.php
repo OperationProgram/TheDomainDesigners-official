@@ -1,24 +1,35 @@
 <?php require("../plugins/contactForm/sendMail.php"); ?>
+<?php require("../plugins/g-recaptcha/auth.php"); ?>
+
 <?php 
     $showSuccessMessage = false;
     $showFailureMessage = false;
+    
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $response = capture_contact_form();
-        if ($response == "success") {
-            $userSubject = '<DO NOT REPLY> Thank you for contacting us';
-            $fullname = $_POST['fullname'];
-            $email = $_POST['email'];
-            $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, The Domain Designers.com";
+        
+        $recaptcha_authorized = auth_recaptcha();
+        if ($recaptcha_authorized) {
+            $response = capture_contact_form();
+            if ($response == "success") {
+                $userSubject = '<DO NOT REPLY> Thank you for contacting us';
+                $fullname = $_POST['fullname'];
+                $email = $_POST['email'];
+                $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, thedomaindesigners.com";
 
-            sendMail([
-                        'userEmail' => $email, 
-                        'userSubject' => $userSubject,
-                        'userBody' => $userBody
-            ]); 
-            
-            $showSuccessMessage = true;
-        } 
-        else {
+                sendMail([
+                            'userEmail' => $email, 
+                            'userSubject' => $userSubject,
+                            'userBody' => $userBody
+                ]); 
+                
+                $showSuccessMessage = true;
+            } 
+            else {
+                $showFailureMessage = true;
+            }
+        }
+
+        else { 
             $showFailureMessage = true;
         }
    }
@@ -40,6 +51,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../scripts/showSuccessMessage.js" defer></script> 
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </head>
 
 <body>
@@ -62,91 +74,106 @@
         </script>
 
     </header>
-    <!-- <main> -->
-        <div class="overlay"></div>
-        <section class="hero-section">
-            <canvas id="hero-canvas"></canvas>
-            <!-- <img class="sr-only" src="../assets/man-on-phone-right.jpg" /> -->
-            <div class="hero-content">
-                <h1>Helping You to Succeed</h1>
-                <h2>Let's chat about your website goals</h2>
-            </div>
-        </section>
-        <section class="contact-section">
-            <div class="container">
-                <div class="contact-info">
-                    <h2>Contact Us</h2>
-                    <h1>Ready to Get Started</h1>
-                    <p></p>
-                    <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
-                    <div class="social-media">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-google"></i></a>
-                    </div>
+    <section class="hero-section">
+        <div class="overlay-1"></div>
+        <div class="overlay-2"></div>
+        <div class="hero-content">
+            <h1>Helping You to Succeed</h1>
+            <h2>Let's chat about your website goals</h2>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <h1>Ready to Get Started</h1>
+                <p></p>
+                <p><a href="mailto:admin@kreative-media.com">admin@thedomaindesigners.com</a></p>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
                 </div>
-                <div class="contact-form">
-                    <form id="contact_form" action="" method="post">
-                        <input id="full_name" type="text" name="fullname" placeholder="Your Name*" required>
-                        <img id="name_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
-                        <span id="name_error" class="error_msg">Field is Required</span>
-                        
-                        <input id="phone" type="text" name="phone" placeholder="Phone Number*" required>
-                        <img id="phone_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
-                        <span id="phone_error" class="error_msg">Field is Required</span>
+            </div>
+            <div class="contact-form">
+                <form id="contact_form" action="" method="post">
+                    <input id="full_name" type="text" name="fullname" placeholder="Your Name*" required>
+                    <img id="name_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                    <span id="name_error" class="error_msg">Field is Required</span>
+                    
+                    <input id="phone" type="text" name="phone" placeholder="Phone Number*" required>
+                    <img id="phone_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                    <span id="phone_error" class="error_msg">Field is Required</span>
 
-                        <input id="email" type="email" name="email" placeholder="Your Email*" required>
-                        <img id="email_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
-                        <span id="email_error" class="error_msg">Field is Required</span>
+                    <input id="email" type="email" name="email" placeholder="Your Email*" required>
+                    <img id="email_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                    <span id="email_error" class="error_msg">Field is Required</span>
 
-                        <input id="company" type="text" name="company" placeholder="Company">
+                    <input id="company" type="text" name="company" placeholder="Company">
 
-                        <div class="services">
-                            <label><input type="checkbox" name="services[]" value="seo">SEO</label>
-                            <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>    
-                            <label><input type="checkbox" name="services[]" value="branding">Branding</label>
-                            <label><input type="checkbox" name="services[]" value="social media">Wordpress</label>
-                            <label><input type="checkbox" name="services[]" value="paid-media">Social Media</label>
-                            <label><input type="checkbox" name="services[]" value="web-design">Web Apps</label>
-                        </div>
-                        <textarea id="message" name="message" placeholder="Message*" required></textarea>
-                        <img id="message_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
-                        <span id="message_error" class="error_msg">Field is Required</span>
+                    <div class="services">
+                        <label><input type="checkbox" name="services[]" value="seo">SEO</label>
+                        <label><input type="checkbox" name="services[]" value="custom-code">Custom Code</label>    
+                        <label><input type="checkbox" name="services[]" value="branding">Branding</label>
+                        <label><input type="checkbox" name="services[]" value="social media">Wordpress</label>
+                        <label><input type="checkbox" name="services[]" value="paid-media">Social Media</label>
+                        <label><input type="checkbox" name="services[]" value="web-design">Web Apps</label>
+                    </div>
+                    <textarea id="message" name="message" placeholder="Message*" required></textarea>
+                    <img id="message_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
+                    <span id="message_error" class="error_msg">Field is Required</span>
 
-                        <button id="submit_btn" type="submit" class="submit-btn">Send</button>
-                        <span id="form_error" class="error">There was a problem submitting the form. <br />
-                                                Check the fields for errors.</span>
-                        <?php
-                            if(@$response == "success") {
-                        ?>
-                            <p class="success">Submission successfully submitted!</p>
-                        <?php
-                            } else {
-                        ?>
-                            <p class="error"><?php echo @$response; ?></p>
-                        <?php
-                            }  
-                        ?>
-                    </form>
+                    
+                    <div class="g-recaptcha" data-sitekey="6Lc8vBcqAAAAAJlfk39Pf28J2K8hkB32CV8SXBiw"></div>
+                    <button id="submit_btn" type="submit" class="submit-btn" >
+                    Send
+                    </button>
 
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                     <script>
-                        if (window.history.replaceState) {
-                            var url = window.location.href.split('#')[0]; 
-                            window.history.replaceState(null, null, url);
+                        function validateRecaptcha() {
+                            var response = grecaptcha.getResponse();
+                            if (response.length === 0) {
+                                alert("Please complete the reCAPTCHA.");
+                                return false; // Prevent form submission
+                            }
+                            return true; // Allow form submission
                         }
                     </script>
+
+                    <span id="form_error" class="error">There was a problem submitting the form. <br />
+                                            Check the fields for errors.</span>
+                    <?php
+                        if(@$response == "success") {
+                    ?>
+                        <p class="success">Submission successfully submitted!</p>
+                    <?php
+                        } else {
+                    ?>
+                        <p class="error"><?php echo @$response; ?></p>
+                    <?php
+                        }  
+                    ?>
+                </form>
+
+                <script>
+                    if (window.history.replaceState) {
+                        var url = window.location.href.split('#')[0]; 
+                        window.history.replaceState(null, null, url);
+                    }
                     
-                    <div id="spinner_overlay" class="spinner-overlay">
-                        <div class="spinner"></div>
-                    </div>
+                </script>
+                
+                <div id="spinner_overlay" class="spinner-overlay">
+                    <div class="spinner"></div>
                 </div>
             </div>
-        </section>
-    <!-- </main> -->
+        </div>
+    </section>
     
     <script type="module" src="../scripts/contactForm.js"></script>
-    <script src="../scripts/mouseEffect.js"></script>
     <?php include 'Footer/footer.php';?>
 </body>
 </html>

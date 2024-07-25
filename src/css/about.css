@@ -35,21 +35,44 @@ body {
 }
 
 /* Style for the About page */
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250.625em;
+  height: 100%;
+  background: url("../assets/good/cloud-overlay-compressed.png") 0 100% repeat-x;
+  animation: cloudLoop 80s linear infinite;
+  z-index: 2;
+  pointer-events: none;
+  height: 43.75em;
+}
+@keyframes cloudLoop {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
 .hero-section {
+  background: url("../assets/good/plain-background.png") no-repeat;
   display: flex;
   align-items: center;
-  background: url("../assets/good/plain-background.png") no-repeat center center;
-  background-size: cover;
+  position: relative;
   color: #ececec;
   text-align: center;
   margin-top: 0px; /* Adjust as needed */
   margin-bottom: 0px; /* Adjust as needed */
   padding: 200px 0;
-}
-.hero-section canvas {
-  width: 100%;
-  height: 100%;
-  position: absolute;
 }
 .hero-section .hero-content {
   position: relative;
@@ -58,6 +81,7 @@ body {
   align-items: center;
   margin: 0 auto;
   z-index: 2;
+  padding: 10px 20px;
   /* Typography styles for the hero section */
 }
 .hero-section .hero-content h1 {
@@ -98,23 +122,6 @@ body {
   }
   .hero-section .hero-content h2 {
     font-size: 24px;
-  }
-}
-
-.hero-image {
-  flex: 1; /* Adjusts the width based on available space */
-  padding: 10px;
-}
-.hero-image img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  display: block; /* Ensures image is displayed as a block element */
-  border-radius: 10px; /* Adds a subtle rounded corner effect */
-}
-@media (max-width: 768px) {
-  .hero-image .hero-container {
-    flex-direction: column;
   }
 }
 

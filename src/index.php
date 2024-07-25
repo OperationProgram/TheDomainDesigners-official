@@ -25,14 +25,12 @@
     </header>
     <section class="hero">
         <div class="container hero-container">
-            <div class="overlay-1"></div>
-            <div class="overlay-2"></div>
+            <canvas id="hero-canvas"></canvas>
             <div class="hero-content" >
                 <h1>Design Your Dream with Professionals</h1>
                 <p >Transform your online presence with our hand-coded websites. Starting at $500, we offer customized designs, template solutions, eCommerce setups, and more.</p>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
-            <!-- data-aos="slide-right" data-aos-once="true"  data-aos="zoom-in" data-aos-once="true" data-aos="slide-right" data-aos-once="true"-->
             <div class="hero-image">
                 <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" >
             </div>
@@ -187,15 +185,15 @@
     <div class="container">
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div class="pricing-card-content">
-                <h3>Starter Website</h3>
-                <div class="gradient-text price">$500+</div>
-                <p>Perfect for small businesses and startups looking to establish an online presence.</p>
+                <h3>Subscription Plan</h3>
+                <div class="gradient-text price">$100 / mo.</div>
+                <p>We offer a $0 down monthly plan to get you started as easily as possible</p>
                 <ul>
-                    <li>Up to 5 Pages</li>
+                    <li>$0 Down</li>
                     <li>Responsive Design</li>
-                    <li>Basic SEO Setup</li>
+                    <li>SEO Setup</li>
                     <li>Contact Form Integration</li>
-                    <li>1-Month Maintenance</li>
+                    <li>Unlimited Updates</li>
                 </ul>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
@@ -203,16 +201,15 @@
         
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
             <div class="pricing-card-content">
-                <h3>Business Website</h3>
-                <div class="gradient-text price">$2000+</div>
+                <h3>One-Time Payment</h3>
+                <div class="gradient-text price">$2000</div>
                 <p>Comprehensive solution for growing businesses needing more features and customization.</p>
                 <ul>
-                    <li>Up to 10 Pages</li>
+                    <li>Up to 8 Pages</li>
                     <li>Custom Design</li>
-                    <!-- <li>Mobile Optimization</li> -->
-                    <!-- <li>CMS Integration (e.g., WordPress)</li> -->
-                    <li>E-commerce Functionality</li>
-                    <li>3-Month Maintenance</li>
+                    <li>Responsive Design</li>
+                    <li>SEO Setup</li>
+                    <li>Contact Form Integration</li>
                 </ul>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
@@ -220,22 +217,22 @@
         
         <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="900">
             <div class="pricing-card-content">
-                <h3>Advanced Website</h3>
-                <div class="gradient-text price">$5000+</div>
+                <h3>Ecommerce / Web App Solutions</h3>
+                <div class="gradient-text price">$5000</div>
                 <p>Tailored for businesses requiring advanced features, scalability, and performance.</p>
                 <ul>
                     <li>Unlimited Pages</li>
-                    <li>Custom Design with UI/UX Optimization</li>
+                    <li>Custom Design </li>
                     <li>SEO and Analytics Setup</li>
                     <li>E-commerce Functionality</li>
+                    <li>User Login Functionality</li>
                     <li>Custom Web Applications or Integrations</li>
-                    <li>6-Month Maintenance</li>
                 </ul>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
         </div>
         
-        <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+        <!-- <div class="pricing-card" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             <div class="pricing-card-content">
                 <h3 >Website Maintenance</h3>
                 <div class="gradient-text price" >$100 - $300/month</div>
@@ -249,7 +246,7 @@
                 </ul>
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
@@ -258,7 +255,7 @@
 <script>
     AOS.init();
 </script>
-
+<script src="scripts/mouseEffect.js"></script>
 
 
 </div>

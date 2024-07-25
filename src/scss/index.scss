@@ -1,12 +1,13 @@
 
 @import "variables.scss";
+@import "mixins.scss";
 
 .border-divider {
     width: 100%;
     height: 150px; /* Adjust height as needed */
     position: relative;
-    background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
-    // background-image: linear-gradient(to bottom,  #fbc2eb, #a18cd1, #fbc2eb);
+    // background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+    background-image: linear-gradient(to right, #000, #000);
     overflow: hidden;
     z-index: 1;
   
@@ -28,6 +29,7 @@
     width: 100%;
     height: 150px; /* Adjust height as needed */
     position: relative;
+    // background-image: linear-gradient(to right, #000, #000);
     background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
     overflow: hidden;
     z-index: 1;
@@ -67,57 +69,10 @@ section {
     margin-bottom: 80px; /* Adjust as needed */
 }
 
-.overlay-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.overlay-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    // width: 100%;
-    width: 250.625em;
-    height: 100%;
-    // height: 23.8em;
-    background: url("../assets/good/cloud-overlay-compressed.png") 0 100%
-        repeat-x;
-    -webkit-animation: cloudLoop 80s linear infinite;
-    animation: cloudLoop 80s linear infinite;
-    z-index: 2;
-    pointer-events: none;
-    height: 43.75em;
-}
-@-webkit-keyframes cloudLoop {
-    0% {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-        -webkit-transform: translate3d(-50%, 0, 0);
-        transform: translate3d(-50%, 0, 0);
-    }
-    }
-
-    @keyframes cloudLoop {
-    0% {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-        -webkit-transform: translate3d(-50%, 0, 0);
-        transform: translate3d(-50%, 0, 0);
-    }
-}
-
 .hero {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
+    // background-image: linear-gradient(to right, #1F1F1F, #1F1F1F, #737373);
     background-size: cover;
     color: #ececec;
     text-align: left;
@@ -130,17 +85,24 @@ section {
 
 .hero-container {
     display: flex;
-    // flex-direction: column;
     align-items: start;
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    canvas {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      } 
 }
 
 .hero-content {
     flex: 1; /* Adjusts the width based on available space */
     text-align: left;
+    z-index: 3;
     h1 {
         font-size: 48px;
         margin-bottom: 20px;
@@ -156,7 +118,6 @@ section {
         font-size: 24px;
         margin-bottom: 30px;
         line-height: 1.5em; /* Adjusted line height for better readability */
-
     }
 
     .cta-button {
