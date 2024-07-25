@@ -9,6 +9,7 @@
     <meta name="keywords" content="thedomaindesigners, dipgaldips, web development agency, ecommerce">
     <meta name="author" content="TheDomainDesigners">
     <link rel="icon" type="image/x-icon" href="../../assets/tdd_logo.svg">
+    <link rel="preload" href="../assets/dipgaldips/jalepeno_popper.png" as="image">
     <link rel="stylesheet" href="../../css/project-partial.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="../../css/navbar.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="../../css/footer.css" media="print" onload="this.media='all'">

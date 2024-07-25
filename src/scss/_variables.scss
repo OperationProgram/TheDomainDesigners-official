@@ -10,6 +10,7 @@ $primary-font: 'Inter', sans-serif; // Modern and clean sans-serif font;
 @font-face {
     font-family: 'Lobster';
     src: url("../assets/fonts/Lobster.ttf");
+    font-display: swap;
 }
 
 @font-face {
@@ -17,6 +18,7 @@ $primary-font: 'Inter', sans-serif; // Modern and clean sans-serif font;
     src: url('../assets/fonts/Monoton-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -24,6 +26,7 @@ $primary-font: 'Inter', sans-serif; // Modern and clean sans-serif font;
     src: url('../assets/fonts/UtopiaStd-BlackHeadline.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -31,6 +34,7 @@ $primary-font: 'Inter', sans-serif; // Modern and clean sans-serif font;
     src: url('../assets/fonts/malden-sans-medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 // Colors
 $primary-color: #7403d1; 
