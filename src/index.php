@@ -32,7 +32,7 @@
                 <a href="pages/contact.php" class="cta-button">CONTACT US</a>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" >
+                <img src="/src/assets/good/dev.svg" alt="Cartoon Infographic of a guy working on a computer" width="640" height="360">
             </div>
         </div>
     </section>
@@ -81,7 +81,7 @@
     <div class="container">
         <div class="services-content">
             <div class="services-image">
-                <img src="/src/assets/good/our-services.svg" alt="Cartoon Infographic of a coder" data-aos="slide-right" data-aos-once="true">
+                <img src="/src/assets/good/our-services.svg" alt="Cartoon Infographic of a coder" data-aos="slide-right" data-aos-once="true" width="640" height="360">
             </div>
             <div class="services-text" data-aos="zoom-in" data-aos-once="true">
                 <h2>Discover Our Offerings</h2>
