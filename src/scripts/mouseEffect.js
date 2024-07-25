@@ -677,8 +677,8 @@ function resizeCanvas() {
   }
 }
 
-let isScrolling = false;
 let startTouchY = 0;
+let isScrollingDown = false;
 
 // Mouse events
 canvas.addEventListener('mousemove', e => {
@@ -704,7 +704,7 @@ canvas.addEventListener('mouseup', () => {
 // Touch events
 canvas.addEventListener('touchstart', e => {
   startTouchY = e.touches[0].clientY;
-  isScrolling = false;
+  isScrollingDown = false;
   const touches = e.targetTouches;
   for (let i = 0; i < touches.length; i++) {
     if (i >= pointers.length)
@@ -720,10 +720,12 @@ canvas.addEventListener('touchstart', e => {
 
 canvas.addEventListener('touchmove', e => {
   const currentTouchY = e.touches[0].clientY;
-  if (Math.abs(currentTouchY - startTouchY) > 10) {
-    isScrolling = true;
+  if (currentTouchY > startTouchY) {
+    isScrollingDown = true;
+  } else {
+    isScrollingDown = false;
   }
-  if (!isScrolling) {
+  if (!isScrollingDown) {
     e.preventDefault();
     const touches = e.targetTouches;
     for (let i = 0; i < touches.length; i++) {
@@ -752,7 +754,6 @@ canvas.addEventListener('touchend', e => {
 window.addEventListener('mouseleave', () => {
   pointers[0].down = false;
 });
-
 
 
 // canvas.addEventListener('mousemove', e => {
