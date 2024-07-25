@@ -127,6 +127,9 @@ section {
   line-height: 1.2; /* Adjusted line height for better readability */
   text-shadow: 2px 3px 3px rgba(251, 251, 251, 0.2); /* Subtle text shadow for depth */
 }
+.hero-content .scroll-effect-instructions {
+  color: #3498db;
+}
 .hero-content p {
   font-size: 24px;
   margin-bottom: 30px;
