@@ -192,7 +192,12 @@
                         <input id="resume" type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
                     </div>
                     <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
+                    <div class="g-recaptcha" data-sitekey="6Lc8vBcqAAAAAJlfk39Pf28J2K8hkB32CV8SXBiw"></div>
                     <button type="submit">Submit</button>
+
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
                     <span id="form_error" class="error">There was a problem submitting the form. <br />
                                                 Check the fields for errors.</span>
                     <p class="success">Submission successfully submitted!</p>
@@ -233,7 +238,6 @@
                 return;
             }
             // Display loader
-            // $('#loader').show();
             $('#spinner_overlay').css('display', 'flex');
 
 
@@ -250,6 +254,7 @@
                     if (response.status === 'success') {
                         $('#responseMessage').html('<p class="success">' + response.message + '</p>');
                         $('.success').css('display', 'block');
+                        $('.success_icon').css('display', 'none');
                         $('.error').css('display', 'none');
                         $('#resume_form')[0].reset(); // Optionally reset form fields
                         <?php

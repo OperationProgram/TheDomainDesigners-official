@@ -14,13 +14,30 @@ session_start();
 
 
 $dotenv = Dotenv\Dotenv::createImmutable('../..');
-
 try {
     $dotenv->load();
 } catch (Dotenv\Exception\InvalidPathException $e) {
     echo json_encode(['status' => 'error', 'message' => 'Error loading .env file: ' . $e->getMessage()]);
     exit;
 }
+
+$secret = $_ENV['RECAPTCHA_SECRET_KEY']; 
+
+$response = $_POST['g-recaptcha-response'];
+$remote_ip = $_SERVER['REMOTE_ADDR'];
+
+// Verify the reCAPTCHA response
+$verify_url = 'https://www.google.com/recaptcha/api/siteverify';
+$response = file_get_contents($verify_url . '?secret=' . $secret . '&response=' . $response . '&remoteip=' . $remote_ip);
+$responseKeys = json_decode($response, true);
+
+if (intval($responseKeys["success"]) !== 1) {
+    // reCAPTCHA validation failed
+    echo json_encode(['status' => 'error', 'message' => 'reCAPTCHA validation failed.']);
+    exit;
+}
+
+
 
 if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));

@@ -1,24 +1,35 @@
 <?php require("../plugins/contactForm/sendMail.php"); ?>
+<?php require("../plugins/g-recaptcha/auth.php"); ?>
+
 <?php 
     $showSuccessMessage = false;
     $showFailureMessage = false;
+    
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $response = capture_contact_form();
-        if ($response == "success") {
-            $userSubject = '<DO NOT REPLY> Thank you for contacting us';
-            $fullname = $_POST['fullname'];
-            $email = $_POST['email'];
-            $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, thedomaindesigners.com";
+        
+        $recaptcha_authorized = auth_recaptcha();
+        if ($recaptcha_authorized) {
+            $response = capture_contact_form();
+            if ($response == "success") {
+                $userSubject = '<DO NOT REPLY> Thank you for contacting us';
+                $fullname = $_POST['fullname'];
+                $email = $_POST['email'];
+                $userBody = "Hi $fullname, Thank you for reaching out. We have received your message and will get back to you shortly. Best regards, thedomaindesigners.com";
 
-            sendMail([
-                        'userEmail' => $email, 
-                        'userSubject' => $userSubject,
-                        'userBody' => $userBody
-            ]); 
-            
-            $showSuccessMessage = true;
-        } 
-        else {
+                sendMail([
+                            'userEmail' => $email, 
+                            'userSubject' => $userSubject,
+                            'userBody' => $userBody
+                ]); 
+                
+                $showSuccessMessage = true;
+            } 
+            else {
+                $showFailureMessage = true;
+            }
+        }
+
+        else { 
             $showFailureMessage = true;
         }
    }
@@ -40,6 +51,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../scripts/showSuccessMessage.js" defer></script> 
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </head>
 
 <body>
@@ -113,7 +125,24 @@
                     <img id="message_success" class="success_icon" src="../assets/green_check.svg" width="20" height="20">
                     <span id="message_error" class="error_msg">Field is Required</span>
 
-                    <button id="submit_btn" type="submit" class="submit-btn">Send</button>
+                    
+                    <div class="g-recaptcha" data-sitekey="6Lc8vBcqAAAAAJlfk39Pf28J2K8hkB32CV8SXBiw"></div>
+                    <button id="submit_btn" type="submit" class="submit-btn" >
+                    Send
+                    </button>
+
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <script>
+                        function validateRecaptcha() {
+                            var response = grecaptcha.getResponse();
+                            if (response.length === 0) {
+                                alert("Please complete the reCAPTCHA.");
+                                return false; // Prevent form submission
+                            }
+                            return true; // Allow form submission
+                        }
+                    </script>
+
                     <span id="form_error" class="error">There was a problem submitting the form. <br />
                                             Check the fields for errors.</span>
                     <?php
@@ -134,6 +163,7 @@
                         var url = window.location.href.split('#')[0]; 
                         window.history.replaceState(null, null, url);
                     }
+                    
                 </script>
                 
                 <div id="spinner_overlay" class="spinner-overlay">
